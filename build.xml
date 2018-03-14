@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." name="xrechnung-testsuite" default="prepare-validator-configuration">
+  
+    
+    
+    <property name="dist.dir" location="${basedir}/dist"/>
+    <property name="lib.dir" location="${basedir}/lib"/>
+    <property name="build.dir" location="${basedir}/build"/>
+    <property name="download.dir" location="${build.dir}/download"/>
+    <property name="validator.jar" value="validationtool-1.0.1-standalone.jar"/>
+    <property name="validator.config.zip" value="validator-configuration-xrechnung_1.1_2018-03-05.zip"/>
+    <property name="validator.repository.dir" location="${build.dir}/repository"/>
+    <property name="test.docs.dir" location="${basedir}/instances"/>
+    <property name="reports.dir" location="${build.dir}"/>
+    
+    <target name="init" description="Initializes build directory structure and ISO timestamp">
+        <!-- Create timestamps -->
+        <tstamp>
+            <format property="build.date" pattern="yyyy-MM-dd"/>
+        </tstamp>
+        
+        
+        
+        <echo>Build date: ${build.date}</echo>
+        <!-- Create the build directory structure used by compile -->
+        <mkdir dir="${build.dir}"/>
+        <mkdir dir="${download.dir}"/>
+        <mkdir dir="${dist.dir}"/>
+        <mkdir dir="${lib.dir}"/>
+        <mkdir dir="${validator.repository.dir}"/>
+    </target>
+  
+  
+    <target name="prepare-validationtool" depends="init"
+        description="Download KoSIT validation tool and add jar to library directory">
+        <get
+            src="https://github.com/itplr-kosit/validator/releases/download/validationtool-1_0_1/validationtool-dist-1.0.1-standalone.zip"
+            dest="${download.dir}" verbose="true" skipexisting="true" usetimestamp="true"/>
+        <!-- Cause unzip task does not error on missing dest directory -->
+        
+        <fail message="Lib directory ${lib.dir} does not exist!">
+            <condition>
+                <not>
+                    <available file="${lib.dir}"/>
+                    
+                </not>
+            </condition>
+        </fail>
+        
+        <fail unless="validator.jar" message="Need to specify property with name 'validator.jar'"></fail>
+        <unzip src="${download.dir}/validationtool-dist-1.0.1-standalone.zip" dest="${lib.dir}" >
+            <patternset>
+                <include name="**/${validator.jar}"/>
+            </patternset>
+            <flattenmapper/>
+        </unzip>
+    </target>
+    
+    <target name="prepare-validator-configuration">
+        <get
+            src="https://github.com/itplr-kosit/validator-configuration-xrechnung/releases/download/release-2018-03-05/${validator.config.zip}"
+            dest="${download.dir}" verbose="true" skipexisting="true" usetimestamp="true"/>
+        <unzip src="${download.dir}/${validator.config.zip}" dest="${validator.repository.dir}"/> 
+        
+    </target>
+    
+    <target name="test" depends="prepare-validationtool,prepare-validator-configuration"
+        description="Testsuite validation with Validator XRechnung Configuration">
+        <echo>Creating validation reports ...</echo>
+        <java jar="${lib.dir}/${validator.jar}" failonerror="yes" fork="yes" dir="${basedir}">
+            <arg value="-s"/>
+            <arg value="${validator.repository.dir}/scenarios.xml"/>
+            
+            <arg value="-r"/>
+            <arg value="${validator.repository.dir}"/>
+            <arg value="-h"/>
+            <arg value="-o"/>
+            <arg value="${reports.dir}"/>
+            <arg value="${test.docs.dir}/*.xml"/>
+        </java>
+    </target>
+  
+  <target name="clean">
+      <!-- Delete the ${build} and ${dist} directory trees -->
+      <delete dir="${build.dir}" verbose="true" includeEmptyDirs="true"/>
+      <delete dir="${dist.dir}"/>
+      
+  </target>
+</project>
