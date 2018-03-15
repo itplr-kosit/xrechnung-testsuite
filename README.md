@@ -13,14 +13,14 @@ Geprüft werden sowohl die nationalen als auch die EU-weiten Geschäftsregeln. D
 
 ## Automatisch Testen
 
-Unter der Voraussetzung, dass Java ab Version 1.7 und ANT ab Version 1.8 installiert sind, können die in dieser Test Suite veröffentlichten Test Nachrichten wie folgt durch den Validator gestestet werden:
+Unter der Voraussetzung, daß Java ab Version 1.7 und ANT ab Version 1.8 installiert sind, können die in dieser Test Suite veröffentlichten Test Nachrichten wie folgt durch den Validator gestestet werden:
 
 ```shell
 ant test
 ```
 
-Der Validator und die aktuellste Validator Konfiguration für XRechnung werden automatische heruntergeladen und die Testnachrichten geprüft.
-Die Prüfberichte finden sich anschliessend in dem Unterverzeichnis `./build/reports`.
+Der Validator und die aktuellste Validator Konfiguration für XRechnung werden automatisch heruntergeladen und die Testnachrichten anschließend geprüft.
+Die Prüfberichte finden sich abschliessend im Unterverzeichnis `./build/reports`.
 
 Derzeit kommt es bei folgenden Testnachrichten zu folgenden Warnhinweisen und Fehlermeldungen:
 
