@@ -11,7 +11,7 @@
     <property name="validator.config.zip" value="validator-configuration-xrechnung_1.1_2018-03-05.zip"/>
     <property name="validator.repository.dir" location="${build.dir}/repository"/>
     <property name="test.docs.dir" location="${basedir}/instances"/>
-    <property name="reports.dir" location="${build.dir}"/>
+    <property name="reports.dir" location="${build.dir}/reports"/>
     
     <target name="init" description="Initializes build directory structure and ISO timestamp">
         <!-- Create timestamps -->
@@ -28,6 +28,7 @@
         <mkdir dir="${dist.dir}"/>
         <mkdir dir="${lib.dir}"/>
         <mkdir dir="${validator.repository.dir}"/>
+        <mkdir dir="${reports.dir}"/>
     </target>
   
   
