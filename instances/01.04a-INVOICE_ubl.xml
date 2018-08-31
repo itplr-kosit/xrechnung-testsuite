@@ -96,7 +96,7 @@
     </cac:LegalMonetaryTotal>
     <cac:InvoiceLine>
         <cbc:ID>Teilnahmegebühr</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="PP">1</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">120</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Description>Anmeldung von […]</cbc:Description>

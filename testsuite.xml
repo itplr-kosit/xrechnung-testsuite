@@ -5,7 +5,7 @@
                 xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
                 xmlns:xrech-reg="http://www.osci.de/xrechnung/testsuite/register"
                 version="1.1"
-                generated="2018-02-26T09:02:14.759+01:00">
+                generated="2018-08-31T08:48:19.626+02:00">
    <test:testgruppe id="01">
       <test:konformitaetstest id="01.01">
          <test:beschreibung>Eine Rechnung liegt vor.</test:beschreibung>
@@ -175,7 +175,7 @@
                            <xrech-reg:Content>1</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>288.79</xrech-reg:Content>
@@ -214,10 +214,10 @@
                            <xrech-reg:Item_Sellers_identifier>
                               <xrech-reg:Content>246</xrech-reg:Content>
                            </xrech-reg:Item_Sellers_identifier>
-                           <xrech-reg:Item_standard_identifier>
+                           <xrech-reg:Item_classification_identifier>
                               <xrech-reg:Content>0721-880X</xrech-reg:Content>
-                              <xrech-reg:Scheme_identifier>ISSN</xrech-reg:Scheme_identifier>
-                           </xrech-reg:Item_standard_identifier>
+                              <xrech-reg:Scheme_identifier>IB</xrech-reg:Scheme_identifier>
+                           </xrech-reg:Item_classification_identifier>
                         </xrech-reg:ITEM_INFORMATION>
                      </xrech-reg:INVOICE_LINE>
                      <xrech-reg:INVOICE_LINE>
@@ -228,7 +228,7 @@
                            <xrech-reg:Content>1</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>26.07</xrech-reg:Content>
@@ -464,7 +464,7 @@
                            <xrech-reg:Content>1</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>11.78</xrech-reg:Content>
@@ -697,7 +697,7 @@
                            <xrech-reg:Content>1</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>152.34</xrech-reg:Content>
@@ -735,7 +735,7 @@
                            <xrech-reg:Content>1</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>17.94</xrech-reg:Content>
@@ -943,7 +943,7 @@
                            <xrech-reg:Content>1</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>120</xrech-reg:Content>
@@ -1230,7 +1230,7 @@
                            <xrech-reg:Content>5</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>450</xrech-reg:Content>
@@ -1262,7 +1262,7 @@
                            <xrech-reg:Content>11</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>220</xrech-reg:Content>
@@ -2112,7 +2112,7 @@
                            <xrech-reg:Content>12</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>2374.68</xrech-reg:Content>
@@ -2314,7 +2314,7 @@
                            <xrech-reg:Content>1</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>6048.00</xrech-reg:Content>
@@ -2543,7 +2543,7 @@
                            <xrech-reg:Content>10</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>2180</xrech-reg:Content>
@@ -2745,7 +2745,7 @@
                            <xrech-reg:Content>3</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>214.26</xrech-reg:Content>
@@ -2780,7 +2780,7 @@
                            <xrech-reg:Content>1</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>10.71</xrech-reg:Content>
@@ -2815,7 +2815,7 @@
                            <xrech-reg:Content>1</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>9.80</xrech-reg:Content>
@@ -3014,7 +3014,7 @@
                            <xrech-reg:Content>1</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>12.52</xrech-reg:Content>
@@ -3049,7 +3049,7 @@
                            <xrech-reg:Content>2</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>126.90</xrech-reg:Content>
@@ -3084,7 +3084,7 @@
                            <xrech-reg:Content>2</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>95.64</xrech-reg:Content>
@@ -3119,7 +3119,7 @@
                            <xrech-reg:Content>1</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>11.75</xrech-reg:Content>
@@ -3154,7 +3154,7 @@
                            <xrech-reg:Content>1</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>9.80</xrech-reg:Content>
@@ -3348,7 +3348,7 @@
                            <xrech-reg:Content>1</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>400</xrech-reg:Content>
@@ -3380,7 +3380,7 @@
                            <xrech-reg:Content>1</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>240</xrech-reg:Content>
@@ -3412,7 +3412,7 @@
                            <xrech-reg:Content>1</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>120</xrech-reg:Content>
@@ -3444,7 +3444,7 @@
                            <xrech-reg:Content>1</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>70</xrech-reg:Content>
@@ -3476,7 +3476,7 @@
                            <xrech-reg:Content>1</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>140</xrech-reg:Content>
@@ -3508,7 +3508,7 @@
                            <xrech-reg:Content>1</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>400</xrech-reg:Content>
@@ -3540,7 +3540,7 @@
                            <xrech-reg:Content>1</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>280</xrech-reg:Content>
@@ -3572,7 +3572,7 @@
                            <xrech-reg:Content>1</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>480</xrech-reg:Content>
@@ -3604,7 +3604,7 @@
                            <xrech-reg:Content>1</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>1600</xrech-reg:Content>
@@ -3636,7 +3636,7 @@
                            <xrech-reg:Content>1</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>400</xrech-reg:Content>
@@ -3668,7 +3668,7 @@
                            <xrech-reg:Content>1</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity>
                         <xrech-reg:Invoiced_quantity_unit_of_measure_code>
-                           <xrech-reg:Content>PP</xrech-reg:Content>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
                         </xrech-reg:Invoiced_quantity_unit_of_measure_code>
                         <xrech-reg:Invoice_line_net_amount>
                            <xrech-reg:Content>1200</xrech-reg:Content>
@@ -3690,6 +3690,650 @@
                            <xrech-reg:Item_name>
                               <xrech-reg:Content>Reinigung, Fassungssicherung 50 %</xrech-reg:Content>
                            </xrech-reg:Item_name>
+                        </xrech-reg:ITEM_INFORMATION>
+                     </xrech-reg:INVOICE_LINE>
+                  </xrech-reg:INVOICE>
+               </xrech-reg:Rechnung>
+            </test:registerImZustand>
+         </test:zustand>
+      </test:konformitaetstest>
+      <test:konformitaetstest id="01.14">
+         <test:beschreibung>Eine Rechnung liegt vor.</test:beschreibung>
+         <test:zweck>Versand einer Rechnung mit - einem Fälligkeitsdatum, - einer Bestellkennung, - einer Auftragskennung, - einer Kennung für Rechtsträger bzw. juristische Person zum Verkäufer, - einer Umsatzsteuer-Identifikation zum Verkäufer. - einer vom Verkäufer vergebenen Identifikationsnummer zum Käufer, - einer Kennung für Rechtsträger bzw. juristische Person zum Käufer, - einer Umsatzsteuer-Identifikation zum Käufer, - einer Kennung zum Zahlungsempfänger, - einem Namen des Steuervertreters des Verkäufers, - einer Umsatzsteuer-Identifikation zum Steuervertreter des Verkäufers, - einer Staatenangabe zum Steuervertreter des Verkäufers, - einem vom Erwerber abweichenden Leistungsempfänger, - einem Bezeichner für den Lieferort, - einem Rechnungszeitraum zur Rechnung, - Angaben zum Ort, zur Postleitzahl, zum Bundesland und zum Land des Leistungsortes, - und einem Verwendungszweck zu einer Zahlung.</test:zweck>
+         <test:stimulus>Es liegt beim Sender der Rechnung eine Forderung bzgl. einer erbrachten Leistung vor, die das Versenden einer Rechnung rechtfertigt.</test:stimulus>
+         <test:referenznachricht>
+            <test:nachrichtentyp listURI="listURI-xrechnung" listVersionID="listVersionID-xrechnung">
+               <code>INVOICE</code>
+            </test:nachrichtentyp>
+            <test:name>01.14a-INVOICE.xml</test:name>
+            <test:name.absender>Sender</test:name.absender>
+            <test:name.empfaenger>Empfaenger</test:name.empfaenger>
+            <test:basiszustand>alpha</test:basiszustand>
+            <test:datensatz>Rechnung</test:datensatz>
+         </test:referenznachricht>
+         <test:zustand name="alpha">
+            <test:registerImZustand name="Sender">
+               <xrech-reg:Rechnung referenz="Rechnung" rolle="Rechnung National">
+                  <xrech-reg:INVOICE>
+                     <xrech-reg:Invoice_number>
+                        <xrech-reg:Content>1234567</xrech-reg:Content>
+                     </xrech-reg:Invoice_number>
+                     <xrech-reg:Invoice_issue_date>
+                        <xrech-reg:Content>2018-04-13+01:00</xrech-reg:Content>
+                     </xrech-reg:Invoice_issue_date>
+                     <xrech-reg:Invoice_type_code>
+                        <xrech-reg:Content>380</xrech-reg:Content>
+                     </xrech-reg:Invoice_type_code>
+                     <xrech-reg:Invoice_currency_code>
+                        <xrech-reg:Content>EUR</xrech-reg:Content>
+                     </xrech-reg:Invoice_currency_code>
+                     <xrech-reg:VAT_accounting_currency_code>
+                        <xrech-reg:Content>EUR</xrech-reg:Content>
+                     </xrech-reg:VAT_accounting_currency_code>
+                     <xrech-reg:Payment_due_date>
+                        <xrech-reg:Content>2018-04-13+01:00</xrech-reg:Content>
+                     </xrech-reg:Payment_due_date>
+                     <xrech-reg:Buyer_reference>
+                        <xrech-reg:Content>90000000-03083-12</xrech-reg:Content>
+                     </xrech-reg:Buyer_reference>
+                     <xrech-reg:Purchase_order_reference>
+                        <xrech-reg:Content>65002278</xrech-reg:Content>
+                     </xrech-reg:Purchase_order_reference>
+                     <xrech-reg:Sales_order_reference>
+                        <xrech-reg:Content>ABC123456789</xrech-reg:Content>
+                     </xrech-reg:Sales_order_reference>
+                     <xrech-reg:INVOICE_NOTE>
+                        <xrech-reg:Invoice_note_subject_code>
+                           <xrech-reg:Content>Invoice Note Description ##AAC</xrech-reg:Content>
+                        </xrech-reg:Invoice_note_subject_code>
+                        <xrech-reg:Invoice_note>
+                           <xrech-reg:Content>Invoice Note Description ##AAC</xrech-reg:Content>
+                        </xrech-reg:Invoice_note>
+                     </xrech-reg:INVOICE_NOTE>
+                     <xrech-reg:PROCESS_CONTROL>
+                        <xrech-reg:Specification_identifier>
+                           <xrech-reg:Content>urn:ce.eu:en16931:2017:xoev-de:kosit:standard:xrechnung_1.1</xrech-reg:Content>
+                        </xrech-reg:Specification_identifier>
+                     </xrech-reg:PROCESS_CONTROL>
+                     <xrech-reg:SELLER>
+                        <xrech-reg:Seller_name>
+                           <xrech-reg:Content>[Seller name]</xrech-reg:Content>
+                        </xrech-reg:Seller_name>
+                        <xrech-reg:Seller_legal_registration_identifier>
+                           <xrech-reg:Content>GmbH</xrech-reg:Content>
+                        </xrech-reg:Seller_legal_registration_identifier>
+                        <xrech-reg:Seller_VAT_identifier>
+                           <xrech-reg:Content>ATU123456789</xrech-reg:Content>
+                        </xrech-reg:Seller_VAT_identifier>
+                        <xrech-reg:SELLER_POSTAL_ADDRESS>
+                           <xrech-reg:Seller_city>
+                              <xrech-reg:Content>[Seller city]</xrech-reg:Content>
+                           </xrech-reg:Seller_city>
+                           <xrech-reg:Seller_post_code>
+                              <xrech-reg:Content>12345</xrech-reg:Content>
+                           </xrech-reg:Seller_post_code>
+                           <xrech-reg:Seller_country_code>
+                              <xrech-reg:Content>DE</xrech-reg:Content>
+                           </xrech-reg:Seller_country_code>
+                        </xrech-reg:SELLER_POSTAL_ADDRESS>
+                        <xrech-reg:SELLER_CONTACT>
+                           <xrech-reg:Seller_contact_point>
+                              <xrech-reg:Content>Tim Tester</xrech-reg:Content>
+                           </xrech-reg:Seller_contact_point>
+                           <xrech-reg:Seller_contact_telephone_number>
+                              <xrech-reg:Content>012 3456789</xrech-reg:Content>
+                           </xrech-reg:Seller_contact_telephone_number>
+                           <xrech-reg:Seller_contact_email_address>
+                              <xrech-reg:Content>tim.tester@test.com</xrech-reg:Content>
+                           </xrech-reg:Seller_contact_email_address>
+                        </xrech-reg:SELLER_CONTACT>
+                     </xrech-reg:SELLER>
+                     <xrech-reg:BUYER>
+                        <xrech-reg:Buyer_name>
+                           <xrech-reg:Content>[Buyer name]</xrech-reg:Content>
+                        </xrech-reg:Buyer_name>
+                        <xrech-reg:Buyer_identifier>
+                           <xrech-reg:Content>138</xrech-reg:Content>
+                        </xrech-reg:Buyer_identifier>
+                        <xrech-reg:Buyer_legal_registration_identifier>
+                           <xrech-reg:Content>GmbH</xrech-reg:Content>
+                        </xrech-reg:Buyer_legal_registration_identifier>
+                        <xrech-reg:Buyer_VAT_identifier>
+                           <xrech-reg:Content>DE12345ABC</xrech-reg:Content>
+                        </xrech-reg:Buyer_VAT_identifier>
+                        <xrech-reg:BUYER_POSTAL_ADDRESS>
+                           <xrech-reg:Buyer_city>
+                              <xrech-reg:Content>[Buyer city]</xrech-reg:Content>
+                           </xrech-reg:Buyer_city>
+                           <xrech-reg:Buyer_post_code>
+                              <xrech-reg:Content>98765</xrech-reg:Content>
+                           </xrech-reg:Buyer_post_code>
+                           <xrech-reg:Buyer_country_code>
+                              <xrech-reg:Content>DE</xrech-reg:Content>
+                           </xrech-reg:Buyer_country_code>
+                        </xrech-reg:BUYER_POSTAL_ADDRESS>
+                        <xrech-reg:BUYER_CONTACT>
+                           <xrech-reg:Buyer_contact_point>
+                              <xrech-reg:Content>Tina Tester</xrech-reg:Content>
+                           </xrech-reg:Buyer_contact_point>
+                           <xrech-reg:Buyer_contact_telephone_number>
+                              <xrech-reg:Content>0800 123456</xrech-reg:Content>
+                           </xrech-reg:Buyer_contact_telephone_number>
+                           <xrech-reg:Buyer_contact_email_address>
+                              <xrech-reg:Content>tester@test.de</xrech-reg:Content>
+                           </xrech-reg:Buyer_contact_email_address>
+                        </xrech-reg:BUYER_CONTACT>
+                     </xrech-reg:BUYER>
+                     <xrech-reg:PAYEE>
+                        <xrech-reg:Payee_name>
+                           <xrech-reg:Content>[Payee name]</xrech-reg:Content>
+                        </xrech-reg:Payee_name>
+                        <xrech-reg:Payee_identifier>
+                           <xrech-reg:Content>74</xrech-reg:Content>
+                        </xrech-reg:Payee_identifier>
+                     </xrech-reg:PAYEE>
+                     <xrech-reg:SELLER_TAX_REPRESENTATIVE_PARTY>
+                        <xrech-reg:Seller_tax_representative_name>
+                           <xrech-reg:Content>[Seller tax representative name]</xrech-reg:Content>
+                        </xrech-reg:Seller_tax_representative_name>
+                        <xrech-reg:Seller_tax_representative_VAT_identifier>
+                           <xrech-reg:Content>DE124567</xrech-reg:Content>
+                        </xrech-reg:Seller_tax_representative_VAT_identifier>
+                        <xrech-reg:SELLER_TAX_REPRESENTATIVE_POSTAL_ADDRESS>
+                           <xrech-reg:Tax_representative_country_code>
+                              <xrech-reg:Content>DE</xrech-reg:Content>
+                           </xrech-reg:Tax_representative_country_code>
+                        </xrech-reg:SELLER_TAX_REPRESENTATIVE_POSTAL_ADDRESS>
+                     </xrech-reg:SELLER_TAX_REPRESENTATIVE_PARTY>
+                     <xrech-reg:DELIVERY_INFORMATION>
+                        <xrech-reg:Deliver_to_party_name>
+                           <xrech-reg:Content>[Deliver to party name]</xrech-reg:Content>
+                        </xrech-reg:Deliver_to_party_name>
+                        <xrech-reg:Deliver_to_location_identifier>
+                           <xrech-reg:Content>68</xrech-reg:Content>
+                        </xrech-reg:Deliver_to_location_identifier>
+                        <xrech-reg:Actual_delivery_date>
+                           <xrech-reg:Content>2018-04-13+01:00</xrech-reg:Content>
+                        </xrech-reg:Actual_delivery_date>
+                        <xrech-reg:INVOICING_PERIOD>
+                           <xrech-reg:Invoicing_period_start_date>
+                              <xrech-reg:Content>2018-04-13+01:00</xrech-reg:Content>
+                           </xrech-reg:Invoicing_period_start_date>
+                           <xrech-reg:Invoicing_period_end_date>
+                              <xrech-reg:Content>2018-04-13+01:00</xrech-reg:Content>
+                           </xrech-reg:Invoicing_period_end_date>
+                        </xrech-reg:INVOICING_PERIOD>
+                        <xrech-reg:DELIVER_TO_ADDRESS>
+                           <xrech-reg:Deliver_to_address_line_1>
+                              <xrech-reg:Content>[Deliver to street]</xrech-reg:Content>
+                           </xrech-reg:Deliver_to_address_line_1>
+                           <xrech-reg:Deliver_to_address_line_2>
+                              <xrech-reg:Content>4. OG</xrech-reg:Content>
+                           </xrech-reg:Deliver_to_address_line_2>
+                           <xrech-reg:Deliver_to_city>
+                              <xrech-reg:Content>[Deliver to city]</xrech-reg:Content>
+                           </xrech-reg:Deliver_to_city>
+                           <xrech-reg:Deliver_to_post_code>
+                              <xrech-reg:Content>98765</xrech-reg:Content>
+                           </xrech-reg:Deliver_to_post_code>
+                           <xrech-reg:Deliver_to_country_subdivision>
+                              <xrech-reg:Content>Bayern</xrech-reg:Content>
+                           </xrech-reg:Deliver_to_country_subdivision>
+                           <xrech-reg:Deliver_to_country_code>
+                              <xrech-reg:Content>DE</xrech-reg:Content>
+                           </xrech-reg:Deliver_to_country_code>
+                        </xrech-reg:DELIVER_TO_ADDRESS>
+                     </xrech-reg:DELIVERY_INFORMATION>
+                     <xrech-reg:PAYMENT_INSTRUCTIONS>
+                        <xrech-reg:Payment_means_type_code>
+                           <xrech-reg:Content>30</xrech-reg:Content>
+                        </xrech-reg:Payment_means_type_code>
+                        <xrech-reg:Remittance_information>
+                           <xrech-reg:Content>Deb. 12345 / Fact. 9876543</xrech-reg:Content>
+                        </xrech-reg:Remittance_information>
+                        <xrech-reg:CREDIT_TRANSFER>
+                           <xrech-reg:Payment_account_identifier>
+                              <xrech-reg:Content>DE12100200000123456878</xrech-reg:Content>
+                           </xrech-reg:Payment_account_identifier>
+                        </xrech-reg:CREDIT_TRANSFER>
+                     </xrech-reg:PAYMENT_INSTRUCTIONS>
+                     <xrech-reg:DOCUMENT_TOTALS>
+                        <xrech-reg:Sum_of_Invoice_line_net_amount>
+                           <xrech-reg:Content>10781.25</xrech-reg:Content>
+                        </xrech-reg:Sum_of_Invoice_line_net_amount>
+                        <xrech-reg:Invoice_total_amount_without_VAT>
+                           <xrech-reg:Content>10781.25</xrech-reg:Content>
+                        </xrech-reg:Invoice_total_amount_without_VAT>
+                        <xrech-reg:Invoice_total_VAT_amount>
+                           <xrech-reg:Content>2048.44</xrech-reg:Content>
+                        </xrech-reg:Invoice_total_VAT_amount>
+                        <xrech-reg:Invoice_total_amount_with_VAT>
+                           <xrech-reg:Content>12829.69</xrech-reg:Content>
+                        </xrech-reg:Invoice_total_amount_with_VAT>
+                        <xrech-reg:Amount_due_for_payment>
+                           <xrech-reg:Content>12829.69</xrech-reg:Content>
+                        </xrech-reg:Amount_due_for_payment>
+                     </xrech-reg:DOCUMENT_TOTALS>
+                     <xrech-reg:VAT_BREAKDOWN>
+                        <xrech-reg:VAT_category_taxable_amount>
+                           <xrech-reg:Content>10781.25</xrech-reg:Content>
+                        </xrech-reg:VAT_category_taxable_amount>
+                        <xrech-reg:VAT_category_tax_amount>
+                           <xrech-reg:Content>2048.44</xrech-reg:Content>
+                        </xrech-reg:VAT_category_tax_amount>
+                        <xrech-reg:VAT_category_code>
+                           <xrech-reg:Content>S</xrech-reg:Content>
+                        </xrech-reg:VAT_category_code>
+                        <xrech-reg:VAT_category_rate>
+                           <xrech-reg:Content>19</xrech-reg:Content>
+                        </xrech-reg:VAT_category_rate>
+                     </xrech-reg:VAT_BREAKDOWN>
+                     <xrech-reg:INVOICE_LINE>
+                        <xrech-reg:Invoice_line_identifier>
+                           <xrech-reg:Content>1</xrech-reg:Content>
+                        </xrech-reg:Invoice_line_identifier>
+                        <xrech-reg:Invoiced_quantity>
+                           <xrech-reg:Content>30</xrech-reg:Content>
+                        </xrech-reg:Invoiced_quantity>
+                        <xrech-reg:Invoiced_quantity_unit_of_measure_code>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
+                        </xrech-reg:Invoiced_quantity_unit_of_measure_code>
+                        <xrech-reg:Invoice_line_net_amount>
+                           <xrech-reg:Content>4743.75</xrech-reg:Content>
+                        </xrech-reg:Invoice_line_net_amount>
+                        <xrech-reg:PRICE_DETAILS>
+                           <xrech-reg:Item_net_price>
+                              <xrech-reg:Content>143.75</xrech-reg:Content>
+                           </xrech-reg:Item_net_price>
+                        </xrech-reg:PRICE_DETAILS>
+                        <xrech-reg:LINE_VAT_INFORMATION>
+                           <xrech-reg:Invoiced_item_VAT_category_code>
+                              <xrech-reg:Content>S</xrech-reg:Content>
+                           </xrech-reg:Invoiced_item_VAT_category_code>
+                           <xrech-reg:Invoiced_item_VAT_rate>
+                              <xrech-reg:Content>19</xrech-reg:Content>
+                           </xrech-reg:Invoiced_item_VAT_rate>
+                        </xrech-reg:LINE_VAT_INFORMATION>
+                        <xrech-reg:ITEM_INFORMATION>
+                           <xrech-reg:Item_name>
+                              <xrech-reg:Content>Beratung</xrech-reg:Content>
+                           </xrech-reg:Item_name>
+                        </xrech-reg:ITEM_INFORMATION>
+                     </xrech-reg:INVOICE_LINE>
+                     <xrech-reg:INVOICE_LINE>
+                        <xrech-reg:Invoice_line_identifier>
+                           <xrech-reg:Content>2</xrech-reg:Content>
+                        </xrech-reg:Invoice_line_identifier>
+                        <xrech-reg:Invoiced_quantity>
+                           <xrech-reg:Content>42</xrech-reg:Content>
+                        </xrech-reg:Invoiced_quantity>
+                        <xrech-reg:Invoiced_quantity_unit_of_measure_code>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
+                        </xrech-reg:Invoiced_quantity_unit_of_measure_code>
+                        <xrech-reg:Invoice_line_net_amount>
+                           <xrech-reg:Content>6037.50</xrech-reg:Content>
+                        </xrech-reg:Invoice_line_net_amount>
+                        <xrech-reg:PRICE_DETAILS>
+                           <xrech-reg:Item_net_price>
+                              <xrech-reg:Content>143.75</xrech-reg:Content>
+                           </xrech-reg:Item_net_price>
+                        </xrech-reg:PRICE_DETAILS>
+                        <xrech-reg:LINE_VAT_INFORMATION>
+                           <xrech-reg:Invoiced_item_VAT_category_code>
+                              <xrech-reg:Content>S</xrech-reg:Content>
+                           </xrech-reg:Invoiced_item_VAT_category_code>
+                           <xrech-reg:Invoiced_item_VAT_rate>
+                              <xrech-reg:Content>19</xrech-reg:Content>
+                           </xrech-reg:Invoiced_item_VAT_rate>
+                        </xrech-reg:LINE_VAT_INFORMATION>
+                        <xrech-reg:ITEM_INFORMATION>
+                           <xrech-reg:Item_name>
+                              <xrech-reg:Content>Beratung</xrech-reg:Content>
+                           </xrech-reg:Item_name>
+                        </xrech-reg:ITEM_INFORMATION>
+                     </xrech-reg:INVOICE_LINE>
+                  </xrech-reg:INVOICE>
+               </xrech-reg:Rechnung>
+            </test:registerImZustand>
+         </test:zustand>
+      </test:konformitaetstest>
+      <test:konformitaetstest id="01.15">
+         <test:beschreibung>Eine Rechnung liegt vor.</test:beschreibung>
+         <test:zweck>Versand einer Rechnung mit - einem Fälligkeitsdatum, - einer Bestellkennung, - einer Projektkennung, - einer Vertragskennung, - einer textuellen Erläuterung der Zahlungsbedingungen, - einer Umsatzsteuer-Identifikation zum Verkäufer, - einem Verwendungszweck zu einer Zahlung, - einem Kontonamen zu einer Überweisung, - einer BIC zu einer Überweisung, - einer angehängten Unterlage, - einer Beschreibung und einer Verkäuferkennung zu einem Posten..</test:zweck>
+         <test:stimulus>Es liegt beim Sender der Rechnung eine Forderung bzgl. einer erbrachten Leistung vor, die das Versenden einer Rechnung rechtfertigt.</test:stimulus>
+         <test:referenznachricht>
+            <test:nachrichtentyp listURI="listURI-xrechnung" listVersionID="listVersionID-xrechnung">
+               <code>INVOICE</code>
+            </test:nachrichtentyp>
+            <test:name>01.15a-INVOICE.xml</test:name>
+            <test:name.absender>Sender</test:name.absender>
+            <test:name.empfaenger>Empfaenger</test:name.empfaenger>
+            <test:basiszustand>alpha</test:basiszustand>
+            <test:datensatz>Rechnung</test:datensatz>
+         </test:referenznachricht>
+         <test:zustand name="alpha">
+            <test:registerImZustand name="Sender">
+               <xrech-reg:Rechnung referenz="Rechnung" rolle="Rechnung National">
+                  <xrech-reg:INVOICE>
+                     <xrech-reg:Invoice_number>
+                        <xrech-reg:Content>0000123456</xrech-reg:Content>
+                     </xrech-reg:Invoice_number>
+                     <xrech-reg:Invoice_issue_date>
+                        <xrech-reg:Content>2017-12-11+01:00</xrech-reg:Content>
+                     </xrech-reg:Invoice_issue_date>
+                     <xrech-reg:Invoice_type_code>
+                        <xrech-reg:Content>380</xrech-reg:Content>
+                     </xrech-reg:Invoice_type_code>
+                     <xrech-reg:Invoice_currency_code>
+                        <xrech-reg:Content>EUR</xrech-reg:Content>
+                     </xrech-reg:Invoice_currency_code>
+                     <xrech-reg:VAT_accounting_currency_code>
+                        <xrech-reg:Content>EUR</xrech-reg:Content>
+                     </xrech-reg:VAT_accounting_currency_code>
+                     <xrech-reg:Payment_due_date>
+                        <xrech-reg:Content>2018-01-10+01:00</xrech-reg:Content>
+                     </xrech-reg:Payment_due_date>
+                     <xrech-reg:Buyer_reference>
+                        <xrech-reg:Content>11002002-98765-43</xrech-reg:Content>
+                     </xrech-reg:Buyer_reference>
+                     <xrech-reg:Project_reference>
+                        <xrech-reg:Content>Entwicklung System</xrech-reg:Content>
+                     </xrech-reg:Project_reference>
+                     <xrech-reg:Contract_reference>
+                        <xrech-reg:Content>0000000752</xrech-reg:Content>
+                     </xrech-reg:Contract_reference>
+                     <xrech-reg:Purchase_order_reference>
+                        <xrech-reg:Content>10520</xrech-reg:Content>
+                     </xrech-reg:Purchase_order_reference>
+                     <xrech-reg:Payment_terms>
+                        <xrech-reg:Content>Bei Zahlungen binnen 14 Tagen, 2% Skonto</xrech-reg:Content>
+                     </xrech-reg:Payment_terms>
+                     <xrech-reg:INVOICE_NOTE>
+                        <xrech-reg:Invoice_note_subject_code>
+                           <xrech-reg:Content>ADU</xrech-reg:Content>
+                        </xrech-reg:Invoice_note_subject_code>
+                        <xrech-reg:Invoice_note>
+                           <xrech-reg:Content>[Invoice note]</xrech-reg:Content>
+                        </xrech-reg:Invoice_note>
+                     </xrech-reg:INVOICE_NOTE>
+                     <xrech-reg:PROCESS_CONTROL>
+                        <xrech-reg:Specification_identifier>
+                           <xrech-reg:Content>urn:ce.eu:en16931:2017:xoev-de:kosit:standard:xrechnung_1.1</xrech-reg:Content>
+                        </xrech-reg:Specification_identifier>
+                     </xrech-reg:PROCESS_CONTROL>
+                     <xrech-reg:SELLER>
+                        <xrech-reg:Seller_name>
+                           <xrech-reg:Content>[Seller name]</xrech-reg:Content>
+                        </xrech-reg:Seller_name>
+                        <xrech-reg:Seller_VAT_identifier>
+                           <xrech-reg:Content>DE123456789</xrech-reg:Content>
+                        </xrech-reg:Seller_VAT_identifier>
+                        <xrech-reg:SELLER_POSTAL_ADDRESS>
+                           <xrech-reg:Seller_address_line_1>
+                              <xrech-reg:Content>[Seller street]</xrech-reg:Content>
+                           </xrech-reg:Seller_address_line_1>
+                           <xrech-reg:Seller_city>
+                              <xrech-reg:Content>[Seller city]</xrech-reg:Content>
+                           </xrech-reg:Seller_city>
+                           <xrech-reg:Seller_post_code>
+                              <xrech-reg:Content>10623</xrech-reg:Content>
+                           </xrech-reg:Seller_post_code>
+                           <xrech-reg:Seller_country_code>
+                              <xrech-reg:Content>DE</xrech-reg:Content>
+                           </xrech-reg:Seller_country_code>
+                        </xrech-reg:SELLER_POSTAL_ADDRESS>
+                        <xrech-reg:SELLER_CONTACT>
+                           <xrech-reg:Seller_contact_point>
+                              <xrech-reg:Content>[Seller contact person]</xrech-reg:Content>
+                           </xrech-reg:Seller_contact_point>
+                           <xrech-reg:Seller_contact_telephone_number>
+                              <xrech-reg:Content>[Seller contact telephone number]</xrech-reg:Content>
+                           </xrech-reg:Seller_contact_telephone_number>
+                           <xrech-reg:Seller_contact_email_address>
+                              <xrech-reg:Content>contact@seller.de</xrech-reg:Content>
+                           </xrech-reg:Seller_contact_email_address>
+                        </xrech-reg:SELLER_CONTACT>
+                     </xrech-reg:SELLER>
+                     <xrech-reg:BUYER>
+                        <xrech-reg:Buyer_name>
+                           <xrech-reg:Content>[Buyer name]</xrech-reg:Content>
+                        </xrech-reg:Buyer_name>
+                        <xrech-reg:BUYER_POSTAL_ADDRESS>
+                           <xrech-reg:Buyer_address_line_1>
+                              <xrech-reg:Content>[Buyer street]</xrech-reg:Content>
+                           </xrech-reg:Buyer_address_line_1>
+                           <xrech-reg:Buyer_city>
+                              <xrech-reg:Content>[Buyer city]</xrech-reg:Content>
+                           </xrech-reg:Buyer_city>
+                           <xrech-reg:Buyer_post_code>
+                              <xrech-reg:Content>12345</xrech-reg:Content>
+                           </xrech-reg:Buyer_post_code>
+                           <xrech-reg:Buyer_country_code>
+                              <xrech-reg:Content>DE</xrech-reg:Content>
+                           </xrech-reg:Buyer_country_code>
+                        </xrech-reg:BUYER_POSTAL_ADDRESS>
+                        <xrech-reg:BUYER_CONTACT>
+                           <xrech-reg:Buyer_contact_point>
+                              <xrech-reg:Content>[Buyer contact person]</xrech-reg:Content>
+                           </xrech-reg:Buyer_contact_point>
+                           <xrech-reg:Buyer_contact_email_address>
+                              <xrech-reg:Content>buyer@contact.com</xrech-reg:Content>
+                           </xrech-reg:Buyer_contact_email_address>
+                        </xrech-reg:BUYER_CONTACT>
+                     </xrech-reg:BUYER>
+                     <xrech-reg:PAYMENT_INSTRUCTIONS>
+                        <xrech-reg:Payment_means_type_code>
+                           <xrech-reg:Content>30</xrech-reg:Content>
+                        </xrech-reg:Payment_means_type_code>
+                        <xrech-reg:Remittance_information>
+                           <xrech-reg:Content>0000123456</xrech-reg:Content>
+                        </xrech-reg:Remittance_information>
+                        <xrech-reg:CREDIT_TRANSFER>
+                           <xrech-reg:Payment_account_identifier>
+                              <xrech-reg:Content>DE12123000001234567890</xrech-reg:Content>
+                           </xrech-reg:Payment_account_identifier>
+                           <xrech-reg:Payment_account_name>
+                              <xrech-reg:Content>[Payment account name]</xrech-reg:Content>
+                           </xrech-reg:Payment_account_name>
+                           <xrech-reg:Payment_service_provider_identifier>
+                              <xrech-reg:Content>[BIC]</xrech-reg:Content>
+                           </xrech-reg:Payment_service_provider_identifier>
+                        </xrech-reg:CREDIT_TRANSFER>
+                     </xrech-reg:PAYMENT_INSTRUCTIONS>
+                     <xrech-reg:DOCUMENT_TOTALS>
+                        <xrech-reg:Sum_of_Invoice_line_net_amount>
+                           <xrech-reg:Content>8980.00</xrech-reg:Content>
+                        </xrech-reg:Sum_of_Invoice_line_net_amount>
+                        <xrech-reg:Invoice_total_amount_without_VAT>
+                           <xrech-reg:Content>8980.00</xrech-reg:Content>
+                        </xrech-reg:Invoice_total_amount_without_VAT>
+                        <xrech-reg:Invoice_total_VAT_amount>
+                           <xrech-reg:Content>1706.20</xrech-reg:Content>
+                        </xrech-reg:Invoice_total_VAT_amount>
+                        <xrech-reg:Invoice_total_amount_with_VAT>
+                           <xrech-reg:Content>10686.20</xrech-reg:Content>
+                        </xrech-reg:Invoice_total_amount_with_VAT>
+                        <xrech-reg:Amount_due_for_payment>
+                           <xrech-reg:Content>10686.20</xrech-reg:Content>
+                        </xrech-reg:Amount_due_for_payment>
+                     </xrech-reg:DOCUMENT_TOTALS>
+                     <xrech-reg:VAT_BREAKDOWN>
+                        <xrech-reg:VAT_category_taxable_amount>
+                           <xrech-reg:Content>8980.00</xrech-reg:Content>
+                        </xrech-reg:VAT_category_taxable_amount>
+                        <xrech-reg:VAT_category_tax_amount>
+                           <xrech-reg:Content>1706.20</xrech-reg:Content>
+                        </xrech-reg:VAT_category_tax_amount>
+                        <xrech-reg:VAT_category_code>
+                           <xrech-reg:Content>S</xrech-reg:Content>
+                        </xrech-reg:VAT_category_code>
+                        <xrech-reg:VAT_category_rate>
+                           <xrech-reg:Content>19</xrech-reg:Content>
+                        </xrech-reg:VAT_category_rate>
+                     </xrech-reg:VAT_BREAKDOWN>
+                     <xrech-reg:ADDITIONAL_SUPPORTING_DOCUMENTS>
+                        <xrech-reg:Supporting_document_reference>
+                           <xrech-reg:Content>01_15_Anhang_01.pdf</xrech-reg:Content>
+                        </xrech-reg:Supporting_document_reference>
+                        <xrech-reg:Supporting_document_description>
+                           <xrech-reg:Content>Aufschlüsselung der einzelnen Leistungspositionen</xrech-reg:Content>
+                        </xrech-reg:Supporting_document_description>
+                        <xrech-reg:Attached_document>
+                           <xrech-reg:Content>anhaenge/01_15_Anhang_01.pdf</xrech-reg:Content>
+                           <xrech-reg:Mime_Code>application/pdf</xrech-reg:Mime_Code>
+                           <xrech-reg:Filename>01_15_Anhang_01.pdf</xrech-reg:Filename>
+                        </xrech-reg:Attached_document>
+                     </xrech-reg:ADDITIONAL_SUPPORTING_DOCUMENTS>
+                     <xrech-reg:INVOICE_LINE>
+                        <xrech-reg:Invoice_line_identifier>
+                           <xrech-reg:Content>0</xrech-reg:Content>
+                        </xrech-reg:Invoice_line_identifier>
+                        <xrech-reg:Invoiced_quantity>
+                           <xrech-reg:Content>1</xrech-reg:Content>
+                        </xrech-reg:Invoiced_quantity>
+                        <xrech-reg:Invoiced_quantity_unit_of_measure_code>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
+                        </xrech-reg:Invoiced_quantity_unit_of_measure_code>
+                        <xrech-reg:Invoice_line_net_amount>
+                           <xrech-reg:Content>850.00</xrech-reg:Content>
+                        </xrech-reg:Invoice_line_net_amount>
+                        <xrech-reg:PRICE_DETAILS>
+                           <xrech-reg:Item_net_price>
+                              <xrech-reg:Content>850.00</xrech-reg:Content>
+                           </xrech-reg:Item_net_price>
+                        </xrech-reg:PRICE_DETAILS>
+                        <xrech-reg:LINE_VAT_INFORMATION>
+                           <xrech-reg:Invoiced_item_VAT_category_code>
+                              <xrech-reg:Content>S</xrech-reg:Content>
+                           </xrech-reg:Invoiced_item_VAT_category_code>
+                           <xrech-reg:Invoiced_item_VAT_rate>
+                              <xrech-reg:Content>19</xrech-reg:Content>
+                           </xrech-reg:Invoiced_item_VAT_rate>
+                        </xrech-reg:LINE_VAT_INFORMATION>
+                        <xrech-reg:ITEM_INFORMATION>
+                           <xrech-reg:Item_name>
+                              <xrech-reg:Content>Anforderungsaufnahme</xrech-reg:Content>
+                           </xrech-reg:Item_name>
+                           <xrech-reg:Item_description>
+                              <xrech-reg:Content>Anforderungmanagament</xrech-reg:Content>
+                           </xrech-reg:Item_description>
+                           <xrech-reg:Item_Sellers_identifier>
+                              <xrech-reg:Content>1034</xrech-reg:Content>
+                           </xrech-reg:Item_Sellers_identifier>
+                        </xrech-reg:ITEM_INFORMATION>
+                     </xrech-reg:INVOICE_LINE>
+                     <xrech-reg:INVOICE_LINE>
+                        <xrech-reg:Invoice_line_identifier>
+                           <xrech-reg:Content>1</xrech-reg:Content>
+                        </xrech-reg:Invoice_line_identifier>
+                        <xrech-reg:Invoiced_quantity>
+                           <xrech-reg:Content>1</xrech-reg:Content>
+                        </xrech-reg:Invoiced_quantity>
+                        <xrech-reg:Invoiced_quantity_unit_of_measure_code>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
+                        </xrech-reg:Invoiced_quantity_unit_of_measure_code>
+                        <xrech-reg:Invoice_line_net_amount>
+                           <xrech-reg:Content>2986.00</xrech-reg:Content>
+                        </xrech-reg:Invoice_line_net_amount>
+                        <xrech-reg:PRICE_DETAILS>
+                           <xrech-reg:Item_net_price>
+                              <xrech-reg:Content>2986.00</xrech-reg:Content>
+                           </xrech-reg:Item_net_price>
+                        </xrech-reg:PRICE_DETAILS>
+                        <xrech-reg:LINE_VAT_INFORMATION>
+                           <xrech-reg:Invoiced_item_VAT_category_code>
+                              <xrech-reg:Content>S</xrech-reg:Content>
+                           </xrech-reg:Invoiced_item_VAT_category_code>
+                           <xrech-reg:Invoiced_item_VAT_rate>
+                              <xrech-reg:Content>19</xrech-reg:Content>
+                           </xrech-reg:Invoiced_item_VAT_rate>
+                        </xrech-reg:LINE_VAT_INFORMATION>
+                        <xrech-reg:ITEM_INFORMATION>
+                           <xrech-reg:Item_name>
+                              <xrech-reg:Content>Lastenheft</xrech-reg:Content>
+                           </xrech-reg:Item_name>
+                           <xrech-reg:Item_description>
+                              <xrech-reg:Content>Erstellung Lastenheft bis Abnahme</xrech-reg:Content>
+                           </xrech-reg:Item_description>
+                           <xrech-reg:Item_Sellers_identifier>
+                              <xrech-reg:Content>1035</xrech-reg:Content>
+                           </xrech-reg:Item_Sellers_identifier>
+                        </xrech-reg:ITEM_INFORMATION>
+                     </xrech-reg:INVOICE_LINE>
+                     <xrech-reg:INVOICE_LINE>
+                        <xrech-reg:Invoice_line_identifier>
+                           <xrech-reg:Content>2</xrech-reg:Content>
+                        </xrech-reg:Invoice_line_identifier>
+                        <xrech-reg:Invoiced_quantity>
+                           <xrech-reg:Content>1</xrech-reg:Content>
+                        </xrech-reg:Invoiced_quantity>
+                        <xrech-reg:Invoiced_quantity_unit_of_measure_code>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
+                        </xrech-reg:Invoiced_quantity_unit_of_measure_code>
+                        <xrech-reg:Invoice_line_net_amount>
+                           <xrech-reg:Content>2344.00</xrech-reg:Content>
+                        </xrech-reg:Invoice_line_net_amount>
+                        <xrech-reg:PRICE_DETAILS>
+                           <xrech-reg:Item_net_price>
+                              <xrech-reg:Content>2344.00</xrech-reg:Content>
+                           </xrech-reg:Item_net_price>
+                        </xrech-reg:PRICE_DETAILS>
+                        <xrech-reg:LINE_VAT_INFORMATION>
+                           <xrech-reg:Invoiced_item_VAT_category_code>
+                              <xrech-reg:Content>S</xrech-reg:Content>
+                           </xrech-reg:Invoiced_item_VAT_category_code>
+                           <xrech-reg:Invoiced_item_VAT_rate>
+                              <xrech-reg:Content>19</xrech-reg:Content>
+                           </xrech-reg:Invoiced_item_VAT_rate>
+                        </xrech-reg:LINE_VAT_INFORMATION>
+                        <xrech-reg:ITEM_INFORMATION>
+                           <xrech-reg:Item_name>
+                              <xrech-reg:Content>Pflichtenheft</xrech-reg:Content>
+                           </xrech-reg:Item_name>
+                           <xrech-reg:Item_description>
+                              <xrech-reg:Content>Erstellung Pflichtenheft bis Abnahme</xrech-reg:Content>
+                           </xrech-reg:Item_description>
+                           <xrech-reg:Item_Sellers_identifier>
+                              <xrech-reg:Content>1036</xrech-reg:Content>
+                           </xrech-reg:Item_Sellers_identifier>
+                        </xrech-reg:ITEM_INFORMATION>
+                     </xrech-reg:INVOICE_LINE>
+                     <xrech-reg:INVOICE_LINE>
+                        <xrech-reg:Invoice_line_identifier>
+                           <xrech-reg:Content>3</xrech-reg:Content>
+                        </xrech-reg:Invoice_line_identifier>
+                        <xrech-reg:Invoiced_quantity>
+                           <xrech-reg:Content>1</xrech-reg:Content>
+                        </xrech-reg:Invoiced_quantity>
+                        <xrech-reg:Invoiced_quantity_unit_of_measure_code>
+                           <xrech-reg:Content>XPP</xrech-reg:Content>
+                        </xrech-reg:Invoiced_quantity_unit_of_measure_code>
+                        <xrech-reg:Invoice_line_net_amount>
+                           <xrech-reg:Content>2800.00</xrech-reg:Content>
+                        </xrech-reg:Invoice_line_net_amount>
+                        <xrech-reg:PRICE_DETAILS>
+                           <xrech-reg:Item_net_price>
+                              <xrech-reg:Content>2800.00</xrech-reg:Content>
+                           </xrech-reg:Item_net_price>
+                        </xrech-reg:PRICE_DETAILS>
+                        <xrech-reg:LINE_VAT_INFORMATION>
+                           <xrech-reg:Invoiced_item_VAT_category_code>
+                              <xrech-reg:Content>S</xrech-reg:Content>
+                           </xrech-reg:Invoiced_item_VAT_category_code>
+                           <xrech-reg:Invoiced_item_VAT_rate>
+                              <xrech-reg:Content>19</xrech-reg:Content>
+                           </xrech-reg:Invoiced_item_VAT_rate>
+                        </xrech-reg:LINE_VAT_INFORMATION>
+                        <xrech-reg:ITEM_INFORMATION>
+                           <xrech-reg:Item_name>
+                              <xrech-reg:Content>Entwicklung</xrech-reg:Content>
+                           </xrech-reg:Item_name>
+                           <xrech-reg:Item_description>
+                              <xrech-reg:Content>Entwicklung System bis Implementierung</xrech-reg:Content>
+                           </xrech-reg:Item_description>
+                           <xrech-reg:Item_Sellers_identifier>
+                              <xrech-reg:Content>1037</xrech-reg:Content>
+                           </xrech-reg:Item_Sellers_identifier>
                         </xrech-reg:ITEM_INFORMATION>
                      </xrech-reg:INVOICE_LINE>
                   </xrech-reg:INVOICE>

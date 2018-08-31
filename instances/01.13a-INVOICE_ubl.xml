@@ -93,7 +93,7 @@
     </cac:LegalMonetaryTotal>
     <cac:InvoiceLine>
         <cbc:ID>7</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="PP">1</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">400</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>Aussetzen der Kanten Neorokokosofa laut N2</cbc:Name>
@@ -111,7 +111,7 @@
     </cac:InvoiceLine>
     <cac:InvoiceLine>
         <cbc:ID>8</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="PP">1</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">240</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>Aussetzen der Kanten am Sofa um 1780 laut N2</cbc:Name>
@@ -129,7 +129,7 @@
     </cac:InvoiceLine>
     <cac:InvoiceLine>
         <cbc:ID>9</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="PP">1</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">120</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>Analyse Pigment</cbc:Name>
@@ -147,7 +147,7 @@
     </cac:InvoiceLine>
     <cac:InvoiceLine>
         <cbc:ID>10</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="PP">1</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">70</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>Querschliff</cbc:Name>
@@ -165,7 +165,7 @@
     </cac:InvoiceLine>
     <cac:InvoiceLine>
         <cbc:ID>5.2</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="PP">1</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">140</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>Furnierniederlegung 50 %</cbc:Name>
@@ -183,7 +183,7 @@
     </cac:InvoiceLine>
     <cac:InvoiceLine>
         <cbc:ID>2</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="PP">1</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">400</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>Transport 25 %</cbc:Name>
@@ -201,7 +201,7 @@
     </cac:InvoiceLine>
     <cac:InvoiceLine>
         <cbc:ID>7.1</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="PP">1</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">280</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>Sofa um 1780 Reinigung der Oberfläche</cbc:Name>
@@ -219,7 +219,7 @@
     </cac:InvoiceLine>
     <cac:InvoiceLine>
         <cbc:ID>7.2</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="PP">1</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">480</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>Konstruktive Ertüchtigung, Ergänzung eines Beines</cbc:Name>
@@ -237,7 +237,7 @@
     </cac:InvoiceLine>
     <cac:InvoiceLine>
         <cbc:ID>7.3</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="PP">1</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">1600</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>Abnahme der rotbraunen Fassung 50 %</cbc:Name>
@@ -255,7 +255,7 @@
     </cac:InvoiceLine>
     <cac:InvoiceLine>
         <cbc:ID>9.1</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="PP">1</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">400</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>Neorokokosofo konstruktive Ertüchtigung</cbc:Name>
@@ -273,7 +273,7 @@
     </cac:InvoiceLine>
     <cac:InvoiceLine>
         <cbc:ID>9.2</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="PP">1</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">1200</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>Reinigung, Fassungssicherung 50 %</cbc:Name>

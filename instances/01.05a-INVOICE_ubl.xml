@@ -155,7 +155,7 @@
     </cac:InvoiceLine>
     <cac:InvoiceLine>
         <cbc:ID>Reisekostenpauschale</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="PP">5</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="XPP">5</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">450</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>Reisekostenpauschale</cbc:Name>
@@ -173,7 +173,7 @@
     </cac:InvoiceLine>
     <cac:InvoiceLine>
         <cbc:ID>Seminarunterlagen</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="PP">11</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="XPP">11</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">220</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>Seminarunterlagen</cbc:Name>

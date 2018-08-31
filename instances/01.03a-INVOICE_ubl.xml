@@ -113,7 +113,7 @@
     </cac:LegalMonetaryTotal>
     <cac:InvoiceLine>
         <cbc:ID>558490000</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="PP">1</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">152.34</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Description>Heft 13 2016 bis 24 2016</cbc:Description>
@@ -135,7 +135,7 @@
     </cac:InvoiceLine>
     <cac:InvoiceLine>
         <cbc:ID>Versandkosten</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="PP">1</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">17.94</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Description>Abonnement-Nummer […]</cbc:Description>

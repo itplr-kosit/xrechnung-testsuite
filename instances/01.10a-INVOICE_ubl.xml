@@ -128,7 +128,7 @@
     </cac:LegalMonetaryTotal>
     <cac:InvoiceLine>
         <cbc:ID>1</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="PP">10</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="XPP">10</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">2180</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Description>Sitz: 10-301 blau, Rücken: 10-301 blau, ….</cbc:Description>

@@ -105,7 +105,7 @@
     </cac:LegalMonetaryTotal>
     <cac:InvoiceLine>
         <cbc:ID>0010</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="PP">1</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">6048</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>Paketierung der Anwendung "Kofax 10.2" für 180 Geräte</cbc:Name>

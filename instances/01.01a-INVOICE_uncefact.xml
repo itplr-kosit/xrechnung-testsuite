@@ -29,10 +29,12 @@
                 </ram:IncludedNote>
             </ram:AssociatedDocumentLineDocument>
             <ram:SpecifiedTradeProduct>
-                <ram:GlobalID schemeID="ISSN">0721-880X</ram:GlobalID>
                 <ram:SellerAssignedID>246</ram:SellerAssignedID>
                 <ram:Name>Zeitschrift [...]</ram:Name>
                 <ram:Description>Zeitschrift Inland</ram:Description>
+                <ram:DesignatedProductClassification>
+                    <ram:ClassCode listID="IB">0721-880X</ram:ClassCode>
+                </ram:DesignatedProductClassification>
             </ram:SpecifiedTradeProduct>
             <ram:SpecifiedLineTradeAgreement>
                 <ram:BuyerOrderReferencedDocument>
@@ -43,7 +45,7 @@
                 </ram:NetPriceProductTradePrice>
             </ram:SpecifiedLineTradeAgreement>
             <ram:SpecifiedLineTradeDelivery>
-                <ram:BilledQuantity unitCode="PP">1</ram:BilledQuantity>
+                <ram:BilledQuantity unitCode="XPP">1</ram:BilledQuantity>
             </ram:SpecifiedLineTradeDelivery>
             <ram:SpecifiedLineTradeSettlement>
                 <ram:ApplicableTradeTax>
@@ -77,7 +79,7 @@
                 </ram:NetPriceProductTradePrice>
             </ram:SpecifiedLineTradeAgreement>
             <ram:SpecifiedLineTradeDelivery>
-                <ram:BilledQuantity unitCode="PP">1</ram:BilledQuantity>
+                <ram:BilledQuantity unitCode="XPP">1</ram:BilledQuantity>
             </ram:SpecifiedLineTradeDelivery>
             <ram:SpecifiedLineTradeSettlement>
                 <ram:ApplicableTradeTax>

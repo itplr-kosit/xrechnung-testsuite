@@ -114,7 +114,7 @@
     </cac:LegalMonetaryTotal>
     <cac:InvoiceLine>
         <cbc:ID>SZ300540</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="PP">1</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">11.78</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Description>Einblicke v. Deutschlands wicht. Ökonomen</cbc:Description>

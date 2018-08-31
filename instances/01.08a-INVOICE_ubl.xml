@@ -108,7 +108,7 @@
     </cac:LegalMonetaryTotal>
     <cac:InvoiceLine>
         <cbc:ID>0020</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="PP">12</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="XPP">12</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">2374.68</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>Zentrale Administrationslösung Bereitstellung von Werkzeugen zur Administration/Betreuung</cbc:Name>

@@ -102,7 +102,7 @@
     </cac:LegalMonetaryTotal>
     <cac:InvoiceLine>
         <cbc:ID>0010</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="PP">1</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">12.52</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>Keyboard/Maus - weiß</cbc:Name>
@@ -123,7 +123,7 @@
     </cac:InvoiceLine>
     <cac:InvoiceLine>
         <cbc:ID>0020</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="PP">2</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="XPP">2</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">126.9</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>MX Master</cbc:Name>
@@ -144,7 +144,7 @@
     </cac:InvoiceLine>
     <cac:InvoiceLine>
         <cbc:ID>0030</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="PP">2</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="XPP">2</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">95.64</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>Tastatur Deutsch</cbc:Name>
@@ -165,7 +165,7 @@
     </cac:InvoiceLine>
     <cac:InvoiceLine>
         <cbc:ID>0040</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="PP">1</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">11.75</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>Beschaffungspauschale</cbc:Name>
@@ -186,7 +186,7 @@
     </cac:InvoiceLine>
     <cac:InvoiceLine>
         <cbc:ID>0050</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="PP">1</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">9.8</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>Lieferkosten</cbc:Name>
