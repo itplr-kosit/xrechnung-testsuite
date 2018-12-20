@@ -5,13 +5,25 @@
     <property name="lib.dir" location="${basedir}/lib"/>
     <property name="build.dir" location="${basedir}/build"/>
     <property name="download.dir" location="${build.dir}/download"/>
-    <property name="validator.jar" value="validationtool-1.0.1-standalone.jar"/>
-    <property name="validator.config.download.url.base" value="https://github.com/itplr-kosit/validator-configuration-xrechnung/releases/download"/>
-    <property name="validator.config.release.version" value="release-2018-08-31"></property>
-    <property name="validator.config.zip" value="validator-configuration-xrechnung_1.1_2018-08-31.zip"/>
-    <property name="validator.repository.dir" location="${build.dir}/repository"/>
     <property name="test.docs.dir" location="${basedir}/instances"/>
     <property name="reports.dir" location="${build.dir}/reports"/>
+    
+    <property name="validator.jar" value="validationtool-1.0.1-standalone.jar"/>
+    <property name="xrechnung.version.full" value="1.2.0" />
+    <property name="validator.config.version.full" value="2018-12-19" />
+    
+    <property name="validator.config.download.url.base"
+        value="https://github.com/itplr-kosit/validator-configuration-xrechnung/releases/download"/>
+    <property name="validator.config.release.version"
+        value="release-${validator.config.version.full}"/>
+    <property name="validator.config.zip"
+        value="validator-configuration-xrechnung_${xrechnung.version.full}_${validator.config.version.full}.zip"/>
+    <property name="validator.repository.dir" location="${build.dir}/repository"/>
+
+    <property name="testsuite.version.full" value="2018-12-14"/>
+    
+    <property name="dist.name"
+        value="xrechnung-${xrechnung.version.full}-testsuite-${testsuite.version.full}" />
 
     <target name="init" description="Initializes build directory structure and ISO timestamp">
         <!-- Create timestamps -->
@@ -54,7 +66,6 @@
     <target name="prepare-validator-configuration">
         <get src="${validator.config.download.url.base}/${validator.config.release.version}/${validator.config.zip}" dest="${download.dir}" verbose="true" skipexisting="true" usetimestamp="true"/>
         <unzip src="${download.dir}/${validator.config.zip}" dest="${validator.repository.dir}"/>
-
     </target>
 
     <target name="test" depends="prepare-validationtool,prepare-validator-configuration" description="Testsuite validation with Validator XRechnung Configuration">
@@ -71,11 +82,26 @@
             <arg value="${test.docs.dir}/*.xml"/>
         </java>
     </target>
+    
+    <target name="dist" depends="test" description="Create distribution zip for
+        release">
+        <zip destfile="${dist.dir}/${dist.name}.zip">
+            <fileset dir="${basedir}">
+                <include name="leitfaden-xrechnung-1.2.0-testsuite.pdf" />
+                <include name="Testfallgruppe_01.xlsx" />
+                <include name="testsuite.xml" />
+                <include name="instances/*.xml" />
+            </fileset>
+            <fileset dir="${basedir}" >
+                <include name="README.md" />
+                <include name="CHANGELOG.md" />
+            </fileset>
+        </zip>
+    </target>
 
     <target name="clean">
         <!-- Delete the ${build} and ${dist} directory trees -->
         <delete dir="${build.dir}" verbose="true" includeEmptyDirs="true"/>
         <delete dir="${dist.dir}"/>
-
     </target>
 </project>
