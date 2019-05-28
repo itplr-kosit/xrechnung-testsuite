@@ -16,7 +16,7 @@
             <udt:DateTimeString format="102">20180413</udt:DateTimeString>
         </ram:IssueDateTime>
         <ram:IncludedNote>
-            <ram:Content>Invoice Note Description ##AAC</ram:Content>
+            <ram:Content>Invoice Note Description</ram:Content>
             <ram:SubjectCode>AAC</ram:SubjectCode>
         </ram:IncludedNote>
     </rsm:ExchangedDocument>

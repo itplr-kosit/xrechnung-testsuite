@@ -8,14 +8,10 @@
     <cbc:ID>123456</cbc:ID>
     <cbc:IssueDate>2016-06-21+01:00</cbc:IssueDate>
     <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
-    <cbc:Note>ADU</cbc:Note>
-    <cbc:Note>Bei Fragen zu Ihrer Rechnung wenden Sie sich bitte an unseren Kundenserivce. Sie erreichen uns per Email: […], Tel.: […] oder Fax: […]</cbc:Note>
-    <cbc:Note>ADU</cbc:Note>
-    <cbc:Note>Die Lieferung erfolgt aufgrund der AGB […] erhältlich unter […]. Auf Wunsch senden wir sie auch zu.</cbc:Note>
-    <cbc:Note>ADU</cbc:Note>
-    <cbc:Note>Hinweis gemäß § 33 BDSG: Kundendaten werden gespeichert.</cbc:Note>
-    <cbc:Note>ADU</cbc:Note>
-    <cbc:Note>Beschädigt eingehende Sendungen bitte sofort beim Spediteur bzw. Paketdienstleister reklamieren. Genehmigte Rücksendungen schicken Sie bitte mit den Unterlagen an: […]</cbc:Note>
+    <cbc:Note>#ADU#Bei Fragen zu Ihrer Rechnung wenden Sie sich bitte an unseren Kundenserivce. Sie erreichen uns per Email: […], Tel.: […] oder Fax: […]</cbc:Note>
+    <cbc:Note>#ADU#Die Lieferung erfolgt aufgrund der AGB […] erhältlich unter […]. Auf Wunsch senden wir sie auch zu.</cbc:Note>
+    <cbc:Note>#ADU#Hinweis gemäß § 33 BDSG: Kundendaten werden gespeichert.</cbc:Note>
+    <cbc:Note>#ADU#Beschädigt eingehende Sendungen bitte sofort beim Spediteur bzw. Paketdienstleister reklamieren. Genehmigte Rücksendungen schicken Sie bitte mit den Unterlagen an: […]</cbc:Note>
     <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
     <cbc:TaxCurrencyCode>EUR</cbc:TaxCurrencyCode>
     <cbc:BuyerReference>04011000-12346-33</cbc:BuyerReference>

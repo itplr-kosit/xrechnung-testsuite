@@ -8,8 +8,7 @@
     <cbc:ID>PRG1502112</cbc:ID>
     <cbc:IssueDate>2015-04-24+01:00</cbc:IssueDate>
     <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
-    <cbc:Note>ADU</cbc:Note>
-    <cbc:Note>Trainer: Herr […]</cbc:Note>
+    <cbc:Note>#ADU#Trainer: Herr […]</cbc:Note>
     <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
     <cbc:TaxCurrencyCode>EUR</cbc:TaxCurrencyCode>
     <cbc:BuyerReference>99000000-18188-16</cbc:BuyerReference>

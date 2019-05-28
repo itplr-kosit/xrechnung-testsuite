@@ -9,12 +9,9 @@
     <cbc:IssueDate>2016-06-30+01:00</cbc:IssueDate>
     <cbc:DueDate>2016-08-14+01:00</cbc:DueDate>
     <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
-    <cbc:Note>ADU</cbc:Note>
-    <cbc:Note>Bitte überweisen Sie den Gesamtbetrag in Höhe von EUR 45,22 auf unser Konto Nr. […], BIC […].</cbc:Note>
-    <cbc:Note>ADU</cbc:Note>
-    <cbc:Note>Bei Fragen steht Ihnen unsere Kundenbetreuung gern unter der Rufnummer [...] zur Verfügung. Beanstandungen am Inhalt dieser Rechnung sind uns innerhalb von 28 Tagen nach Erhalt der Rechnung schriftlich mitzuteilen. Nach Ablauf dieser Frist gilt der Saldo endgültig.</cbc:Note>
-    <cbc:Note>ADU</cbc:Note>
-    <cbc:Note>Die Deutsche Kreditwirtschaft hat die Händlerbedingungen für die Teilnahme am electronic cash-System angepasst. Sie finden diese unter https://www…./de/agb. Die neuen Händlerbedingungen gelten ab sofort, wobei Sie binnen sechs Wochen nach Bekanntgabe der Änderung einen Widerspruch an Ihre Hausbank richten können. Bitte klären Sie sämtliche Fragen diese Bedingungen betreffend mit Ihrer Hausbank.</cbc:Note>
+    <cbc:Note>#ADU#Bitte überweisen Sie den Gesamtbetrag in Höhe von EUR 45,22 auf unser Konto Nr. […], BIC […].</cbc:Note>
+    <cbc:Note>#ADU#Bei Fragen steht Ihnen unsere Kundenbetreuung gern unter der Rufnummer [...] zur Verfügung. Beanstandungen am Inhalt dieser Rechnung sind uns innerhalb von 28 Tagen nach Erhalt der Rechnung schriftlich mitzuteilen. Nach Ablauf dieser Frist gilt der Saldo endgültig.</cbc:Note>
+    <cbc:Note>#ADU#Die Deutsche Kreditwirtschaft hat die Händlerbedingungen für die Teilnahme am electronic cash-System angepasst. Sie finden diese unter https://www…./de/agb. Die neuen Händlerbedingungen gelten ab sofort, wobei Sie binnen sechs Wochen nach Bekanntgabe der Änderung einen Widerspruch an Ihre Hausbank richten können. Bitte klären Sie sämtliche Fragen diese Bedingungen betreffend mit Ihrer Hausbank.</cbc:Note>
     <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
     <cbc:TaxCurrencyCode>EUR</cbc:TaxCurrencyCode>
     <cbc:BuyerReference>99000000-05676-38</cbc:BuyerReference>

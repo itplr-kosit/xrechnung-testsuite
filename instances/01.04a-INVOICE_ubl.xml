@@ -8,8 +8,7 @@
     <cbc:ID>1234/78/901</cbc:ID>
     <cbc:IssueDate>2016-06-16+01:00</cbc:IssueDate>
     <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
-    <cbc:Note>ADU</cbc:Note>
-    <cbc:Note>Diese Leistung ist umsatzsteuerbefreit nach § 4 Nr. 22a UStG.</cbc:Note>
+    <cbc:Note>#ADU#Diese Leistung ist umsatzsteuerbefreit nach § 4 Nr. 22a UStG.</cbc:Note>
     <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
     <cbc:TaxCurrencyCode>EUR</cbc:TaxCurrencyCode>
     <cbc:BuyerReference>04011000-12348-31</cbc:BuyerReference>

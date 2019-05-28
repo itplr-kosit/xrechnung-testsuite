@@ -8,8 +8,7 @@
     <cbc:ID>R123456789</cbc:ID>
     <cbc:IssueDate>2016-07-06+01:00</cbc:IssueDate>
     <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
-    <cbc:Note>ADU</cbc:Note>
-    <cbc:Note>Die auf Transaktionsebene ausgewiesenen Händlerentgelte und Interchangewerte werden im Rahmen der Abrechnung addiert und kaufmännisch auf ganze Währungseinheiten gerundet.</cbc:Note>
+    <cbc:Note>#ADU#Die auf Transaktionsebene ausgewiesenen Händlerentgelte und Interchangewerte werden im Rahmen der Abrechnung addiert und kaufmännisch auf ganze Währungseinheiten gerundet.</cbc:Note>
     <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
     <cbc:TaxCurrencyCode>EUR</cbc:TaxCurrencyCode>
     <cbc:BuyerReference>99000000-01944-84</cbc:BuyerReference>
