@@ -9,7 +9,7 @@
     <property name="reports.dir" location="${build.dir}/reports"/>
     
     <property name="validator.jar" value="validationtool-1.0.1-standalone.jar"/>
-    <property name="xrechnung.version.full" value="1.2.0" />
+    <property name="xrechnung.version.full" value="1.2.1" />
     <property name="validator.config.version.full" value="2018-12-19" />
     
     <property name="validator.config.download.url.base"
@@ -20,7 +20,7 @@
         value="validator-configuration-xrechnung_${xrechnung.version.full}_${validator.config.version.full}.zip"/>
     <property name="validator.repository.dir" location="${build.dir}/repository"/>
 
-    <property name="testsuite.version.full" value="2018-12-14"/>
+    <property name="testsuite.version.full" value="2019-06-30"/>
     
     <property name="dist.name"
         value="xrechnung-${xrechnung.version.full}-testsuite-${testsuite.version.full}" />
@@ -87,7 +87,7 @@
         release">
         <zip destfile="${dist.dir}/${dist.name}.zip">
             <fileset dir="${basedir}">
-                <include name="leitfaden-xrechnung-1.2.0-testsuite.pdf" />
+                <include name="leitfaden-xrechnung-1.2.1-testsuite.pdf" />
                 <include name="Testfallgruppe_01.xlsx" />
                 <include name="testsuite.xml" />
                 <include name="instances/*.xml" />
