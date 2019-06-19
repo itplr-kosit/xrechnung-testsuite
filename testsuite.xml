@@ -5,7 +5,7 @@
                 xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
                 xmlns:xrech-reg="http://www.osci.de/xrechnung/testsuite/register"
                 version="1.2.1"
-                generated="2019-06-18T10:19:59.328+02:00">
+                generated="2019-06-19T08:18:44.395+02:00">
    <test:testgruppe id="01">
       <test:konformitaetstest id="01.01">
          <test:beschreibung>Eine Rechnung liegt vor.</test:beschreibung>
@@ -56,7 +56,7 @@
                      </xrech-reg:INVOICE_NOTE>
                      <xrech-reg:PROCESS_CONTROL>
                         <xrech-reg:Specification_identifier>
-                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2.1</xrech-reg:Content>
+                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2</xrech-reg:Content>
                         </xrech-reg:Specification_identifier>
                      </xrech-reg:PROCESS_CONTROL>
                      <xrech-reg:SELLER>
@@ -333,7 +333,7 @@
                      </xrech-reg:INVOICE_NOTE>
                      <xrech-reg:PROCESS_CONTROL>
                         <xrech-reg:Specification_identifier>
-                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2.1</xrech-reg:Content>
+                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2</xrech-reg:Content>
                         </xrech-reg:Specification_identifier>
                      </xrech-reg:PROCESS_CONTROL>
                      <xrech-reg:SELLER>
@@ -567,7 +567,7 @@
                      </xrech-reg:INVOICE_NOTE>
                      <xrech-reg:PROCESS_CONTROL>
                         <xrech-reg:Specification_identifier>
-                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2.1</xrech-reg:Content>
+                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2</xrech-reg:Content>
                         </xrech-reg:Specification_identifier>
                      </xrech-reg:PROCESS_CONTROL>
                      <xrech-reg:SELLER>
@@ -816,7 +816,7 @@
                      </xrech-reg:INVOICE_NOTE>
                      <xrech-reg:PROCESS_CONTROL>
                         <xrech-reg:Specification_identifier>
-                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2.1</xrech-reg:Content>
+                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2</xrech-reg:Content>
                         </xrech-reg:Specification_identifier>
                      </xrech-reg:PROCESS_CONTROL>
                      <xrech-reg:SELLER>
@@ -1024,7 +1024,7 @@
                      </xrech-reg:INVOICE_NOTE>
                      <xrech-reg:PROCESS_CONTROL>
                         <xrech-reg:Specification_identifier>
-                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2.1</xrech-reg:Content>
+                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2</xrech-reg:Content>
                         </xrech-reg:Specification_identifier>
                      </xrech-reg:PROCESS_CONTROL>
                      <xrech-reg:SELLER>
@@ -1343,7 +1343,7 @@
                      </xrech-reg:INVOICE_NOTE>
                      <xrech-reg:PROCESS_CONTROL>
                         <xrech-reg:Specification_identifier>
-                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2.1</xrech-reg:Content>
+                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2</xrech-reg:Content>
                         </xrech-reg:Specification_identifier>
                      </xrech-reg:PROCESS_CONTROL>
                      <xrech-reg:SELLER>
@@ -1777,7 +1777,7 @@
                      </xrech-reg:INVOICE_NOTE>
                      <xrech-reg:PROCESS_CONTROL>
                         <xrech-reg:Specification_identifier>
-                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2.1</xrech-reg:Content>
+                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2</xrech-reg:Content>
                         </xrech-reg:Specification_identifier>
                      </xrech-reg:PROCESS_CONTROL>
                      <xrech-reg:SELLER>
@@ -1989,7 +1989,7 @@
                      </xrech-reg:Payment_terms>
                      <xrech-reg:PROCESS_CONTROL>
                         <xrech-reg:Specification_identifier>
-                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2.1</xrech-reg:Content>
+                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2</xrech-reg:Content>
                         </xrech-reg:Specification_identifier>
                      </xrech-reg:PROCESS_CONTROL>
                      <xrech-reg:SELLER>
@@ -2191,7 +2191,7 @@
                      </xrech-reg:Tender_or_lot_reference>
                      <xrech-reg:PROCESS_CONTROL>
                         <xrech-reg:Specification_identifier>
-                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2.1</xrech-reg:Content>
+                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2</xrech-reg:Content>
                         </xrech-reg:Specification_identifier>
                      </xrech-reg:PROCESS_CONTROL>
                      <xrech-reg:SELLER>
@@ -2398,7 +2398,7 @@
                      </xrech-reg:INVOICE_NOTE>
                      <xrech-reg:PROCESS_CONTROL>
                         <xrech-reg:Specification_identifier>
-                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2.1</xrech-reg:Content>
+                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2</xrech-reg:Content>
                         </xrech-reg:Specification_identifier>
                      </xrech-reg:PROCESS_CONTROL>
                      <xrech-reg:SELLER>
@@ -2622,7 +2622,7 @@
                      </xrech-reg:Sales_order_reference>
                      <xrech-reg:PROCESS_CONTROL>
                         <xrech-reg:Specification_identifier>
-                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2.1</xrech-reg:Content>
+                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2</xrech-reg:Content>
                         </xrech-reg:Specification_identifier>
                      </xrech-reg:PROCESS_CONTROL>
                      <xrech-reg:SELLER>
@@ -2891,7 +2891,7 @@
                      </xrech-reg:Sales_order_reference>
                      <xrech-reg:PROCESS_CONTROL>
                         <xrech-reg:Specification_identifier>
-                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2.1</xrech-reg:Content>
+                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2</xrech-reg:Content>
                         </xrech-reg:Specification_identifier>
                      </xrech-reg:PROCESS_CONTROL>
                      <xrech-reg:SELLER>
@@ -3244,7 +3244,7 @@
                      </xrech-reg:INVOICE_NOTE>
                      <xrech-reg:PROCESS_CONTROL>
                         <xrech-reg:Specification_identifier>
-                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2.1</xrech-reg:Content>
+                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2</xrech-reg:Content>
                         </xrech-reg:Specification_identifier>
                      </xrech-reg:PROCESS_CONTROL>
                      <xrech-reg:SELLER>
@@ -3752,7 +3752,7 @@
                      </xrech-reg:INVOICE_NOTE>
                      <xrech-reg:PROCESS_CONTROL>
                         <xrech-reg:Specification_identifier>
-                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2.1</xrech-reg:Content>
+                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2</xrech-reg:Content>
                         </xrech-reg:Specification_identifier>
                      </xrech-reg:PROCESS_CONTROL>
                      <xrech-reg:SELLER>
@@ -4058,7 +4058,7 @@
                      </xrech-reg:INVOICE_NOTE>
                      <xrech-reg:PROCESS_CONTROL>
                         <xrech-reg:Specification_identifier>
-                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2.1</xrech-reg:Content>
+                           <xrech-reg:Content>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2</xrech-reg:Content>
                         </xrech-reg:Specification_identifier>
                      </xrech-reg:PROCESS_CONTROL>
                      <xrech-reg:SELLER>
