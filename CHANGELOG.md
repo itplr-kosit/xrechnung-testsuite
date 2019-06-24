@@ -14,10 +14,10 @@ This release is compatible to XRechnung 1.2.1.
 ### Changed
 
 - For UBL-instances changed to tests to `<cbc:Note>#ADU#Ordered in our booth at the convention</cbc:Note>`
- in case of presence of BT-21. 
+ in case of presence of BT-21.
 - Test case 01.14 changed to according to the separation of Invoice note (BT-22) and Invoice note subject code (BT-21).
 - All test instances are now valid to XRechnung Version 1.2.1
-- Channged constant value to `130` for BT-18 for all UBL instances. Test case 01.15 changes accordingly.
+- Changed constant value to `130` for BT-18 for all UBL instances. Test case 01.15 changes accordingly.
 
 
 ## 2018-12-14
