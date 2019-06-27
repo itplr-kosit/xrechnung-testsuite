@@ -60,7 +60,7 @@
     </target>
     
     <target name="prepare-validator-configuration">
-        <get src="${validator.config.download.url.base}/pre-${validator.config.release.version}/${validator.config.zip}" dest="${download.dir}" verbose="true" skipexisting="true" usetimestamp="true" />
+        <get src="${validator.config.download.url.base}/${validator.config.release.version}/${validator.config.zip}" dest="${download.dir}" verbose="true" skipexisting="true" usetimestamp="true" />
         <unzip src="${download.dir}/${validator.config.zip}" dest="${validator.repository.dir}" />
     </target>
     
