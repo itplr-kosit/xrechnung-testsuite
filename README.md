@@ -38,6 +38,6 @@ verletzen die Geschäftsregel “[BR-CO-26]-In order for the buyer to automatica
   * 01.11a-INVOICE_ubl.xml und
   * 01.12a-INVOICE_ubl.xml
 
-  verletzen die Geschäftsregel “[UBL-SR-47]-When there are more than one payment means code, they shall be equal”:
+  verletzen die Geschäftsregel "[UBL-SR-47]-When there are more than one payment means code, they shall be equal":
 
   * Grund ist eine fehlerhafte technische Implementierung in den EU-Schematron-Regeln bzw. eine Diskrepanz zwischen den EU-Syntax-Binding-Dokumenten und den EU-Schematron-Regeln, die aktuell auf EU-Ebene bearbeitet wird. Gemäß den EU-Syntax-Binding-Dokumenten sind unendlich viele Payment Means Code möglich. Dementgegen steht die Prüfung der EU-Schematron-Regeln gegen die Anzahl 2. **Der Sachverhalt befindet sich auf EU-Ebene in fachlicher Klärung.**
