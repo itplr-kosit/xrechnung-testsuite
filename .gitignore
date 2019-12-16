@@ -1,6 +1,9 @@
-dist
 build
+dist
 lib
 reports
+# configuration files
 .vscode
 *.xpr
+*.code-workspace
+.ant-targets-build.xml

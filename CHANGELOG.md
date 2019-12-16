@@ -6,6 +6,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 <!--
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 -->
+## 2019-12-31
+
+This release is compatible to XRechnung 1.2.2.
+
+### Added
+
+* 02.01a-INVOICE_uncefact.xml
+* 02.02a-INVOICE_uncefact.xml
+* 03.01a-INVOICE_uncefact.xml
+* 03.02a-INVOICE_uncefact.xml
+
+### Changed
+
 
 ## 2019-06-30
 
