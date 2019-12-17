@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rsm:CrossIndustryInvoice xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100"
-                          xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100"
-                          xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
-                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                          xsi:schemaLocation="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100 ../../../schemas/UN_CEFACT/CrossIndustryInvoice_100pD16B.xsd">
+<rsm:CrossIndustryInvoice
+    xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100"
+    xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100"
+    xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   >
     <rsm:ExchangedDocumentContext>
         <ram:GuidelineSpecifiedDocumentContextParameter>
             <ram:ID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2</ram:ID>
@@ -311,7 +312,9 @@
             <ram:BuyerReference>04011000-12354-25</ram:BuyerReference>
             <ram:SellerTradeParty>
                 <ram:Name>[Seller name]</ram:Name>
-                <ram:SpecifiedLegalOrganization/>
+                <ram:SpecifiedLegalOrganization >
+                     <ram:ID>HRB 123</ram:ID>
+                </ram:SpecifiedLegalOrganization>
                 <ram:DefinedTradeContact>
                     <ram:PersonName>[Seller contact person]</ram:PersonName>
                     <ram:TelephoneUniversalCommunication>
@@ -348,7 +351,7 @@
                 <ram:Name>Project reference</ram:Name>
             </ram:SpecifiedProcuringProject>
         </ram:ApplicableHeaderTradeAgreement>
-        <ram:ApplicableHeaderTradeDelivery/>
+        <ram:ApplicableHeaderTradeDelivery />
         <ram:ApplicableHeaderTradeSettlement>
             <ram:TaxCurrencyCode>EUR</ram:TaxCurrencyCode>
             <ram:InvoiceCurrencyCode>EUR</ram:InvoiceCurrencyCode>
@@ -368,7 +371,8 @@
             <ram:SpecifiedTradePaymentTerms>
                 <ram:Description>Bitte überweisen Sie bis zum 24.01.2015 auf das unten aufgeführte Konto.</ram:Description>
                 <ram:DueDateDateTime>
-                    <udt:DateTimeString format="102">20150124</udt:DateTimeString>
+                    <udt:DateTimeString format="102"
+                        >20150124</udt:DateTimeString>
                 </ram:DueDateDateTime>
             </ram:SpecifiedTradePaymentTerms>
             <ram:SpecifiedTradeSettlementHeaderMonetarySummation>
