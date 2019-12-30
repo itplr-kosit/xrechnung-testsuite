@@ -13,10 +13,12 @@ This release is compatible to XRechnung 1.2.2.
 
 ### Added
 
-* 02.01a-INVOICE_uncefact.xml
-* 02.02a-INVOICE_uncefact.xml
-* 03.01a-INVOICE_uncefact.xml (energy bill test case from energy sector)
-* 03.02a-INVOICE_uncefact.xml (test case for credit card payments)
+For UBL and UNCEFACT:
+
+* 02.01a-INVOICE
+* 02.02a-INVOICE
+* 03.01a-INVOICE (energy bill test case from energy sector, and debited account)
+* 03.02a-INVOICE (test case for credit card payments)
 
 ### Changed
 
@@ -29,7 +31,7 @@ This release is compatible to XRechnung 1.2.2.
 * 01.14a-Invoice_uncefact.xml, 01.14-Invoice_ubl.xml:
   * Corrected data on `BT-30 Seller legal registration identifier` and `BT-47 Buyer legal registration identifier`
 * 01.15a-Invoice_ubl.xml:
-  * Removed removed `cbc:DocumentTypeCode = 130` for `BG-24 ADDITIONAL SUPPORTING DOCUMENTS`
+  * Removed `cbc:DocumentTypeCode = 130` for `BG-24 ADDITIONAL SUPPORTING DOCUMENTS`
 
 ## 2019-06-30
 
