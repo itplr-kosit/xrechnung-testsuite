@@ -3,12 +3,12 @@
     xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
     <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
     <cbc:ID>1904267</cbc:ID>
-    <cbc:IssueDate>2019-04-10</cbc:IssueDate>
+    <cbc:IssueDate>2019-05-15</cbc:IssueDate>
     <cbc:InvoiceTypeCode listID="UN/ECE 1001 Subset" listAgencyID="6">380</cbc:InvoiceTypeCode>
     <cbc:DocumentCurrencyCode listID="ISO 4217 Alpha" listAgencyID="6">EUR</cbc:DocumentCurrencyCode>
     <cac:InvoicePeriod>
-        <cbc:StartDate>2019-01-01</cbc:StartDate>
-        <cbc:EndDate>2019-04-07</cbc:EndDate>
+        <cbc:StartDate>2019-02-01</cbc:StartDate>
+        <cbc:EndDate>2019-05-07</cbc:EndDate>
     </cac:InvoicePeriod>
     <cac:OrderReference>
         <cbc:ID>123</cbc:ID>
