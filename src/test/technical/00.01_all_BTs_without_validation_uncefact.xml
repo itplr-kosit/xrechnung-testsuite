@@ -3,8 +3,7 @@
  xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100"
  xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
  xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100 file:/C:/xoev/XRechnung-Git/xrechnung-testsuite-intern/schemas/UN_CEFACT/CrossIndustryInvoice_100pD16B.xsd">
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <rsm:ExchangedDocumentContext>          
         <ram:BusinessProcessSpecifiedDocumentContextParameter>
             <!-- BT-23 Business process type -->
