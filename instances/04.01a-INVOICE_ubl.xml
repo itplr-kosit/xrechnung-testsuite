@@ -15,11 +15,7 @@
         <cbc:ID>123</cbc:ID>
     </cac:OrderReference>
     <cac:AccountingSupplierParty>
-        <cac:Party>
-            <cbc:EndpointID schemeID="GLN" schemeAgencyID="9">1234567890123</cbc:EndpointID>
-            <cac:PartyIdentification>
-                <cbc:ID schemeID="ZZZ">Supp123</cbc:ID>
-            </cac:PartyIdentification>
+        <cac:Party>           
             <cac:PartyName>
                 <cbc:Name>M. Meier Handwerk GbR</cbc:Name>
             </cac:PartyName>
@@ -40,7 +36,7 @@
             </cac:PartyTaxScheme>
             <cac:PartyLegalEntity>
                 <cbc:RegistrationName>M. Meier Handwerk GbR</cbc:RegistrationName>
-                <cbc:CompanyID schemeID="CVR" schemeAgencyID="ZZZ">1122334455</cbc:CompanyID>              
+                <cbc:CompanyID>1122334455</cbc:CompanyID>              
             </cac:PartyLegalEntity>
             <cac:Contact>
                 <cbc:Name>M. Meier Handwerk GbR</cbc:Name>
@@ -52,13 +48,9 @@
     </cac:AccountingSupplierParty>
     <cac:AccountingCustomerParty>
         <cac:Party>
-            <cbc:EndpointID schemeID="GLN" schemeAgencyID="9">1234567987654</cbc:EndpointID>
             <cac:PartyIdentification>
-                <cbc:ID schemeID="ZZZ">345LA5324</cbc:ID>
+                <cbc:ID>345LA5324</cbc:ID>
             </cac:PartyIdentification>
-            <cac:PartyName>
-                <cbc:Name>Beispielkunde</cbc:Name>
-            </cac:PartyName>
             <cac:PostalAddress>                
                 <cbc:StreetName>Dorfplatz</cbc:StreetName>               
                 <cbc:BuildingNumber>3</cbc:BuildingNumber>            
@@ -67,7 +59,10 @@
                 <cac:Country>
                     <cbc:IdentificationCode listID="ISO3166-1" listAgencyID="6">DE</cbc:IdentificationCode>
                 </cac:Country>
-            </cac:PostalAddress>            
+            </cac:PostalAddress>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Beispielkunde</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
         </cac:Party>
     </cac:AccountingCustomerParty>
     <cac:PaymentMeans>
@@ -90,10 +85,11 @@
         <cac:TaxSubtotal>
             <cbc:TaxableAmount currencyID="EUR">12536.84</cbc:TaxableAmount>
             <cbc:TaxAmount currencyID="EUR">2382</cbc:TaxAmount>
-            <cac:TaxCategory>                
+            <cac:TaxCategory>
+                <cbc:ID>S</cbc:ID>
                 <cbc:Percent>19</cbc:Percent>
                 <cac:TaxScheme>
-                    <cbc:ID schemeID="UN/ECE 5153" schemeAgencyID="6">VAT</cbc:ID>
+                    <cbc:ID>VAT</cbc:ID>
                 </cac:TaxScheme>
             </cac:TaxCategory>
         </cac:TaxSubtotal>
@@ -106,11 +102,22 @@
         <cbc:PayableAmount currencyID="EUR">4918.84</cbc:PayableAmount>
     </cac:LegalMonetaryTotal>
     <cac:InvoiceLine>
-        <cbc:ID>-</cbc:ID><!-- ToDo -->
+        <cbc:ID>-</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">12536.84</cbc:LineExtensionAmount>
         <cac:Item>            
             <cbc:Name>Sanitär und Zubehör</cbc:Name>
+            <cac:ClassifiedTaxCategory>
+                <cbc:ID>S</cbc:ID>
+                <cbc:Percent>19</cbc:Percent>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:ClassifiedTaxCategory>
         </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+        </cac:Price>
         <cac:SubInvoiceLine>
             <cbc:ID>1</cbc:ID>
             <cbc:LineExtensionAmount currencyID="EUR">818.04</cbc:LineExtensionAmount>
@@ -255,7 +262,7 @@
                         <cbc:Name>Einzelrosette aus Kunststoff, weiß</cbc:Name>
                     </cac:Item>
                     <cac:Price>
-                        <cbc:PriceAmount currencyID="C62">1.85</cbc:PriceAmount>
+                        <cbc:PriceAmount currencyID="EUR">1.85</cbc:PriceAmount>
                         <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>           
                     </cac:Price>
                 </cac:SubInvoiceLine>                
