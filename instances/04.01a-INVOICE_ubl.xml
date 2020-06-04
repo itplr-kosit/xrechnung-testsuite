@@ -4,8 +4,8 @@
     <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2</cbc:CustomizationID>
     <cbc:ID>12345</cbc:ID>
     <cbc:IssueDate>2019-05-15</cbc:IssueDate>
-    <cbc:InvoiceTypeCode listID="UN/ECE 1001 Subset" listAgencyID="6">380</cbc:InvoiceTypeCode>
-    <cbc:DocumentCurrencyCode listID="ISO 4217 Alpha" listAgencyID="6">EUR</cbc:DocumentCurrencyCode>
+    <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
     <cbc:BuyerReference>12345678-12345-12</cbc:BuyerReference>
     <cac:InvoicePeriod>
         <cbc:StartDate>2019-02-01</cbc:StartDate>
@@ -20,12 +20,11 @@
                 <cbc:Name>M. Meier Handwerk GbR</cbc:Name>
             </cac:PartyName>
             <cac:PostalAddress>
-                <cbc:StreetName>Hauptstraße</cbc:StreetName>                
-                <cbc:BuildingNumber>2</cbc:BuildingNumber>             
+                <cbc:StreetName>Hauptstraße 2</cbc:StreetName>
                 <cbc:CityName>Musterstadt</cbc:CityName>
                 <cbc:PostalZone>12345</cbc:PostalZone>               
                 <cac:Country>
-                    <cbc:IdentificationCode listID="ISO3166-1" listAgencyID="6">DE</cbc:IdentificationCode>
+                    <cbc:IdentificationCode>DE</cbc:IdentificationCode>
                 </cac:Country>
             </cac:PostalAddress>
             <cac:PartyTaxScheme>
@@ -40,8 +39,7 @@
             </cac:PartyLegalEntity>
             <cac:Contact>
                 <cbc:Name>M. Meier Handwerk GbR</cbc:Name>
-                <cbc:Telephone>010/12345</cbc:Telephone>
-                <cbc:Telefax>010/12346</cbc:Telefax>
+                <cbc:Telephone>010/12345</cbc:Telephone>                
                 <cbc:ElectronicMail>info@m-meier.de</cbc:ElectronicMail>
             </cac:Contact>            
         </cac:Party>
@@ -52,12 +50,11 @@
                 <cbc:ID>345LA5324</cbc:ID>
             </cac:PartyIdentification>
             <cac:PostalAddress>                
-                <cbc:StreetName>Dorfplatz</cbc:StreetName>               
-                <cbc:BuildingNumber>3</cbc:BuildingNumber>            
+                <cbc:StreetName>Dorfplatz 3</cbc:StreetName>
                 <cbc:CityName>Musterort</cbc:CityName>
                 <cbc:PostalZone>54321</cbc:PostalZone>                
                 <cac:Country>
-                    <cbc:IdentificationCode listID="ISO3166-1" listAgencyID="6">DE</cbc:IdentificationCode>
+                    <cbc:IdentificationCode>DE</cbc:IdentificationCode>
                 </cac:Country>
             </cac:PostalAddress>
             <cac:PartyLegalEntity>
@@ -66,15 +63,9 @@
         </cac:Party>
     </cac:AccountingCustomerParty>
     <cac:PaymentMeans>
-        <cbc:PaymentMeansCode listID="UN/ECE 4461">31</cbc:PaymentMeansCode>        
-        <cbc:PaymentChannelCode>IBAN</cbc:PaymentChannelCode>
+        <cbc:PaymentMeansCode>31</cbc:PaymentMeansCode>       
         <cac:PayeeFinancialAccount>
-            <cbc:ID>DE091111222233334444</cbc:ID>
-            <cac:FinancialInstitutionBranch>
-                <cac:FinancialInstitution>
-                    <cbc:ID>NOTEST1</cbc:ID>
-                </cac:FinancialInstitution>
-            </cac:FinancialInstitutionBranch>
+            <cbc:ID>DE091111222233334444</cbc:ID>        
         </cac:PayeeFinancialAccount>
     </cac:PaymentMeans>
     <cac:PaymentTerms>
