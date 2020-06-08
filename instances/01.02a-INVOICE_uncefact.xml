@@ -113,8 +113,7 @@
                 </ram:OccurrenceDateTime>
             </ram:ActualDeliverySupplyChainEvent>
         </ram:ApplicableHeaderTradeDelivery>
-        <ram:ApplicableHeaderTradeSettlement>
-            <ram:TaxCurrencyCode>EUR</ram:TaxCurrencyCode>
+        <ram:ApplicableHeaderTradeSettlement>            
             <ram:InvoiceCurrencyCode>EUR</ram:InvoiceCurrencyCode>
             <ram:PayeeTradeParty>
                 <ram:Name>VSB - Verlagsservice Braunschweig GmbH</ram:Name>

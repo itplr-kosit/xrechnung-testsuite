@@ -158,8 +158,7 @@
             </ram:ActualDeliverySupplyChainEvent>
         </ram:ApplicableHeaderTradeDelivery>
         <ram:ApplicableHeaderTradeSettlement>
-            <ram:PaymentReference>Deb. 12345 / Fact. 9876543</ram:PaymentReference>
-            <ram:TaxCurrencyCode>EUR</ram:TaxCurrencyCode>
+            <ram:PaymentReference>Deb. 12345 / Fact. 9876543</ram:PaymentReference>            
             <ram:InvoiceCurrencyCode>EUR</ram:InvoiceCurrencyCode>
             <ram:PayeeTradeParty>
                 <ram:ID>74</ram:ID>
