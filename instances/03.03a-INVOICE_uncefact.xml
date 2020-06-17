@@ -1,40 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rsm:CrossIndustryInvoice xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100"
-                          xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100"
-                          xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
-                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                          xsi:schemaLocation="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100 ../../../schemas/UN_CEFACT/CrossIndustryInvoice_100pD16B.xsd">
+<rsm:CrossIndustryInvoice
+    xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100"
+    xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100"
+    xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100">
     <rsm:ExchangedDocumentContext>
         <ram:GuidelineSpecifiedDocumentContextParameter>
             <ram:ID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2</ram:ID>
         </ram:GuidelineSpecifiedDocumentContextParameter>
     </rsm:ExchangedDocumentContext>
     <rsm:ExchangedDocument>
-        <ram:ID>PRG1502112</ram:ID>
+        <ram:ID>0000123456</ram:ID>
         <ram:TypeCode>380</ram:TypeCode>
         <ram:IssueDateTime>
-            <udt:DateTimeString format="102">20150424</udt:DateTimeString>
+            <udt:DateTimeString format="102">20171211</udt:DateTimeString>
         </ram:IssueDateTime>
         <ram:IncludedNote>
-            <ram:Content>Trainer: Herr […]</ram:Content>
+            <ram:Content>[Invoice note]</ram:Content>
             <ram:SubjectCode>ADU</ram:SubjectCode>
         </ram:IncludedNote>
     </rsm:ExchangedDocument>
     <rsm:SupplyChainTradeTransaction>
         <ram:IncludedSupplyChainTradeLineItem>
             <ram:AssociatedDocumentLineDocument>
-                <ram:LineID>Seminar: […]</ram:LineID>
+                <ram:LineID>0</ram:LineID>
             </ram:AssociatedDocumentLineDocument>
             <ram:SpecifiedTradeProduct>
-                <ram:Name>Seminar</ram:Name>
+                <ram:SellerAssignedID>1034</ram:SellerAssignedID>
+                <ram:Name>Anforderungsaufnahme</ram:Name>
+                <ram:Description>Anforderungmanagament</ram:Description>
             </ram:SpecifiedTradeProduct>
             <ram:SpecifiedLineTradeAgreement>
                 <ram:NetPriceProductTradePrice>
-                    <ram:ChargeAmount>1340</ram:ChargeAmount>
+                    <ram:ChargeAmount>850</ram:ChargeAmount>
                 </ram:NetPriceProductTradePrice>
             </ram:SpecifiedLineTradeAgreement>
             <ram:SpecifiedLineTradeDelivery>
-                <ram:BilledQuantity unitCode="DAY">5</ram:BilledQuantity>
+                <ram:BilledQuantity unitCode="XPP">1</ram:BilledQuantity>
             </ram:SpecifiedLineTradeDelivery>
             <ram:SpecifiedLineTradeSettlement>
                 <ram:ApplicableTradeTax>
@@ -43,24 +44,26 @@
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
-                    <ram:LineTotalAmount>6700</ram:LineTotalAmount>
+                    <ram:LineTotalAmount>850</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
             </ram:SpecifiedLineTradeSettlement>
         </ram:IncludedSupplyChainTradeLineItem>
         <ram:IncludedSupplyChainTradeLineItem>
             <ram:AssociatedDocumentLineDocument>
-                <ram:LineID>Raumkosten Schulungsort</ram:LineID>
+                <ram:LineID>1</ram:LineID>
             </ram:AssociatedDocumentLineDocument>
             <ram:SpecifiedTradeProduct>
-                <ram:Name>Raumkosten</ram:Name>
+                <ram:SellerAssignedID>1035</ram:SellerAssignedID>
+                <ram:Name>Lastenheft</ram:Name>
+                <ram:Description>Erstellung Lastenheft bis Abnahme</ram:Description>
             </ram:SpecifiedTradeProduct>
             <ram:SpecifiedLineTradeAgreement>
                 <ram:NetPriceProductTradePrice>
-                    <ram:ChargeAmount>300</ram:ChargeAmount>
+                    <ram:ChargeAmount>2986</ram:ChargeAmount>
                 </ram:NetPriceProductTradePrice>
             </ram:SpecifiedLineTradeAgreement>
             <ram:SpecifiedLineTradeDelivery>
-                <ram:BilledQuantity unitCode="DAY">5</ram:BilledQuantity>
+                <ram:BilledQuantity unitCode="XPP">1</ram:BilledQuantity>
             </ram:SpecifiedLineTradeDelivery>
             <ram:SpecifiedLineTradeSettlement>
                 <ram:ApplicableTradeTax>
@@ -69,24 +72,26 @@
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
-                    <ram:LineTotalAmount>1500</ram:LineTotalAmount>
+                    <ram:LineTotalAmount>2986</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
             </ram:SpecifiedLineTradeSettlement>
         </ram:IncludedSupplyChainTradeLineItem>
         <ram:IncludedSupplyChainTradeLineItem>
             <ram:AssociatedDocumentLineDocument>
-                <ram:LineID>Reisekostenpauschale</ram:LineID>
+                <ram:LineID>2</ram:LineID>
             </ram:AssociatedDocumentLineDocument>
             <ram:SpecifiedTradeProduct>
-                <ram:Name>Reisekostenpauschale</ram:Name>
+                <ram:SellerAssignedID>1036</ram:SellerAssignedID>
+                <ram:Name>Pflichtenheft</ram:Name>
+                <ram:Description>Erstellung Pflichtenheft bis Abnahme</ram:Description>
             </ram:SpecifiedTradeProduct>
             <ram:SpecifiedLineTradeAgreement>
                 <ram:NetPriceProductTradePrice>
-                    <ram:ChargeAmount>90</ram:ChargeAmount>
+                    <ram:ChargeAmount>2344</ram:ChargeAmount>
                 </ram:NetPriceProductTradePrice>
             </ram:SpecifiedLineTradeAgreement>
             <ram:SpecifiedLineTradeDelivery>
-                <ram:BilledQuantity unitCode="XPP">5</ram:BilledQuantity>
+                <ram:BilledQuantity unitCode="XPP">1</ram:BilledQuantity>
             </ram:SpecifiedLineTradeDelivery>
             <ram:SpecifiedLineTradeSettlement>
                 <ram:ApplicableTradeTax>
@@ -95,24 +100,26 @@
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
-                    <ram:LineTotalAmount>450</ram:LineTotalAmount>
+                    <ram:LineTotalAmount>2344</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
             </ram:SpecifiedLineTradeSettlement>
         </ram:IncludedSupplyChainTradeLineItem>
         <ram:IncludedSupplyChainTradeLineItem>
             <ram:AssociatedDocumentLineDocument>
-                <ram:LineID>Seminarunterlagen</ram:LineID>
+                <ram:LineID>3</ram:LineID>
             </ram:AssociatedDocumentLineDocument>
             <ram:SpecifiedTradeProduct>
-                <ram:Name>Seminarunterlagen</ram:Name>
+                <ram:SellerAssignedID>1037</ram:SellerAssignedID>
+                <ram:Name>Entwicklung</ram:Name>
+                <ram:Description>Entwicklung System bis Implementierung</ram:Description>
             </ram:SpecifiedTradeProduct>
             <ram:SpecifiedLineTradeAgreement>
                 <ram:NetPriceProductTradePrice>
-                    <ram:ChargeAmount>20</ram:ChargeAmount>
+                    <ram:ChargeAmount>2800</ram:ChargeAmount>
                 </ram:NetPriceProductTradePrice>
             </ram:SpecifiedLineTradeAgreement>
             <ram:SpecifiedLineTradeDelivery>
-                <ram:BilledQuantity unitCode="XPP">11</ram:BilledQuantity>
+                <ram:BilledQuantity unitCode="XPP">1</ram:BilledQuantity>
             </ram:SpecifiedLineTradeDelivery>
             <ram:SpecifiedLineTradeSettlement>
                 <ram:ApplicableTradeTax>
@@ -121,30 +128,27 @@
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
-                    <ram:LineTotalAmount>220</ram:LineTotalAmount>
+                    <ram:LineTotalAmount>2800</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
             </ram:SpecifiedLineTradeSettlement>
         </ram:IncludedSupplyChainTradeLineItem>
         <ram:ApplicableHeaderTradeAgreement>
-            <ram:BuyerReference>99000000-18188-16</ram:BuyerReference>
+            <ram:BuyerReference>11002002-98765-43</ram:BuyerReference>
             <ram:SellerTradeParty>
                 <ram:Name>[Seller name]</ram:Name>
-                <ram:Description>Sitz der Gesellschaft […], Registergericht […], Amtsgericht […]</ram:Description>
-                <ram:SpecifiedLegalOrganization>
-                    <ram:ID>HRB 123456</ram:ID>
-                </ram:SpecifiedLegalOrganization>
+                <ram:SpecifiedLegalOrganization />
                 <ram:DefinedTradeContact>
                     <ram:PersonName>[Seller contact person]</ram:PersonName>
                     <ram:TelephoneUniversalCommunication>
-                        <ram:CompleteNumber>+49 123456789</ram:CompleteNumber>
+                        <ram:CompleteNumber>[Seller contact telephone number]</ram:CompleteNumber>
                     </ram:TelephoneUniversalCommunication>
                     <ram:EmailURIUniversalCommunication>
-                        <ram:URIID>xxx@schulung.de</ram:URIID>
+                        <ram:URIID>contact@seller.de</ram:URIID>
                     </ram:EmailURIUniversalCommunication>
                 </ram:DefinedTradeContact>
                 <ram:PostalTradeAddress>
-                    <ram:PostcodeCode>12345</ram:PostcodeCode>
-                    <ram:LineOne>[Seller address line 1]</ram:LineOne>
+                    <ram:PostcodeCode>10623</ram:PostcodeCode>
+                    <ram:LineOne>[Seller street]</ram:LineOne>
                     <ram:CityName>[Seller city]</ram:CityName>
                     <ram:CountryID>DE</ram:CountryID>
                 </ram:PostalTradeAddress>
@@ -153,68 +157,73 @@
                 </ram:SpecifiedTaxRegistration>
             </ram:SellerTradeParty>
             <ram:BuyerTradeParty>
-                <ram:ID>BI123456</ram:ID>
                 <ram:Name>[Buyer name]</ram:Name>
+                <ram:DefinedTradeContact>
+                    <ram:PersonName>[Buyer contact person]</ram:PersonName>
+                    <ram:EmailURIUniversalCommunication>
+                        <ram:URIID>buyer@contact.com</ram:URIID>
+                    </ram:EmailURIUniversalCommunication>
+                </ram:DefinedTradeContact>
                 <ram:PostalTradeAddress>
                     <ram:PostcodeCode>12345</ram:PostcodeCode>
-                    <ram:LineOne>[Buyer address line 1]</ram:LineOne>
+                    <ram:LineOne>[Buyer street]</ram:LineOne>
                     <ram:CityName>[Buyer city]</ram:CityName>
                     <ram:CountryID>DE</ram:CountryID>
                 </ram:PostalTradeAddress>
             </ram:BuyerTradeParty>
+            <ram:BuyerOrderReferencedDocument>
+                <ram:IssuerAssignedID>10520</ram:IssuerAssignedID>
+            </ram:BuyerOrderReferencedDocument>
+            <ram:ContractReferencedDocument>
+                <ram:IssuerAssignedID>0000000752</ram:IssuerAssignedID>
+            </ram:ContractReferencedDocument>
+            <ram:AdditionalReferencedDocument>
+                <ram:IssuerAssignedID>01_15_Anhang_01</ram:IssuerAssignedID>
+                <ram:URIID>https://www.xoev.de/xrechnung/0000123456/01_15_Anhang_01.pdf</ram:URIID>
+                <ram:TypeCode>916</ram:TypeCode>
+                <ram:Name>Aufschlüsselung der einzelnen Leistungspositionen</ram:Name>                             
+            </ram:AdditionalReferencedDocument>
+            <ram:AdditionalReferencedDocument>
+                <ram:IssuerAssignedID>01_15_Anhang_02</ram:IssuerAssignedID>
+                <ram:URIID>https://www.xoev.de/xrechnung/0000123456/01_15_Anhang_02.pdf</ram:URIID>      
+                <ram:TypeCode>916</ram:TypeCode>
+                <ram:Name>Gesamtübersicht der Leistungspositionen</ram:Name>                       
+            </ram:AdditionalReferencedDocument>
             <ram:SpecifiedProcuringProject>
-                <ram:ID>PR456789</ram:ID>
+                <ram:ID>Entwicklung System</ram:ID>
                 <ram:Name>Project reference</ram:Name>
             </ram:SpecifiedProcuringProject>
         </ram:ApplicableHeaderTradeAgreement>
-        <ram:ApplicableHeaderTradeDelivery>
-            <ram:ShipToTradeParty>
-                <ram:Name>Schulungsanbieter</ram:Name>
-                <ram:PostalTradeAddress>
-                    <ram:PostcodeCode>12345</ram:PostcodeCode>
-                    <ram:CityName>Schulungsort</ram:CityName>
-                    <ram:CountryID>DE</ram:CountryID>
-                </ram:PostalTradeAddress>
-            </ram:ShipToTradeParty>
-        </ram:ApplicableHeaderTradeDelivery>
+        <ram:ApplicableHeaderTradeDelivery />
         <ram:ApplicableHeaderTradeSettlement>            
             <ram:InvoiceCurrencyCode>EUR</ram:InvoiceCurrencyCode>
             <ram:SpecifiedTradeSettlementPaymentMeans>
-                <ram:TypeCode>30</ram:TypeCode>
-                <ram:PayeePartyCreditorFinancialAccount>
-                    <ram:IBANID>DE12345678912345678912</ram:IBANID>
-                </ram:PayeePartyCreditorFinancialAccount>
-            </ram:SpecifiedTradeSettlementPaymentMeans>
-            <ram:SpecifiedTradeSettlementPaymentMeans>
-                <ram:TypeCode>30</ram:TypeCode>
-                <ram:PayeePartyCreditorFinancialAccount>
-                    <ram:IBANID>DE12345678912345678913</ram:IBANID>
-                </ram:PayeePartyCreditorFinancialAccount>
+                <ram:TypeCode>48</ram:TypeCode>
+                <ram:ApplicableTradeSettlementFinancialCard>
+                    <ram:ID>41234</ram:ID>
+                    <ram:CardholderName>[Payment card holder name]</ram:CardholderName>
+                </ram:ApplicableTradeSettlementFinancialCard>
             </ram:SpecifiedTradeSettlementPaymentMeans>
             <ram:ApplicableTradeTax>
-                <ram:CalculatedAmount>1685.3</ram:CalculatedAmount>
+                <ram:CalculatedAmount>1706.2</ram:CalculatedAmount>
                 <ram:TypeCode>VAT</ram:TypeCode>
-                <ram:BasisAmount>8870</ram:BasisAmount>
+                <ram:BasisAmount>8980</ram:BasisAmount>
                 <ram:CategoryCode>S</ram:CategoryCode>
                 <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
             </ram:ApplicableTradeTax>
-            <ram:BillingSpecifiedPeriod>
-                <ram:StartDateTime>
-                    <udt:DateTimeString format="102">20150420</udt:DateTimeString>
-                </ram:StartDateTime>
-                <ram:EndDateTime>
-                    <udt:DateTimeString format="102">20150424</udt:DateTimeString>
-                </ram:EndDateTime>
-            </ram:BillingSpecifiedPeriod>
             <ram:SpecifiedTradePaymentTerms>
-                <ram:Description>14 Tage</ram:Description>
+                <ram:Description>Bei Zahlungen binnen 14 Tagen, 2% Skonto</ram:Description>
+                <ram:DueDateDateTime>
+                    <udt:DateTimeString format="102"
+                        >20180110</udt:DateTimeString>
+                </ram:DueDateDateTime>
             </ram:SpecifiedTradePaymentTerms>
             <ram:SpecifiedTradeSettlementHeaderMonetarySummation>
-                <ram:LineTotalAmount>8870</ram:LineTotalAmount>
-                <ram:TaxBasisTotalAmount>8870</ram:TaxBasisTotalAmount>
-                <ram:TaxTotalAmount currencyID="EUR">1685.3</ram:TaxTotalAmount>
-                <ram:GrandTotalAmount>10555.3</ram:GrandTotalAmount>
-                <ram:DuePayableAmount>10555.3</ram:DuePayableAmount>
+                <ram:LineTotalAmount>8980</ram:LineTotalAmount>
+                <ram:TaxBasisTotalAmount>8980</ram:TaxBasisTotalAmount>
+                <ram:TaxTotalAmount currencyID="EUR">1706.2</ram:TaxTotalAmount>
+                <ram:GrandTotalAmount>10686.2</ram:GrandTotalAmount>
+                <ram:DuePayableAmount>10686.2</ram:DuePayableAmount>
             </ram:SpecifiedTradeSettlementHeaderMonetarySummation>
         </ram:ApplicableHeaderTradeSettlement>
     </rsm:SupplyChainTradeTransaction>

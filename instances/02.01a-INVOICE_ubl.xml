@@ -193,7 +193,6 @@
     <cac:TaxCategory>
       <cbc:ID>E</cbc:ID>
       <cbc:Percent>0</cbc:Percent>
-      <cbc:TaxExemptionReason>a reason</cbc:TaxExemptionReason>
       <cac:TaxScheme>
         <cbc:ID>VAT</cbc:ID>
       </cac:TaxScheme>

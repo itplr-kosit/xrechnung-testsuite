@@ -191,8 +191,7 @@
         </ram:ApplicableHeaderTradeAgreement>
         <ram:ApplicableHeaderTradeDelivery/>
         <ram:ApplicableHeaderTradeSettlement>
-            <ram:PaymentReference>0000123456</ram:PaymentReference>
-            <ram:TaxCurrencyCode>EUR</ram:TaxCurrencyCode>
+            <ram:PaymentReference>0000123456</ram:PaymentReference>            
             <ram:InvoiceCurrencyCode>EUR</ram:InvoiceCurrencyCode>
             <ram:SpecifiedTradeSettlementPaymentMeans>
                 <ram:TypeCode>30</ram:TypeCode>

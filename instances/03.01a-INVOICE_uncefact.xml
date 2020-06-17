@@ -582,8 +582,7 @@
     </ram:ApplicableHeaderTradeAgreement>
     <ram:ApplicableHeaderTradeDelivery />
     <ram:ApplicableHeaderTradeSettlement>
-      <ram:CreditorReferenceID>[Bank assigned creditor identifier]</ram:CreditorReferenceID>
-      <ram:TaxCurrencyCode>EUR</ram:TaxCurrencyCode>
+      <ram:CreditorReferenceID>[Bank assigned creditor identifier]</ram:CreditorReferenceID>      
       <ram:InvoiceCurrencyCode>EUR</ram:InvoiceCurrencyCode>
       <ram:SpecifiedTradeSettlementPaymentMeans>
         <ram:TypeCode>59</ram:TypeCode>
