@@ -1,123 +1,176 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project basedir="." name="xrechnung-testsuite" default="prepare-validator-configuration">
 
-    <property name="dist.dir" location="${basedir}/dist" />
-    <property name="lib.dir" location="${basedir}/lib" />
-    <property name="src.dir" location="${basedir}/src" />
-    <property name="build.dir" location="${basedir}/build" />
-    <property name="download.dir" location="${build.dir}/download" />
-    <property name="test.src.dir" location="${src.dir}/src/test" />
-    <property name="test.docs.dir" location="${basedir}/instances" />
-    <property name="test.docs.technical.dir" location="${test.src.dir}/technical" />
-    <property name="reports.dir" location="${build.dir}/reports" />
+  <property name="dist.dir" location="${basedir}/dist" />
+  <property name="lib.dir" location="${basedir}/lib" />
+  <property name="src.dir" location="${basedir}/src" />
+  <property name="instance.dir" location="${basedir}/instances" />
+  <property name="build.dir" location="${basedir}/build" />
+  <property name="download.dir" location="${build.dir}/download" />
 
-    <property name="validator.jar" value="validationtool-1.0.1-standalone.jar" />
-    <property name="xrechnung.version.full" value="1.2.2" />
-    <property name="validator.config.version.full" value="2019-12-30" />
+  <!-- the source of test instances -->
+  <property name="test.src.dir" location="${src.dir}/test" />
+  <property name="test.src.technical.dir" location="${test.src.dir}/technical-cases" />
+  <property name="test.src.business.dir" location="${test.src.dir}/business-cases" />
+  <!-- test instances in the build directory-->
+  <property name="test.build.dir" location="${build.dir}/instances" />
+  <property name="test.build.technical.dir" location="${test.build.dir}/technical-cases" />
+  <property name="test.build.business.dir" location="${test.build.dir}/business-cases" />
+<property name="test.build.generated.dir" location="${test.build.dir}/generated" />
+  <property name="reports.dir" location="${build.dir}/reports" />
 
-    <property name="validator.config.download.url.base" value="https://github.com/itplr-kosit/validator-configuration-xrechnung/releases/download" />
-    <property name="validator.config.release.version" value="release-${validator.config.version.full}" />
-    <property name="validator.config.zip" value="validator-configuration-xrechnung_${xrechnung.version.full}_${validator.config.version.full}.zip" />
-    <property name="validator.repository.dir" location="${build.dir}/repository" />
+  <!-- Version props -->
+  <property name="testsuite.version.major.minor" value="2.0" />
+  <property name="testsuite.version.patch" value="0" />
 
-    <property name="testsuite.version.full" value="2019-12-30" />
+  <property name="testsuite.version" value="${testsuite.version.major.minor}.${testsuite.version.patch}" />
+  <property name="testsuite.version.full" value="${testsuite.version}-aksksk" />
 
-    <property name="dist.name" value="xrechnung-${xrechnung.version.full}-testsuite-${testsuite.version.full}" />
+  <property name="xrechnung.version.full" value="1.2.2" />
 
-    <target name="init" description="Initializes build directory structure and ISO timestamp">
-        <!-- Create timestamps -->
-        <tstamp>
-            <format property="build.date" pattern="yyyy-MM-dd" />
-        </tstamp>
+  <property name="validator.jar" value="validationtool-1.0.1-standalone.jar" />
 
-        <echo>Build date: ${build.date}</echo>
-        <!-- Create the build directory structure used by compile -->
-        <mkdir dir="${build.dir}" />
-        <mkdir dir="${download.dir}" />
-        <mkdir dir="${dist.dir}" />
-        <mkdir dir="${lib.dir}" />
-        <mkdir dir="${validator.repository.dir}" />
-        <mkdir dir="${reports.dir}" />
-    </target>
+  <property name="validator.config.version.full" value="2019-12-30" />
+
+  <property name="validator.config.download.url.base" value="https://github.com/itplr-kosit/validator-configuration-xrechnung/releases/download" />
+  <property name="validator.config.release.version" value="release-${validator.config.version.full}" />
+  <property name="validator.config.zip" value="validator-configuration-xrechnung_${xrechnung.version.full}_${validator.config.version.full}.zip" />
+  <property name="validator.repository.dir" location="${build.dir}/repository" />
+
+  <property name="xmute.version.full" value="0.5" />
 
 
-    <target name="prepare-validationtool" depends="init" description="Download KoSIT validation tool and add jar to library directory">
-        <get src="https://github.com/itplr-kosit/validator/releases/download/validationtool-1_0_1/validationtool-dist-1.0.1-standalone.zip" dest="${download.dir}" verbose="true" skipexisting="true" usetimestamp="true" />
-        <!-- Cause unzip task does not error on missing dest directory -->
+  <property name="dist.name" value="xrechnung-${xrechnung.version.full}-testsuite-${testsuite.version.full}" />
 
-        <fail message="Lib directory ${lib.dir} does not exist!">
-            <condition>
-                <not>
-                    <available file="${lib.dir}" />
-                </not>
-            </condition>
-        </fail>
+  <target name="init" description="Initializes build directory structure and ISO timestamp">
+    <!-- Create timestamps -->
+    <tstamp>
+      <format property="build.date" pattern="yyyy-MM-dd" />
+    </tstamp>
 
-        <fail unless="validator.jar" message="Need to specify property with name 'validator.jar'"></fail>
-        <unzip src="${download.dir}/validationtool-dist-1.0.1-standalone.zip" dest="${lib.dir}">
-            <patternset>
-                <include name="**/${validator.jar}" />
-            </patternset>
-            <flattenmapper />
-        </unzip>
-    </target>
+    <echo>Build date: ${build.date}</echo>
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${build.dir}" />
+    <mkdir dir="${test.build.technical.dir}" />
+    <mkdir dir="${test.build.business.dir}" />
+<mkdir dir="${test.build.generated.dir}" />
+    <mkdir dir="${download.dir}" />
+    <mkdir dir="${dist.dir}" />
+    <mkdir dir="${lib.dir}" />
+    <mkdir dir="${validator.repository.dir}" />
+    <mkdir dir="${reports.dir}" />
+  </target>
 
-    <target name="prepare-validator-configuration">
-        <get src="${validator.config.download.url.base}/${validator.config.release.version}/${validator.config.zip}" dest="${download.dir}" verbose="true" skipexisting="true" usetimestamp="true" />
-        <unzip src="${download.dir}/${validator.config.zip}" dest="${validator.repository.dir}" />
-    </target>
 
-    <target name="test" depends="prepare-validationtool,prepare-validator-configuration" description="Testsuite validation with Validator XRechnung
-        Configuration" unless="test.skip">
-        <echo>Creating validation reports ...</echo>
-        <java jar="${lib.dir}/${validator.jar}" failonerror="yes" fork="yes" dir="${basedir}">
-            <arg value="-s" />
-            <arg value="${validator.repository.dir}/scenarios.xml" />
+  <target name="prepare-validator" depends="init" description="Download KoSIT validator and add jar to library directory">
+    <get src="https://github.com/itplr-kosit/validator/releases/download/validationtool-1_0_1/validationtool-dist-1.0.1-standalone.zip" dest="${download.dir}" verbose="true" skipexisting="true" usetimestamp="true" />
+    <!-- Cause unzip task does not error on missing dest directory -->
 
-            <arg value="-r" />
-            <arg value="${validator.repository.dir}" />
-            <arg value="-h" />
-            <arg value="-o" />
-            <arg value="${reports.dir}" />
-            <arg value="${test.docs.dir}" />
-        </java>
-    </target>
+    <fail message="Lib directory ${lib.dir} does not exist!">
+      <condition>
+        <not>
+          <available file="${lib.dir}" />
+        </not>
+      </condition>
+    </fail>
 
-    <target name="test-technical" depends="test" description="Testsuite
-        technical validation with Validator XRechnung Configuration">
-        <echo>Creating validation reports ...</echo>
-        <java jar="${lib.dir}/${validator.jar}" failonerror="yes" fork="yes" dir="${basedir}">
-            <arg value="-s" />
-            <arg value="${validator.repository.dir}/scenarios.xml" />
+    <fail unless="validator.jar" message="Need to specify property with name 'validator.jar'" />
+    <unzip src="${download.dir}/validationtool-dist-1.0.1-standalone.zip" dest="${lib.dir}">
+      <patternset>
+        <include name="**/${validator.jar}" />
+      </patternset>
+      <flattenmapper />
+    </unzip>
+  </target>
 
-            <arg value="-r" />
-            <arg value="${validator.repository.dir}" />
-            <arg value="-h" />
-            <arg value="-o" />
-            <arg value="${reports.dir}" />
-            <arg value="${test.docs.technical.dir}/ubl-all-inclusive-1.xml" />
-        </java>
-    </target>
 
-    <target name="dist" depends="test" description="Create distribution zip for
-        release">
-        <zip destfile="${dist.dir}/${dist.name}.zip">
-            <fileset dir="${basedir}">
-                <include name="leitfaden-xrechnung-${xrechnung.version.full}-testsuite.pdf" />
-                <include name="Testfallgruppe_01.xlsx" />
-                <include name="testsuite.xml" />
-                <include name="instances/*.xml" />
-            </fileset>
-            <fileset dir="${basedir}">
-                <include name="README.md" />
-                <include name="CHANGELOG.md" />
-            </fileset>
-        </zip>
-    </target>
+  <target name="prepare-validator-configuration" description="Download and unzip validator configuration xrechnung" depends="prepare-validator">
+    <get src="${validator.config.download.url.base}/${validator.config.release.version}/${validator.config.zip}" dest="${download.dir}" verbose="true" skipexisting="true" usetimestamp="true" />
+    <unzip src="${download.dir}/${validator.config.zip}" dest="${validator.repository.dir}" />
+  </target>
 
-    <target name="clean">
-        <!-- Delete the ${build} and ${dist} directory trees -->
-        <delete dir="${build.dir}" verbose="true" includeEmptyDirs="true" />
-        <delete dir="${dist.dir}" />
-    </target>
+
+  <target name="compile-test" depends="init" description="Compiling test instances from sources">
+    <!-- Currently we just copy, but later we will transform etc. before testing -->
+    <copy todir="${test.build.dir}">
+      <fileset dir="${test.src.dir}" />
+    </copy>
+  </target>
+
+  <target name="validator-business-case-test" depends="prepare-validator-configuration" description="Testsuite business case validation" unless="test.skip">
+    <echo>Creating validation reports for business cases...</echo>
+    <java jar="${lib.dir}/${validator.jar}" failonerror="yes" fork="yes" dir="${basedir}">
+      <arg value="-s" />
+      <arg value="${validator.repository.dir}/scenarios.xml" />
+
+      <arg value="-r" />
+      <arg value="${validator.repository.dir}" />
+      <arg value="-h" />
+      <arg value="-o" />
+      <arg value="${reports.dir}" />
+      <arg value="${test.build.business.dir}" />
+    </java>
+  </target>
+
+  <target name="validator-technical-test" depends="prepare-validator-configuration" description="Testsuite technical validation with Validator XRechnung Configuration">
+    <echo>Creating validation reports ...</echo>
+    <java jar="${lib.dir}/${validator.jar}" failonerror="yes" fork="yes" dir="${basedir}">
+      <arg value="-s" />
+      <arg value="${validator.repository.dir}/scenarios.xml" />
+
+      <arg value="-r" />
+      <arg value="${validator.repository.dir}" />
+      <arg value="-h" />
+      <arg value="-o" />
+      <arg value="${reports.dir}" />
+      <arg value="${test.build.technical.dir}/00*.xml" />
+    </java>
+  </target>
+
+
+  <target name="retrieve-xmute" depends="init" if="xmute.download.url.prefix">
+    <fail unless="xmute.download.url.prefix" message="Property             xmute.download.url.prefix must exist for this target to work" />
+    <get src="${xmute.download.url.prefix}/xml-mutate-${xmute.version.full}.jar" dest="${lib.dir}/${xmute.jar}" verbose="true" skipexisting="false" usetimestamp="true" />
+  </target>
+
+  <target name="mutate" depends="compile-test,retrieve-xmute, prepare-validator-configuration" description="Unit TestSchematron Rules wit XML-Mutate" if="xmute.download.url.prefix">
+    <echo>Testing Schematron rules ...</echo>
+    <java jar="${lib.dir}/${xmute.jar}" failonerror="yes" fork="yes" dir="${basedir}">
+
+      <arg value="--schematron" />
+      <arg  value="cenubl=${build.dir}/repository/resources/ubl/2.1/xsl/EN16931-UBL-validation.xsl" />
+      <arg value="--schema" />
+      <arg value="${build.dir}/repository/resources/ubl/2.1/xsd/maindoc/UBL-Invoice-2.1.xsd" />
+
+      <arg value="--target ${test.build.generated.dir}" />
+      <arg value="${test.build.business.dir}/02.01a-INVOICE_ubl.xml" />
+    </java>
+  </target>
+
+
+  <target name="test" depends="compile-test,validator-business-case-test,validator-technical-test" description="Perform all tests">
+    <echo message="Executing all tests" />
+  </target>
+
+
+  <target name="dist" depends="test" description="Create distribution zip for         release">
+    <zip destfile="${dist.dir}/${dist.name}.zip">
+      <fileset dir="${basedir}">
+        <include name="leitfaden-xrechnung-${xrechnung.version.full}-testsuite.pdf" />
+        <include name="testsuite.xml" />
+        <include name="${test.build.dir}/**.xml" />
+      </fileset>
+      <fileset dir="${basedir}">
+        <include name="README.md" />
+        <include name="CHANGELOG.md" />
+      </fileset>
+    </zip>
+  </target>
+
+
+  <target name="clean">
+    <!-- Delete the ${build} and ${dist} directory trees -->
+    <delete dir="${build.dir}" verbose="true" includeEmptyDirs="true" />
+    <delete dir="${dist.dir}" />
+  </target>
 </project>

@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rsm:CrossIndustryInvoice xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100"
+ xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100"
+ xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
+ xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <rsm:ExchangedDocumentContext>          
+        <ram:BusinessProcessSpecifiedDocumentContextParameter>
+            <!-- BT-23 Business process type -->
+            <ram:ID>zdY</ram:ID>
+        </ram:BusinessProcessSpecifiedDocumentContextParameter>
+        <ram:GuidelineSpecifiedDocumentContextParameter>
+            <!-- BT-24 Specification identifier -->
+            <ram:ID>sjmKYzdY</ram:ID>            
+        </ram:GuidelineSpecifiedDocumentContextParameter>     
+    </rsm:ExchangedDocumentContext>
+    <rsm:ExchangedDocument>
+        <!-- BT-1 Invoice number -->
+        <ram:ID>.v_3mWZb</ram:ID>    
+        <!-- BT-3 Invoice type code -->
+        <ram:TypeCode>g-OncZYY</ram:TypeCode>
+        <!-- BT-2 Invoice issue date -->
+        <ram:IssueDateTime>
+            <udt:DateTimeString format="102">00000000</udt:DateTimeString>
+        </ram:IssueDateTime>      
+        <ram:IncludedNote>     
+            <!-- BT-22 Invoice note -->
+            <ram:Content>tx1X.nzsgVTq97</ram:Content>
+            <!-- BT-21 Payment terms -->
+            <ram:SubjectCode >HcuPV8PP</ram:SubjectCode>            
+        </ram:IncludedNote>   
+    </rsm:ExchangedDocument>
+    <rsm:SupplyChainTradeTransaction>
+        <ram:IncludedSupplyChainTradeLineItem>            
+            <ram:AssociatedDocumentLineDocument>
+                <!-- BT-126 Invoice line identifier -->
+                <ram:LineID>I9csBMR1</ram:LineID>                                                
+                <ram:IncludedNote>     
+                    <!-- BT-127 Invoice line note -->
+                    <ram:Content>br2rC2OGuzN</ram:Content>                   
+                </ram:IncludedNote>                
+            </ram:AssociatedDocumentLineDocument>
+            <ram:SpecifiedTradeProduct>    
+                <!-- BT-157 Item standard identifier und BT-157-1 Item standard identifier identification scheme identifier -->
+                <ram:GlobalID schemeID="xCLkcpkS">JgAVHpPi</ram:GlobalID>
+                <!-- BT-155 Item Seller's identifier -->
+                <ram:SellerAssignedID>mGf5A6RF</ram:SellerAssignedID>
+                <!-- BT-156 Item Buyer's identifier -->
+                <ram:BuyerAssignedID>pTsTFoOg</ram:BuyerAssignedID>   
+                <!-- BT-153 Item name -->
+                <ram:Name>Y7oGK_kbBdSLun0ysug005TJUTUWN</ram:Name>   
+                <!-- BT-154 Item description -->
+                <ram:Description>tvJVTQCXrPe1u8JZmYIDh</ram:Description>  
+                <ram:ApplicableProductCharacteristic>
+                    <!-- BT-160 Item attribute name -->
+                    <ram:Description>Zr</ram:Description>
+                    <!-- BT-161 Item attribute value -->
+                    <ram:Value>Fp</ram:Value>                                                                                
+                </ram:ApplicableProductCharacteristic>
+                <!-- BT-158 Item classification identifier, BT-158-1 Item classification identifier identification scheme identifier und BT-158-2 Scheme version identifer-->
+                <ram:DesignatedProductClassification>
+                    <ram:ClassCode listID="ruiufhf" listVersionID="iioewrio">dfdjf</ram:ClassCode>
+                </ram:DesignatedProductClassification>
+                <!-- BT-159 Item country of origin -->
+                <ram:OriginTradeCountry>
+                    <ram:ID>X0Qxjo94</ram:ID>                    
+                </ram:OriginTradeCountry>               
+            </ram:SpecifiedTradeProduct>
+            <ram:SpecifiedLineTradeAgreement>                
+                <ram:BuyerOrderReferencedDocument> 
+                    <!-- BT-132 Referenced purchase order line reference -->
+                    <ram:LineID>OCePRLYb</ram:LineID>                    
+                </ram:BuyerOrderReferencedDocument>
+                <ram:GrossPriceProductTradePrice>
+                    <!-- BT-148 Item price discount -->
+                    <ram:ChargeAmount>784818965.434</ram:ChargeAmount>
+                    <!-- BT-149 Item price base quantity und BT-150 Item price base quantity unit of measure code-->
+                    <ram:BasisQuantity unitCode="xcqYc-b1">391377374.879</ram:BasisQuantity>
+                    <ram:AppliedTradeAllowanceCharge>       
+                        <!-- BT-147 Item price discount -->
+                        <ram:ActualAmount>381106382.626</ram:ActualAmount>
+                    </ram:AppliedTradeAllowanceCharge>
+                </ram:GrossPriceProductTradePrice>
+                <ram:NetPriceProductTradePrice>
+                    <!-- BT-146 Item net price -->
+                    <ram:ChargeAmount>-648836039.778</ram:ChargeAmount>
+                    <!-- BT-149 Item price base quantity und BT-150 Item price base quantity unit of measure code-->
+                    <ram:BasisQuantity unitCode="fFEuWM:5">944902874.689</ram:BasisQuantity>
+                </ram:NetPriceProductTradePrice>
+            </ram:SpecifiedLineTradeAgreement>
+            <ram:SpecifiedLineTradeDelivery>     
+                <!-- BT-129 Invoiced quantity und BT-130 Invoiced quantity unit of measure -->
+                <ram:BilledQuantity unitCode="TwA44.y2">-1933545350.429</ram:BilledQuantity>
+            </ram:SpecifiedLineTradeDelivery>
+            <ram:SpecifiedLineTradeSettlement>                
+                <ram:ApplicableTradeTax>
+                    <!-- BT-151 Invoiced item VAT category code -->
+                    <ram:TypeCode>yMpO11jw</ram:TypeCode>
+                    <!-- BT-151 Invoiced item VAT category code -->
+                    <ram:CategoryCode>3zmgBj2B</ram:CategoryCode>
+                    <!-- BT-152 Invoiced item VAT rate -->
+                    <ram:RateApplicablePercent>-1914239410.985</ram:RateApplicablePercent>
+                </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>   
+                    <!-- BT-134 Invoice line  period  start date -->
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">00000000</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <!-- BT-135 Invoice line period end date -->
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">00000000</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
+                <ram:SpecifiedTradeAllowanceCharge>
+                    <!-- BG-28 INVOICE LINE CHARGES -->
+                    <ram:ChargeIndicator>                        
+                        <udt:Indicator>true</udt:Indicator>
+                    </ram:ChargeIndicator>
+                    <!-- BT-143 Invoice line charge percentage -->
+                    <ram:CalculationPercent>1720155509.759</ram:CalculationPercent>
+                    <!-- BT-142 Invoice line charge base amount -->
+                    <ram:BasisAmount>-463899496.724</ram:BasisAmount>
+                    <!-- BT-141 Invoice line charge amount -->
+                    <ram:ActualAmount>-443680802.579</ram:ActualAmount>
+                    <!-- BT-145 Invoice line charge reason code -->
+                    <ram:ReasonCode>z2:K:4p_</ram:ReasonCode>
+                    <!-- BT-144 Invoice line charge reason -->
+                    <ram:Reason>nztbOOjnu1trMC</ram:Reason>                    
+                </ram:SpecifiedTradeAllowanceCharge>
+                <ram:SpecifiedTradeAllowanceCharge>
+                    <!-- BG-27 INVOICE LINE ALLOWANCES -->
+                    <ram:ChargeIndicator>                        
+                        <udt:Indicator>false</udt:Indicator>
+                    </ram:ChargeIndicator>
+                    <!-- BT-138 Invoice line allowance percentage -->
+                    <ram:CalculationPercent>1720155509.759</ram:CalculationPercent>
+                    <!-- BT-137 Invoice line allowance base amount -->
+                    <ram:BasisAmount>-463899496.724</ram:BasisAmount>
+                    <!-- BT-136 Invoice line allowance amount -->
+                    <ram:ActualAmount>-443680802.579</ram:ActualAmount>
+                    <!-- BT-140 Invoice line allowance reason code -->
+                    <ram:ReasonCode>z2:K:4p_</ram:ReasonCode>
+                    <!-- BT-139 Invoice line allowance reason -->
+                    <ram:Reason>nztbOOjnu1trMC</ram:Reason>                    
+                </ram:SpecifiedTradeAllowanceCharge>
+                <ram:SpecifiedTradeSettlementLineMonetarySummation>
+                    <!-- BT-131 Invoice line net amount -->
+                    <ram:LineTotalAmount>-1880747418.957</ram:LineTotalAmount>                    
+                </ram:SpecifiedTradeSettlementLineMonetarySummation>
+                <ram:AdditionalReferencedDocument>
+                    <!-- BT-128 Invoice line object identifier -->
+                    <ram:IssuerAssignedID>qMjTndOv</ram:IssuerAssignedID>
+                    <!-- BT-128 Invoice line object identifier -->
+                    <ram:TypeCode>130</ram:TypeCode>
+                    <!-- BT-128-1 Invoice line object identifier identification scheme identifier -->
+                    <ram:ReferenceTypeCode>ObJj2QJ6</ram:ReferenceTypeCode>
+                </ram:AdditionalReferencedDocument>
+                <!-- BT-133 Invoice line Buyer accounting reference -->
+                <ram:ReceivableSpecifiedTradeAccountingAccount>
+                    <ram:ID>OM5TTHiX</ram:ID>                    
+                </ram:ReceivableSpecifiedTradeAccountingAccount>
+            </ram:SpecifiedLineTradeSettlement>
+        </ram:IncludedSupplyChainTradeLineItem>
+        <ram:ApplicableHeaderTradeAgreement>
+            <!-- BT-10 Buyer reference -->
+            <ram:BuyerReference>Rv52v</ram:BuyerReference>
+            <ram:SellerTradeParty>
+                <!-- BT-29 Seller identifier -->
+                <ram:ID>KLWAvEBc</ram:ID>     
+                <!-- BT-29 Seller identifier und BT-29-1 Seller identifier identification scheme identifier -->
+                <ram:GlobalID schemeID="WprpRLxO">vnH2n4WW</ram:GlobalID>   
+                <!-- BT-27 Seller name -->
+                <ram:Name>wre6rdp</ram:Name>
+                <!-- BT-33 Seller additional legal information -->
+                <ram:Description>F.AvH68s1HI6bIUi2_HmYcpa8pwNd7</ram:Description>
+                <ram:SpecifiedLegalOrganization>
+                    <!-- BT-30 Seller legal registration identifier and BT-30-1 Seller legal registration identifier identificationscheme identifier-->
+                    <ram:ID schemeID="a3o5MVt6">pUlWwRem</ram:ID>
+                    <!-- BT-28 Seller trading name -->
+                    <ram:TradingBusinessName>pdTydXD47tG</ram:TradingBusinessName>                    
+                </ram:SpecifiedLegalOrganization>
+                <ram:DefinedTradeContact>
+                    <!-- BT-41 Seller contact point -->
+                    <ram:PersonName>Mzlz</ram:PersonName>
+                    <!-- BT-41 Seller contact point -->
+                    <ram:DepartmentName>Ws</ram:DepartmentName>
+                    <!-- BT-42 Seller contact telephone number -->
+                    <ram:TelephoneUniversalCommunication>
+                        <ram:CompleteNumber>DjTj3MbHuLzJ43G2kRRkZdPv</ram:CompleteNumber>
+                    </ram:TelephoneUniversalCommunication>
+                    <!-- BT-43 Seller contact email address -->
+                    <ram:EmailURIUniversalCommunication>
+                        <ram:URIID>1zcYFsVy</ram:URIID>                      
+                    </ram:EmailURIUniversalCommunication>                    
+                </ram:DefinedTradeContact>
+                <ram:PostalTradeAddress>
+                    <!-- BT-38 Seller post code -->
+                    <ram:PostcodeCode>Afn9tvot</ram:PostcodeCode>
+                    <!-- BT-35 Seller address line 1 -->
+                    <ram:LineOne>sSCjCsvs_9xMyYLPZRcSnBujd.Xtr</ram:LineOne>
+                    <!-- BT-36 Seller address line 2 -->
+                    <ram:LineTwo>GJ</ram:LineTwo>
+                    <!-- BT-162 Seller address line 3 -->
+                    <ram:LineThree>mE_vpg</ram:LineThree>
+                    <!-- BT-37 Seller city -->
+                    <ram:CityName>YMn0Wem6SIRV9</ram:CityName>
+                    <!-- BT-40 Seller country codes -->
+                    <ram:CountryID>.Ty6:yib</ram:CountryID>
+                    <!-- BT-39 Seller country subdivision -->
+                    <ram:CountrySubDivisionName>CEn2R_CyBnV.UbIosjZI3VUhSG</ram:CountrySubDivisionName>                    
+                </ram:PostalTradeAddress>
+                <!-- BT-34 Seller electronic address and BT-34-1 Seller electronic address identification scheme identifier -->
+                <ram:URIUniversalCommunication>
+                    <ram:URIID schemeID="knVXugjN">zWZbhyav</ram:URIID>
+                </ram:URIUniversalCommunication>  
+                <!-- BT-31 Seller VAT identifier -->
+                <ram:SpecifiedTaxRegistration>
+                    <ram:ID schemeID="VA">IaLzBQTX</ram:ID>                                
+                </ram:SpecifiedTaxRegistration>   
+                <!-- BT-32 Seller tax registration identifier -->
+                <ram:SpecifiedTaxRegistration>                    
+                    <ram:ID schemeID="FC">IaLzBQTX</ram:ID>                  
+                </ram:SpecifiedTaxRegistration>   
+            </ram:SellerTradeParty>
+            <ram:BuyerTradeParty>
+                <!-- BT-46 Buyer identifier -->
+                <ram:ID>TF2Mffqs</ram:ID>
+                <!-- BT-46 Buyer identifier und Buyer identifier identification scheme identifier -->
+                <ram:GlobalID schemeID="atGSXThq">5Snjl4Vy</ram:GlobalID>
+                <!-- BT-44 Buyer name -->
+                <ram:Name>aqInc</ram:Name>
+                <ram:SpecifiedLegalOrganization>
+                    <!-- BT-47 Buyer  legal  registration identifier und BT-47-1 Buyer legal registration identifier identification scheme identifier-->
+                    <ram:ID schemeID="a3o5MVt6">pUlWwRem</ram:ID>
+                    <!-- BT-45 Buyer trading name -->
+                    <ram:TradingBusinessName>pdTydXD47tG</ram:TradingBusinessName>                    
+                </ram:SpecifiedLegalOrganization>
+                <ram:DefinedTradeContact>
+                    <!-- BT-56 Buyer contact point -->
+                    <ram:PersonName>Mzlz</ram:PersonName>
+                    <!-- BT-56 Buyer contact point -->
+                    <ram:DepartmentName>Ws</ram:DepartmentName>
+                    <!-- BT-57 Buyer contact telephone number -->
+                    <ram:TelephoneUniversalCommunication>
+                        <ram:CompleteNumber>DjTj3MbHuLzJ43G2kRRkZdPv</ram:CompleteNumber>
+                    </ram:TelephoneUniversalCommunication>
+                    <!-- BT-58 Buyer contact email address -->
+                    <ram:EmailURIUniversalCommunication>
+                        <ram:URIID>1zcYFsVy</ram:URIID>                      
+                    </ram:EmailURIUniversalCommunication>                    
+                </ram:DefinedTradeContact>
+                <ram:PostalTradeAddress>
+                    <!-- BT-53 Buyer post code -->
+                    <ram:PostcodeCode>Afn9tvot</ram:PostcodeCode>
+                    <!-- BT-50 Buyer address line 1 -->
+                    <ram:LineOne>sSCjCsvs_9xMyYLPZRcSnBujd.Xtr</ram:LineOne>
+                    <!-- BT-51 Buyer address line 2 -->
+                    <ram:LineTwo>GJ</ram:LineTwo>
+                    <!-- BT-163 Buyer address line 3 -->
+                    <ram:LineThree>mE_vpg</ram:LineThree>
+                    <!-- BT-52 Buyer city -->
+                    <ram:CityName>YMn0Wem6SIRV9</ram:CityName>
+                    <!-- BT-55 Buyer country code -->
+                    <ram:CountryID>.Ty6:yib</ram:CountryID>
+                    <!-- BT-54 Buyer country subdivision -->
+                    <ram:CountrySubDivisionName>CEn2R_CyBnV.UbIosjZI3VUhSG</ram:CountrySubDivisionName>                    
+                </ram:PostalTradeAddress>
+                <!-- BT-49 Buyer electronic address und BT-49-1 Buyer electronic address identification schemeidentifier -->
+                <ram:URIUniversalCommunication>
+                    <ram:URIID schemeID="knVXugjN">zWZbhyav</ram:URIID>
+                </ram:URIUniversalCommunication>    
+                <!-- BT-48 Buyer  VAT  identifier -->
+                <ram:SpecifiedTaxRegistration>
+                    <ram:ID schemeID="VA">Ta_q5:a6</ram:ID>                    
+                </ram:SpecifiedTaxRegistration>
+            </ram:BuyerTradeParty>
+            <ram:SellerTaxRepresentativeTradeParty>
+                <!-- BT-62 Seller tax representative name -->
+                <ram:Name>uSZ</ram:Name>
+                <ram:SpecifiedLegalOrganization>  
+                    <!-- BT-63 Seller tax representative VAT identifier -->
+                    <ram:ID schemeID="VA">rNWrns00</ram:ID>
+                </ram:SpecifiedLegalOrganization>
+                <ram:PostalTradeAddress>
+                    <!-- BT-67 Tax representative post code -->
+                    <ram:PostcodeCode>Afn9tvot</ram:PostcodeCode>
+                    <!-- BT-64 Tax representative address line 1 -->
+                    <ram:LineOne>sSCjCsvs_9xMyYLPZRcSnBujd.Xtr</ram:LineOne>
+                    <!-- BT-65 Tax representative address line 2 -->
+                    <ram:LineTwo>GJ</ram:LineTwo>
+                    <!-- BT-164 Tax representative address line 3 -->
+                    <ram:LineThree>mE_vpg</ram:LineThree>
+                    <!-- BT-66 Tax representative city -->
+                    <ram:CityName>YMn0Wem6SIRV9</ram:CityName>
+                    <!-- BT-69 Tax representative country code -->
+                    <ram:CountryID>.Ty6:yib</ram:CountryID>
+                    <!-- BT-68 Tax representative country subdivision -->
+                    <ram:CountrySubDivisionName>CEn2R_CyBnV.UbIosjZI3VUhSG</ram:CountrySubDivisionName>                    
+                </ram:PostalTradeAddress>
+            </ram:SellerTaxRepresentativeTradeParty>
+            <ram:SellerOrderReferencedDocument>
+                <!-- BT-14 Sales order reference -->
+                <ram:IssuerAssignedID>_mukbsSs</ram:IssuerAssignedID>                
+            </ram:SellerOrderReferencedDocument>
+            <ram:BuyerOrderReferencedDocument>
+                <!-- BT-13 Purchase order reference -->
+                <ram:IssuerAssignedID>xp1HjCj3</ram:IssuerAssignedID>                
+            </ram:BuyerOrderReferencedDocument>
+            <ram:ContractReferencedDocument>
+                <!-- BT-12 Contract reference -->
+                <ram:IssuerAssignedID>UZQ4rN:D</ram:IssuerAssignedID>                
+            </ram:ContractReferencedDocument>            
+            <ram:AdditionalReferencedDocument>
+                <!-- BT-17 Tender or lot reference -->
+                <ram:IssuerAssignedID>DLXsTJ3S</ram:IssuerAssignedID>   
+                <!-- BT-17 Tender or lot reference -->
+                <ram:TypeCode>50</ram:TypeCode>                                
+            </ram:AdditionalReferencedDocument>            
+            <ram:AdditionalReferencedDocument>
+                <!-- BT-18 Invoiced object identifier -->
+                <ram:IssuerAssignedID>DLXsTJ3S</ram:IssuerAssignedID>  
+                <!-- BT-18 Invoiced object identifier -->
+                <ram:TypeCode>130</ram:TypeCode>  
+                <!-- BT 18-1 Scheme identifier -->
+                <ram:ReferenceTypeCode>XDyXr_7d</ram:ReferenceTypeCode>
+            </ram:AdditionalReferencedDocument>
+            <ram:AdditionalReferencedDocument>
+                <!-- BT-122 Supporting document reference -->
+                <ram:IssuerAssignedID>DLXsTJ3S</ram:IssuerAssignedID>  
+                <!-- BT-124 External document location -->
+                <ram:URIID>:vkjlCjS</ram:URIID>
+                <!-- BT-122 Supporting document reference -->
+                <ram:TypeCode>916</ram:TypeCode>
+                <!-- BT-123 Supporting document description -->
+                <ram:Name>gR-CE</ram:Name>
+                <!-- BT-125 Attached document, BT-125-1 Attached document Mime code und BT-125-2 Attached document Filename -->
+                <ram:AttachmentBinaryObject mimeCode="y6HcaVc9" filename="whgl6AgVL2Y6Pa63R49yI">ZGVmYXVsdA==</ram:AttachmentBinaryObject>                
+            </ram:AdditionalReferencedDocument>
+            <!-- BT-11 Project reference -->
+            <ram:SpecifiedProcuringProject>                
+                <ram:ID>-YnoYd12</ram:ID>
+                <ram:Name>Project reference</ram:Name>
+            </ram:SpecifiedProcuringProject>
+        </ram:ApplicableHeaderTradeAgreement>
+        <ram:ApplicableHeaderTradeDelivery>
+            <ram:ShipToTradeParty>
+                <!-- BT-71 Deliver to location identifier -->
+                <ram:ID>nmNn9RE_</ram:ID>    
+                <!-- BT-71 Deliver to location identifier und BT-71-1 Deliver to location identifier identificationscheme identifier -->
+                <ram:GlobalID schemeID="yNP8_s8c">yfTP7q.W</ram:GlobalID>
+                <!-- BT-70 Deliver to party name -->
+                <ram:Name>WiQdU..o2f6zrWz3_mhNWDA28zZ</ram:Name>
+                <ram:PostalTradeAddress>
+                    <!-- BT-78 Deliver to post code -->
+                    <ram:PostcodeCode>Afn9tvot</ram:PostcodeCode>
+                    <!-- BT-75 Deliver to address line 1 -->
+                    <ram:LineOne>sSCjCsvs_9xMyYLPZRcSnBujd.Xtr</ram:LineOne>
+                    <!-- BT-76 Deliver to addressline 2 -->
+                    <ram:LineTwo>GJ</ram:LineTwo>
+                    <!-- BT-165 Deliver to address line 3 -->
+                    <ram:LineThree>mE_vpg</ram:LineThree>
+                    <!-- BT-77 Deliver to city -->
+                    <ram:CityName>YMn0Wem6SIRV9</ram:CityName>
+                    <!-- BT-80 Deliver to country code -->
+                    <ram:CountryID>.Ty6:yib</ram:CountryID>
+                    <!-- BT-79 Deliver to country subdivision -->
+                    <ram:CountrySubDivisionName>CEn2R_CyBnV.UbIosjZI3VUhSG</ram:CountrySubDivisionName>                    
+                </ram:PostalTradeAddress>                
+            </ram:ShipToTradeParty>            
+            <ram:ActualDeliverySupplyChainEvent>     
+                <!-- BT-72 Actual delivery date -->
+                <ram:OccurrenceDateTime>
+                    <udt:DateTimeString format="102">00000000</udt:DateTimeString>
+                </ram:OccurrenceDateTime>
+            </ram:ActualDeliverySupplyChainEvent>   
+            <!-- BT-16 Despatch advice reference -->
+            <ram:DespatchAdviceReferencedDocument>
+                <ram:IssuerAssignedID>e:VEPuB0</ram:IssuerAssignedID>
+            </ram:DespatchAdviceReferencedDocument>
+            <!-- BT-15 Receiving advice reference -->
+            <ram:ReceivingAdviceReferencedDocument>
+                <ram:IssuerAssignedID>WZ8IY9Ey</ram:IssuerAssignedID>       
+            </ram:ReceivingAdviceReferencedDocument>
+        </ram:ApplicableHeaderTradeDelivery>
+        <ram:ApplicableHeaderTradeSettlement>
+            <!-- BT-90 Bank assigned creditor identifier -->
+            <ram:CreditorReferenceID>MGe9g_hX</ram:CreditorReferenceID>
+            <!-- BT-83 Remittance information -->
+            <ram:PaymentReference>Ii-mV5eIgYTxY</ram:PaymentReference>
+            <!-- BT-6 VAT accounting currency code -->
+            <ram:TaxCurrencyCode>QrQjlAR8</ram:TaxCurrencyCode>
+            <!-- BT-5 Invoice currency code -->
+            <ram:InvoiceCurrencyCode>6.l:9xni</ram:InvoiceCurrencyCode>
+            <ram:PayeeTradeParty>     
+                <!-- BT-60 Payee identifier -->
+                <ram:ID>rKBV1B7-</ram:ID>
+                <!-- BT-60 Payee identifier and BT-60-1 Payee identifier identification scheme identifier -->
+                <ram:GlobalID schemeID="Yw3WN_p-">H3GBZ8tG</ram:GlobalID>    
+                <!-- BT-59 Payee name -->
+                <ram:Name>gGNCZyc5sy066Cm</ram:Name>
+                <!-- BT-61 Payee legal registration identifier und Payee legal registration identifier-->
+                <ram:SpecifiedLegalOrganization>                    
+                    <ram:ID schemeID="zYLF7wEN">84nZUpsH</ram:ID>
+                </ram:SpecifiedLegalOrganization>
+            </ram:PayeeTradeParty>                        
+            <ram:SpecifiedTradeSettlementPaymentMeans>
+                <!-- BT-81 Payment means type code -->
+                <ram:TypeCode>VTpW0dmR</ram:TypeCode>
+                <!-- BT-82 Payment means text -->
+                <ram:Information>A5bH_w57_uhUMc6zkQVf</ram:Information>
+                <ram:ApplicableTradeSettlementFinancialCard>   
+                    <!-- BT-87 Payment card primary account number -->
+                    <ram:ID>Kc-iY9DG</ram:ID>    
+                    <!-- BT-88 Payment card holder name -->
+                    <ram:CardholderName>snb11U0</ram:CardholderName>                    
+                </ram:ApplicableTradeSettlementFinancialCard>
+                <ram:PayerPartyDebtorFinancialAccount>
+                    <!-- BT-91 Debited account identifier -->
+                    <ram:IBANID>7WCJc7VJ</ram:IBANID>                    
+                </ram:PayerPartyDebtorFinancialAccount>
+                <ram:PayeePartyCreditorFinancialAccount>
+                    <!-- BT-84 Payment account identifier -->
+                    <ram:IBANID>Fq1RK_j:</ram:IBANID>
+                    <!-- BT-85 Payment account name -->
+                    <ram:AccountName>D_HOLvIoADKZgVARc_IcwF1AvC.HU</ram:AccountName>
+                    <!-- BT-84 Payment account identifier -->
+                    <ram:ProprietaryID>oYDam5ix</ram:ProprietaryID>
+                </ram:PayeePartyCreditorFinancialAccount>
+                <ram:PayeeSpecifiedCreditorFinancialInstitution>
+                    <!-- BT-85 Payment service provider identifier -->
+                    <ram:BICID>j6V4KH9c</ram:BICID>
+                </ram:PayeeSpecifiedCreditorFinancialInstitution>                
+            </ram:SpecifiedTradeSettlementPaymentMeans>                              
+            <ram:ApplicableTradeTax>
+                <!-- BT-117 VAT category tax amount -->
+                <ram:CalculatedAmount>-536080720.895</ram:CalculatedAmount>
+                <!-- BT-118 VAT category code -->
+                <ram:TypeCode>kHKgzCPB</ram:TypeCode> 
+                <!-- BT-120 VAT exemption reason text -->
+                <ram:ExemptionReason>AVQ</ram:ExemptionReason> 
+                <!-- BT-116 VAT category taxable amount -->
+                <ram:BasisAmount>-418775515.458</ram:BasisAmount>
+                <!-- BT-118 VAT category code -->
+                <ram:CategoryCode>BERMvsoQ</ram:CategoryCode>
+                <!-- BT-121 VAT exemption reason code -->
+                <ram:ExemptionReasonCode>AHJ</ram:ExemptionReasonCode>      
+                <!-- BT-7 Value added tax point date -->
+                <ram:TaxPointDate>
+                    <udt:DateString format="102">00000000</udt:DateString>                   
+                </ram:TaxPointDate>
+                <!-- BT-8 Value added tax point date code -->
+                <ram:DueDateTypeCode>7SS5HQh2</ram:DueDateTypeCode>          
+                <!-- BT-119 VAT category rate -->
+                <ram:RateApplicablePercent>1849340432.839</ram:RateApplicablePercent>
+            </ram:ApplicableTradeTax>
+            <ram:BillingSpecifiedPeriod>  
+                <!-- BT-73 Invoicing period start date -->
+                <ram:StartDateTime>
+                    <udt:DateTimeString format="102">00000000</udt:DateTimeString>                    
+                </ram:StartDateTime>
+                <!-- BT-74 Invoicing period  end  date -->
+                <ram:EndDateTime>
+                    <udt:DateTimeString format="102">00000000</udt:DateTimeString>                   
+                </ram:EndDateTime>
+            </ram:BillingSpecifiedPeriod>        
+            <ram:SpecifiedTradeAllowanceCharge>
+                <!-- BT-21 DOCUMENT LEVEL CHARGES-->
+                <ram:ChargeIndicator>
+                    <udt:Indicator>true</udt:Indicator>
+                </ram:ChargeIndicator>
+                <!-- BT-101 Document level charge percentage -->
+                <ram:CalculationPercent>0</ram:CalculationPercent>
+                <!-- BT-100 Document level chargebase amount -->
+                <ram:BasisAmount>0</ram:BasisAmount>
+                <!-- BT-99 Document level charge amount -->
+                <ram:ActualAmount>0</ram:ActualAmount>
+                <!-- BT-105 Document level charge reason code -->
+                <ram:ReasonCode>TAC</ram:ReasonCode>
+                <!-- BT-104 Document level charge reason -->
+                <ram:Reason>Testing</ram:Reason>
+                <ram:CategoryTradeTax>
+                    <!-- BT-102 Document level charge VAT category code -->
+                    <ram:TypeCode>VAT</ram:TypeCode>
+                    <!-- BT-102 Document level charge VAT category code -->
+                    <ram:CategoryCode>E</ram:CategoryCode>
+                    <!-- BT-103 Document level charge VAT rate -->
+                    <ram:RateApplicablePercent>0</ram:RateApplicablePercent>
+                </ram:CategoryTradeTax>
+            </ram:SpecifiedTradeAllowanceCharge>
+            <ram:SpecifiedTradeAllowanceCharge>
+                <!-- BT-20 DOCUMENT LEVEL ALLOWANCES-->
+                <ram:ChargeIndicator>
+                    <udt:Indicator>false</udt:Indicator>
+                </ram:ChargeIndicator>
+                <!-- BT-94 Document level allowance percentage -->
+                <ram:CalculationPercent>0</ram:CalculationPercent>
+                <!-- BT-93 Document level allowance base amount -->
+                <ram:BasisAmount>0</ram:BasisAmount>
+                <!-- BT-92 Document level allowance amounts -->
+                <ram:ActualAmount>0</ram:ActualAmount>
+                <!-- BT-98 Document level allowance reason code Document level allowance reason code -->
+                <ram:ReasonCode>102</ram:ReasonCode>
+                <!-- BT-97 Document level allowance reason -->
+                <ram:Reason>Fixed long term</ram:Reason>                
+                <ram:CategoryTradeTax>
+                    <!-- BT-95 Document level allowance VAT category code -->
+                    <ram:TypeCode>VAT</ram:TypeCode>
+                    <!-- BT-95 Document level allowance VAT category code -->
+                    <ram:CategoryCode>E</ram:CategoryCode>
+                    <!-- BT-96 Document level allowance VAT rate -->
+                    <ram:RateApplicablePercent>0</ram:RateApplicablePercent>
+                </ram:CategoryTradeTax>
+            </ram:SpecifiedTradeAllowanceCharge>                
+            <ram:SpecifiedTradePaymentTerms>                
+                <!-- BT-20 Payment terms -->
+                <ram:Description>J0FIbMoz</ram:Description>
+                <!-- BT-9 Payment due date -->
+                <ram:DueDateDateTime>
+                    <udt:DateTimeString format="102">00000000</udt:DateTimeString>
+                </ram:DueDateDateTime>            
+                <!-- BT-89 Mandate reference identifier -->
+                <ram:DirectDebitMandateID>_1e0uBUk</ram:DirectDebitMandateID>
+            </ram:SpecifiedTradePaymentTerms>
+            <ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+                <!-- BT-106 Sum of Invoice line net amount -->
+                <ram:LineTotalAmount>1390097542.181</ram:LineTotalAmount>
+                <!-- BT-108 Sum of charges on document level -->
+                <ram:ChargeTotalAmount>-1244552201.623</ram:ChargeTotalAmount>
+                <!-- BT-107 Sum of allowances on document level -->
+                <ram:AllowanceTotalAmount>-945764624.713</ram:AllowanceTotalAmount>
+                <!-- BT-109 Invoice total amount without VAT -->
+                <ram:TaxBasisTotalAmount>1491781712.493</ram:TaxBasisTotalAmount>
+                <!-- BT-110 Invoice total VAT amount und BT-111 Invoice total VAT amount in accounting currency -->
+                <ram:TaxTotalAmount currencyID="EUR">1891797214.77</ram:TaxTotalAmount>
+                <!-- BT-114 Rounding amount -->
+                <ram:RoundingAmount>1129961322.248</ram:RoundingAmount>
+                <!-- BT-112 Invoice total amount with VAT -->
+                <ram:GrandTotalAmount>1839510250.233</ram:GrandTotalAmount>
+                <!-- BT-113 Paid amount -->
+                <ram:TotalPrepaidAmount>-1652496993.568</ram:TotalPrepaidAmount>
+                <!-- BT-115 Amount due for payment -->
+                <ram:DuePayableAmount>-30821638.856</ram:DuePayableAmount>                
+            </ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+            <ram:InvoiceReferencedDocument>
+                <!-- BT-25 Preceding Invoice number -->
+                <ram:IssuerAssignedID>jPiC5Ffw</ram:IssuerAssignedID>   
+                <!-- BT-26 Preceding Invoice issue date -->
+                <ram:FormattedIssueDateTime>
+                    <qdt:DateTimeString format="102">00000000</qdt:DateTimeString>
+                </ram:FormattedIssueDateTime>
+            </ram:InvoiceReferencedDocument>
+            <!-- BT-19 Buyer accounting reference -->
+            <ram:ReceivableSpecifiedTradeAccountingAccount>
+                <ram:ID>ehU9nGTE</ram:ID>
+            </ram:ReceivableSpecifiedTradeAccountingAccount>           
+        </ram:ApplicableHeaderTradeSettlement>  
+    </rsm:SupplyChainTradeTransaction>
+   </rsm:CrossIndustryInvoice>
