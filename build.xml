@@ -16,7 +16,7 @@
   <property name="test.build.dir" location="${build.dir}/instances" />
   <property name="test.build.technical.dir" location="${test.build.dir}/technical-cases" />
   <property name="test.build.business.dir" location="${test.build.dir}/business-cases" />
-<property name="test.build.generated.dir" location="${test.build.dir}/generated" />
+  <property name="test.build.generated.dir" location="${test.build.dir}/generated" />
   <property name="reports.dir" location="${build.dir}/reports" />
 
   <!-- Version props -->
@@ -53,7 +53,7 @@
     <mkdir dir="${build.dir}" />
     <mkdir dir="${test.build.technical.dir}" />
     <mkdir dir="${test.build.business.dir}" />
-<mkdir dir="${test.build.generated.dir}" />
+    <mkdir dir="${test.build.generated.dir}" />
     <mkdir dir="${download.dir}" />
     <mkdir dir="${dist.dir}" />
     <mkdir dir="${lib.dir}" />
@@ -123,7 +123,7 @@
       <arg value="-h" />
       <arg value="-o" />
       <arg value="${reports.dir}" />
-      <arg value="${test.build.technical.dir}/00*.xml" />
+      <arg value="${test.build.technical.dir}" />
     </java>
   </target>
 
@@ -138,7 +138,7 @@
     <java jar="${lib.dir}/${xmute.jar}" failonerror="yes" fork="yes" dir="${basedir}">
 
       <arg value="--schematron" />
-      <arg  value="cenubl=${build.dir}/repository/resources/ubl/2.1/xsl/EN16931-UBL-validation.xsl" />
+      <arg value="cenubl=${build.dir}/repository/resources/ubl/2.1/xsl/EN16931-UBL-validation.xsl" />
       <arg value="--schema" />
       <arg value="${build.dir}/repository/resources/ubl/2.1/xsd/maindoc/UBL-Invoice-2.1.xsd" />
 
@@ -148,7 +148,7 @@
   </target>
 
 
-  <target name="test" depends="compile-test,validator-business-case-test,validator-technical-test" description="Perform all tests">
+  <target name="test" depends="compile-test,validator-business-case-test,validator-technical-test, mutate" description="Perform all tests">
     <echo message="Executing all tests" />
   </target>
 
