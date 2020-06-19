@@ -139,11 +139,9 @@
 
       <arg value="--schematron" />
       <arg value="cenubl=${build.dir}/repository/resources/ubl/2.1/xsl/EN16931-UBL-validation.xsl" />
-      <arg value="--schema" />
-      <arg value="${build.dir}/repository/resources/ubl/2.1/xsd/maindoc/UBL-Invoice-2.1.xsd" />
 
       <arg value="--target ${test.build.generated.dir}" />
-      <arg value="${test.build.business.dir}/02.01a-INVOICE_ubl.xml" />
+      <arg value="${test.build.technical.dir}" />
     </java>
   </target>
 
