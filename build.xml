@@ -21,6 +21,10 @@
     location="${test.build.dir}/technical-cases" />
   <property name="test.build.business.dir"
     location="${test.build.dir}/business-cases" />
+  <property name="test.build.business.standard.dir"
+    location="${test.build.business.dir}/standard" />
+  <property name="test.build.business.extension.dir"
+    location="${test.build.business.dir}/extension" />
   <property name="test.build.generated.dir"
     location="${test.build.dir}/generated" />
   <property name="reports.dir" location="${build.dir}/reports" />
@@ -122,10 +126,10 @@
     </copy>
   </target>
 
-  <target name="validator-business-case-test"
+  <target name="validator-standard-business-case-test"
     depends="prepare-validator-configuration"
     description="Testsuite business case validation" unless="test.skip">
-    <echo>Creating validation reports for business cases...</echo>
+    <echo>Creating validation reports for standard business cases ...</echo>
     <java jar="${lib.dir}/${validator.jar}" failonerror="yes" fork="yes"
       dir="${basedir}">
       <arg value="-s" />
@@ -136,14 +140,32 @@
       <arg value="-h" />
       <arg value="-o" />
       <arg value="${reports.dir}" />
-      <arg value="${test.build.business.dir}" />
+      <arg value="${test.build.business.standard.dir}" />
+    </java>
+  </target>
+
+  <target name="validator-extension-business-case-test"
+    depends="prepare-validator-configuration"
+    description="Testsuite business case validation" unless="test.skip">
+    <echo>Creating validation reports for extension business cases ...</echo>
+    <java jar="${lib.dir}/${validator.jar}" failonerror="yes" fork="yes"
+      dir="${basedir}">
+      <arg value="-s" />
+      <arg value="${validator.repository.dir}/scenarios.xml" />
+
+      <arg value="-r" />
+      <arg value="${validator.repository.dir}" />
+      <arg value="-h" />
+      <arg value="-o" />
+      <arg value="${reports.dir}" />
+      <arg value="${test.build.business.extension.dir}" />
     </java>
   </target>
 
   <target name="validator-technical-test"
     depends="prepare-validator-configuration"
     description="Testsuite technical validation with Validator XRechnung Configuration">
-    <echo>Creating validation reports ...</echo>
+    <echo>Creating validation reports for technical cases ...</echo>
     <java jar="${lib.dir}/${validator.jar}" failonerror="yes" fork="yes"
       dir="${basedir}">
       <arg value="-s" />
@@ -199,7 +221,7 @@ xrcii:   for XRechnung UN/CEFACT CII-->
 
 
   <target name="test"
-    depends="compile-test,validator-business-case-test,validator-technical-test, mutate"
+    depends="compile-test,validator-standard-business-case-test,validator-extension-business-case-test,validator-technical-test, mutate"
     description="Perform all tests">
     <echo message="Executing all tests" />
   </target>
