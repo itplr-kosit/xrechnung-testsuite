@@ -7,6 +7,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 -->
 
+
+## 2020-07-31
+
+This release is compatible to XRechnung 2.0.0.
+
+### Added
+
+* docs/development.md for further hints on developing test cases
+* pure technical test cases
+
+### Changed
+
+* All instances changed to specification id for XRechnung 2.0.0
+* Restructured directory layout to differentiate business test cases for the standard only (CIUS) and with extension
+
 ## 2019-12-30
 
 This release is compatible to XRechnung 1.2.2.

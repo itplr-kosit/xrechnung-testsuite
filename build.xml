@@ -123,7 +123,7 @@
   </target>
 
   <target name="validator-business-case-test"
-    depends="prepare-validator-configuration"
+    depends="prepare-validator-configuration, compile-test"
     description="Testsuite business case validation" unless="test.skip">
     <echo>Creating validation reports for business cases...</echo>
     <java jar="${lib.dir}/${validator.jar}" failonerror="yes" fork="yes"
@@ -141,7 +141,7 @@
   </target>
 
   <target name="validator-technical-test"
-    depends="prepare-validator-configuration"
+    depends="prepare-validator-configuration, compile-test"
     description="Testsuite technical validation with Validator XRechnung Configuration">
     <echo>Creating validation reports ...</echo>
     <java jar="${lib.dir}/${validator.jar}" failonerror="yes" fork="yes"
