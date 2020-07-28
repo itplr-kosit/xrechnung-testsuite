@@ -70,11 +70,11 @@
         <ram:ApplicableHeaderTradeAgreement>
             <ram:BuyerReference>90000000-03083-12</ram:BuyerReference>
             <ram:SellerTradeParty>
-                <ram:ID schemeID="MC:VAT">987654321</ram:ID>
+                <ram:ID schemeID="0088">987654321</ram:ID>
                 <ram:Name>[Seller name]</ram:Name>
                 <ram:Description>Amtsgericht […], Geschäftsführer: […], Sitz der Gesellschaft […], Aufsichtsratvorsitzender: […]</ram:Description>
                 <ram:SpecifiedLegalOrganization>
-                    <ram:ID schemeID="MC:VAT">123456789</ram:ID>
+                    <ram:ID schemeID="0088">123456789</ram:ID>
                     <ram:TradingBusinessName>[Seller trading name]</ram:TradingBusinessName>
                 </ram:SpecifiedLegalOrganization>
                 <ram:DefinedTradeContact>
@@ -107,7 +107,7 @@
                 <ram:ID>138</ram:ID>
                 <ram:Name>[Buyer name]</ram:Name>
                 <ram:SpecifiedLegalOrganization>
-                    <ram:ID schemeID="DE:LID">90000000-03083-12</ram:ID>
+                    <ram:ID schemeID="0204">90000000-03083-12</ram:ID>
                 </ram:SpecifiedLegalOrganization>
                 <ram:DefinedTradeContact>
                     <ram:PersonName>Tina Tester</ram:PersonName>
