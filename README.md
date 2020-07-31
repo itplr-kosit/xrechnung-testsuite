@@ -21,4 +21,3 @@ ant test
 
 Der Validator und die aktuellste Validator Konfiguration für XRechnung werden automatisch heruntergeladen und die Testnachrichten anschließend geprüft.
 Die Prüfberichte finden sich abschließend im Unterverzeichnis `./build/reports`.
-
