@@ -99,7 +99,7 @@
       <cbc:Name>Sanitär und Zubehör</cbc:Name>
       <cac:ClassifiedTaxCategory>
         <cbc:ID>S</cbc:ID>
-        <cbc:Percent>7</cbc:Percent>
+        <cbc:Percent>19</cbc:Percent>
         <cac:TaxScheme>
           <cbc:ID>VAT</cbc:ID>
         </cac:TaxScheme>
@@ -211,7 +211,7 @@
       <cbc:Name>Heizung und Zubehör</cbc:Name>
       <cac:ClassifiedTaxCategory>
         <cbc:ID>S</cbc:ID>
-        <cbc:Percent>7</cbc:Percent>
+        <cbc:Percent>19</cbc:Percent>
         <cac:TaxScheme>
           <cbc:ID>VAT</cbc:ID>
         </cac:TaxScheme>
