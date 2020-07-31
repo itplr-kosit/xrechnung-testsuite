@@ -21,6 +21,11 @@ This release is compatible to XRechnung 2.0.0.
 
 * All instances changed to specification id for XRechnung 2.0.0
 * Restructured directory layout to differentiate business test cases for the standard only (CIUS) and with extension
+* validator configuration is now local only dependency for development
+
+### Removed 
+
+* Any dependency on XML Validator 
 
 ## 2019-12-30
 
