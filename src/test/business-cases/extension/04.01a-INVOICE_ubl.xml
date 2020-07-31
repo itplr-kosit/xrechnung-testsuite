@@ -108,21 +108,6 @@
     <cac:Price>
       <cbc:PriceAmount currencyID="EUR">120</cbc:PriceAmount>
     </cac:Price>
-    <cac:AllowanceCharge>
-      <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
-      <cbc:AllowanceChargeReasonCode>67</cbc:AllowanceChargeReasonCode>
-      <cbc:AllowanceChargeReason>Testing</cbc:AllowanceChargeReason>
-      <cbc:MultiplierFactorNumeric>0</cbc:MultiplierFactorNumeric>
-      <cbc:Amount currencyID="EUR">0</cbc:Amount>
-      <cbc:BaseAmount currencyID="EUR">0</cbc:BaseAmount>
-      <cac:TaxCategory>
-        <cbc:ID>S</cbc:ID>
-        <cbc:Percent>19</cbc:Percent>
-        <cac:TaxScheme>
-          <cbc:ID>VAT</cbc:ID>
-        </cac:TaxScheme>
-      </cac:TaxCategory>
-    </cac:AllowanceCharge>
     <cbc:InvoicedQuantity unitCode="XPP">100</cbc:InvoicedQuantity>
     <cac:SubInvoiceLine>
       <cbc:ID>1 1</cbc:ID>
@@ -220,22 +205,7 @@
     <cac:Price>
       <cbc:PriceAmount currencyID="EUR">120</cbc:PriceAmount>
     </cac:Price>
-    <cbc:InvoicedQuantity unitCode="XPP">100</cbc:InvoicedQuantity>
-    <cac:AllowanceCharge>
-      <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
-      <cbc:AllowanceChargeReasonCode>67</cbc:AllowanceChargeReasonCode>
-      <cbc:AllowanceChargeReason>Testing</cbc:AllowanceChargeReason>
-      <cbc:MultiplierFactorNumeric>0</cbc:MultiplierFactorNumeric>
-      <cbc:Amount currencyID="EUR">0</cbc:Amount>
-      <cbc:BaseAmount currencyID="EUR">0</cbc:BaseAmount>
-      <cac:TaxCategory>
-        <cbc:ID>S</cbc:ID>
-        <cbc:Percent>19</cbc:Percent>
-        <cac:TaxScheme>
-          <cbc:ID>VAT</cbc:ID>
-        </cac:TaxScheme>
-      </cac:TaxCategory>
-    </cac:AllowanceCharge>
+    <cbc:InvoicedQuantity unitCode="XPP">100</cbc:InvoicedQuantity>   
     <cac:SubInvoiceLine>
       <cbc:ID>2 1</cbc:ID>
       <cbc:LineExtensionAmount currencyID="EUR">1324</cbc:LineExtensionAmount>
