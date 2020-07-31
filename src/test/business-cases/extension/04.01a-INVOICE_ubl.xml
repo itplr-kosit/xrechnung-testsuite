@@ -97,6 +97,13 @@
     <cbc:LineExtensionAmount currencyID="EUR">818.04</cbc:LineExtensionAmount>
     <cac:Item>
       <cbc:Name>Sanitär und Zubehör</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>7</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
     </cac:Item>
     <cac:Price>
       <cbc:PriceAmount currencyID="EUR">120</cbc:PriceAmount>
@@ -202,6 +209,13 @@
     <cbc:LineExtensionAmount currencyID="EUR">11718.8</cbc:LineExtensionAmount>
     <cac:Item>
       <cbc:Name>Heizung und Zubehör</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>7</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
     </cac:Item>
     <cac:Price>
       <cbc:PriceAmount currencyID="EUR">120</cbc:PriceAmount>
