@@ -94,6 +94,7 @@
   </cac:LegalMonetaryTotal>
   <cac:InvoiceLine>
     <cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="XPP">100</cbc:InvoicedQuantity>
     <cbc:LineExtensionAmount currencyID="EUR">818.04</cbc:LineExtensionAmount>
     <cac:Item>
       <cbc:Name>Sanitär und Zubehör</cbc:Name>
@@ -108,7 +109,6 @@
     <cac:Price>
       <cbc:PriceAmount currencyID="EUR">120</cbc:PriceAmount>
     </cac:Price>
-    <cbc:InvoicedQuantity unitCode="XPP">100</cbc:InvoicedQuantity>
     <cac:SubInvoiceLine>
       <cbc:ID>1 1</cbc:ID>
       <cbc:LineExtensionAmount currencyID="EUR">335.79</cbc:LineExtensionAmount>
@@ -191,6 +191,7 @@
   </cac:InvoiceLine>
   <cac:InvoiceLine>
     <cbc:ID>2</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="XPP">100</cbc:InvoicedQuantity>
     <cbc:LineExtensionAmount currencyID="EUR">11718.8</cbc:LineExtensionAmount>
     <cac:Item>
       <cbc:Name>Heizung und Zubehör</cbc:Name>
@@ -204,8 +205,7 @@
     </cac:Item>
     <cac:Price>
       <cbc:PriceAmount currencyID="EUR">120</cbc:PriceAmount>
-    </cac:Price>
-    <cbc:InvoicedQuantity unitCode="XPP">100</cbc:InvoicedQuantity>   
+    </cac:Price>   
     <cac:SubInvoiceLine>
       <cbc:ID>2 1</cbc:ID>
       <cbc:LineExtensionAmount currencyID="EUR">1324</cbc:LineExtensionAmount>
