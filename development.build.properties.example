@@ -41,8 +41,3 @@ validator.configuration.download.url.prefix=file://${work.dir}/../validator-conf
 
 
 validator.configuration.zip=validator-configuration-xrechnung_${xrechnung.version.full}_${validator.configuration.version.full}.zip
-
-##
-# Skip tests only for certain development states!
-##
-skip.tests=true
