@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rsm:CrossIndustryInvoice xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100"
                           xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100"
-                          xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
-                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                          xsi:schemaLocation="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100 ../../../schemas/UN_CEFACT/CrossIndustryInvoice_100pD16B.xsd">
+                          xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100">
     <rsm:ExchangedDocumentContext>
         <ram:GuidelineSpecifiedDocumentContextParameter>
             <ram:ID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_2.0</ram:ID>
@@ -105,12 +103,13 @@
             </ram:BuyerTradeParty>
         </ram:ApplicableHeaderTradeAgreement>
         <ram:ApplicableHeaderTradeDelivery/>
-        <ram:ApplicableHeaderTradeSettlement>            
+        <ram:ApplicableHeaderTradeSettlement>
             <ram:InvoiceCurrencyCode>EUR</ram:InvoiceCurrencyCode>
             <ram:SpecifiedTradeSettlementPaymentMeans>
-                <ram:TypeCode>30</ram:TypeCode>
+                <ram:TypeCode>58</ram:TypeCode>
                 <ram:PayeePartyCreditorFinancialAccount>
-                    <ram:IBANID>DE12345678912345678912</ram:IBANID>
+                    <!-- dies ist eine nicht existerende aber valide IBAN als test dummy -->
+                    <ram:IBANID>DE12500105170648489890</ram:IBANID>
                 </ram:PayeePartyCreditorFinancialAccount>
             </ram:SpecifiedTradeSettlementPaymentMeans>
             <ram:ApplicableTradeTax>
