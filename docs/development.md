@@ -23,7 +23,7 @@ All source instances are in `src/test/{business,technical}-cases`. Instances in 
 
 Business case instances are further divided in examples of the `standard` (CIUS) and `extension`.
 
-The directory `technical/cases` contains instances for the sole purpose to cover detailed technical aspects of XRechnung development such as codelist tests among others.
+The directory `technical/cases` contains instances for the sole purpose to cover detailed technical aspects of XRechnung development such as codelist tests among others. These technical cases might not be valid instances w.r.t. to XRechnung specification.
 
 ## Test Cases development with XML Mutate
 
