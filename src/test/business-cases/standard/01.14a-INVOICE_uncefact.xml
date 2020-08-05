@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rsm:CrossIndustryInvoice xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100"
                           xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100"
-                          xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
-                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                          xsi:schemaLocation="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100 ../../../schemas/UN_CEFACT/CrossIndustryInvoice_100pD16B.xsd">
+                          xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100">
     <rsm:ExchangedDocumentContext>
         <ram:GuidelineSpecifiedDocumentContextParameter>
             <ram:ID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_2.0</ram:ID>
@@ -78,7 +76,7 @@
             <ram:SellerTradeParty>
                 <ram:Name>[Seller name]</ram:Name>
                 <ram:SpecifiedLegalOrganization>
-                    <ram:ID>GmbH</ram:ID>
+                    <ram:ID>HRB 123</ram:ID>
                 </ram:SpecifiedLegalOrganization>
                 <ram:DefinedTradeContact>
                     <ram:PersonName>Tim Tester</ram:PersonName>
@@ -102,7 +100,7 @@
                 <ram:ID>138</ram:ID>
                 <ram:Name>[Buyer name]</ram:Name>
                 <ram:SpecifiedLegalOrganization>
-                    <ram:ID>GmbH</ram:ID>
+                    <ram:ID>HRB 3456</ram:ID>
                 </ram:SpecifiedLegalOrganization>
                 <ram:DefinedTradeContact>
                     <ram:PersonName>Tina Tester</ram:PersonName>
@@ -158,16 +156,17 @@
             </ram:ActualDeliverySupplyChainEvent>
         </ram:ApplicableHeaderTradeDelivery>
         <ram:ApplicableHeaderTradeSettlement>
-            <ram:PaymentReference>Deb. 12345 / Fact. 9876543</ram:PaymentReference>            
+            <ram:PaymentReference>Deb. 12345 / Fact. 9876543</ram:PaymentReference>
             <ram:InvoiceCurrencyCode>EUR</ram:InvoiceCurrencyCode>
             <ram:PayeeTradeParty>
                 <ram:ID>74</ram:ID>
                 <ram:Name>[Payee name]</ram:Name>
             </ram:PayeeTradeParty>
             <ram:SpecifiedTradeSettlementPaymentMeans>
-                <ram:TypeCode>30</ram:TypeCode>
+                <ram:TypeCode>58</ram:TypeCode>
                 <ram:PayeePartyCreditorFinancialAccount>
-                    <ram:IBANID>DE12100200000123456878</ram:IBANID>
+                    <!-- dies ist eine nicht existerende aber valide IBAN als test dummy -->
+                    <ram:IBANID>DE75512108001245126199</ram:IBANID>
                 </ram:PayeePartyCreditorFinancialAccount>
             </ram:SpecifiedTradeSettlementPaymentMeans>
             <ram:ApplicableTradeTax>
