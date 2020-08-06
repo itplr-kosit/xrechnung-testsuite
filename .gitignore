@@ -2,6 +2,9 @@ build
 dist
 lib
 reports
+# developer files
+development.build.properties
+
 # configuration files
 .vscode
 *.xpr
