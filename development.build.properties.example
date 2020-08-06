@@ -5,39 +5,39 @@
 #
 # Please set this value first and wit absolute path.
 ##
-work.dir=/mnt/c/data/git-repos/xrechnung-testsuite
+#work.dir=/mnt/c/data/git-repos/xrechnung-testsuite
 
 
-xrechnung.version.full=2.0.0
+#xrechnung.version.full=2.0.0
 
 ##
 # Set this property in order to activate targets for local development
 # Be aware the presence of this property determines some of the behavior independent of the value
 ##
-develop.local.validator=true
+#develop.local.validator=true
 
-validator.version=1.3.1-SNAPSHOT
+#validator.version=1.3.1-SNAPSHOT
 ##
 # Should point to main directory of validator project, in case of local path
 ##
-validator.download.url.prefix=file://${work.dir}/../validator/
+#validator.download.url.prefix=file://${work.dir}/../validator/
 
 ##
 # Set this property in order to activate targets for local development
 # Be aware the presence of this property determines some of the behavior independent of the value
 ##
-develop.local.validator.configuration=true
+#develop.local.validator.configuration=true
 
 ##
 # Current version of Validator Configuration XRechnung
 ##
-validator.configuration.version.full=2020-07-24
+#validator.configuration.version.full=2020-07-24
 
 ###
 # Get latest Validator Configuration XRechnung distribution from your local git project
 # Example is relative to this project directory in local file system
 ##
-validator.configuration.download.url.prefix=file://${work.dir}/../validator-configuration-xrechnung/dist
+#validator.configuration.download.url.prefix=file://${work.dir}/../validator-configuration-xrechnung/dist
 
 
 validator.configuration.zip=validator-configuration-xrechnung_${xrechnung.version.full}_${validator.configuration.version.full}.zip
