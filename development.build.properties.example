@@ -37,10 +37,10 @@
 
 #validator.jar=validationtool-${validator.version.full}-java8-standalone.jar
 
-
-
-
+###
+# Point to local copy of xml-mutate project directory
+# Example is relative to this project directory in local file system
 ##
-# Skip tests only for certain development states!
-##
-# skip.tests=true
+#xmute.download.url.prefix=file://${work.dir}/../xml-mutate
+#xmute.version.full=0.5
+#xmute.jar=xml-mutate-${xmute.version.full}.jar

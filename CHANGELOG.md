@@ -10,18 +10,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 2020-07-31
 
-This release is compatible to XRechnung 2.0.0.
+This release is compatible with XRechnung 2.0.0.
 
 ### Added
 
-* docs/development.md for further hints on developing test cases
-* pure technical test cases
+* `docs/development.md` for further hints on developing test cases
+* Pure technical test cases
 
 ### Changed
 
 * All instances changed to specification id for XRechnung 2.0.0
 * Restructured directory layout to differentiate business test cases for the standard only (CIUS) and with extension
-* validator configuration is now local only dependency for development
+* Validator configuration is now local only dependency for development
 * Fix bug with invalid IBANs in some instances
 * Adjustments to new CEN rules
 

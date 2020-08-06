@@ -163,10 +163,12 @@
 
   </target>
 
-  <target name="retrieve-xmute" depends="init" if="xmute.download.url.prefix">
+  <target name="retrieve-xmute" depends="init">
     <fail unless="xmute.download.url.prefix"
       message="Property xmute.download.url.prefix must exist for this target to work" />
-    <get src="${xmute.download.url.prefix}/xml-mutate-${xmute.version.full}.jar"
+    <fail unless="xmute.version.full"
+      message="Property xmute.version.full must exist for this target to work" />
+    <get src="${xmute.download.url.prefix}/target/xml-mutate-${xmute.version.full}.jar"
       dest="${lib.dir}/${xmute.jar}" verbose="true" skipexisting="false"
       usetimestamp="true" />
   </target>
@@ -182,6 +184,7 @@
     depends="compile-test,retrieve-xmute, provide-validator-configuration"
     description="Unit TestSchematron Rules wit XML-Mutate"
    >
+    <fail unless="xmute.jar" message="xmute.jar has to be set"></fail>
     <echo>Testing Schematron rules ...</echo>
     <java jar="${lib.dir}/${xmute.jar}" failonerror="true" fork="true"
       dir="${basedir}">
@@ -190,7 +193,7 @@
 
       <arg value="--schematron" />
       <arg
-        value="cenubl=${validator.repository.dir}/resources/ubl/2.1/xsl/EN16931-UBL-validation.xsl" />
+        value="cenubl=${validator.configuration.resources.dir}/ubl/2.1/xsl/EN16931-UBL-validation.xsl" />
       <!-- cencii:  for CEN UN/CEFACT CII rules
 xrinv: ´ for XRechnung UBL Invoice
 xrcn:    for XRechnung UBL Credit Note
