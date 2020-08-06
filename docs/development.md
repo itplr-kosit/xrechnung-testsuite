@@ -49,6 +49,19 @@ xrcn:    for XRechnung UBL Credit Note
 xrcii:   for XRechnung UN/CEFACT CII
 ```
 
+## Test Cases development with KoSIT Validator and Validator Configuration XRechnung
+
+Chicken... EGG
+
+Therefore, develoeprs need to work with properties 
+
+and the config must reside in local file system
+
+and testuite test uses resurces from there (all xsd, sch etc.. and validator jar)
+
+
+
+
 ## Project Build
 
 The build tool `Ant` is used as the common build tool across all development environments.
