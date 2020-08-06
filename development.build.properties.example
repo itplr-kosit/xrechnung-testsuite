@@ -14,35 +14,33 @@
 # Set this property in order to activate targets for local development
 # Be aware the presence of this property determines some of the behavior independent of the value
 ##
-#develop.local.validator=true
+# develop.local.validator=true
 
-#validator.version=1.3.1-SNAPSHOT
+
+
+###
+# Point to local copy of Validator Configuration XRechnung project directory
+# Example is relative to this project directory in local file system
+##
+#validator.configuration.download.url.prefix=file://${work.dir}/../validator-configuration-xrechnung/
+
+# this must be a direct absolut path 
+#validator.configuration.project.dir=/mnt/c/data/git-repos/validator-configuration-xrechnung
+#validator.configuration.resources.dir=${validator.configuration.project.dir}/build/resources
+
+
+#validator.version.full=1.3.1-SNAPSHOT
 ##
 # Should point to main directory of validator project, in case of local path
 ##
-#validator.download.url.prefix=file://${work.dir}/../validator/
+#validator.dir=${validator.configuration.project.dir}/lib
 
-##
-# Set this property in order to activate targets for local development
-# Be aware the presence of this property determines some of the behavior independent of the value
-##
-#develop.local.validator.configuration=true
-
-##
-# Current version of Validator Configuration XRechnung
-##
-#validator.configuration.version.full=2020-07-24
-
-###
-# Get latest Validator Configuration XRechnung distribution from your local git project
-# Example is relative to this project directory in local file system
-##
-#validator.configuration.download.url.prefix=file://${work.dir}/../validator-configuration-xrechnung/dist
+#validator.jar=validationtool-${validator.version.full}-java8-standalone.jar
 
 
-validator.configuration.zip=validator-configuration-xrechnung_${xrechnung.version.full}_${validator.configuration.version.full}.zip
+
 
 ##
 # Skip tests only for certain development states!
 ##
-#skip.tests=true
+# skip.tests=true
