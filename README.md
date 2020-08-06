@@ -14,5 +14,3 @@ Geprüft werden sowohl die nationalen als auch die EU-weiten Geschäftsregeln. D
 ## Entwicklung / Development
 
 Further information on development may be found in our [Developer Documentation](./docs/development.md)
-
-
