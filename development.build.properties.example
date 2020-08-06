@@ -45,4 +45,4 @@ validator.configuration.zip=validator-configuration-xrechnung_${xrechnung.versio
 ##
 # Skip tests only for certain development states!
 ##
-skip.tests=true
+#skip.tests=true
