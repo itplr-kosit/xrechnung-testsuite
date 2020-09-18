@@ -125,13 +125,13 @@
     description="Testsuite business case validation"
    >
     <echo>Creating validation reports for extension business cases ...</echo>
-    <java jar="${lib.dir}/${validator.jar}" failonerror="yes" fork="yes"
+    <java jar="${validator.dir}/${validator.jar}" failonerror="yes" fork="yes"
       dir="${basedir}">
       <arg value="-s" />
-      <arg value="${validator.repository.dir}/scenarios.xml" />
+      <arg value="${validator.configuration.project.dir}/build/scenarios.xml" />
 
       <arg value="-r" />
-      <arg value="${validator.repository.dir}" />
+      <arg value="${validator.configuration.project.dir}/build" />
       <arg value="-h" />
       <arg value="-o" />
       <arg value="${reports.dir}" />
@@ -144,13 +144,13 @@
     description="Testsuite technical validation with Validator XRechnung Configuration"
    >
     <echo>Creating validation reports for technical cases ...</echo>
-    <java jar="${lib.dir}/${validator.jar}" failonerror="yes" fork="yes"
+    <java jar="${validator.dir}/${validator.jar}" failonerror="yes" fork="yes"
       dir="${basedir}">
       <arg value="-s" />
-      <arg value="${validator.repository.dir}/scenarios.xml" />
+      <arg value="${validator.configuration.project.dir}/build/scenarios.xml" />
 
       <arg value="-r" />
-      <arg value="${validator.repository.dir}" />
+      <arg value="${validator.configuration.project.dir}/build" />
       <arg value="-h" />
       <arg value="-o" />
       <arg value="${reports.dir}" />
