@@ -9,7 +9,6 @@
     <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
     <cbc:Note>#ADU#Bearbeitungszeitraum: Dezember 2014/ 5.01.-09.01.2015 Abschlagsrechnung A 9</cbc:Note>
     <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
-    <cbc:TaxCurrencyCode>EUR</cbc:TaxCurrencyCode>
     <cbc:BuyerReference>04011000-12354-25</cbc:BuyerReference>
     <cac:OrderReference>
         <cbc:ID>Dummywert</cbc:ID>

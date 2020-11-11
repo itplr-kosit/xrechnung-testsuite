@@ -9,7 +9,6 @@
     <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
     <cbc:Note>#ADU#[Invoice note]</cbc:Note>
     <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
-    <cbc:TaxCurrencyCode>EUR</cbc:TaxCurrencyCode>
     <cbc:BuyerReference>11002002-98765-43</cbc:BuyerReference>
     <cac:OrderReference>
         <cbc:ID>10520</cbc:ID>

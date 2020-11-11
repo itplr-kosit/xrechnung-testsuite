@@ -9,7 +9,6 @@
     <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
     <cbc:Note>#AAC#Invoice Note Description</cbc:Note>
     <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
-    <cbc:TaxCurrencyCode>EUR</cbc:TaxCurrencyCode>
     <cbc:BuyerReference>90000000-03083-12</cbc:BuyerReference>
     <cac:InvoicePeriod>
         <cbc:StartDate>2018-04-13+01:00</cbc:StartDate>
