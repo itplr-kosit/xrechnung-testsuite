@@ -1,25 +1,25 @@
 # Development of XRechnung Testsuite
 
-Here instances are XML documents with invoice content.
+In this context the term **instances** refers to XML documents with invoice content.
 
 ## General Approach
 
-The main purpose of the testsuite is to reflect on real world business cases and that all instances are valid according to a specific version of the XRechnung specification. 
+The main purpose of the Testsuite is to give examples on real world business cases which are valid according to a specific version of the XRechnung specification. 
 
 We always have a kind of chicken and egg issue during development of test instances for the next specification release:
 
-* A change in the specification might lead to new (schematron) rules or even structural changes. That might render previous valid test instances invalid and requires to clearly (re)define what is a valid instance reflecting a certain busines case. At the same time the developers of other components need claerly defined test cases for their implementation.
-* This is especially the case for other XRechnung components such as XRechnung Schematron, XRechnung Visualisation and Validator Configuration XRechnung. 
+* A change in the specification might lead to new (Schematron) rules or even structural changes. This might render previous valid test instances invalid and requires to clearly (re)define what is a valid instance reflecting a certain business case. At the same time developers of other components need clearly defined test cases for their implementations.
+* This is especially the case for other XRechnung components such as XRechnung Schematron, XRechnung Visualization and Validator Configuration XRechnung. 
 
 To deal with this circumstances:
 
 * We require developers of this testsuite to have an up to date local copy (git) of the validator-configuration-xrechnung, because it has all what is needed to validate the testsuite instances using XML Mutate with newest validation resources.
 
-* We require developers of the validator-configuration-xrechnung to have a local copy (git) of this testsuite to force them to test the configuration with newest tessuite instances.
+* We require developers of the validator-configuration-xrechnung to have a local copy (git) of this testsuite to force them to test the configuration with newest testsuite instances.
 
 ## Project Structure
 
-All source instances are in `src/test/{business,technical}-cases`. Instances in `business-cases` are real world invoice derives from real world business cases. However, they are anonymised. These examples serve as positive examples i.e. they are valid and conform to XRechnung specification.
+All source instances are in `src/test/{business,technical}-cases`. Instances in `business-cases` are real world invoices derived from real world business cases. However, they are anonymised. These examples serve as positive examples i.e. they are valid and conform to XRechnung specification.
 
 Business case instances are further divided in examples of the `standard` (CIUS) and `extension`.
 
@@ -37,7 +37,7 @@ If you set the ant property to the URL of directory like e.g. `xmute.download.ur
 
 In order to keep test case development consistent it is important to follow several conventions.
 
-#### Common names for different Schematrons
+#### Common names for different Schematron rule sets
 
 The following names are used to reference different schematron files
 
