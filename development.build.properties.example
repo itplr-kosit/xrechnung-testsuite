@@ -3,7 +3,7 @@
 ##
 # Here values is the same as ant basedir because basedir is not set in this context
 #
-# Please set this value first and wit absolute path.
+# Please set this value first and with an absolute path.
 ##
 #work.dir=/mnt/c/data/git-repos/xrechnung-testsuite
 
@@ -24,7 +24,7 @@
 ##
 #validator.configuration.download.url.prefix=file://${work.dir}/../validator-configuration-xrechnung/
 
-# this must be a direct absolut path 
+# this must be a direct absolute path 
 #validator.configuration.project.dir=/mnt/c/data/git-repos/validator-configuration-xrechnung
 #validator.configuration.resources.dir=${validator.configuration.project.dir}/build/resources
 
