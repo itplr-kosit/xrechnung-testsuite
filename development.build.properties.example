@@ -7,7 +7,9 @@
 ##
 #work.dir=/mnt/c/data/git-repos/xrechnung-testsuite
 
-
+##
+# Designates the specification version for which this test suite is valid
+##
 #xrechnung.version.full=2.0.0
 
 ##
