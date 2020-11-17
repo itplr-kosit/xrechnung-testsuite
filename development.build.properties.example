@@ -12,13 +12,6 @@
 ##
 #xrechnung.version.full=2.0.0
 
-##
-# Set this property in order to activate targets for local development
-# Be aware the presence of this property determines some of the behavior independent of the value
-##
-# develop.local.validator=true
-
-
 
 ###
 # Point to local copy of Validator Configuration XRechnung project directory
