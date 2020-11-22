@@ -57,7 +57,6 @@
     <mkdir dir="${download.dir}" />
     <mkdir dir="${dist.dir}" />
     <mkdir dir="${lib.dir}" />
-    <mkdir dir="${validator.repository.dir}" />
     <mkdir dir="${reports.dir}" />
   </target>
 
@@ -188,12 +187,15 @@
     <echo>Testing Schematron rules ...</echo>
     <java jar="${lib.dir}/${xmute.jar}" failonerror="true" fork="true"
       dir="${basedir}">
-      <!-- Proxy required by genericode mutator -->
+      <!-- Proxy required by genericode mutator 
       <syspropertyset refid="proxy.properties" />
-
+-->
       <arg value="--schematron" />
       <arg
         value="cenubl=${validator.configuration.resources.dir}/ubl/2.1/xsl/EN16931-UBL-validation.xsl" />
+      <arg value="--schematron" />
+      <arg
+        value="xrinv=${validator.configuration.resources.dir}/xrechnung/2.0.0/xsl/XRechnung-UBL-validation-Invoice.xsl" />
       <!-- cencii:  for CEN UN/CEFACT CII rules
 xrinv: ´ for XRechnung UBL Invoice
 xrcn:    for XRechnung UBL Credit Note
