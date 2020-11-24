@@ -70,6 +70,14 @@
     classpath="${lib.dir}/maven-resolver-ant-tasks-1.2.1-uber.jar" />
 
     <resolver:pom file="pom.xml" id="pom"/>
+
+    <resolver:resolve>
+      <dependencies>
+        <pom refid="pom"/>
+      </dependencies>
+      
+    </resolver:resolve>
+
   </target>
   
 <target name="install" depends="init-maven, dist">
@@ -83,7 +91,7 @@
 
 <target name="deploy" depends="install">
   <resolver:deploy artifactsref="output">
-    <remoteRepo id="dist" url="file:///${build.dir}/dist-repo"/>
+    <remoteRepo id="gitlab-maven" url="https://projekte.kosit.org/api/v4/projects/43/packages/maven" />
   </resolver:deploy>
 </target>
 
