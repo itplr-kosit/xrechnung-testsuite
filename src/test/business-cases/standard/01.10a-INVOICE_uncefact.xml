@@ -132,7 +132,7 @@
                 <ram:Description>#SKONTO#TAGE=7#PROZENT=2.00#
 #SKONTO#TAGE=14#PROZENT=1.00#
 #SKONTO#TAGE=30#PROZENT=0.00#
-                </ram:Description>
+</ram:Description>
             </ram:SpecifiedTradePaymentTerms>
             <ram:SpecifiedTradeSettlementHeaderMonetarySummation>
                 <ram:LineTotalAmount>2180</ram:LineTotalAmount>
