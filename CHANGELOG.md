@@ -7,6 +7,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 -->
 
+## Next
+
+### Fixed
+
+* Added BT-90 (cac:PartyIdentification) to integrate von BT-29 with BT-90 for 03-01a-invoice for CII and UBL
+
 
 ## 2020-07-31
 
