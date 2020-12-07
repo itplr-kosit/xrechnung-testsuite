@@ -536,6 +536,8 @@
         <ram:ApplicableHeaderTradeAgreement>
             <ram:BuyerReference>90000000-03083-12</ram:BuyerReference>
             <ram:SellerTradeParty>
+				<ram:ID>[Seller identifier 1]</ram:ID>
+				<ram:ID>[Seller identifier 2]</ram:ID>
                 <ram:Name>[Seller name]</ram:Name>
                 <ram:SpecifiedLegalOrganization/>
                 <ram:DefinedTradeContact>
