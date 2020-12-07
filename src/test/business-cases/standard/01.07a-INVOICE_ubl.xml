@@ -11,7 +11,6 @@
     <cbc:Note>#ADU#Bei Fragen steht Ihnen unsere Kundenbetreuung gern unter der Rufnummer [...] zur Verfügung. Beanstandungen am Inhalt dieser Rechnung sind uns innerhalb von 28 Tagen nach Erhalt der Rechnung schriftlich mitzuteilen. Nach Ablauf dieser Frist gilt der Saldo endgültig.</cbc:Note>
     <cbc:Note>#ADU#Die Deutsche Kreditwirtschaft hat die Händlerbedingungen für die Teilnahme am electronic cash-System angepasst. Sie finden diese unter https://www…./de/agb. Die neuen Händlerbedingungen gelten ab sofort, wobei Sie binnen sechs Wochen nach Bekanntgabe der Änderung einen Widerspruch an Ihre Hausbank richten können. Bitte klären Sie sämtliche Fragen diese Bedingungen betreffend mit Ihrer Hausbank.</cbc:Note>
     <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
-    <cbc:TaxCurrencyCode>EUR</cbc:TaxCurrencyCode>
     <cbc:BuyerReference>99000000-05676-38</cbc:BuyerReference>
     <cac:InvoicePeriod>
         <cbc:StartDate>2016-06-01+01:00</cbc:StartDate>

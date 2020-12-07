@@ -8,7 +8,6 @@
     <cbc:DueDate>2016-02-01+01:00</cbc:DueDate>
     <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
     <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
-    <cbc:TaxCurrencyCode>EUR</cbc:TaxCurrencyCode>
     <cbc:BuyerReference>04011000-12349-30</cbc:BuyerReference>
     <cac:OrderReference>
         <cbc:ID>Dummywert</cbc:ID>

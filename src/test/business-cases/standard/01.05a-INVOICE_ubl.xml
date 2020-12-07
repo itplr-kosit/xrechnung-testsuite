@@ -8,7 +8,6 @@
     <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
     <cbc:Note>#ADU#Trainer: Herr […]</cbc:Note>
     <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
-    <cbc:TaxCurrencyCode>EUR</cbc:TaxCurrencyCode>
     <cbc:BuyerReference>99000000-18188-16</cbc:BuyerReference>
     <cac:InvoicePeriod>
         <cbc:StartDate>2015-04-20+01:00</cbc:StartDate>

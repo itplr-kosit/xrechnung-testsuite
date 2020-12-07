@@ -10,7 +10,6 @@
     <cbc:Note>#ADU#Die Lieferung erfolgte im Monat 06/2016. Die nächsten Ausgaben werden zum jeweiligen Erscheinungstermin ausgeliefert.</cbc:Note>
     <cbc:Note>#ADU#Informationen zum Bankeinzug, einer Adressänderung und vieles mehr finden Sie auch in unseren FAQ.</cbc:Note>
     <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
-    <cbc:TaxCurrencyCode>EUR</cbc:TaxCurrencyCode>
     <cbc:BuyerReference>04011000-12347-32</cbc:BuyerReference>
     <cac:ContractDocumentReference>
         <cbc:ID>CR987654</cbc:ID>

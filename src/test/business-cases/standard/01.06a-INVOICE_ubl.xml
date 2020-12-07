@@ -8,7 +8,6 @@
     <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
     <cbc:Note>#ADU#Die auf Transaktionsebene ausgewiesenen Händlerentgelte und Interchangewerte werden im Rahmen der Abrechnung addiert und kaufmännisch auf ganze Währungseinheiten gerundet.</cbc:Note>
     <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
-    <cbc:TaxCurrencyCode>EUR</cbc:TaxCurrencyCode>
     <cbc:BuyerReference>99000000-01944-84</cbc:BuyerReference>
     <cac:InvoicePeriod>
         <cbc:StartDate>2016-06-01+01:00</cbc:StartDate>
