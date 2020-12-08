@@ -4,6 +4,7 @@
   <property name="dist.dir" location="${basedir}/dist" />
   <property name="lib.dir" location="${basedir}/lib" />
   <property name="src.dir" location="${basedir}/src" />
+  <property name="src.doc.dir" location="${basedir}/src/doc" />
   <property name="instance.dir" location="${basedir}/instances" />
   <property name="build.dir" location="${basedir}/build" />
   <property name="download.dir" location="${build.dir}/download" />
@@ -98,6 +99,15 @@
     <!-- Currently we just copy, but later we will transform etc. before testing -->
     <copy todir="${test.build.dir}">
       <fileset dir="${test.src.dir}" />
+    </copy>
+  </target>
+
+  
+  <target name="compile" depends="compile-test"
+    description="Compiling testsuite from sources">
+    <!-- Currently we just copy, but later we will transform etc. before testing -->
+    <copy todir="${build.dir}">
+      <fileset dir="${src.doc.dir}" />
     </copy>
   </target>
 
@@ -216,11 +226,17 @@ xrcii:   for XRechnung UN/CEFACT CII-->
     <zip destfile="${dist.dir}/${dist.name}.zip">
       
       <zipfileset dir="${test.build.dir}" prefix="instances" />
-
+      <!-- Project documents-->
       <fileset dir="${basedir}">
         <include name="README.md" />
         <include name="CHANGELOG.md" />
       </fileset>
+
+      <!-- Content documents-->
+      <fileset dir="${build.dir}">
+        <include name="test-overview.md" />
+      </fileset>
+      
     </zip>
   </target>
 
