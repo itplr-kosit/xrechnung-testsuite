@@ -25,7 +25,7 @@ Business case instances are further divided in examples of the `standard` (CIUS)
 
 The directory `technical/cases` contains instances for the sole purpose to cover detailed technical aspects of XRechnung development such as codelist tests among others. These technical cases might not be valid instances w.r.t. to XRechnung specification.
 
-## Test Cases development with XML Mutate
+## Test case development with XML Mutate
 
 We also create test cases using XML Mutate https://projekte.kosit.org/kosit/xml-mutate .
 
@@ -44,7 +44,7 @@ The following names are used to reference different schematron files
 ```
 ceninv:  for CEN UBL Invoice (and Credit Note) rules
 cencii:  for CEN UN/CEFACT CII rules
-xrinv: ´ for XRechnung UBL Invoice
+xrinv:   for XRechnung UBL Invoice
 xrcn:    for XRechnung UBL Credit Note
 xrcii:   for XRechnung UN/CEFACT CII
 ```
@@ -77,7 +77,7 @@ In order to configure more complex adaption to the local development needs, you 
 
 We provide the `development.build.properties.example` file for the most common properties to be set different than default. It contains some documentation.
 
-You have to copy the file to e.g. `development.build.properties` and you have to explicitly provide the property file location at CLI for your development (otherwise tests will always fail or not exectuted at all).
+You have to copy the file to e.g. `development.build.properties` and you have to explicitly provide the property file location at CLI for your development (otherwise tests will always fail or not executed at all).
 
 ```shell
 ant -propertyfile ${your.own.property.file.name}
