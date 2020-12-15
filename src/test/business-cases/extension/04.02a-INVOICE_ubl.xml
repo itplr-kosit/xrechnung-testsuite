@@ -121,6 +121,13 @@
       <cbc:LineExtensionAmount currencyID="EUR">12.32</cbc:LineExtensionAmount>
       <cac:Item>
         <cbc:Name>Hose Bernhard ws UKD</cbc:Name>
+        <cac:ClassifiedTaxCategory>
+          <cbc:ID>S</cbc:ID>
+          <cbc:Percent>19</cbc:Percent>
+          <cac:TaxScheme>
+            <cbc:ID>VAT</cbc:ID>
+          </cac:TaxScheme>
+        </cac:ClassifiedTaxCategory>
       </cac:Item>
       <cac:Price>
         <cbc:PriceAmount currencyID="EUR">0.44</cbc:PriceAmount>
@@ -132,6 +139,13 @@
       <cbc:LineExtensionAmount currencyID="EUR">15.40</cbc:LineExtensionAmount>
       <cac:Item>
         <cbc:Name>Kasack Bodo blau UKD</cbc:Name>
+        <cac:ClassifiedTaxCategory>
+          <cbc:ID>S</cbc:ID>
+          <cbc:Percent>19</cbc:Percent>
+          <cac:TaxScheme>
+            <cbc:ID>VAT</cbc:ID>
+          </cac:TaxScheme>
+        </cac:ClassifiedTaxCategory>
       </cac:Item>
       <cac:Price>
         <cbc:PriceAmount currencyID="EUR">0.44</cbc:PriceAmount>
