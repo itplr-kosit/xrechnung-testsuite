@@ -114,6 +114,13 @@
       <cbc:LineExtensionAmount currencyID="EUR">335.79</cbc:LineExtensionAmount>
       <cac:Item>
         <cbc:Name>Demontage Sanitär</cbc:Name>
+        <cac:ClassifiedTaxCategory>
+          <cbc:ID>S</cbc:ID>
+          <cbc:Percent>19</cbc:Percent>
+          <cac:TaxScheme>
+            <cbc:ID>VAT</cbc:ID>
+          </cac:TaxScheme>
+        </cac:ClassifiedTaxCategory>
       </cac:Item>
       <cac:SubInvoiceLine>
         <cbc:ID>1 1 1</cbc:ID>
@@ -122,6 +129,13 @@
           >193.70</cbc:LineExtensionAmount>
         <cac:Item>
           <cbc:Name>Demontage TW-Rohrleitung DN 12-25</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+            <cbc:ID>S</cbc:ID>
+            <cbc:Percent>19</cbc:Percent>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:ClassifiedTaxCategory>
         </cac:Item>
         <cac:Price>
           <cbc:PriceAmount currencyID="EUR">1.30</cbc:PriceAmount>
@@ -135,6 +149,13 @@
           >48.75</cbc:LineExtensionAmount>
         <cac:Item>
           <cbc:Name>Demontage SML DN 100</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+            <cbc:ID>S</cbc:ID>
+            <cbc:Percent>19</cbc:Percent>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:ClassifiedTaxCategory>
         </cac:Item>
         <cac:Price>
           <cbc:PriceAmount currencyID="EUR">1.50</cbc:PriceAmount>
@@ -148,6 +169,13 @@
           >93.34</cbc:LineExtensionAmount>
         <cac:Item>
           <cbc:Name>Demontage AW-Rohrleitungen Kunststoff PP bis DN100</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+            <cbc:ID>S</cbc:ID>
+            <cbc:Percent>19</cbc:Percent>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:ClassifiedTaxCategory>
         </cac:Item>
         <cac:Price>
           <cbc:PriceAmount currencyID="EUR">1.30</cbc:PriceAmount>
@@ -160,6 +188,13 @@
       <cbc:LineExtensionAmount currencyID="EUR">482.25</cbc:LineExtensionAmount>
       <cac:Item>
         <cbc:Name>Abwasserleitungen und Zubehör</cbc:Name>
+        <cac:ClassifiedTaxCategory>
+          <cbc:ID>S</cbc:ID>
+          <cbc:Percent>19</cbc:Percent>
+          <cac:TaxScheme>
+            <cbc:ID>VAT</cbc:ID>
+          </cac:TaxScheme>
+        </cac:ClassifiedTaxCategory>
       </cac:Item>
       <cac:SubInvoiceLine>
         <cbc:ID>1 2 1</cbc:ID>
@@ -168,6 +203,13 @@
           >99.75</cbc:LineExtensionAmount>
         <cac:Item>
           <cbc:Name>Abwasserleitung HT-PP DN 100</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+            <cbc:ID>S</cbc:ID>
+            <cbc:Percent>19</cbc:Percent>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:ClassifiedTaxCategory>
         </cac:Item>
         <cac:Price>
           <cbc:PriceAmount currencyID="EUR">10.50</cbc:PriceAmount>
@@ -181,6 +223,13 @@
           >382.50</cbc:LineExtensionAmount>
         <cac:Item>
           <cbc:Name>Abwasserleitung HT-PP DN 50</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+            <cbc:ID>S</cbc:ID>
+            <cbc:Percent>19</cbc:Percent>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:ClassifiedTaxCategory>
         </cac:Item>
         <cac:Price>
           <cbc:PriceAmount currencyID="EUR">8.50</cbc:PriceAmount>
@@ -211,6 +260,13 @@
       <cbc:LineExtensionAmount currencyID="EUR">1324</cbc:LineExtensionAmount>
       <cac:Item>
         <cbc:Name>Demontage Heizung</cbc:Name>
+        <cac:ClassifiedTaxCategory>
+          <cbc:ID>S</cbc:ID>
+          <cbc:Percent>19</cbc:Percent>
+          <cac:TaxScheme>
+            <cbc:ID>VAT</cbc:ID>
+          </cac:TaxScheme>
+        </cac:ClassifiedTaxCategory>
       </cac:Item>
       <cac:SubInvoiceLine>
         <cbc:ID>2 1 1</cbc:ID>
@@ -218,6 +274,13 @@
         <cbc:LineExtensionAmount currencyID="EUR">700</cbc:LineExtensionAmount>
         <cac:Item>
           <cbc:Name>Entleeren der Heizungsanlage, teilnetz</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+            <cbc:ID>S</cbc:ID>
+            <cbc:Percent>19</cbc:Percent>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:ClassifiedTaxCategory>
         </cac:Item>
         <cac:Price>
           <cbc:PriceAmount currencyID="EUR">35</cbc:PriceAmount>
@@ -230,6 +293,13 @@
         <cbc:LineExtensionAmount currencyID="EUR">624</cbc:LineExtensionAmount>
         <cac:Item>
           <cbc:Name>Demontage Flachheizkörpers</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+            <cbc:ID>S</cbc:ID>
+            <cbc:Percent>19</cbc:Percent>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:ClassifiedTaxCategory>
         </cac:Item>
         <cac:Price>
           <cbc:PriceAmount currencyID="EUR">12</cbc:PriceAmount>
@@ -243,6 +313,13 @@
         >10394.8</cbc:LineExtensionAmount>
       <cac:Item>
         <cbc:Name>Heizflächen und Zubehör</cbc:Name>
+        <cac:ClassifiedTaxCategory>
+          <cbc:ID>S</cbc:ID>
+          <cbc:Percent>19</cbc:Percent>
+          <cac:TaxScheme>
+            <cbc:ID>VAT</cbc:ID>
+          </cac:TaxScheme>
+        </cac:ClassifiedTaxCategory>
       </cac:Item>
       <cac:SubInvoiceLine>
         <cbc:ID>2 2 1</cbc:ID>
@@ -251,6 +328,13 @@
           >10202.4</cbc:LineExtensionAmount>
         <cac:Item>
           <cbc:Name>Flachheizkörper Stahl profiliert Seitent. H 300mm L -500mm Typ22</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+            <cbc:ID>S</cbc:ID>
+            <cbc:Percent>19</cbc:Percent>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:ClassifiedTaxCategory>
         </cac:Item>
         <cac:Price>
           <cbc:PriceAmount currencyID="EUR">196.20</cbc:PriceAmount>
@@ -264,6 +348,13 @@
           >192.4</cbc:LineExtensionAmount>
         <cac:Item>
           <cbc:Name>Einzelrosette aus Kunststoff, weiß</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+            <cbc:ID>S</cbc:ID>
+            <cbc:Percent>19</cbc:Percent>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:ClassifiedTaxCategory>
         </cac:Item>
         <cac:Price>
           <cbc:PriceAmount currencyID="EUR">1.85</cbc:PriceAmount>
