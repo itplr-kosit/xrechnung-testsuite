@@ -99,9 +99,18 @@
     <!-- Currently we just copy, but later we will transform etc. before testing -->
     <copy todir="${test.build.dir}">
       <fileset dir="${test.src.dir}" />
+      <cutdirsmapper dirs="1"/>
     </copy>
   </target>
 
+
+  <target name="compile-doc" depends="init"
+    description="Compiling documentation from sources">
+    <!-- Currently we just copy, but later we will transform etc. before testing -->
+    <copy todir="${build.dir}" verbose="true">
+      <fileset dir="${src.doc.dir}" />
+    </copy>
+  </target>
   
   <target name="compile" depends="compile-test"
     description="Compiling testsuite from sources">
@@ -205,7 +214,7 @@
         value="cenubl=${validator.configuration.resources.dir}/ubl/2.1/xsl/EN16931-UBL-validation.xsl" />
       <arg value="--schematron" />
       <arg
-        value="xrinv=${validator.configuration.resources.dir}/xrechnung/2.0.0/xsl/XRechnung-UBL-validation-Invoice.xsl" />
+        value="xrinv=${validator.configuration.resources.dir}/xrechnung/${xrechnung.version.full}/xsl/XRechnung-UBL-validation-Invoice.xsl" />
       <!-- cencii:  for CEN UN/CEFACT CII rules
 xrinv: ´ for XRechnung UBL Invoice
 xrcn:    for XRechnung UBL Credit Note
@@ -241,7 +250,7 @@ xrcii:   for XRechnung UN/CEFACT CII-->
   </target>
 
 
-  <target name="dist" depends="test, dist-only"
+  <target name="dist" depends="test, compile-doc, dist-only"
     description="Create distribution zip for release">
     <echo message="Created distribution" />
 
