@@ -4,12 +4,12 @@ In this context the term **instances** refers to XML documents with invoice cont
 
 ## General Approach
 
-The main purpose of the Testsuite is to give examples on real world business cases which are valid according to a specific version of the XRechnung specification. 
+The main purpose of the Testsuite is to give examples on real world business cases which are valid according to a specific version of the XRechnung specification.
 
 We always have a kind of chicken and egg issue during development of test instances for the next specification release:
 
 * A change in the specification might lead to new (Schematron) rules or even structural changes. This might render previous valid test instances invalid and requires to clearly (re)define what is a valid instance reflecting a certain business case. At the same time developers of other components need clearly defined test cases for their implementations.
-* This is especially the case for other XRechnung components such as XRechnung Schematron, XRechnung Visualization and Validator Configuration XRechnung. 
+* This is especially the case for other XRechnung components such as XRechnung Schematron, XRechnung Visualization and Validator Configuration XRechnung.
 
 To deal with this circumstances:
 

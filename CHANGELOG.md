@@ -7,15 +7,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 -->
 
-## Next
+## 2020-12-31
 
-### Fixed
-
-* Added BT-90 (cac:PartyIdentification) to integrate von BT-29 with BT-90 for 03-01a-invoice for CII and UBL
+This release is compatible with XRechnung 2.0.1.
 
 ### Added
 
 * `src/doc/test-overview.md` for further documentation of test cases 
+* Added construction invoice (04.03a-INVOICE_ubl.xml)
+
+### Changed
+
+* Added BT-129, BG-29 und BG-30 to Sub Invoice Lines (04.01a-INVOICE_ubl.xml)
+* Added newlines in BT-20 (01.10a-INVOICE_ubl.xml, 01.10a-INVOICE_uncefact.xml)
+* Added BT-29 and BT-90 (03.01a-INVOICE_ubl.xml, 03.01a-INVOICE_uncefact.xml)
+* Deleted BT-6 where BT-5 is equal (01.01a-INVOICE_*.xml - 01.15a-INVOICE_*.xml, 03.01a-INVOICE_*.xml, 03.02a-INVOICE_*.xml)
 
 ## 2020-07-31
 

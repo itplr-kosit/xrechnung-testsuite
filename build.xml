@@ -30,17 +30,17 @@
   <property name="reports.dir" location="${build.dir}/reports" />
 
   <!-- Version props -->
-  <property name="testsuite.version.major.minor" value="2.0" />
+  <property name="testsuite.version.major.minor" value="2.1" />
   <property name="testsuite.version.patch" value="0" />
 
-  <property name="testsuite.version"
+  <property name="testsuite.version.full"
     value="${testsuite.version.major.minor}.${testsuite.version.patch}" />
-  <property name="testsuite.version.full" value="2020-07-31" />
+  <property name="testsuite.version.date" value="2020-12-31" />
 
-  <property name="xrechnung.version.full" value="2.0.0" />
+  <property name="xrechnung.version.full" value="2.0.1" />
 
   <property name="dist.name"
-    value="xrechnung-${xrechnung.version.full}-testsuite-${testsuite.version.full}" />
+    value="xrechnung-${xrechnung.version.full}-testsuite-${testsuite.version.date}" />
 
   <target name="init"
     description="Initializes build directory structure and ISO timestamp">
@@ -243,6 +243,8 @@ xrcii:   for XRechnung UN/CEFACT CII-->
 
   <target name="dist" depends="test, dist-only"
     description="Create distribution zip for release">
+    <echo message="Created distribution" />
+
   </target>
 
 
