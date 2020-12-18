@@ -13,11 +13,12 @@ This release is compatible with XRechnung 2.0.1.
 
 ### Added
 
-* `src/doc/test-overview.md` for further documentation of test cases 
+* `src/doc/test-overview.md` for further documentation of test cases
 * Added construction invoice (04.03a-INVOICE_ubl.xml)
 
 ### Changed
 
+* Corrected sums (04.01a-INVOICE_ubl.xml)
 * Added BT-129, BG-29 und BG-30 to Sub Invoice Lines (04.01a-INVOICE_ubl.xml)
 * Added newlines in BT-20 (01.10a-INVOICE_ubl.xml, 01.10a-INVOICE_uncefact.xml)
 * Added BT-29 and BT-90 (03.01a-INVOICE_ubl.xml, 03.01a-INVOICE_uncefact.xml)
