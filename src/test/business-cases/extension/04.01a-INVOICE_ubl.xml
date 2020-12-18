@@ -94,7 +94,7 @@
   </cac:LegalMonetaryTotal>
   <cac:InvoiceLine>
     <cbc:ID>1</cbc:ID>
-    <cbc:InvoicedQuantity unitCode="XPP">100</cbc:InvoicedQuantity>
+    <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
     <cbc:LineExtensionAmount currencyID="EUR">818.04</cbc:LineExtensionAmount>
     <cac:Item>
       <cbc:Name>Sanitär und Zubehör</cbc:Name>
@@ -107,10 +107,12 @@
       </cac:ClassifiedTaxCategory>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">120</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="EUR">818.04</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
     </cac:Price>
     <cac:SubInvoiceLine>
       <cbc:ID>1 1</cbc:ID>
+      <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">335.79</cbc:LineExtensionAmount>
       <cac:Item>
         <cbc:Name>Demontage Sanitär</cbc:Name>
@@ -122,6 +124,10 @@
           </cac:TaxScheme>
         </cac:ClassifiedTaxCategory>
       </cac:Item>
+      <cac:Price>
+        <cbc:PriceAmount currencyID="EUR">335.79</cbc:PriceAmount>
+        <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+      </cac:Price>  
       <cac:SubInvoiceLine>
         <cbc:ID>1 1 1</cbc:ID>
         <cbc:InvoicedQuantity unitCode="MTR">149</cbc:InvoicedQuantity>       
@@ -185,6 +191,7 @@
     </cac:SubInvoiceLine>
     <cac:SubInvoiceLine>
       <cbc:ID>1 2</cbc:ID>    
+      <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">482.25</cbc:LineExtensionAmount>
       <cac:Item>
         <cbc:Name>Abwasserleitungen und Zubehör</cbc:Name>
@@ -196,6 +203,10 @@
           </cac:TaxScheme>
         </cac:ClassifiedTaxCategory>
       </cac:Item>
+      <cac:Price>
+        <cbc:PriceAmount currencyID="EUR">482.25</cbc:PriceAmount>
+        <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+      </cac:Price>  
       <cac:SubInvoiceLine>
         <cbc:ID>1 2 1</cbc:ID>
         <cbc:InvoicedQuantity unitCode="MTR">9.5</cbc:InvoicedQuantity>
@@ -240,7 +251,7 @@
   </cac:InvoiceLine>
   <cac:InvoiceLine>
     <cbc:ID>2</cbc:ID>
-    <cbc:InvoicedQuantity unitCode="XPP">100</cbc:InvoicedQuantity>
+    <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
     <cbc:LineExtensionAmount currencyID="EUR">11718.8</cbc:LineExtensionAmount>
     <cac:Item>
       <cbc:Name>Heizung und Zubehör</cbc:Name>
@@ -253,10 +264,12 @@
       </cac:ClassifiedTaxCategory>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">120</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="EUR">11718.8</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
     </cac:Price>   
     <cac:SubInvoiceLine>
       <cbc:ID>2 1</cbc:ID>
+      <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">1324</cbc:LineExtensionAmount>
       <cac:Item>
         <cbc:Name>Demontage Heizung</cbc:Name>
@@ -268,6 +281,10 @@
           </cac:TaxScheme>
         </cac:ClassifiedTaxCategory>
       </cac:Item>
+      <cac:Price>
+        <cbc:PriceAmount currencyID="EUR">1324</cbc:PriceAmount>
+        <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+      </cac:Price>  
       <cac:SubInvoiceLine>
         <cbc:ID>2 1 1</cbc:ID>
         <cbc:InvoicedQuantity unitCode="C62">20</cbc:InvoicedQuantity>
@@ -309,6 +326,7 @@
     </cac:SubInvoiceLine>
     <cac:SubInvoiceLine>
       <cbc:ID>2 2</cbc:ID>
+      <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR"
         >10394.8</cbc:LineExtensionAmount>
       <cac:Item>
@@ -321,6 +339,10 @@
           </cac:TaxScheme>
         </cac:ClassifiedTaxCategory>
       </cac:Item>
+      <cac:Price>
+        <cbc:PriceAmount currencyID="EUR">10394.8</cbc:PriceAmount>
+        <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+      </cac:Price>  
       <cac:SubInvoiceLine>
         <cbc:ID>2 2 1</cbc:ID>
         <cbc:InvoicedQuantity unitCode="C62">52</cbc:InvoicedQuantity>
