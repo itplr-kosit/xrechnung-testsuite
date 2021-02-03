@@ -10,3 +10,5 @@ development.build.properties
 *.xpr
 *.code-workspace
 .ant-targets-build.xml
+
+.project
