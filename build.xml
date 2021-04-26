@@ -99,7 +99,7 @@
     <!-- Currently we just copy, but later we will transform etc. before testing -->
     <copy todir="${test.build.dir}">
       <fileset dir="${test.src.dir}" />
-      <cutdirsmapper dirs="1"/>
+      
     </copy>
   </target>
 
@@ -112,7 +112,7 @@
     </copy>
   </target>
   
-  <target name="compile" depends="compile-test"
+  <target name="compile" depends="compile-test, compile-doc"
     description="Compiling testsuite from sources">
     <!-- Currently we just copy, but later we will transform etc. before testing -->
     <copy todir="${build.dir}">
@@ -177,7 +177,7 @@
   </target>
 
   <target name="validator-test"
-    depends="validator-extension-business-case-test,validator-technical-test,validator-standard-business-case-test">
+    depends="validator-extension-business-case-test,validator-standard-business-case-test">
 
   </target>
 
@@ -225,7 +225,7 @@ xrcii:   for XRechnung UN/CEFACT CII-->
   </target>
 
 
-  <target name="test" depends="compile-test,mutate"
+  <target name="test" depends="compile-test,mutate,validator-test"
     description="Perform all tests">
     <echo message="Executing all tests" />
   </target>
