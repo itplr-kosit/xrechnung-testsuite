@@ -117,6 +117,7 @@
       <ram:ApplicableTradeTax>
         <ram:CalculatedAmount>0.00</ram:CalculatedAmount>
         <ram:TypeCode>VAT</ram:TypeCode>
+        <ram:ExemptionReason>als gemeinnützig anerkannt</ram:ExemptionReason>
         <ram:BasisAmount>233.00</ram:BasisAmount>
         <ram:CategoryCode>AE</ram:CategoryCode>
         <ram:RateApplicablePercent>0.00</ram:RateApplicablePercent>
