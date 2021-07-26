@@ -7,6 +7,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 -->
 
+## NEXT
+
+### Added
+* Testcase 01.18: "Standard invoice with 1 line, 1 tax category AE, 1 payment means code 58@
+
+
 ## 2020-12-31
 
 This release is compatible with XRechnung 2.0.1.
