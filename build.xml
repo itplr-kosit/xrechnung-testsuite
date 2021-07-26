@@ -95,7 +95,7 @@
     <!-- Currently we just copy, but later we will transform etc. before testing -->
     <copy todir="${test.build.dir}">
       <fileset dir="${test.src.dir}" />
-      
+      <cutdirsmapper dirs="1"/>
     </copy>
   </target>
 
