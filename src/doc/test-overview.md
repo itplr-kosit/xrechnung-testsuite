@@ -32,6 +32,7 @@ This table gives an overview of the content and purpose of positive test instanc
 | 03.03| Standard invoice with 4 lines, 1 tax category, 1 payment means code 48, due date, order reference, contract reference, project reference, 2 additional document reference, order line reference | 380 | no | ⛔ | ✅ |
 | 03.04| Standard invoice with 9 lines, 1 tax category, 1 payment means code 59, due date, invoice period, contract reference, additional document binary object, order line reference, prepaid amount | 380 | no | ⛔ | ✅ |
 | 03.05| Standard invoice with 9 lines, 1 tax category, 1 payment means code 59, due date, invoice period, contract reference, additional document binary object, basis quantities | 380 | no | ⛔ | ✅ |
+| 03.06| Standard invoice with Austauschteilesteuer | 380 | no | ✅ | ✅ |
 | 04.01| Sub invoice lines, payment means code 31, basis quantities | 380 | yes | ✅ | ⛔ |
 | 04.02| Sub invoice lines, payment means code 59 | 380 | yes | ✅ | ⛔ |
 | 04.03| Construction invoice with sub invoice lines, order reference, billing reference, exemption reason | 877 | yes | ✅ | ⛔ |
