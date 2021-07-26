@@ -19,12 +19,11 @@
   <property name="test.build.dir" location="${build.dir}/instances" />
   <property name="test.build.technical.dir"
     location="${test.build.dir}/technical-cases" />
-  <property name="test.build.business.dir"
-    location="${test.build.dir}/business-cases" />
-  <property name="test.build.business.standard.dir"
-    location="${test.build.business.dir}/standard" />
-  <property name="test.build.business.extension.dir"
-    location="${test.build.business.dir}/extension" />
+  
+  <property name="test.build.standard.dir"
+    location="${test.build.dir}/standard" />
+  <property name="test.build.extension.dir"
+    location="${test.build.dir}/extension" />
   <property name="test.build.generated.dir"
     location="${test.build.dir}/generated" />
   <property name="reports.dir" location="${build.dir}/reports" />
@@ -35,9 +34,9 @@
 
   <property name="testsuite.version.full"
     value="${testsuite.version.major.minor}.${testsuite.version.patch}" />
-  <property name="testsuite.version.date" value="2020-12-31" />
+  <property name="testsuite.version.date" value="2021-07-31" />
 
-  <property name="xrechnung.version.full" value="2.0.1" />
+  <property name="xrechnung.version.full" value="2.1.0" />
 
   <property name="dist.name"
     value="xrechnung-${xrechnung.version.full}-testsuite-${testsuite.version.date}" />
@@ -52,9 +51,6 @@
     <echo>Build date: ${build.date}</echo>
     <!-- Create the build directory structure used by compile -->
     <mkdir dir="${build.dir}" />
-    <mkdir dir="${test.build.technical.dir}" />
-    <mkdir dir="${test.build.business.dir}" />
-    <mkdir dir="${test.build.generated.dir}" />
     <mkdir dir="${download.dir}" />
     <mkdir dir="${dist.dir}" />
     <mkdir dir="${lib.dir}" />
@@ -112,12 +108,8 @@
     </copy>
   </target>
   
-  <target name="compile" depends="compile-test"
-    description="Compiling testsuite from sources">
-    <!-- Currently we just copy, but later we will transform etc. before testing -->
-    <copy todir="${build.dir}">
-      <fileset dir="${src.doc.dir}" />
-    </copy>
+  <target name="compile" depends="compile-test, compile-doc"
+    description="Compiling Testsuite from sources">
   </target>
 
   <target name="validator-standard-business-case-test"
@@ -134,7 +126,7 @@
       <arg value="-h" />
       <arg value="-o" />
       <arg value="${reports.dir}" />
-      <arg value="${test.build.business.standard.dir}" />
+      <arg value="${test.build.standard.dir}" />
     </java>
   </target>
 
@@ -153,7 +145,7 @@
       <arg value="-h" />
       <arg value="-o" />
       <arg value="${reports.dir}" />
-      <arg value="${test.build.business.extension.dir}" />
+      <arg value="${test.build.extension.dir}" />
     </java>
   </target>
 
@@ -177,7 +169,7 @@
   </target>
 
   <target name="validator-test"
-    depends="validator-extension-business-case-test,validator-technical-test,validator-standard-business-case-test">
+    depends="validator-extension-business-case-test,validator-standard-business-case-test">
 
   </target>
 
