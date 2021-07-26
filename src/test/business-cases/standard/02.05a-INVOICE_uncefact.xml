@@ -715,6 +715,7 @@
                 <ram:TypeCode>VAT</ram:TypeCode>
                 <ram:BasisAmount>920</ram:BasisAmount>
                 <ram:CategoryCode>E</ram:CategoryCode>
+                <ram:ExemptionReasonCode>vatex-eu-132-1a</ram:ExemptionReasonCode>
                 <ram:RateApplicablePercent>0</ram:RateApplicablePercent>
             </ram:ApplicableTradeTax>
             <ram:SpecifiedTradeAllowanceCharge>

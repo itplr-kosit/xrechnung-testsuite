@@ -95,7 +95,7 @@
     <!-- Currently we just copy, but later we will transform etc. before testing -->
     <copy todir="${test.build.dir}">
       <fileset dir="${test.src.dir}" />
-      <cutdirsmapper dirs="1"/>
+      
     </copy>
   </target>
 
@@ -217,7 +217,7 @@ xrcii:   for XRechnung UN/CEFACT CII-->
   </target>
 
 
-  <target name="test" depends="compile-test,mutate"
+  <target name="test" depends="compile-test,mutate,validator-test"
     description="Perform all tests">
     <echo message="Executing all tests" />
   </target>
