@@ -1,4 +1,8 @@
-## Customize these properties to develop with local dependencies
+###
+# XRECHNUNG TESTSUITE properties
+#
+# Customize these properties to develop with local dependencies
+##
 
 ##
 # Here values is the same as ant basedir because basedir is not set in this context
@@ -10,7 +14,7 @@
 ##
 # Designates the specification version for which this test suite is valid
 ##
-#xrechnung.version.full=2.0.0
+#xrechnung.version.full=2.1.0
 
 
 ###
@@ -24,7 +28,7 @@
 #validator.configuration.resources.dir=${validator.configuration.project.dir}/build/resources
 
 
-#validator.version.full=1.3.1-SNAPSHOT
+#validator.version.full=1.4.2
 ##
 # Should point to main directory of validator project, in case of local path
 ##
