@@ -94,8 +94,14 @@
     description="Compiling test instances from sources">
     <!-- Currently we just copy, but later we will transform etc. before testing -->
     <copy todir="${test.build.dir}">
-      <fileset dir="${test.src.dir}" />
-      <cutdirsmapper dirs="1"/>
+      <fileset dir="${test.src.business.dir}" />
+      
+    </copy>
+    <basename property="technical.dirname" file="${test.src.technical.dir}"/>
+    <copy todir="${test.build.dir}">
+      <fileset dir="${test.src.dir}" >
+        <include name="${technical.dirname}"/>
+      </fileset>
     </copy>
   </target>
 
@@ -212,7 +218,7 @@ xrinv: ´ for XRechnung UBL Invoice
 xrcn:    for XRechnung UBL Credit Note
 xrcii:   for XRechnung UN/CEFACT CII-->
       <arg value="--target ${test.build.generated.dir}" />
-      <arg value="${test.build.technical.dir}" />
+      <arg value="${test.build.technical.dir}/" />
     </java>
   </target>
 
