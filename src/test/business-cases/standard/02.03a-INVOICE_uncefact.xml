@@ -29,7 +29,7 @@
             <ram:SpecifiedTradeProduct>
                 <ram:SellerAssignedID>1034</ram:SellerAssignedID>
                 <ram:Name>Beratung</ram:Name>
-                <ram:Description>Anforderungmanagament</ram:Description>
+                <ram:Description>Anforderungmanagement</ram:Description>
                 <ram:DesignatedProductClassification>
                     <ram:ClassCode listID="IB">0721-880X</ram:ClassCode>
                 </ram:DesignatedProductClassification>
