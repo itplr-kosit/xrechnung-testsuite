@@ -36,7 +36,7 @@
     value="${testsuite.version.major.minor}.${testsuite.version.patch}" />
   <property name="testsuite.version.date" value="2021-07-31" />
 
-  <property name="xrechnung.version.full" value="2.1.0" />
+  <property name="xrechnung.version.full" value="2.1.1" />
 
   <property name="dist.name"
     value="xrechnung-${xrechnung.version.full}-testsuite-${testsuite.version.date}" />

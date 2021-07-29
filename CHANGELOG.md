@@ -7,11 +7,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 -->
 
-## NEXT
+## 2021-07-31
+
+This release is compatible with XRechnung 2.1.1.
 
 ### Added
-* Testcase 01.18: "Standard invoice with 1 line, 1 tax category AE, 1 payment means code 58@
 
+* Testcase 01.17 as an example with Rounding Amount
+* Testcase 01.18 as an example for preceding invoice reference
+* Testcase 01.19 as an example for Paypal as payment means
+* Testcase 01.20 as an example for payment means code 42, delivery location, delivery party, delivery date, payment terms, invoice period for position, and due date
+* Testcase 03.06 as an example for "Umsatzsteuer auf Altteile"
 
 ## 2020-12-31
 
