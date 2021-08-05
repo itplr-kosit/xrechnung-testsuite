@@ -13,16 +13,16 @@ This release is compatible with XRechnung 2.1.1.
 
 ### Added
 
-* Testcase 01.17 as an example with Rounding Amount
-* Testcase 01.18 as an example for preceding invoice reference
+* Testcase 01.17 as an example with BT-114 Rounding Amount
+* Testcase 01.18 as an example for code 384 and a preceding invoice reference
 * Testcase 01.19 as an example for Paypal as payment means
-* Testcase 01.20 as an example for payment means code 42, delivery location, delivery party, delivery date, payment terms, invoice period for position, and due date
+* Testcase 01.20 as an example for code 389 and payment means code 42
 * Testcase 03.06 as an example for "Umsatzsteuer auf Altteile"
 
 ### Changed
 
 * Updated all Specification Identifier to XRechnung Version 2.1
-* Added TaxExcemptionReasonCode to ....
+* Added BT-121 Tax Excemption Reason Code to testcases 02.01, 02.03, 02.04 und 02.05
 
 ## 2020-12-31
 
