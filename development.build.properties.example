@@ -1,11 +1,12 @@
 ###
 # XRECHNUNG TESTSUITE properties
 #
-# Customize these properties to develop with local dependencies
+# Customize these properties to develop with local dependencies.
+# then use it with ant -p ${this.property.file} ...
 ##
 
 ##
-# Here values is the same as ant basedir because basedir is not set in this context
+# This value has to be same as ant basedir because basedir is not set in this context
 #
 # Please set this value first and with an absolute path.
 ##
@@ -14,27 +15,24 @@
 ##
 # Designates the specification version for which this test suite is valid
 ##
-#xrechnung.version.full=2.1.0
+#xrechnung.version.full=2.1.1
 
 
 ###
 # Point to local copy of Validator Configuration XRechnung project directory
-# Example is relative to this project directory in local file system
 ##
-#validator.configuration.download.url.prefix=file://${work.dir}/../validator-configuration-xrechnung/
 
 # this must be a direct absolute path 
 #validator.configuration.project.dir=/mnt/c/data/git-repos/validator-configuration-xrechnung
-#validator.configuration.resources.dir=${validator.configuration.project.dir}/build/resources
-
 
 #validator.version.full=1.4.2
+
 ##
 # Should point to main directory of validator project, in case of local path
 ##
 #validator.dir=${validator.configuration.project.dir}/lib
 
-#validator.jar=validationtool-${validator.version.full}-java8-standalone.jar
+#validator.jar=validationtool-${validator.version.full}-standalone.jar
 
 ###
 # Point to local copy of xml-mutate project directory
@@ -42,4 +40,3 @@
 ##
 #xmute.download.url.prefix=file://${work.dir}/../xml-mutate
 #xmute.version.full=0.5
-#xmute.jar=xml-mutate-${xmute.version.full}.jar

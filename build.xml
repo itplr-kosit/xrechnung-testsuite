@@ -30,7 +30,7 @@
 
   <!-- Version props -->
   <property name="testsuite.version.major.minor" value="2.1" />
-  <property name="testsuite.version.patch" value="0" />
+  <property name="testsuite.version.patch" value="1" />
 
   <property name="testsuite.version.full"
     value="${testsuite.version.major.minor}.${testsuite.version.patch}" />
@@ -38,6 +38,15 @@
 
   <property name="xrechnung.version.full" value="2.1.1" />
 
+  <!-- For testing testsuite -->
+  <property name="xmute.jar" value="xml-mutate-${xmute.version.full}.jar"/>
+
+  <!--  this must be a direct absolut path  --> 
+  <property name="validator.configuration.resources.dir" value="${validator.configuration.project.dir}/build/resources"/> 
+  <property name="validator.dir" value="${validator.configuration.project.dir}/lib"/>
+  <property name="validator.version.full" value="1.4.2"/>
+  <property name="validator.jar" value="validationtool-${validator.version.full}-standalone.jar"/>
+  
   <property name="dist.name"
     value="xrechnung-${xrechnung.version.full}-testsuite-${testsuite.version.date}" />
 
@@ -60,7 +69,15 @@
 
   
   <target name="provide-validator-configuration">
+
+    <fail unless="validator.configuration.project.dir"
+      message="Set validator.configuration.project.dir property e.g. at command line" />
+    
+    
+
     <echo message="Checking ${validator.configuration.resources.dir}" />
+
+
 
     <fail unless="validator.configuration.resources.dir"
       message="Set validator.configuration.resources.dir in properties file" />
@@ -84,10 +101,6 @@
     </fail>
 
   </target>
-
-
-
-
 
 
   <target name="compile-test" depends="init"
@@ -195,7 +208,8 @@
     <propertyref prefix="http." />
     <propertyref prefix="https." />
   </propertyset>
-
+ 
+ 
   <target name="mutate"
     depends="compile-test,retrieve-xmute, provide-validator-configuration"
     description="Unit TestSchematron Rules wit XML-Mutate"
