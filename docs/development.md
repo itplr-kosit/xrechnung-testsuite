@@ -86,19 +86,53 @@ ant -propertyfile ${your.own.property.file.name}
 
 ### Dependencies overview
 
-#### Compile time
-
-* UBL Schema
-* CII Schema
-* CEN Schema
-* Saxon HE
 
 #### Testing
 
-* KoSIT XML Validator
+* KoSIT Validator Configuration XRechnung
 * XML Mutate
-* XRechnung Testsuite
 
 ## Distribution
 
 The `ant` target `dist` creates the distribution zip Archive for releases.
+
+## Release
+
+### Checklist
+
+* Are all issues scheduled for the release solved?
+* Is everything merged to master branch?
+* Does Tesuite refer to the correct version of XRechnung Specification 
+* Make sure that test-overview.md is up to date
+* Make sure that CHANGELOG.md is up to date
+*
+
+### Prepare
+
+* Make sure you committed and pushed everything 
+* Create the distribution by **not** using your development properties file. 
+This requires to set some at command line:
+
+```
+ant -v -Dxmute.download.url.prefix='file:/home/renzo/projects/xml-mutate/' -Dxmute.version.full=0.5  -Dvalidator.configuration.project.dir=/home/renzo/projects/validator-configuration-xrechnung clean dist
+```
+
+* Tag the last commit according to the following naming rule: `release-${date-of-scheduled-release-e.g. 2021-12-31}`
+
+  `git tag release-2021-07-31 && git push origin release-2021-07-31` 
+
+### Publish
+
+* Draft a new release at https://github.com/itplr-kosit/xrechnung-testsuite/releases/new
+  * Choose the git tag
+* Add release title of the following scheme: `Testsuite release compatible with XRechnung ${spec.version.full} in version ${testsuire.release.version}`
+* Copy & paste the high quality changelog entries for this release from CHANGELOG.md
+* Upload distribution zip and tick mark this release as a `pre-release`.
+* Check everything is ok, then uncheck pre rleease
+
+### Post-Release
+
+* Change the version of Testsuite in `build.xml` to the next release and commit
+
+You are done :smile:
+
