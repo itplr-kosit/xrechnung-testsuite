@@ -19,6 +19,11 @@ This release is compatible with XRechnung 2.1.1.
 * Testcase 01.20 as an example for payment means code 42, delivery location, delivery party, delivery date, payment terms, invoice period for position, and due date
 * Testcase 03.06 as an example for "Umsatzsteuer auf Altteile"
 
+### Changed
+
+* Updated all Specification Identifier to XRechnung Version 2.1
+* Added TaxExcemptionReasonCode to ....
+
 ## 2020-12-31
 
 This release is compatible with XRechnung 2.0.1.
