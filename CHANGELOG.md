@@ -17,7 +17,7 @@ This release is compatible with XRechnung 2.1.1.
 * Testcase 01.18 as an example for code 384 and a preceding invoice reference
 * Testcase 01.19 as an example for Paypal as payment means
 * Testcase 01.20 as an example for code 389 and payment means code 42
-* Testcase 02.21 as an example for TaxCode 'AE' 
+* Testcase 01.21 as an example for TaxCode 'AE' 
 * Testcase 03.06 as an example for "Umsatzsteuer auf Altteile"
 
 ### Changed
