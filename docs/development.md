@@ -94,7 +94,7 @@ ant -propertyfile ${your.own.property.file.name}
 
 ## Distribution
 
-The `ant` target `dist` creates the distribution zip Archive for releases.
+The `ant` target `dist` creates the distribution zip archive.
 
 ## Release
 
