@@ -7,6 +7,7 @@
    <cbc:IssueDate>2021-04-23</cbc:IssueDate>
    <cbc:DueDate>2021-04-28</cbc:DueDate>
    <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+   <cbc:Note>#ADU#Rechnung enthält 100 EUR (Umsatz)Steuer auf Altteile gem. Abschn. 10.5 Abs. 3 UStAE</cbc:Note>
    <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
    <cbc:BuyerReference>991-33333TEST-33</cbc:BuyerReference>
    <cac:AccountingSupplierParty>

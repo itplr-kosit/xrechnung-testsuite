@@ -11,6 +11,10 @@
       <ram:IssueDateTime>
          <udt:DateTimeString format="102">20210423</udt:DateTimeString>
       </ram:IssueDateTime>
+      <ram:IncludedNote>
+         <ram:Content>Rechnung enthält 100 EUR (Umsatz)Steuer auf Altteile gem. Abschn. 10.5 Abs. 3 UStAE</ram:Content>
+         <ram:SubjectCode>ADU</ram:SubjectCode>
+      </ram:IncludedNote>
    </rsm:ExchangedDocument>
    <rsm:SupplyChainTradeTransaction>
       <ram:IncludedSupplyChainTradeLineItem>
