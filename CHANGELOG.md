@@ -8,11 +8,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 This release is compatible with XRechnung 2.1.1.
 
+### Added
+
+* Testcase 01.22 for "Gerüstbau mit neuen Maßeinheiten"
+
 ### Fixed
 
 * Added `qdt` namespace to all CII instances
 * Fix BT-29: changed `ram:id` to `ram:GlobalID` in all `02.0{1-6}a-INVOICE_uncefact.xml`
 * Add INVOICE NOTE for Altteilsteuer for Testcase 03.06
+
 ## 2021-07-31
 
 This release is compatible with XRechnung 2.1.1.
