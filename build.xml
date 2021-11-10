@@ -34,7 +34,7 @@
 
   <property name="testsuite.version.full"
     value="${testsuite.version.major.minor}.${testsuite.version.patch}" />
-  <property name="testsuite.version.date" value="2021-07-31" />
+  <property name="testsuite.version.date" value="2021-11-15" />
 
   <property name="xrechnung.version.full" value="2.1.1" />
 
