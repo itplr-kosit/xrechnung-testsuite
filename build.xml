@@ -247,10 +247,12 @@ xrcii:   for XRechnung UN/CEFACT CII-->
     <zip destfile="${dist.dir}/${dist.name}.zip">
       
       <zipfileset dir="${test.build.dir}" prefix="instances" />
+      <zipfileset dir="doc" prefix="doc"/>
       <!-- Project documents-->
       <fileset dir="${basedir}">
         <include name="README.md" />
         <include name="CHANGELOG.md" />
+        
       </fileset>
 
       <!-- Content documents-->
