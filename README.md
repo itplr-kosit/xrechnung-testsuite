@@ -18,4 +18,4 @@ Im Zuge von XRechnung 2.0 wurden deutschlandspezifische Erweiterungen (extension
 
 ## Entwicklung / Development
 
-Further information on development may be found in our [Developer Documentation](./docs/development.md)
+Further information on development may be found in our [Developer Documentation](./doc/development.md)
