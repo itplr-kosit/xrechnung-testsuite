@@ -103,6 +103,7 @@ The `ant` target `dist` creates the distribution zip archive.
 * Are all issues scheduled for the release solved?
 * Is everything merged to master branch?
 * Does Testsuite refer to the correct version of XRechnung Specification?
+* Are all Specification Identifiers up to date?
 * Make sure that test-overview.md is up to date.
 * Make sure that CHANGELOG.md is up to date.
 
