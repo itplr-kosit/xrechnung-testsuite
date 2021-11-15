@@ -10,7 +10,7 @@ This release is compatible with XRechnung 2.1.1.
 
 ### Added
 
-* Testcase 01.22 for "Gerüstbau mit neuen Maßeinheiten"
+* Testcase 04.04 for "Scaffolders with new unites of measurement"
 
 ### Fixed
 
