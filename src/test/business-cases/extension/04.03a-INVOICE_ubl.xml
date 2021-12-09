@@ -13,7 +13,7 @@
   <cbc:Note>Kettennummer: YYYYY</cbc:Note>
   <cbc:Note>Kostenträger: 01 Leistungen Bund</cbc:Note>
   <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
-  <cbc:BuyerReference>12345678-12345-12</cbc:BuyerReference>
+  <cbc:BuyerReference>12345678-12345-83</cbc:BuyerReference>
   <cac:InvoicePeriod>
     <cbc:StartDate>2019-02-01</cbc:StartDate>
     <cbc:EndDate>2019-05-07</cbc:EndDate>

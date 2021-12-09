@@ -10,7 +10,7 @@
   <cbc:DueDate>2019-03-14</cbc:DueDate>
   <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
   <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
-  <cbc:BuyerReference>90000000-03083-12</cbc:BuyerReference>
+  <cbc:BuyerReference>90000000-03083-72</cbc:BuyerReference>
   <cac:InvoicePeriod>
     <cbc:StartDate>2018-05-01</cbc:StartDate>
     <cbc:EndDate>2019-01-31</cbc:EndDate>

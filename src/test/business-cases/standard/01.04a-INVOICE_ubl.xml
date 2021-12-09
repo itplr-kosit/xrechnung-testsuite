@@ -8,7 +8,7 @@
     <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
     <cbc:Note>#ADU#Diese Leistung ist umsatzsteuerbefreit nach § 4 Nr. 22a UStG.</cbc:Note>
     <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
-    <cbc:BuyerReference>04011000-12348-31</cbc:BuyerReference>
+    <cbc:BuyerReference>04011000-12348-91</cbc:BuyerReference>
     <cac:AccountingSupplierParty>
         <cac:Party>
             <cac:PartyName>
