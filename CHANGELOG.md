@@ -6,6 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## UNRELEASED
 
+* check sums of Leitweg-IDs updated
 
 ## 2021-11-15
 
