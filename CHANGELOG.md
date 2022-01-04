@@ -4,7 +4,9 @@ All notable changes to XRechnung Test Suite will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## UNRELEASED
+## 2022-01-31
+
+This release is compatible with XRechnung 2.2.0
 
 * diga example invoice to extension instances from diga git hub
 
