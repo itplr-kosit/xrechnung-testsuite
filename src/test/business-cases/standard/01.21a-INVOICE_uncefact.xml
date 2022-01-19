@@ -45,7 +45,7 @@
             </ram:SpecifiedLineTradeSettlement>
         </ram:IncludedSupplyChainTradeLineItem>
         <ram:ApplicableHeaderTradeAgreement>
-            <ram:BuyerReference>123456789</ram:BuyerReference>
+            <ram:BuyerReference>04011000-12349-88</ram:BuyerReference>
             <ram:SellerTradeParty>
                 <ram:ID>116078</ram:ID>
                 <ram:Name>Mustermann GmbH</ram:Name>

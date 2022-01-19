@@ -98,7 +98,7 @@
             </ram:SpecifiedLineTradeSettlement>
         </ram:IncludedSupplyChainTradeLineItem>
         <ram:ApplicableHeaderTradeAgreement>
-            <ram:BuyerReference>04011000-12352-27</ram:BuyerReference>
+            <ram:BuyerReference>04011000-12352-79</ram:BuyerReference>
             <ram:SellerTradeParty>
                 <ram:Name>[Seller name]</ram:Name>
                 <ram:Description>Amtsgericht […], Geschäftsführer: […], Sitz der Gesellschaft […], Aufsichtsratvorsitzender: […]</ram:Description>

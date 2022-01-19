@@ -8,7 +8,7 @@
     <cbc:DueDate>2016-02-01+01:00</cbc:DueDate>
     <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
     <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
-    <cbc:BuyerReference>04011000-12349-30</cbc:BuyerReference>
+    <cbc:BuyerReference>04011000-12349-88</cbc:BuyerReference>
     <cac:OrderReference>
         <cbc:ID>Dummywert</cbc:ID>
         <cbc:SalesOrderID>A123456789</cbc:SalesOrderID>

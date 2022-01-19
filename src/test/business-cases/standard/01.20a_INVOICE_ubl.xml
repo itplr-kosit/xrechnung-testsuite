@@ -9,7 +9,7 @@
   <cbc:InvoiceTypeCode>389</cbc:InvoiceTypeCode>
   <cbc:Note>#REG#Betriebsstätte</cbc:Note>
   <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
-  <cbc:BuyerReference>1234567890-54321-21</cbc:BuyerReference>
+  <cbc:BuyerReference>1234567890-54321-40</cbc:BuyerReference>
   <cac:OrderReference>
     <cbc:ID>Bestellung XRechnung</cbc:ID>
   </cac:OrderReference>

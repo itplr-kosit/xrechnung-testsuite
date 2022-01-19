@@ -307,7 +307,7 @@
             </ram:SpecifiedLineTradeSettlement>
         </ram:IncludedSupplyChainTradeLineItem>
         <ram:ApplicableHeaderTradeAgreement>
-            <ram:BuyerReference>04011000-12354-25</ram:BuyerReference>
+            <ram:BuyerReference>04011000-12354-73</ram:BuyerReference>
             <ram:SellerTradeParty>
                 <ram:Name>[Seller name]</ram:Name>
                  <ram:SpecifiedLegalOrganization >

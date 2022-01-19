@@ -63,7 +63,7 @@
             </ram:SpecifiedLineTradeSettlement>
         </ram:IncludedSupplyChainTradeLineItem>
         <ram:ApplicableHeaderTradeAgreement>
-            <ram:BuyerReference>99000000-05676-38</ram:BuyerReference>
+            <ram:BuyerReference>99000000-05676-98</ram:BuyerReference>
             <ram:SellerTradeParty>
                 <ram:Name>[Seller name]</ram:Name>
                 <ram:SpecifiedLegalOrganization/>

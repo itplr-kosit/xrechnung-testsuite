@@ -125,7 +125,7 @@
             </ram:SpecifiedLineTradeSettlement>
         </ram:IncludedSupplyChainTradeLineItem>
         <ram:ApplicableHeaderTradeAgreement>
-            <ram:BuyerReference>99000000-18188-16</ram:BuyerReference>
+            <ram:BuyerReference>99000000-18188-18</ram:BuyerReference>
             <ram:SellerTradeParty>
                 <ram:Name>[Seller name]</ram:Name>
                 <ram:Description>Sitz der Gesellschaft […], Registergericht […], Amtsgericht […]</ram:Description>

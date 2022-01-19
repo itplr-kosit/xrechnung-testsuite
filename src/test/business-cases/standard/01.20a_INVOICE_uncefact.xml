@@ -99,7 +99,7 @@
       </ram:SpecifiedLineTradeSettlement> 
     </ram:IncludedSupplyChainTradeLineItem>  
     <ram:ApplicableHeaderTradeAgreement> 
-      <ram:BuyerReference>1234567890-54321-21</ram:BuyerReference>  
+      <ram:BuyerReference>1234567890-54321-40</ram:BuyerReference>  
       <ram:SellerTradeParty> 
         <ram:Name>Betriebsstätte</ram:Name>  
         <ram:DefinedTradeContact> 

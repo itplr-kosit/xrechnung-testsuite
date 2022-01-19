@@ -203,7 +203,7 @@
             </ram:SpecifiedLineTradeSettlement>
         </ram:IncludedSupplyChainTradeLineItem>
         <ram:ApplicableHeaderTradeAgreement>
-            <ram:BuyerReference>99000000-01944-84</ram:BuyerReference>
+            <ram:BuyerReference>99000000-01944-98</ram:BuyerReference>
             <ram:SellerTradeParty>
                 <ram:Name>[Seller name]</ram:Name>
                 <ram:Description>Amtsgericht […]</ram:Description>

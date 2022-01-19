@@ -69,7 +69,7 @@
             </ram:SpecifiedLineTradeSettlement>
         </ram:IncludedSupplyChainTradeLineItem>        
         <ram:ApplicableHeaderTradeAgreement>
-            <ram:BuyerReference>90000000-03083-12</ram:BuyerReference>
+            <ram:BuyerReference>90000000-03083-72</ram:BuyerReference>
             <ram:SellerTradeParty>
                 <ram:GlobalID schemeID="0088">987654321</ram:GlobalID>
                 <ram:Name>[Seller name]</ram:Name>
@@ -108,7 +108,7 @@
                 <ram:ID>138</ram:ID>
                 <ram:Name>[Buyer name]</ram:Name>
                 <ram:SpecifiedLegalOrganization>
-                    <ram:ID schemeID="0204">90000000-03083-12</ram:ID>
+                    <ram:ID schemeID="0204">90000000-03083-72</ram:ID>
                 </ram:SpecifiedLegalOrganization>
                 <ram:DefinedTradeContact>
                     <ram:PersonName>Tina Tester</ram:PersonName>

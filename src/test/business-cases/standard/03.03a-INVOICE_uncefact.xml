@@ -134,7 +134,7 @@
             </ram:SpecifiedLineTradeSettlement>
         </ram:IncludedSupplyChainTradeLineItem>
         <ram:ApplicableHeaderTradeAgreement>
-            <ram:BuyerReference>11002002-98765-43</ram:BuyerReference>
+            <ram:BuyerReference>11002002-98765-14</ram:BuyerReference>
             <ram:SellerTradeParty>
                 <ram:Name>[Seller name]</ram:Name>
                 <ram:SpecifiedLegalOrganization />
