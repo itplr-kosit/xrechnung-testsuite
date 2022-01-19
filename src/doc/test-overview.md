@@ -41,3 +41,4 @@ This table gives an overview of the content and purpose of positive test instanc
 | 04.02| Sub invoice lines, payment means code 59 | 380 | yes | :white_check_mark: | :x: |
 | 04.03| Construction invoice with sub invoice lines, order reference, billing reference, exemption reason | 877 | yes | :white_check_mark: | :x: |
 | 04.04| Scaffolders' invoice with sub invoice lines | 877 | yes | :white_check_mark: | :x: |
+| 04.05| Diga example invoice | 380 | yes | :x: | :white_check_mark: |
