@@ -13,7 +13,7 @@
   <cbc:TaxPointDate>2018-04-13</cbc:TaxPointDate>
   <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
   <cbc:TaxCurrencyCode>GBP</cbc:TaxCurrencyCode>
-  <cbc:BuyerReference>90000000-03083-12</cbc:BuyerReference>
+  <cbc:BuyerReference>90000000-03083-72</cbc:BuyerReference>
   <cac:InvoicePeriod>
     <cbc:StartDate>2018-04-13</cbc:StartDate>
     <cbc:EndDate>2018-04-13</cbc:EndDate>
@@ -108,7 +108,7 @@
       </cac:PartyTaxScheme>
       <cac:PartyLegalEntity>
         <cbc:RegistrationName>[Buyer name]</cbc:RegistrationName>
-        <cbc:CompanyID schemeID="0198">90000000-03083-12</cbc:CompanyID>
+        <cbc:CompanyID schemeID="0198">90000000-03083-72</cbc:CompanyID>
       </cac:PartyLegalEntity>
       <cac:Contact>
         <cbc:Name>Tina Tester</cbc:Name>
