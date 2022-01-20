@@ -8,8 +8,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 This release is compatible with XRechnung 2.2.0
 
-* diga example invoice to extension instances from diga git hub
-* check sums of Leitweg-IDs updated
+### Added
+
+* Testcase 04.05 as an example for DiGA codes XR01, XR02, and XR03 to extension instances from DiGA GitHub
+
+### Changed
+
+* Updated all Specification Identifiers to XRechnung Version 2.2
+
+### Fixed
+
+* Check sums of Leitweg-IDs
 
 ## 2021-11-15
 
