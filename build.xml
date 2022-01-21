@@ -28,12 +28,6 @@
     location="${test.build.dir}/generated" />
   <property name="reports.dir" location="${build.dir}/reports" />
 
-  <!-- Version props -->
-  <property name="testsuite.version.major.minor" value="2.1" />
-  <property name="testsuite.version.patch" value="1" />
-
-  <property name="testsuite.version.full"
-    value="${testsuite.version.major.minor}.${testsuite.version.patch}" />
   <property name="testsuite.version.date" value="2022-01-31" />
 
   <property name="xrechnung.version.full" value="2.2.0" />
