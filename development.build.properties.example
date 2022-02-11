@@ -40,3 +40,10 @@
 ##
 #xmute.download.url.prefix=file://${work.dir}/../xml-mutate
 #xmute.version.full=0.5
+
+
+##
+# Point to a local copy of cii2ubl
+##
+#cii2ubl.local.enabled=true
+#cii2ubl.local.url=c:/dev/git/en16931-cii2ubl/en16931-cii2ubl-cli/target/en16931-cii2ubl-cli-full.jar
