@@ -38,8 +38,9 @@
   
   <!-- For cii2ubl -->
   <property name="_cii2ubl.baseurl" value="https://github.com/phax/en16931-cii2ubl/releases/download/" />
-  <property name="_cii2ubl.version" value="1.4.5" />
+  <property name="_cii2ubl.version" value="1.4.6" />
   <property name="cii2ubl.download.url" value="${_cii2ubl.baseurl}en16931-cii2ubl-parent-pom-${_cii2ubl.version}/en16931-cii2ubl-cli-${_cii2ubl.version}-shaded.jar" />
+  <property name="cii2ubl.download.skipexisting" value="true" />
   <property name="cii2ubl.jar" value="cii2ubl.jar" />
   <property name="cii2ubl.customizationid" value="urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_${_xrechnung.version.majorminor}" />
   <property name="cii2ubl.local.enabled" value="false" />
@@ -196,34 +197,46 @@
 
   </target>
 
-  <target name="retrieve-cii2ubl-remote" depends="init" unless="cii2ubl.local.enabled">
+  <target name="retrieve-cii2ubl-remote" depends="init" unless="${cii2ubl.local.enabled}">
     <echo>Downloading remote CII2UBL</echo>
     <get src="${cii2ubl.download.url}" 
          dest="${lib.dir}/${cii2ubl.jar}" 
          verbose="true"
-         skipexisting="true"
+         skipexisting="${cii2ubl.download.skipexisting}"
          usetimestamp="true" />
   </target>
 
-  <target name="retrieve-cii2ubl-local" depends="init" if="cii2ubl.local.enabled">
+  <target name="retrieve-cii2ubl-local" depends="init" if="${cii2ubl.local.enabled}">
     <echo>Using local CII2UBL</echo>
     <copy file="${cii2ubl.local.url}" tofile="${lib.dir}/${cii2ubl.jar}"/>
   </target>
 
+  <macrodef name="execute-cii2ubl" description="Execute cii2ubl on the provided parameters">
+    <attribute name="srcdir" description="Directory with the CII files" />
+    <attribute name="dstdir" default="@{srcdir}" />
+    <attribute name="filemask" default="*_uncefact.xml" />
+
+    <sequential>
+      <echo>Running CII2UBL in @{srcdir}</echo>
+      <java jar="${lib.dir}/${cii2ubl.jar}" failonerror="true" fork="true" dir="${basedir}">
+        <arg value="--mode" />
+        <arg value="AUTOMATIC" />
+        <arg value="--ubl-customizationid" />
+        <arg value="${cii2ubl.customizationid}" />
+        <arg value="--ubl-profileid" />
+        <arg value="" />
+        <arg value="--target" />
+        <arg value="@{dstdir}" />
+        <arg value="@{srcdir}/@{filemask}" />
+      </java>
+    </sequential>  
+  </macrodef>
+
   <target name="cii2ubl" depends="retrieve-cii2ubl-remote, retrieve-cii2ubl-local">
-    <echo>Running CII2UBL ...</echo>
-    
-    <java jar="${lib.dir}/${cii2ubl.jar}" failonerror="true" fork="true" dir="${basedir}">
-      <arg value="--mode" />
-      <arg value="AUTOMATIC" />
-      <arg value="--ubl-customizationid" />
-      <arg value="${cii2ubl.customizationid}" />
-      <arg value="--ubl-profileid" />
-      <arg value="" />
-      <arg value="--target" />
-      <arg value="${test.src.business.dir}/standard" />
-      <arg value="${test.src.business.dir}/standard/*_uncefact.xml" />
-    </java>
+    <execute-cii2ubl srcdir="${test.src.business.dir}/standard" />
+    <!-- too many errors 
+    <execute-cii2ubl srcdir="${test.src.technical.dir}" />
+     -->
   </target>
 
   <target name="retrieve-xmute" depends="init">
