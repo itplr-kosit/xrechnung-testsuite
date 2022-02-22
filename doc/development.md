@@ -92,6 +92,18 @@ ant -propertyfile ${your.own.property.file.name}
 * KoSIT Validator Configuration XRechnung
 * XML Mutate
 
+## cii2ubl
+
+With the tasks `cii2ubl` certain CII files are automatically converted to UBL, according to the EN16931 rules.
+This task is meant to be called manually only, as the creation of test files is not an automatic process at this time.
+The conversion is based on the https://github.com/phax/en16931-cii2ubl tool.
+
+The build.xml can use a remote release version or a locally build version.
+To use a local version, the properties `cii2ubl.local.enabled` and `cii2ubl.local.url` needs to be defined in the `development.build.properties` file.
+`cii2ubl.local.enabled` needs to be set to `true` and `cii2ubl.local.url` need to point to the locally build, shaded JAR file of cii2ubl, including the version number.
+If a local version is used, the internally defined version is ignored.
+
+
 ## Distribution
 
 The `ant` target `dist` creates the distribution zip archive.
