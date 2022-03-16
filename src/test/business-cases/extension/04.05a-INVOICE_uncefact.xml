@@ -101,9 +101,8 @@
         </ram:SpecifiedTaxRegistration>
       </ram:SellerTradeParty>
       <ram:BuyerTradeParty>
-        <ram:ID>TEST_RECHNUNGSEMPFÄNGER</ram:ID>
         <!-- IK der Krankenkasse als "Buyer Identifier" (BT-46): -->
-        <ram:ID schemeID="XR03">123456789</ram:ID>
+        <ram:GlobalID schemeID="XR03">123456789</ram:GlobalID>
         <ram:Name>Rechnungsempfänger</ram:Name>
         <ram:PostalTradeAddress>
           <ram:PostcodeCode>01234</ram:PostcodeCode>
