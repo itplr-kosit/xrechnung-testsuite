@@ -4,14 +4,14 @@
              xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
     <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_2.2</cbc:CustomizationID>
     <cbc:ID>PRG1502112</cbc:ID>
-    <cbc:IssueDate>2015-04-24+01:00</cbc:IssueDate>
+    <cbc:IssueDate>2015-04-24</cbc:IssueDate>
     <cbc:InvoiceTypeCode>384</cbc:InvoiceTypeCode>
     <cbc:Note>#ADU#Trainer: Herr […]</cbc:Note>
     <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
     <cbc:BuyerReference>99000000-18188-18</cbc:BuyerReference>
     <cac:InvoicePeriod>
-        <cbc:StartDate>2015-04-20+01:00</cbc:StartDate>
-        <cbc:EndDate>2015-04-24+01:00</cbc:EndDate>
+        <cbc:StartDate>2015-04-20</cbc:StartDate>
+        <cbc:EndDate>2015-04-24</cbc:EndDate>
     </cac:InvoicePeriod>
     <cac:BillingReference>
         <cac:InvoiceDocumentReference>

@@ -4,7 +4,7 @@
              xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
     <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_2.2</cbc:CustomizationID>
     <cbc:ID>123456</cbc:ID>
-    <cbc:IssueDate>2016-06-21+01:00</cbc:IssueDate>
+    <cbc:IssueDate>2016-06-21</cbc:IssueDate>
     <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
     <cbc:Note>#ADU#Bei Fragen zu Ihrer Rechnung wenden Sie sich bitte an unseren Kundenserivce. Sie erreichen uns per Email: […], Tel.: […] oder Fax: […]</cbc:Note>
     <cbc:Note>#ADU#Die Lieferung erfolgt aufgrund der AGB […] erhältlich unter […]. Auf Wunsch senden wir sie auch zu.</cbc:Note>
@@ -74,7 +74,7 @@
         </cac:PartyName>
     </cac:PayeeParty>
     <cac:Delivery>
-        <cbc:ActualDeliveryDate>2016-06-21+01:00</cbc:ActualDeliveryDate>
+        <cbc:ActualDeliveryDate>2016-06-21</cbc:ActualDeliveryDate>
     </cac:Delivery>
     <cac:PaymentMeans>
         <cbc:PaymentMeansCode>58</cbc:PaymentMeansCode>
