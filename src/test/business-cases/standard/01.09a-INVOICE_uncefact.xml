@@ -55,7 +55,7 @@
                 <ram:DefinedTradeContact>
                     <ram:PersonName>Auskunft erteilt Ihnen</ram:PersonName>
                     <ram:TelephoneUniversalCommunication>
-                        <ram:CompleteNumber>Telefonnummer</ram:CompleteNumber>
+                        <ram:CompleteNumber>1234567890</ram:CompleteNumber>
                     </ram:TelephoneUniversalCommunication>
                     <ram:EmailURIUniversalCommunication>
                         <ram:URIID>Emailadresse</ram:URIID>

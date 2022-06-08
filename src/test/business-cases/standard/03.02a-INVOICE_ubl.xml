@@ -53,7 +53,7 @@
       </cac:PartyLegalEntity>
       <cac:Contact>
         <cbc:Name>[Seller contact person]</cbc:Name>
-        <cbc:Telephone>[Seller contact telephone number]</cbc:Telephone>
+        <cbc:Telephone>1234567890</cbc:Telephone>
         <cbc:ElectronicMail>contact@seller.de</cbc:ElectronicMail>
       </cac:Contact>
     </cac:Party>
