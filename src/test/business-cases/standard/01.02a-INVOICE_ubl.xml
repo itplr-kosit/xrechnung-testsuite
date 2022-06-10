@@ -43,7 +43,7 @@
             <cac:Contact>
                 <cbc:Name>-</cbc:Name>
                 <cbc:Telephone>[012-3456789]</cbc:Telephone>
-                <cbc:ElectronicMail>[Seller@email.de]</cbc:ElectronicMail>
+                <cbc:ElectronicMail>Seller@email.de</cbc:ElectronicMail>
             </cac:Contact>
         </cac:Party>
     </cac:AccountingSupplierParty>

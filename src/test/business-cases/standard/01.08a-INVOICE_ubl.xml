@@ -43,7 +43,7 @@
             <cac:Contact>
                 <cbc:Name>Auskunft erteilt Ihnen</cbc:Name>
                 <cbc:Telephone>1234567890</cbc:Telephone>
-                <cbc:ElectronicMail>Emailadresse</cbc:ElectronicMail>
+                <cbc:ElectronicMail>seller@test.de</cbc:ElectronicMail>
             </cac:Contact>
         </cac:Party>
     </cac:AccountingSupplierParty>
