@@ -140,7 +140,7 @@
                 <ram:DefinedTradeContact>
                     <ram:PersonName>[Seller contact person]</ram:PersonName>
                     <ram:TelephoneUniversalCommunication>
-                        <ram:CompleteNumber>[Seller contact telephone number]</ram:CompleteNumber>
+                        <ram:CompleteNumber>1234567890</ram:CompleteNumber>
                     </ram:TelephoneUniversalCommunication>
                     <ram:EmailURIUniversalCommunication>
                         <ram:URIID>contact@seller.de</ram:URIID>

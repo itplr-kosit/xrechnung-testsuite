@@ -44,7 +44,7 @@
             </cac:PartyLegalEntity>
             <cac:Contact>
                 <cbc:Name>[Seller contact person]</cbc:Name>
-                <cbc:Telephone>Telefonnummer</cbc:Telephone>
+                <cbc:Telephone>1234567890</cbc:Telephone>
                 <cbc:ElectronicMail>info@seller.de</cbc:ElectronicMail>
             </cac:Contact>
         </cac:Party>
