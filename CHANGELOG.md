@@ -8,6 +8,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 This release is compatible with XRechnung ?
 
+### Fixed
+
+* Testcases 01.08, 01.09, 01.11, 01.12, 01.13, 01.15, 03.02, and 03.03 now contain valid BT-42 "Seller contact telephone number" according to BR-DE-27
 
 ## 2022-01-31
 
