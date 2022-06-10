@@ -11,6 +11,7 @@ This release is compatible with XRechnung ?
 ### Fixed
 
 * Testcases 01.08, 01.09, 01.11, 01.12, 01.13, 01.15, 03.02, and 03.03 now contain valid BT-42 "Seller contact telephone number" according to BR-DE-27
+* Testcases 01.02, 01.08, 01.09, 01.11, 01.12 now contain valid BT-43 "Seller contact email address" according to BR-DE-28
 
 ## 2022-01-31
 

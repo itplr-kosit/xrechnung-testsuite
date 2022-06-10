@@ -75,7 +75,7 @@
                         <ram:CompleteNumber>[012-3456789]</ram:CompleteNumber>
                     </ram:TelephoneUniversalCommunication>
                     <ram:EmailURIUniversalCommunication>
-                        <ram:URIID>[Seller@email.de]</ram:URIID>
+                        <ram:URIID>Seller@email.de</ram:URIID>
                     </ram:EmailURIUniversalCommunication>
                 </ram:DefinedTradeContact>
                 <ram:PostalTradeAddress>

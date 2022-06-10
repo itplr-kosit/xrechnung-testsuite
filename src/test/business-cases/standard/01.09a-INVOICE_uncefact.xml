@@ -58,7 +58,7 @@
                         <ram:CompleteNumber>1234567890</ram:CompleteNumber>
                     </ram:TelephoneUniversalCommunication>
                     <ram:EmailURIUniversalCommunication>
-                        <ram:URIID>Emailadresse</ram:URIID>
+                        <ram:URIID>seller@test.de</ram:URIID>
                     </ram:EmailURIUniversalCommunication>
                 </ram:DefinedTradeContact>
                 <ram:PostalTradeAddress>
