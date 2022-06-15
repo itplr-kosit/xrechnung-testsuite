@@ -4,14 +4,19 @@ All notable changes to XRechnung Test Suite will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## UNRELEASED
+## 2022-05-31
 
-This release is compatible with XRechnung ?
+This release is compatible with XRechnung 2.2.0
+
+### Added
+
+* ANT tasks for CII to UBL conversion
 
 ### Fixed
 
 * Testcases 01.08, 01.09, 01.11, 01.12, 01.13, 01.15, 03.02, and 03.03 now contain valid BT-42 "Seller contact telephone number" according to BR-DE-27
 * Testcases 01.02, 01.08, 01.09, 01.11, 01.12 now contain valid BT-43 "Seller contact email address" according to BR-DE-28
+* Testcases 01.01 - 01.21 for UBL invoice now without timezones in dates
 
 ## 2022-01-31
 
