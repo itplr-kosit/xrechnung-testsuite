@@ -5,7 +5,7 @@
   <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_2.2</cbc:CustomizationID>
   <cbc:ID>1234567890</cbc:ID>
   <cbc:IssueDate>2021-01-25</cbc:IssueDate>
-  <cbc:DueDate>2021-02-04+01:00</cbc:DueDate>
+  <cbc:DueDate>2021-02-04</cbc:DueDate>
   <cbc:InvoiceTypeCode>389</cbc:InvoiceTypeCode>
   <cbc:Note>#REG#Betriebsstätte</cbc:Note>
   <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
@@ -117,8 +117,8 @@
     <cbc:InvoicedQuantity unitCode="C62">-1.0000</cbc:InvoicedQuantity>
     <cbc:LineExtensionAmount currencyID="EUR">-100.00</cbc:LineExtensionAmount>
     <cac:InvoicePeriod>
-      <cbc:StartDate>2021-01-25+01:00</cbc:StartDate>
-      <cbc:EndDate>2021-01-25+01:00</cbc:EndDate>
+      <cbc:StartDate>2021-01-25</cbc:StartDate>
+      <cbc:EndDate>2021-01-25</cbc:EndDate>
     </cac:InvoicePeriod>
     <cac:Item>
       <cbc:Name>Behältermiete</cbc:Name>
@@ -140,8 +140,8 @@
     <cbc:InvoicedQuantity unitCode="TNE">4.0000</cbc:InvoicedQuantity>
     <cbc:LineExtensionAmount currencyID="EUR">400.00</cbc:LineExtensionAmount>
     <cac:InvoicePeriod>
-      <cbc:StartDate>2021-01-25+01:00</cbc:StartDate>
-      <cbc:EndDate>2021-01-25+01:00</cbc:EndDate>
+      <cbc:StartDate>2021-01-25</cbc:StartDate>
+      <cbc:EndDate>2021-01-25</cbc:EndDate>
     </cac:InvoicePeriod>
     <cac:Item>
       <cbc:Description>Ersatztext bei Entsorgung</cbc:Description>

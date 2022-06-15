@@ -4,8 +4,8 @@
              xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
     <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_2.2</cbc:CustomizationID>
     <cbc:ID>Rechnungsnummer</cbc:ID>
-    <cbc:IssueDate>2015-01-09+01:00</cbc:IssueDate>
-    <cbc:DueDate>2015-01-24+01:00</cbc:DueDate>
+    <cbc:IssueDate>2015-01-09</cbc:IssueDate>
+    <cbc:DueDate>2015-01-24</cbc:DueDate>
     <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
     <cbc:Note>#ADU#Bearbeitungszeitraum: Dezember 2014/ 5.01.-09.01.2015 Abschlagsrechnung A 9</cbc:Note>
     <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>

@@ -4,8 +4,8 @@
     xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
     <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_2.2</cbc:CustomizationID>
     <cbc:ID>18383</cbc:ID>
-    <cbc:IssueDate>2020-11-27+01:00</cbc:IssueDate>
-    <cbc:DueDate>2020-12-27+01:00</cbc:DueDate>
+    <cbc:IssueDate>2020-11-27</cbc:IssueDate>
+    <cbc:DueDate>2020-12-27</cbc:DueDate>
     <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
     <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
     <cbc:BuyerReference>04011000-12349-88</cbc:BuyerReference>
@@ -78,7 +78,7 @@
         </cac:Party>
     </cac:AccountingCustomerParty>
     <cac:Delivery>
-        <cbc:ActualDeliveryDate>2020-11-23+01:00</cbc:ActualDeliveryDate>
+        <cbc:ActualDeliveryDate>2020-11-23</cbc:ActualDeliveryDate>
     </cac:Delivery>
     <cac:PaymentMeans>
         <cbc:PaymentMeansCode name="Information">1</cbc:PaymentMeansCode>

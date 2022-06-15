@@ -4,8 +4,8 @@
              xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
     <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_2.2</cbc:CustomizationID>
     <cbc:ID>R1234567</cbc:ID>
-    <cbc:IssueDate>2016-06-30+01:00</cbc:IssueDate>
-    <cbc:DueDate>2016-08-14+01:00</cbc:DueDate>
+    <cbc:IssueDate>2016-06-30</cbc:IssueDate>
+    <cbc:DueDate>2016-08-14</cbc:DueDate>
     <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
     <cbc:Note>#ADU#Bitte überweisen Sie den Gesamtbetrag in Höhe von EUR 45,22 auf unser Konto Nr. […], BIC […].</cbc:Note>
     <cbc:Note>#ADU#Bei Fragen steht Ihnen unsere Kundenbetreuung gern unter der Rufnummer [...] zur Verfügung. Beanstandungen am Inhalt dieser Rechnung sind uns innerhalb von 28 Tagen nach Erhalt der Rechnung schriftlich mitzuteilen. Nach Ablauf dieser Frist gilt der Saldo endgültig.</cbc:Note>
@@ -13,8 +13,8 @@
     <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
     <cbc:BuyerReference>99000000-05676-98</cbc:BuyerReference>
     <cac:InvoicePeriod>
-        <cbc:StartDate>2016-06-01+01:00</cbc:StartDate>
-        <cbc:EndDate>2016-06-30+01:00</cbc:EndDate>
+        <cbc:StartDate>2016-06-01</cbc:StartDate>
+        <cbc:EndDate>2016-06-30</cbc:EndDate>
     </cac:InvoicePeriod>
     <cac:AccountingSupplierParty>
         <cac:Party>
@@ -103,8 +103,8 @@
         <cbc:InvoicedQuantity unitCode="MON">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">38</cbc:LineExtensionAmount>
         <cac:InvoicePeriod>
-            <cbc:StartDate>2016-06-01+01:00</cbc:StartDate>
-            <cbc:EndDate>2016-06-30+01:00</cbc:EndDate>
+            <cbc:StartDate>2016-06-01</cbc:StartDate>
+            <cbc:EndDate>2016-06-30</cbc:EndDate>
         </cac:InvoicePeriod>
         <cac:Item>
             <cbc:Name>Miete X</cbc:Name>

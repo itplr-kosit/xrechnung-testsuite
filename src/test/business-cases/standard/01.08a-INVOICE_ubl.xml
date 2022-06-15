@@ -4,8 +4,8 @@
              xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
     <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_2.2</cbc:CustomizationID>
     <cbc:ID>R123456789</cbc:ID>
-    <cbc:IssueDate>2016-01-18+01:00</cbc:IssueDate>
-    <cbc:DueDate>2016-02-01+01:00</cbc:DueDate>
+    <cbc:IssueDate>2016-01-18</cbc:IssueDate>
+    <cbc:DueDate>2016-02-01</cbc:DueDate>
     <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
     <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
     <cbc:BuyerReference>04011000-12349-88</cbc:BuyerReference>
