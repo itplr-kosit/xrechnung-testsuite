@@ -10,7 +10,7 @@ This release is compatible with XRechnung 2.2.0
 
 ### Added
 
-* ANT tasks for CII to UBL conversion
+* ANT tasks `cii2ubl`for CII to UBL conversion
 
 ### Fixed
 
