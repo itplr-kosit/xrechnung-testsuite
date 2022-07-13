@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 This release is compatible with XRechnung ?.?.?
 
+### Fixed
+
+* Added missing BT-23 to `02.01a-INVOICE_uncefact.xml`
+
 ## 2022-05-31
 
 This release is compatible with XRechnung 2.2.0
