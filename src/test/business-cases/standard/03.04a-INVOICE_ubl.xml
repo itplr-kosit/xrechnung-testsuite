@@ -3,14 +3,14 @@
   <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_2.2</cbc:CustomizationID>
   <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
   <cbc:ID>123456789</cbc:ID>
-  <cbc:IssueDate>2019-02-28</cbc:IssueDate>
+  <cbc:IssueDate>2018-06-05</cbc:IssueDate>
   <cbc:DueDate>2019-03-14</cbc:DueDate>
   <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
   <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
   <cbc:BuyerReference>90000000-03083-72</cbc:BuyerReference>
   <cac:InvoicePeriod>
-    <cbc:StartDate>2018-05-01</cbc:StartDate>
-      <cbc:EndDate>2019-01-31</cbc:EndDate>
+    <cbc:StartDate>2016-01-01</cbc:StartDate>
+      <cbc:EndDate>2016-01-01</cbc:EndDate>
   </cac:InvoicePeriod>
   <cac:ContractDocumentReference>
     <cbc:ID>CR123456</cbc:ID>
@@ -25,12 +25,6 @@
   <cac:AccountingSupplierParty>
     <cac:Party>
       <cac:PartyIdentification>
-        <cbc:ID>[Seller identifier 1]</cbc:ID>
-      </cac:PartyIdentification>
-          <cac:PartyIdentification>
-        <cbc:ID>[Seller identifier 2]</cbc:ID>
-      </cac:PartyIdentification>
-          <cac:PartyIdentification>
         <cbc:ID schemeID="SEPA">[Bank assigned creditor identifier]</cbc:ID>
       </cac:PartyIdentification>
           <cac:PartyName>
@@ -94,24 +88,13 @@
     <cbc:Note>Dieses Guthaben werden wir auf Ihr Konto erstatten.</cbc:Note>
   </cac:PaymentTerms>
   <cac:TaxTotal>
-    <cbc:TaxAmount currencyID="EUR">117.58</cbc:TaxAmount>
+    <cbc:TaxAmount currencyID="EUR">6679.8</cbc:TaxAmount>
       <cac:TaxSubtotal>
-      <cbc:TaxableAmount currencyID="EUR">578.89</cbc:TaxableAmount>
-          <cbc:TaxAmount currencyID="EUR">109.99</cbc:TaxAmount>
+      <cbc:TaxableAmount currencyID="EUR">35156.82</cbc:TaxableAmount>
+          <cbc:TaxAmount currencyID="EUR">6679.8</cbc:TaxAmount>
           <cac:TaxCategory>
         <cbc:ID>S</cbc:ID>
               <cbc:Percent>19</cbc:Percent>
-              <cac:TaxScheme>
-          <cbc:ID>VAT</cbc:ID>
-        </cac:TaxScheme>
-      </cac:TaxCategory>
-    </cac:TaxSubtotal>
-      <cac:TaxSubtotal>
-      <cbc:TaxableAmount currencyID="EUR">108.39</cbc:TaxableAmount>
-          <cbc:TaxAmount currencyID="EUR">7.59</cbc:TaxAmount>
-          <cac:TaxCategory>
-        <cbc:ID>S</cbc:ID>
-              <cbc:Percent>7</cbc:Percent>
               <cac:TaxScheme>
           <cbc:ID>VAT</cbc:ID>
         </cac:TaxScheme>
@@ -119,23 +102,23 @@
     </cac:TaxSubtotal>
   </cac:TaxTotal>
   <cac:LegalMonetaryTotal>
-    <cbc:LineExtensionAmount currencyID="EUR">687.28</cbc:LineExtensionAmount>
-      <cbc:TaxExclusiveAmount currencyID="EUR">687.28</cbc:TaxExclusiveAmount>
-      <cbc:TaxInclusiveAmount currencyID="EUR">804.86</cbc:TaxInclusiveAmount>
-      <cbc:PrepaidAmount currencyID="EUR">1030</cbc:PrepaidAmount>
-      <cbc:PayableAmount currencyID="EUR">-225.14</cbc:PayableAmount>
+    <cbc:LineExtensionAmount currencyID="EUR">35156.82</cbc:LineExtensionAmount>
+      <cbc:TaxExclusiveAmount currencyID="EUR">35156.82</cbc:TaxExclusiveAmount>
+      <cbc:TaxInclusiveAmount currencyID="EUR">41836.62</cbc:TaxInclusiveAmount>
+      <cbc:PrepaidAmount currencyID="EUR">39839</cbc:PrepaidAmount>
+      <cbc:PayableAmount currencyID="EUR">1997.62</cbc:PayableAmount>
   </cac:LegalMonetaryTotal>
   <cac:InvoiceLine>
-    <cbc:ID>1.1</cbc:ID>
-      <cbc:Note>Arbeitspreis Strom</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="KWH">935</cbc:InvoicedQuantity>
-      <cbc:LineExtensionAmount currencyID="EUR">204.3</cbc:LineExtensionAmount>
+    <cbc:ID>1</cbc:ID>
+      <cbc:Note>Energiepreis</cbc:Note>
+      <cbc:InvoicedQuantity unitCode="KWH">804878.94</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">20765.88</cbc:LineExtensionAmount>
       <cac:InvoicePeriod>
-      <cbc:StartDate>2018-05-01</cbc:StartDate>
-          <cbc:EndDate>2018-12-31</cbc:EndDate>
+      <cbc:StartDate>2016-01-01</cbc:StartDate>
+          <cbc:EndDate>2016-12-31</cbc:EndDate>
     </cac:InvoicePeriod>
       <cac:Item>
-      <cbc:Name>Arbeitspreis Strom</cbc:Name>
+      <cbc:Name>Energiepreis</cbc:Name>
           <cac:ClassifiedTaxCategory>
         <cbc:ID>S</cbc:ID>
               <cbc:Percent>19</cbc:Percent>
@@ -145,20 +128,20 @@
       </cac:ClassifiedTaxCategory>
     </cac:Item>
       <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">0.2185</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="EUR">0.0258</cbc:PriceAmount>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
-    <cbc:ID>1.2</cbc:ID>
-      <cbc:Note>Arbeitspreis Strom</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="KWH">119</cbc:InvoicedQuantity>
-      <cbc:LineExtensionAmount currencyID="EUR">26</cbc:LineExtensionAmount>
+    <cbc:ID>2</cbc:ID>
+      <cbc:Note>Arbeitspreis Netznutzung</cbc:Note>
+      <cbc:InvoicedQuantity unitCode="KWH">804878.94</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">9223.92</cbc:LineExtensionAmount>
       <cac:InvoicePeriod>
-      <cbc:StartDate>2019-01-01</cbc:StartDate>
-          <cbc:EndDate>2019-01-31</cbc:EndDate>
+      <cbc:StartDate>2016-01-01</cbc:StartDate>
+          <cbc:EndDate>2016-12-31</cbc:EndDate>
     </cac:InvoicePeriod>
       <cac:Item>
-      <cbc:Name>Arbeitspreis Strom</cbc:Name>
+      <cbc:Name>Arbeitspreis Netznutzung</cbc:Name>
           <cac:ClassifiedTaxCategory>
         <cbc:ID>S</cbc:ID>
               <cbc:Percent>19</cbc:Percent>
@@ -168,20 +151,20 @@
       </cac:ClassifiedTaxCategory>
     </cac:Item>
       <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">0.2185</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="EUR">0.01146</cbc:PriceAmount>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
-    <cbc:ID>1.3</cbc:ID>
-      <cbc:Note>Grundpreis Strom</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="DAY">245</cbc:InvoicedQuantity>
-      <cbc:LineExtensionAmount currencyID="EUR">25.05</cbc:LineExtensionAmount>
+    <cbc:ID>3</cbc:ID>
+      <cbc:Note>Konzessionsabgabe</cbc:Note>
+      <cbc:InvoicedQuantity unitCode="KWH">804878.94</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">241.47</cbc:LineExtensionAmount>
       <cac:InvoicePeriod>
-      <cbc:StartDate>2018-05-01</cbc:StartDate>
-          <cbc:EndDate>2018-12-31</cbc:EndDate>
+      <cbc:StartDate>2016-01-01</cbc:StartDate>
+          <cbc:EndDate>2016-12-31</cbc:EndDate>
     </cac:InvoicePeriod>
       <cac:Item>
-      <cbc:Name>Grundpreis Strom</cbc:Name>
+      <cbc:Name>Konzessionsabgabe</cbc:Name>
           <cac:ClassifiedTaxCategory>
         <cbc:ID>S</cbc:ID>
               <cbc:Percent>19</cbc:Percent>
@@ -191,20 +174,20 @@
       </cac:ClassifiedTaxCategory>
     </cac:Item>
       <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">0.1299</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="EUR">0.0003</cbc:PriceAmount>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
-    <cbc:ID>1.4</cbc:ID>
-      <cbc:Note>Grundpreis Strom</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="DAY">31</cbc:InvoicedQuantity>
-      <cbc:LineExtensionAmount currencyID="EUR">3.17</cbc:LineExtensionAmount>
+    <cbc:ID>4</cbc:ID>
+      <cbc:Note>Grundpreis Netz</cbc:Note>
+      <cbc:InvoicedQuantity unitCode="ANN">1</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">29.51</cbc:LineExtensionAmount>
       <cac:InvoicePeriod>
-      <cbc:StartDate>2019-01-01</cbc:StartDate>
-          <cbc:EndDate>2019-01-31</cbc:EndDate>
+      <cbc:StartDate>2016-01-01</cbc:StartDate>
+          <cbc:EndDate>2016-12-31</cbc:EndDate>
     </cac:InvoicePeriod>
       <cac:Item>
-      <cbc:Name>Grundpreis Strom</cbc:Name>
+      <cbc:Name>Grundpreis Netz</cbc:Name>
           <cac:ClassifiedTaxCategory>
         <cbc:ID>S</cbc:ID>
               <cbc:Percent>19</cbc:Percent>
@@ -214,20 +197,20 @@
       </cac:ClassifiedTaxCategory>
     </cac:Item>
       <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">0.1299</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="EUR">29.51</cbc:PriceAmount>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
-    <cbc:ID>2.1</cbc:ID>
-      <cbc:Note>Arbeitspreis Gas</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="KWH">328</cbc:InvoicedQuantity>
-      <cbc:LineExtensionAmount currencyID="EUR">13.28</cbc:LineExtensionAmount>
+    <cbc:ID>5</cbc:ID>
+      <cbc:Note>Messstellenbetrieb Netz</cbc:Note>
+      <cbc:InvoicedQuantity unitCode="ANN">1</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">17.73</cbc:LineExtensionAmount>
       <cac:InvoicePeriod>
-      <cbc:StartDate>2018-05-01</cbc:StartDate>
-          <cbc:EndDate>2018-07-03</cbc:EndDate>
+      <cbc:StartDate>2016-01-01</cbc:StartDate>
+          <cbc:EndDate>2016-12-31</cbc:EndDate>
     </cac:InvoicePeriod>
       <cac:Item>
-      <cbc:Name>Arbeitspreis Gas</cbc:Name>
+      <cbc:Name>Messstellenbetrieb Netz</cbc:Name>
           <cac:ClassifiedTaxCategory>
         <cbc:ID>S</cbc:ID>
               <cbc:Percent>19</cbc:Percent>
@@ -237,20 +220,20 @@
       </cac:ClassifiedTaxCategory>
     </cac:Item>
       <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">0.0405</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="EUR">17.73</cbc:PriceAmount>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
-    <cbc:ID>2.2</cbc:ID>
-      <cbc:Note>Arbeitspreis Gas</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="KWH">3875</cbc:InvoicedQuantity>
-      <cbc:LineExtensionAmount currencyID="EUR">156.94</cbc:LineExtensionAmount>
+    <cbc:ID>6</cbc:ID>
+      <cbc:Note>Messstellendienstleistung Netz</cbc:Note>
+      <cbc:InvoicedQuantity unitCode="ANN">1</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">1.7</cbc:LineExtensionAmount>
       <cac:InvoicePeriod>
-      <cbc:StartDate>2018-07-04</cbc:StartDate>
-          <cbc:EndDate>2018-12-31</cbc:EndDate>
+      <cbc:StartDate>2016-01-01</cbc:StartDate>
+          <cbc:EndDate>2016-12-31</cbc:EndDate>
     </cac:InvoicePeriod>
       <cac:Item>
-      <cbc:Name>Arbeitspreis Gas</cbc:Name>
+      <cbc:Name>Messstellendienstleistung Netz</cbc:Name>
           <cac:ClassifiedTaxCategory>
         <cbc:ID>S</cbc:ID>
               <cbc:Percent>19</cbc:Percent>
@@ -260,20 +243,20 @@
       </cac:ClassifiedTaxCategory>
     </cac:Item>
       <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">0.0405</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="EUR">1.7</cbc:PriceAmount>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
-    <cbc:ID>2.3</cbc:ID>
-      <cbc:Note>Arbeitspreis Gas</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="KWH">1746</cbc:InvoicedQuantity>
-      <cbc:LineExtensionAmount currencyID="EUR">70.71</cbc:LineExtensionAmount>
+    <cbc:ID>7</cbc:ID>
+      <cbc:Note>Abrechnung Netz</cbc:Note>
+      <cbc:InvoicedQuantity unitCode="ANN">1</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">14.77</cbc:LineExtensionAmount>
       <cac:InvoicePeriod>
-      <cbc:StartDate>2019-01-01</cbc:StartDate>
-          <cbc:EndDate>2019-01-31</cbc:EndDate>
+      <cbc:StartDate>2016-01-01</cbc:StartDate>
+          <cbc:EndDate>2016-12-31</cbc:EndDate>
     </cac:InvoicePeriod>
       <cac:Item>
-      <cbc:Name>Arbeitspreis Gas</cbc:Name>
+      <cbc:Name>Abrechnung Netz</cbc:Name>
           <cac:ClassifiedTaxCategory>
         <cbc:ID>S</cbc:ID>
               <cbc:Percent>19</cbc:Percent>
@@ -283,20 +266,20 @@
       </cac:ClassifiedTaxCategory>
     </cac:Item>
       <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">0.0405</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="EUR">14.77</cbc:PriceAmount>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
-    <cbc:ID>2.4</cbc:ID>
-      <cbc:Note>Grundpreis Gas</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="DAY">64</cbc:InvoicedQuantity>
-      <cbc:LineExtensionAmount currencyID="EUR">18.42</cbc:LineExtensionAmount>
+    <cbc:ID>8</cbc:ID>
+      <cbc:Note>Bilanzierungsumlage</cbc:Note>
+      <cbc:InvoicedQuantity unitCode="KWH">543758.89</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">435.01</cbc:LineExtensionAmount>
       <cac:InvoicePeriod>
-      <cbc:StartDate>2018-05-01</cbc:StartDate>
-          <cbc:EndDate>2018-07-03</cbc:EndDate>
+      <cbc:StartDate>2016-01-01</cbc:StartDate>
+          <cbc:EndDate>2016-12-31</cbc:EndDate>
     </cac:InvoicePeriod>
       <cac:Item>
-      <cbc:Name>Grundpreis Gas</cbc:Name>
+      <cbc:Name>Bilanzierungsumlage</cbc:Name>
           <cac:ClassifiedTaxCategory>
         <cbc:ID>S</cbc:ID>
               <cbc:Percent>19</cbc:Percent>
@@ -306,20 +289,20 @@
       </cac:ClassifiedTaxCategory>
     </cac:Item>
       <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">0.1299</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="EUR">0.0008</cbc:PriceAmount>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
-    <cbc:ID>2.5</cbc:ID>
-      <cbc:Note>Grundpreis Gas</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="DAY">181</cbc:InvoicedQuantity>
-      <cbc:LineExtensionAmount currencyID="EUR">52.09</cbc:LineExtensionAmount>
+    <cbc:ID>9</cbc:ID>
+      <cbc:Note>Energiesteuer</cbc:Note>
+      <cbc:InvoicedQuantity unitCode="KWH">804878.94</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">4426.83</cbc:LineExtensionAmount>
       <cac:InvoicePeriod>
-      <cbc:StartDate>2018-07-04</cbc:StartDate>
-          <cbc:EndDate>2018-12-31</cbc:EndDate>
+      <cbc:StartDate>2016-01-01</cbc:StartDate>
+          <cbc:EndDate>2016-12-31</cbc:EndDate>
     </cac:InvoicePeriod>
       <cac:Item>
-      <cbc:Name>Grundpreis Gas</cbc:Name>
+      <cbc:Name>Energiesteuer</cbc:Name>
           <cac:ClassifiedTaxCategory>
         <cbc:ID>S</cbc:ID>
               <cbc:Percent>19</cbc:Percent>
@@ -329,122 +312,7 @@
       </cac:ClassifiedTaxCategory>
     </cac:Item>
       <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">0.1299</cbc:PriceAmount>
-    </cac:Price>
-  </cac:InvoiceLine>
-  <cac:InvoiceLine>
-    <cbc:ID>2.6</cbc:ID>
-      <cbc:Note>Grundpreis Gas</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="DAY">31</cbc:InvoicedQuantity>
-      <cbc:LineExtensionAmount currencyID="EUR">8.93</cbc:LineExtensionAmount>
-      <cac:InvoicePeriod>
-      <cbc:StartDate>2019-01-01</cbc:StartDate>
-          <cbc:EndDate>2019-01-31</cbc:EndDate>
-    </cac:InvoicePeriod>
-      <cac:Item>
-      <cbc:Name>Grundpreis Gas</cbc:Name>
-          <cac:ClassifiedTaxCategory>
-        <cbc:ID>S</cbc:ID>
-              <cbc:Percent>19</cbc:Percent>
-              <cac:TaxScheme>
-          <cbc:ID>VAT</cbc:ID>
-        </cac:TaxScheme>
-      </cac:ClassifiedTaxCategory>
-    </cac:Item>
-      <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">0.1299</cbc:PriceAmount>
-    </cac:Price>
-  </cac:InvoiceLine>
-  <cac:InvoiceLine>
-    <cbc:ID>3.1</cbc:ID>
-      <cbc:Note>Arbeitspreis Wasser</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="MTQ">25</cbc:InvoicedQuantity>
-      <cbc:LineExtensionAmount currencyID="EUR">46.5</cbc:LineExtensionAmount>
-      <cac:InvoicePeriod>
-      <cbc:StartDate>2018-05-01</cbc:StartDate>
-          <cbc:EndDate>2018-12-31</cbc:EndDate>
-    </cac:InvoicePeriod>
-      <cac:Item>
-      <cbc:Name>Arbeitspreis Wasser</cbc:Name>
-          <cac:ClassifiedTaxCategory>
-        <cbc:ID>S</cbc:ID>
-              <cbc:Percent>7</cbc:Percent>
-              <cac:TaxScheme>
-          <cbc:ID>VAT</cbc:ID>
-        </cac:TaxScheme>
-      </cac:ClassifiedTaxCategory>
-    </cac:Item>
-      <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">1.86</cbc:PriceAmount>
-    </cac:Price>
-  </cac:InvoiceLine>
-  <cac:InvoiceLine>
-    <cbc:ID>3.2</cbc:ID>
-      <cbc:Note>Arbeitspreis Wasser</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="MTQ">4</cbc:InvoicedQuantity>
-      <cbc:LineExtensionAmount currencyID="EUR">7.44</cbc:LineExtensionAmount>
-      <cac:InvoicePeriod>
-      <cbc:StartDate>2019-01-01</cbc:StartDate>
-          <cbc:EndDate>2019-01-31</cbc:EndDate>
-    </cac:InvoicePeriod>
-      <cac:Item>
-      <cbc:Name>Arbeitspreis Wasser</cbc:Name>
-          <cac:ClassifiedTaxCategory>
-        <cbc:ID>S</cbc:ID>
-              <cbc:Percent>7</cbc:Percent>
-              <cac:TaxScheme>
-          <cbc:ID>VAT</cbc:ID>
-        </cac:TaxScheme>
-      </cac:ClassifiedTaxCategory>
-    </cac:Item>
-      <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">1.86</cbc:PriceAmount>
-    </cac:Price>
-  </cac:InvoiceLine>
-  <cac:InvoiceLine>
-    <cbc:ID>3.3</cbc:ID>
-      <cbc:Note>Grundpreis Wasser</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="DAY">245</cbc:InvoicedQuantity>
-      <cbc:LineExtensionAmount currencyID="EUR">48.33</cbc:LineExtensionAmount>
-      <cac:InvoicePeriod>
-      <cbc:StartDate>2018-05-01</cbc:StartDate>
-          <cbc:EndDate>2018-12-31</cbc:EndDate>
-    </cac:InvoicePeriod>
-      <cac:Item>
-      <cbc:Name>Grundpreis Wasser</cbc:Name>
-          <cac:ClassifiedTaxCategory>
-        <cbc:ID>S</cbc:ID>
-              <cbc:Percent>7</cbc:Percent>
-              <cac:TaxScheme>
-          <cbc:ID>VAT</cbc:ID>
-        </cac:TaxScheme>
-      </cac:ClassifiedTaxCategory>
-    </cac:Item>
-      <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">0.1973</cbc:PriceAmount>
-    </cac:Price>
-  </cac:InvoiceLine>
-  <cac:InvoiceLine>
-    <cbc:ID>3.4</cbc:ID>
-      <cbc:Note>Grundpreis Wasser</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="DAY">31</cbc:InvoicedQuantity>
-      <cbc:LineExtensionAmount currencyID="EUR">6.12</cbc:LineExtensionAmount>
-      <cac:InvoicePeriod>
-      <cbc:StartDate>2019-01-01</cbc:StartDate>
-          <cbc:EndDate>2019-01-31</cbc:EndDate>
-    </cac:InvoicePeriod>
-      <cac:Item>
-      <cbc:Name>Grundpreis Wasser</cbc:Name>
-          <cac:ClassifiedTaxCategory>
-        <cbc:ID>S</cbc:ID>
-              <cbc:Percent>7</cbc:Percent>
-              <cac:TaxScheme>
-          <cbc:ID>VAT</cbc:ID>
-        </cac:TaxScheme>
-      </cac:ClassifiedTaxCategory>
-    </cac:Item>
-      <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">0.1973</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="EUR">0.0055</cbc:PriceAmount>
     </cac:Price>
   </cac:InvoiceLine>
 </Invoice>
