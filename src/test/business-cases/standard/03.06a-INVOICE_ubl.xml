@@ -61,7 +61,6 @@
    </cac:AccountingCustomerParty>
    <cac:PaymentMeans>
       <cbc:PaymentMeansCode>58</cbc:PaymentMeansCode>
-      <cbc:InstructionNote>SEPA-Überweisung</cbc:InstructionNote>
       <cac:PayeeFinancialAccount>
          <cbc:ID>DE21081508151234123412</cbc:ID>
          <cbc:Name>Testkäufer</cbc:Name>
