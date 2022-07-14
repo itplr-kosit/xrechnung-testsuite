@@ -4,9 +4,17 @@ All notable changes to XRechnung Test Suite will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## UNRELEASED
+## 2022-07-15
 
-This release is compatible with XRechnung ?.?.?
+This release is compatible with XRechnung 2.2.0
+
+### Added
+
+* All missing UBL Test Cases
+
+### Fixed
+
+* UBL Testcases 02.01, 02.02, 03.01, 03.02 now contain binary data
 
 ### Fixed
 
