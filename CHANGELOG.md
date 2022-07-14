@@ -11,6 +11,7 @@ This release is compatible with XRechnung ?.?.?
 ### Fixed
 
 * Added missing BT-23 to `02.01a-INVOICE_uncefact.xml`
+* Representation of multiple preceding invoices in UBL (BG-3) in `04.03a-INVOICE_ubl.xml`
 
 ## 2022-05-31
 
