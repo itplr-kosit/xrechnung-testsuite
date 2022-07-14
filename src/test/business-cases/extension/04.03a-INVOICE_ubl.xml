@@ -24,7 +24,17 @@
   </cac:OrderReference>
   <cac:BillingReference>
     <cac:InvoiceDocumentReference>
-      <cbc:ID>1/10416097;24/9999999;25/9999999</cbc:ID>
+      <cbc:ID>1/10416097</cbc:ID>
+    </cac:InvoiceDocumentReference>
+  </cac:BillingReference>
+  <cac:BillingReference>
+    <cac:InvoiceDocumentReference>
+      <cbc:ID>24/9999999</cbc:ID>
+    </cac:InvoiceDocumentReference>
+  </cac:BillingReference>
+  <cac:BillingReference>
+    <cac:InvoiceDocumentReference>
+      <cbc:ID>25/9999999</cbc:ID>
     </cac:InvoiceDocumentReference>
   </cac:BillingReference>
   <cac:AccountingSupplierParty>
