@@ -2,18 +2,14 @@
 <Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cec="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
   <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_2.2</cbc:CustomizationID>
   <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
-  <cbc:ID>123456789</cbc:ID>
-  <cbc:IssueDate>2019-02-28</cbc:IssueDate>
-  <cbc:DueDate>2019-03-14</cbc:DueDate>
+  <cbc:ID>1234567</cbc:ID>
+  <cbc:IssueDate>2019-08-20</cbc:IssueDate>
+  <cbc:DueDate>2019-08-29</cbc:DueDate>
   <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
   <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
   <cbc:BuyerReference>90000000-03083-72</cbc:BuyerReference>
-  <cac:InvoicePeriod>
-    <cbc:StartDate>2018-05-01</cbc:StartDate>
-      <cbc:EndDate>2019-01-31</cbc:EndDate>
-  </cac:InvoicePeriod>
   <cac:ContractDocumentReference>
-    <cbc:ID>CR123456</cbc:ID>
+    <cbc:ID>0000000752</cbc:ID>
   </cac:ContractDocumentReference>
   <cac:AdditionalDocumentReference>
     <cbc:ID>01_15_Anhang_01.pdf</cbc:ID>
@@ -24,20 +20,16 @@
   </cac:AdditionalDocumentReference>
   <cac:AccountingSupplierParty>
     <cac:Party>
-      <cac:PartyIdentification>
-        <cbc:ID>[Seller identifier 1]</cbc:ID>
-      </cac:PartyIdentification>
+      <cbc:EndpointID schemeID="EM">rechnungsausgang@test.com</cbc:EndpointID>
           <cac:PartyIdentification>
-        <cbc:ID>[Seller identifier 2]</cbc:ID>
-      </cac:PartyIdentification>
-          <cac:PartyIdentification>
-        <cbc:ID schemeID="SEPA">[Bank assigned creditor identifier]</cbc:ID>
+        <cbc:ID schemeID="0088">987654321</cbc:ID>
       </cac:PartyIdentification>
           <cac:PartyName>
         <cbc:Name>[Seller name]</cbc:Name>
       </cac:PartyName>
           <cac:PostalAddress>
         <cbc:StreetName>[Seller address line 1]</cbc:StreetName>
+              <cbc:AdditionalStreetName>[Seller address line 2]</cbc:AdditionalStreetName>
               <cbc:CityName>[Seller city]</cbc:CityName>
               <cbc:PostalZone>12345</cbc:PostalZone>
               <cac:Country>
@@ -50,54 +42,110 @@
           <cbc:ID>VAT</cbc:ID>
         </cac:TaxScheme>
       </cac:PartyTaxScheme>
+          <cac:PartyTaxScheme>
+        <cbc:CompanyID>123/456/789</cbc:CompanyID>
+              <cac:TaxScheme>
+          <cbc:ID>FC</cbc:ID>
+        </cac:TaxScheme>
+      </cac:PartyTaxScheme>
           <cac:PartyLegalEntity>
-        <cbc:RegistrationName>[Seller name]</cbc:RegistrationName>
+        <cbc:RegistrationName>[Seller trading name]</cbc:RegistrationName>
+              <cbc:CompanyID schemeID="0088">123456789</cbc:CompanyID>
+              <cbc:CompanyLegalForm>Amtsgericht […], Geschäftsführer: […], Sitz der Gesellschaft […], Aufsichtsratvorsitzender: […]</cbc:CompanyLegalForm>
       </cac:PartyLegalEntity>
           <cac:Contact>
-        <cbc:Name>Kundencenter</cbc:Name>
-              <cbc:Telephone>0800-12345678</cbc:Telephone>
-              <cbc:ElectronicMail>kundencenter@sellder.de</cbc:ElectronicMail>
+        <cbc:Name>Tim Tester</cbc:Name>
+              <cbc:Telephone>012 3456789</cbc:Telephone>
+              <cbc:ElectronicMail>tim.tester@test.com</cbc:ElectronicMail>
       </cac:Contact>
     </cac:Party>
   </cac:AccountingSupplierParty>
   <cac:AccountingCustomerParty>
     <cac:Party>
-      <cac:PartyIdentification>
-        <cbc:ID>BI123456</cbc:ID>
+      <cbc:EndpointID schemeID="EM">rechnungseingang@test.de</cbc:EndpointID>
+          <cac:PartyIdentification>
+        <cbc:ID>138</cbc:ID>
       </cac:PartyIdentification>
           <cac:PartyName>
         <cbc:Name>[Buyer name]</cbc:Name>
       </cac:PartyName>
           <cac:PostalAddress>
         <cbc:StreetName>[Buyer address line 1]</cbc:StreetName>
+              <cbc:AdditionalStreetName>[Buyer address line 2]</cbc:AdditionalStreetName>
               <cbc:CityName>[Buyer city]</cbc:CityName>
-              <cbc:PostalZone>12345</cbc:PostalZone>
+              <cbc:PostalZone>98765</cbc:PostalZone>
+              <cac:AddressLine>
+          <cbc:Line>[Buyer address line 3]</cbc:Line>
+        </cac:AddressLine>
               <cac:Country>
           <cbc:IdentificationCode>DE</cbc:IdentificationCode>
         </cac:Country>
       </cac:PostalAddress>
+          <cac:PartyTaxScheme>
+        <cbc:CompanyID>DE12345ABC</cbc:CompanyID>
+              <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:PartyTaxScheme>
           <cac:PartyLegalEntity>
         <cbc:RegistrationName>[Buyer name]</cbc:RegistrationName>
+              <cbc:CompanyID schemeID="0204">90000000-03083-72</cbc:CompanyID>
       </cac:PartyLegalEntity>
+          <cac:Contact>
+        <cbc:Name>Tina Tester</cbc:Name>
+              <cbc:Telephone>0800 123456</cbc:Telephone>
+              <cbc:ElectronicMail>tester@test.de</cbc:ElectronicMail>
+      </cac:Contact>
     </cac:Party>
   </cac:AccountingCustomerParty>
   <cac:PaymentMeans>
-    <cbc:PaymentMeansCode>59</cbc:PaymentMeansCode>
-      <cac:PaymentMandate>
-      <cbc:ID>[Mandate reference identifier]</cbc:ID>
-          <cac:PayerFinancialAccount>
-        <cbc:ID>DE75512108001245126199</cbc:ID>
-      </cac:PayerFinancialAccount>
-    </cac:PaymentMandate>
+    <cbc:PaymentMeansCode>58</cbc:PaymentMeansCode>
+      <cbc:PaymentID>Deb. 12345 / Fact. 9876543</cbc:PaymentID>
+      <cac:PayeeFinancialAccount>
+      <cbc:ID>DE75512108001245126199</cbc:ID>
+          <cbc:Name>[Payment account name]</cbc:Name>
+          <cac:FinancialInstitutionBranch>
+        <cbc:ID>[BIC]</cbc:ID>
+      </cac:FinancialInstitutionBranch>
+    </cac:PayeeFinancialAccount>
   </cac:PaymentMeans>
   <cac:PaymentTerms>
-    <cbc:Note>Dieses Guthaben werden wir auf Ihr Konto erstatten.</cbc:Note>
+    <cbc:Note>Bitte überweisen Sie bis zum …</cbc:Note>
   </cac:PaymentTerms>
+  <cac:AllowanceCharge>
+    <cbc:ChargeIndicator>true</cbc:ChargeIndicator>
+      <cbc:AllowanceChargeReason>Fremdleistung Anbieter</cbc:AllowanceChargeReason>
+      <cbc:MultiplierFactorNumeric>0</cbc:MultiplierFactorNumeric>
+      <cbc:Amount currencyID="EUR">920</cbc:Amount>
+      <cbc:BaseAmount currencyID="EUR">0</cbc:BaseAmount>
+      <cac:TaxCategory>
+      <cbc:ID>E</cbc:ID>
+          <cbc:Percent>0</cbc:Percent>
+          <cac:TaxScheme>
+        <cbc:ID>VAT</cbc:ID>
+      </cac:TaxScheme>
+    </cac:TaxCategory>
+  </cac:AllowanceCharge>
+  <cac:AllowanceCharge>
+    <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+      <cbc:AllowanceChargeReasonCode>103</cbc:AllowanceChargeReasonCode>
+      <cbc:AllowanceChargeReason>Rabatte</cbc:AllowanceChargeReason>
+      <cbc:MultiplierFactorNumeric>0</cbc:MultiplierFactorNumeric>
+      <cbc:Amount currencyID="EUR">100.29</cbc:Amount>
+      <cbc:BaseAmount currencyID="EUR">0</cbc:BaseAmount>
+      <cac:TaxCategory>
+      <cbc:ID>S</cbc:ID>
+          <cbc:Percent>19</cbc:Percent>
+          <cac:TaxScheme>
+        <cbc:ID>VAT</cbc:ID>
+      </cac:TaxScheme>
+    </cac:TaxCategory>
+  </cac:AllowanceCharge>
   <cac:TaxTotal>
-    <cbc:TaxAmount currencyID="EUR">117.58</cbc:TaxAmount>
+    <cbc:TaxAmount currencyID="EUR">264.47</cbc:TaxAmount>
       <cac:TaxSubtotal>
-      <cbc:TaxableAmount currencyID="EUR">578.89</cbc:TaxableAmount>
-          <cbc:TaxAmount currencyID="EUR">109.99</cbc:TaxAmount>
+      <cbc:TaxableAmount currencyID="EUR">1391.94</cbc:TaxableAmount>
+          <cbc:TaxAmount currencyID="EUR">264.47</cbc:TaxAmount>
           <cac:TaxCategory>
         <cbc:ID>S</cbc:ID>
               <cbc:Percent>19</cbc:Percent>
@@ -107,11 +155,12 @@
       </cac:TaxCategory>
     </cac:TaxSubtotal>
       <cac:TaxSubtotal>
-      <cbc:TaxableAmount currencyID="EUR">108.39</cbc:TaxableAmount>
-          <cbc:TaxAmount currencyID="EUR">7.59</cbc:TaxAmount>
+      <cbc:TaxableAmount currencyID="EUR">920</cbc:TaxableAmount>
+          <cbc:TaxAmount currencyID="EUR">0</cbc:TaxAmount>
           <cac:TaxCategory>
-        <cbc:ID>S</cbc:ID>
-              <cbc:Percent>7</cbc:Percent>
+        <cbc:ID>E</cbc:ID>
+              <cbc:Percent>0</cbc:Percent>
+              <cbc:TaxExemptionReasonCode>vatex-eu-132-1a</cbc:TaxExemptionReasonCode>
               <cac:TaxScheme>
           <cbc:ID>VAT</cbc:ID>
         </cac:TaxScheme>
@@ -119,23 +168,19 @@
     </cac:TaxSubtotal>
   </cac:TaxTotal>
   <cac:LegalMonetaryTotal>
-    <cbc:LineExtensionAmount currencyID="EUR">687.28</cbc:LineExtensionAmount>
-      <cbc:TaxExclusiveAmount currencyID="EUR">687.28</cbc:TaxExclusiveAmount>
-      <cbc:TaxInclusiveAmount currencyID="EUR">804.86</cbc:TaxInclusiveAmount>
-      <cbc:PrepaidAmount currencyID="EUR">1030</cbc:PrepaidAmount>
-      <cbc:PayableAmount currencyID="EUR">-225.14</cbc:PayableAmount>
+    <cbc:LineExtensionAmount currencyID="EUR">1492.23</cbc:LineExtensionAmount>
+      <cbc:TaxExclusiveAmount currencyID="EUR">2311.94</cbc:TaxExclusiveAmount>
+      <cbc:TaxInclusiveAmount currencyID="EUR">2576.41</cbc:TaxInclusiveAmount>
+      <cbc:AllowanceTotalAmount currencyID="EUR">100.29</cbc:AllowanceTotalAmount>
+      <cbc:ChargeTotalAmount currencyID="EUR">920</cbc:ChargeTotalAmount>
+      <cbc:PayableAmount currencyID="EUR">2576.41</cbc:PayableAmount>
   </cac:LegalMonetaryTotal>
   <cac:InvoiceLine>
-    <cbc:ID>1.1</cbc:ID>
-      <cbc:Note>Arbeitspreis Strom</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="KWH">935</cbc:InvoicedQuantity>
-      <cbc:LineExtensionAmount currencyID="EUR">204.3</cbc:LineExtensionAmount>
-      <cac:InvoicePeriod>
-      <cbc:StartDate>2018-05-01</cbc:StartDate>
-          <cbc:EndDate>2018-12-31</cbc:EndDate>
-    </cac:InvoicePeriod>
+    <cbc:ID>1</cbc:ID>
+      <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">29.95</cbc:LineExtensionAmount>
       <cac:Item>
-      <cbc:Name>Arbeitspreis Strom</cbc:Name>
+      <cbc:Name>Produkt 1</cbc:Name>
           <cac:ClassifiedTaxCategory>
         <cbc:ID>S</cbc:ID>
               <cbc:Percent>19</cbc:Percent>
@@ -145,20 +190,15 @@
       </cac:ClassifiedTaxCategory>
     </cac:Item>
       <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">0.2185</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="EUR">29.95</cbc:PriceAmount>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
-    <cbc:ID>1.2</cbc:ID>
-      <cbc:Note>Arbeitspreis Strom</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="KWH">119</cbc:InvoicedQuantity>
-      <cbc:LineExtensionAmount currencyID="EUR">26</cbc:LineExtensionAmount>
-      <cac:InvoicePeriod>
-      <cbc:StartDate>2019-01-01</cbc:StartDate>
-          <cbc:EndDate>2019-01-31</cbc:EndDate>
-    </cac:InvoicePeriod>
+    <cbc:ID>2</cbc:ID>
+      <cbc:InvoicedQuantity unitCode="XPP">7</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">139.65</cbc:LineExtensionAmount>
       <cac:Item>
-      <cbc:Name>Arbeitspreis Strom</cbc:Name>
+      <cbc:Name>Produkt 2</cbc:Name>
           <cac:ClassifiedTaxCategory>
         <cbc:ID>S</cbc:ID>
               <cbc:Percent>19</cbc:Percent>
@@ -168,20 +208,15 @@
       </cac:ClassifiedTaxCategory>
     </cac:Item>
       <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">0.2185</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="EUR">19.95</cbc:PriceAmount>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
-    <cbc:ID>1.3</cbc:ID>
-      <cbc:Note>Grundpreis Strom</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="DAY">245</cbc:InvoicedQuantity>
-      <cbc:LineExtensionAmount currencyID="EUR">25.05</cbc:LineExtensionAmount>
-      <cac:InvoicePeriod>
-      <cbc:StartDate>2018-05-01</cbc:StartDate>
-          <cbc:EndDate>2018-12-31</cbc:EndDate>
-    </cac:InvoicePeriod>
+    <cbc:ID>3</cbc:ID>
+      <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">16</cbc:LineExtensionAmount>
       <cac:Item>
-      <cbc:Name>Grundpreis Strom</cbc:Name>
+      <cbc:Name>Produkt 3</cbc:Name>
           <cac:ClassifiedTaxCategory>
         <cbc:ID>S</cbc:ID>
               <cbc:Percent>19</cbc:Percent>
@@ -191,20 +226,15 @@
       </cac:ClassifiedTaxCategory>
     </cac:Item>
       <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">0.1299</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="EUR">16</cbc:PriceAmount>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
-    <cbc:ID>1.4</cbc:ID>
-      <cbc:Note>Grundpreis Strom</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="DAY">31</cbc:InvoicedQuantity>
-      <cbc:LineExtensionAmount currencyID="EUR">3.17</cbc:LineExtensionAmount>
-      <cac:InvoicePeriod>
-      <cbc:StartDate>2019-01-01</cbc:StartDate>
-          <cbc:EndDate>2019-01-31</cbc:EndDate>
-    </cac:InvoicePeriod>
+    <cbc:ID>4</cbc:ID>
+      <cbc:InvoicedQuantity unitCode="XPP">10</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">329.5</cbc:LineExtensionAmount>
       <cac:Item>
-      <cbc:Name>Grundpreis Strom</cbc:Name>
+      <cbc:Name>Produkt 4</cbc:Name>
           <cac:ClassifiedTaxCategory>
         <cbc:ID>S</cbc:ID>
               <cbc:Percent>19</cbc:Percent>
@@ -214,20 +244,15 @@
       </cac:ClassifiedTaxCategory>
     </cac:Item>
       <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">0.1299</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="EUR">32.95</cbc:PriceAmount>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
-    <cbc:ID>2.1</cbc:ID>
-      <cbc:Note>Arbeitspreis Gas</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="KWH">328</cbc:InvoicedQuantity>
-      <cbc:LineExtensionAmount currencyID="EUR">13.28</cbc:LineExtensionAmount>
-      <cac:InvoicePeriod>
-      <cbc:StartDate>2018-05-01</cbc:StartDate>
-          <cbc:EndDate>2018-07-03</cbc:EndDate>
-    </cac:InvoicePeriod>
+    <cbc:ID>5</cbc:ID>
+      <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">22.95</cbc:LineExtensionAmount>
       <cac:Item>
-      <cbc:Name>Arbeitspreis Gas</cbc:Name>
+      <cbc:Name>Produkt 5</cbc:Name>
           <cac:ClassifiedTaxCategory>
         <cbc:ID>S</cbc:ID>
               <cbc:Percent>19</cbc:Percent>
@@ -237,20 +262,15 @@
       </cac:ClassifiedTaxCategory>
     </cac:Item>
       <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">0.0405</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="EUR">22.95</cbc:PriceAmount>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
-    <cbc:ID>2.2</cbc:ID>
-      <cbc:Note>Arbeitspreis Gas</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="KWH">3875</cbc:InvoicedQuantity>
-      <cbc:LineExtensionAmount currencyID="EUR">156.94</cbc:LineExtensionAmount>
-      <cac:InvoicePeriod>
-      <cbc:StartDate>2018-07-04</cbc:StartDate>
-          <cbc:EndDate>2018-12-31</cbc:EndDate>
-    </cac:InvoicePeriod>
+    <cbc:ID>6</cbc:ID>
+      <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">12.95</cbc:LineExtensionAmount>
       <cac:Item>
-      <cbc:Name>Arbeitspreis Gas</cbc:Name>
+      <cbc:Name>Produkt 6</cbc:Name>
           <cac:ClassifiedTaxCategory>
         <cbc:ID>S</cbc:ID>
               <cbc:Percent>19</cbc:Percent>
@@ -260,20 +280,15 @@
       </cac:ClassifiedTaxCategory>
     </cac:Item>
       <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">0.0405</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="EUR">12.95</cbc:PriceAmount>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
-    <cbc:ID>2.3</cbc:ID>
-      <cbc:Note>Arbeitspreis Gas</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="KWH">1746</cbc:InvoicedQuantity>
-      <cbc:LineExtensionAmount currencyID="EUR">70.71</cbc:LineExtensionAmount>
-      <cac:InvoicePeriod>
-      <cbc:StartDate>2019-01-01</cbc:StartDate>
-          <cbc:EndDate>2019-01-31</cbc:EndDate>
-    </cac:InvoicePeriod>
+    <cbc:ID>7</cbc:ID>
+      <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">69.95</cbc:LineExtensionAmount>
       <cac:Item>
-      <cbc:Name>Arbeitspreis Gas</cbc:Name>
+      <cbc:Name>Produkt 7</cbc:Name>
           <cac:ClassifiedTaxCategory>
         <cbc:ID>S</cbc:ID>
               <cbc:Percent>19</cbc:Percent>
@@ -283,20 +298,15 @@
       </cac:ClassifiedTaxCategory>
     </cac:Item>
       <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">0.0405</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="EUR">69.95</cbc:PriceAmount>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
-    <cbc:ID>2.4</cbc:ID>
-      <cbc:Note>Grundpreis Gas</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="DAY">64</cbc:InvoicedQuantity>
-      <cbc:LineExtensionAmount currencyID="EUR">18.42</cbc:LineExtensionAmount>
-      <cac:InvoicePeriod>
-      <cbc:StartDate>2018-05-01</cbc:StartDate>
-          <cbc:EndDate>2018-07-03</cbc:EndDate>
-    </cac:InvoicePeriod>
+    <cbc:ID>8</cbc:ID>
+      <cbc:InvoicedQuantity unitCode="XPP">3</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">128.85</cbc:LineExtensionAmount>
       <cac:Item>
-      <cbc:Name>Grundpreis Gas</cbc:Name>
+      <cbc:Name>Produkt 8</cbc:Name>
           <cac:ClassifiedTaxCategory>
         <cbc:ID>S</cbc:ID>
               <cbc:Percent>19</cbc:Percent>
@@ -306,20 +316,15 @@
       </cac:ClassifiedTaxCategory>
     </cac:Item>
       <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">0.1299</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="EUR">42.95</cbc:PriceAmount>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
-    <cbc:ID>2.5</cbc:ID>
-      <cbc:Note>Grundpreis Gas</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="DAY">181</cbc:InvoicedQuantity>
-      <cbc:LineExtensionAmount currencyID="EUR">52.09</cbc:LineExtensionAmount>
-      <cac:InvoicePeriod>
-      <cbc:StartDate>2018-07-04</cbc:StartDate>
-          <cbc:EndDate>2018-12-31</cbc:EndDate>
-    </cac:InvoicePeriod>
+    <cbc:ID>9</cbc:ID>
+      <cbc:InvoicedQuantity unitCode="XPP">6</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">249.39</cbc:LineExtensionAmount>
       <cac:Item>
-      <cbc:Name>Grundpreis Gas</cbc:Name>
+      <cbc:Name>Produkt 9</cbc:Name>
           <cac:ClassifiedTaxCategory>
         <cbc:ID>S</cbc:ID>
               <cbc:Percent>19</cbc:Percent>
@@ -329,20 +334,15 @@
       </cac:ClassifiedTaxCategory>
     </cac:Item>
       <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">0.1299</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="EUR">41.5645</cbc:PriceAmount>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
-    <cbc:ID>2.6</cbc:ID>
-      <cbc:Note>Grundpreis Gas</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="DAY">31</cbc:InvoicedQuantity>
-      <cbc:LineExtensionAmount currencyID="EUR">8.93</cbc:LineExtensionAmount>
-      <cac:InvoicePeriod>
-      <cbc:StartDate>2019-01-01</cbc:StartDate>
-          <cbc:EndDate>2019-01-31</cbc:EndDate>
-    </cac:InvoicePeriod>
+    <cbc:ID>10</cbc:ID>
+      <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">15</cbc:LineExtensionAmount>
       <cac:Item>
-      <cbc:Name>Grundpreis Gas</cbc:Name>
+      <cbc:Name>Produkt 10</cbc:Name>
           <cac:ClassifiedTaxCategory>
         <cbc:ID>S</cbc:ID>
               <cbc:Percent>19</cbc:Percent>
@@ -352,99 +352,241 @@
       </cac:ClassifiedTaxCategory>
     </cac:Item>
       <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">0.1299</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="EUR">15</cbc:PriceAmount>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
-    <cbc:ID>3.1</cbc:ID>
-      <cbc:Note>Arbeitspreis Wasser</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="MTQ">25</cbc:InvoicedQuantity>
-      <cbc:LineExtensionAmount currencyID="EUR">46.5</cbc:LineExtensionAmount>
-      <cac:InvoicePeriod>
-      <cbc:StartDate>2018-05-01</cbc:StartDate>
-          <cbc:EndDate>2018-12-31</cbc:EndDate>
-    </cac:InvoicePeriod>
+    <cbc:ID>11</cbc:ID>
+      <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">10</cbc:LineExtensionAmount>
       <cac:Item>
-      <cbc:Name>Arbeitspreis Wasser</cbc:Name>
+      <cbc:Name>Produkt 11</cbc:Name>
           <cac:ClassifiedTaxCategory>
         <cbc:ID>S</cbc:ID>
-              <cbc:Percent>7</cbc:Percent>
+              <cbc:Percent>19</cbc:Percent>
               <cac:TaxScheme>
           <cbc:ID>VAT</cbc:ID>
         </cac:TaxScheme>
       </cac:ClassifiedTaxCategory>
     </cac:Item>
       <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">1.86</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="EUR">10</cbc:PriceAmount>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
-    <cbc:ID>3.2</cbc:ID>
-      <cbc:Note>Arbeitspreis Wasser</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="MTQ">4</cbc:InvoicedQuantity>
-      <cbc:LineExtensionAmount currencyID="EUR">7.44</cbc:LineExtensionAmount>
-      <cac:InvoicePeriod>
-      <cbc:StartDate>2019-01-01</cbc:StartDate>
-          <cbc:EndDate>2019-01-31</cbc:EndDate>
-    </cac:InvoicePeriod>
+    <cbc:ID>12</cbc:ID>
+      <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">9.68</cbc:LineExtensionAmount>
       <cac:Item>
-      <cbc:Name>Arbeitspreis Wasser</cbc:Name>
+      <cbc:Name>Produkt 12</cbc:Name>
           <cac:ClassifiedTaxCategory>
         <cbc:ID>S</cbc:ID>
-              <cbc:Percent>7</cbc:Percent>
+              <cbc:Percent>19</cbc:Percent>
               <cac:TaxScheme>
           <cbc:ID>VAT</cbc:ID>
         </cac:TaxScheme>
       </cac:ClassifiedTaxCategory>
     </cac:Item>
       <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">1.86</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="EUR">9.6774</cbc:PriceAmount>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
-    <cbc:ID>3.3</cbc:ID>
-      <cbc:Note>Grundpreis Wasser</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="DAY">245</cbc:InvoicedQuantity>
-      <cbc:LineExtensionAmount currencyID="EUR">48.33</cbc:LineExtensionAmount>
-      <cac:InvoicePeriod>
-      <cbc:StartDate>2018-05-01</cbc:StartDate>
-          <cbc:EndDate>2018-12-31</cbc:EndDate>
-    </cac:InvoicePeriod>
+    <cbc:ID>13</cbc:ID>
+      <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">3.75</cbc:LineExtensionAmount>
       <cac:Item>
-      <cbc:Name>Grundpreis Wasser</cbc:Name>
+      <cbc:Name>Produkt 13</cbc:Name>
           <cac:ClassifiedTaxCategory>
         <cbc:ID>S</cbc:ID>
-              <cbc:Percent>7</cbc:Percent>
+              <cbc:Percent>19</cbc:Percent>
               <cac:TaxScheme>
           <cbc:ID>VAT</cbc:ID>
         </cac:TaxScheme>
       </cac:ClassifiedTaxCategory>
     </cac:Item>
       <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">0.1973</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="EUR">3.75</cbc:PriceAmount>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
-    <cbc:ID>3.4</cbc:ID>
-      <cbc:Note>Grundpreis Wasser</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="DAY">31</cbc:InvoicedQuantity>
-      <cbc:LineExtensionAmount currencyID="EUR">6.12</cbc:LineExtensionAmount>
-      <cac:InvoicePeriod>
-      <cbc:StartDate>2019-01-01</cbc:StartDate>
-          <cbc:EndDate>2019-01-31</cbc:EndDate>
-    </cac:InvoicePeriod>
+    <cbc:ID>14</cbc:ID>
+      <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">7</cbc:LineExtensionAmount>
       <cac:Item>
-      <cbc:Name>Grundpreis Wasser</cbc:Name>
+      <cbc:Name>Produkt 14</cbc:Name>
           <cac:ClassifiedTaxCategory>
         <cbc:ID>S</cbc:ID>
-              <cbc:Percent>7</cbc:Percent>
+              <cbc:Percent>19</cbc:Percent>
               <cac:TaxScheme>
           <cbc:ID>VAT</cbc:ID>
         </cac:TaxScheme>
       </cac:ClassifiedTaxCategory>
     </cac:Item>
       <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">0.1973</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="EUR">7</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>15</cbc:ID>
+      <cbc:InvoicedQuantity unitCode="XPP">24</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+      <cac:Item>
+      <cbc:Name>Produkt 15</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+              <cbc:Percent>19</cbc:Percent>
+              <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+      <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>16</cbc:ID>
+      <cbc:InvoicedQuantity unitCode="XPP">6</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+      <cac:Item>
+      <cbc:Name>Produkt 16</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+              <cbc:Percent>19</cbc:Percent>
+              <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+      <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>17</cbc:ID>
+      <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">4.56</cbc:LineExtensionAmount>
+      <cac:Item>
+      <cbc:Name>Produkt 17</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+              <cbc:Percent>19</cbc:Percent>
+              <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+      <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">4.564</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>18</cbc:ID>
+      <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">20.05</cbc:LineExtensionAmount>
+      <cac:Item>
+      <cbc:Name>Produkt 18</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+              <cbc:Percent>19</cbc:Percent>
+              <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+      <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">20.0542</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>19</cbc:ID>
+      <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">3.45</cbc:LineExtensionAmount>
+      <cac:Item>
+      <cbc:Name>Produkt 19</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+              <cbc:Percent>19</cbc:Percent>
+              <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+      <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">3.45</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>20</cbc:ID>
+      <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">417.6</cbc:LineExtensionAmount>
+      <cac:Item>
+      <cbc:Name>Produkt 20</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+              <cbc:Percent>19</cbc:Percent>
+              <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+      <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">417.6011</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>21</cbc:ID>
+      <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">1.95</cbc:LineExtensionAmount>
+      <cac:Item>
+      <cbc:Name>Produkt 21</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+              <cbc:Percent>19</cbc:Percent>
+              <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+      <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">1.9496</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>22</cbc:ID>
+      <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+      <cac:Item>
+      <cbc:Name>Fremdleistung Anbieter A</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+        <cbc:ID>E</cbc:ID>
+              <cbc:Percent>0</cbc:Percent>
+              <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+      <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>23</cbc:ID>
+      <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+      <cac:Item>
+      <cbc:Name>Fremdleistung Anbieter B</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+        <cbc:ID>E</cbc:ID>
+              <cbc:Percent>0</cbc:Percent>
+              <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+      <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
     </cac:Price>
   </cac:InvoiceLine>
 </Invoice>
