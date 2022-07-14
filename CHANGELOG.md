@@ -15,9 +15,6 @@ This release is compatible with XRechnung 2.2.0
 ### Fixed
 
 * UBL Testcases 02.01, 02.02, 03.01, 03.02 now contain binary data
-
-### Fixed
-
 * Added missing BT-23 to `02.01a-INVOICE_uncefact.xml`
 * Representation of multiple preceding invoices in UBL (BG-3) in `04.03a-INVOICE_ubl.xml`
 
