@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 This release is compatible with XRechnung ?.?.?
 
+### Fixed
+
+* Incorrect use of scheme identifiers in `04.05a-INVOICE_uncefact.xml`test file
+
 ## 2022-07-15
 
 This release is compatible with XRechnung 2.2.0
