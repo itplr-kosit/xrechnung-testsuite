@@ -28,7 +28,7 @@
     location="${test.build.dir}/generated" />
   <property name="reports.dir" location="${build.dir}/reports" />
 
-  <property name="testsuite.version.date" value="2022-10-31-SNAPSHOT" />
+  <property name="testsuite.version.date" value="2022-11-15" />
 
   <property name="_xrechnung.version.majorminor" value="2.2" />
   <property name="xrechnung.version.full" value="${_xrechnung.version.majorminor}.0" />
