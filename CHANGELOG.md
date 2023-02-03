@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 This release is compatible with XRechnung ?.?.?
 
+### Added
+
+* Testcase 05.01 as an example for Third Party Payment
+
 ## 2022-11-15
 
 This release is compatible with XRechnung 2.2.0
