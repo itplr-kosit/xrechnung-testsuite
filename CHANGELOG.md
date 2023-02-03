@@ -10,7 +10,7 @@ This release is compatible with XRechnung ?.?.?
 
 ### Added
 
-* Added Third Party Payment Example
+* Testcase 05.01 as an example for Third Party Payment
 
 ## 2022-11-15
 
