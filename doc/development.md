@@ -69,7 +69,7 @@ If you build own local custom versions of dependencies such as XRechnung Schemat
 The following example demonstrates how to use a different CEN schematron distribution:
 ```shell
 ant
--Dcen.rules.version=1.3.0
+-Dcen.rules.version=1.3.7
 ```
 
 ### Development properties file
@@ -133,9 +133,9 @@ The `ant` target `dist` creates the distribution zip archive.
   ```
 
 * Tag the last commit according to the following naming rule: 
-   `release-${date-of-scheduled-release-e.g. 2021-12-31}`
+   `release-${date-of-scheduled-release-e.g. 2023-01-31}`
   e.g.
-  `git tag release-2021-07-31 && git push origin release-2021-07-31` 
+  `git tag release-2023-01-31 && git push origin release-2023-01-31`
 
 ### Publish
 
