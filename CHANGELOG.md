@@ -4,13 +4,17 @@ All notable changes to XRechnung Test Suite will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## UNRELEASED
+## 2023-01-31
 
-This release is compatible with XRechnung ?.?.?
+This release is compatible with XRechnung 2.3.1
 
 ### Added
 
 * Testcase 05.01 as an example for Third Party Payment
+
+### Fixed
+
+* UBL Testcase 04.02 now contains mandatory BT-90
 
 ## 2022-11-15
 
