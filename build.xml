@@ -31,7 +31,7 @@
   <property name="testsuite.version.date" value="2023-01-31" />
 
   <property name="_xrechnung.version.majorminor" value="2.3" />
-  <property name="xrechnung.version.full" value="${_xrechnung.version.majorminor}.0" />
+  <property name="xrechnung.version.full" value="${_xrechnung.version.majorminor}.1" />
 
   <!-- For testing testsuite -->
   <property name="xmute.jar" value="xml-mutate-${xmute.version.full}.jar"/>
