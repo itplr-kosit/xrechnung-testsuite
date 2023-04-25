@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 This release is compatible with XRechnung ?.?.?
 
+### Fixed
+
+* Removed empty Payment terms (BT-20) element and added Payment Due Date (BT-9) to comply with BR-CO-25
+
 ## 2023-01-31
 
 This release is compatible with XRechnung 2.3.x
