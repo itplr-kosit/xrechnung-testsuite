@@ -10,7 +10,7 @@ This release is compatible with XRechnung ?.?.?
 
 ### Fixed
 
-* Removed empty Payment terms (BT-20) element and added Payment Due Date (BT-9) to comply with BR-CO-25
+* Removed empty Payment terms (BT-20) element and added Payment Due Date (BT-9) to comply with BR-CO-25 in `04.05a-INVOICE_uncefact.xml`
 
 ## 2023-01-31
 
