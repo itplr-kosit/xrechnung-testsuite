@@ -10,7 +10,9 @@ This release is compatible with XRechnung ?.?.?
 
 ### Changed
 
+* Removed ant target `mutate`.
 * Removed testcase `00.03_codelist_test_ubl.xml`
+
 
 ## 2023-01-31
 

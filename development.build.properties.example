@@ -34,13 +34,6 @@
 
 #validator.jar=validationtool-${validator.version.full}-standalone.jar
 
-###
-# Point to local copy of xml-mutate project directory
-# Example is relative to this project directory in local file system
-##
-#xmute.download.url.prefix=file://${work.dir}/../xml-mutate
-#xmute.version.full=0.5
-
 
 ##
 # Point to a local copy of cii2ubl
