@@ -45,7 +45,7 @@ If you build own local custom versions of dependencies such as XRechnung Schemat
 The following example demonstrates how to use a different CEN schematron distribution:
 ```shell
 ant
--Dcen.rules.version=1.3.7
+-Dcen.rules.version=1.3.10
 ```
 
 ### Development properties file
@@ -54,7 +54,7 @@ In order to configure more complex adaption to the local development needs, you 
 
 We provide the `development.build.properties.example` file for the most common properties to be set different than default. It contains some documentation.
 
-You have to copy the file to e.g. `development.build.properties` and you have to explicitly provide the property file location at CLI for your development (otherwise tests will always fail or not executed at all).
+You have to copy the file to e.g. `development.build.properties` and you have to explicitly provide the property file location at CLI for your development (otherwise tests will always fail or not be executed at all).
 
 ```shell
 ant -propertyfile ${your.own.property.file.name}
@@ -66,7 +66,6 @@ ant -propertyfile ${your.own.property.file.name}
 #### Testing
 
 * KoSIT Validator Configuration XRechnung
-* XML Mutate
 
 ## cii2ubl
 
@@ -74,9 +73,9 @@ With the tasks `cii2ubl` certain CII files are automatically converted to UBL, a
 This task is meant to be called manually only, as the creation of test files is not an automatic process at this time.
 The conversion is based on the https://github.com/phax/en16931-cii2ubl tool.
 
-The build.xml can use a remote release version or a locally build version.
-To use a local version, the properties `cii2ubl.local.enabled` and `cii2ubl.local.url` needs to be defined in the `development.build.properties` file.
-`cii2ubl.local.enabled` needs to be set to `true` and `cii2ubl.local.url` need to point to the locally build, shaded JAR file of cii2ubl, including the version number.
+The build.xml can use a remote release version or a locally built version.
+To use a local version, the properties `cii2ubl.local.enabled` and `cii2ubl.local.url` need to be defined in the `development.build.properties` file.
+`cii2ubl.local.enabled` needs to be set to `true` and `cii2ubl.local.url` has to point to the locally built, shaded JAR file of cii2ubl, including the version number.
 If a local version is used, the internally defined version is ignored.
 
 
@@ -109,15 +108,15 @@ The `ant` target `dist` creates the distribution zip archive.
   ```
 
 * Tag the last commit according to the following naming rule: 
-   `release-${date-of-scheduled-release-e.g. 2023-01-31}`
+   `release-${date-of-scheduled-release-e.g. 2023-05-12}`
   e.g.
-  `git tag release-2023-01-31 && git push origin release-2023-01-31`
+  `git tag release-2023-05-12 && git push origin release-2023-05-12`
 
 ### Publish
 
 * Draft a new release at https://github.com/itplr-kosit/xrechnung-testsuite/releases/new
   * Choose the git tag
-* Add a release title of the following scheme: `Testsuite release compatible with XRechnung ${spec.version.full} in version ${testsuire.release.version}`.
+* Add a release title of the following scheme: `Testsuite release compatible with XRechnung ${spec.version.full} in version ${testsuite.release.version}`.
 * Copy & paste the high quality changelog entries for this release from CHANGELOG.md.
 * Upload distribution zip and tick mark this release as a `pre-release`.
 * Check everything is ok, then uncheck pre release.
