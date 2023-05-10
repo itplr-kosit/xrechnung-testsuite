@@ -113,9 +113,9 @@
       
     </copy>
     <basename property="technical.dirname" file="${test.src.technical.dir}"/>
-    <copy todir="${test.build.dir}">
-      <fileset dir="${test.src.dir}" >
-        <include name="${technical.dirname}"/>
+    <copy todir="${test.build.technical.dir}">
+      <fileset dir="${test.src.technical.dir}" >
+        <exclude name="00.*.xml" />
       </fileset>
     </copy>
   </target>
@@ -190,7 +190,7 @@
   </target>
 
   <target name="validator-test"
-    depends="validator-extension-business-case-test,validator-standard-business-case-test">
+    depends="validator-extension-business-case-test,validator-standard-business-case-test,validator-technical-test">
 
   </target>
 
