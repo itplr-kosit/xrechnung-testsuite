@@ -77,6 +77,7 @@
     <ram:ApplicableHeaderTradeAgreement>
       <ram:BuyerReference>Leitweg-ID</ram:BuyerReference>
       <ram:SellerTradeParty>
+        <ram:ID>TEST_RECHNUNGSSTELLER</ram:ID>
         <!-- IK des DiGA-Herstellers als "Seller Identifier" (BT-29) [BR-CO-26]: -->
         <ram:GlobalID schemeID="XR03">987654321</ram:GlobalID>
         <ram:Name>Rechnungssteller</ram:Name>
