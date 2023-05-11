@@ -112,7 +112,6 @@
       <fileset dir="${test.src.business.dir}" />
       
     </copy>
-    <basename property="technical.dirname" file="${test.src.technical.dir}"/>
     <copy todir="${test.build.technical.dir}">
       <fileset dir="${test.src.technical.dir}" >
         <exclude name="00.*.xml" />
