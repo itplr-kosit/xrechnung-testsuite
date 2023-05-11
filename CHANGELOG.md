@@ -10,8 +10,9 @@ This release is compatible with XRechnung ?.?.?
 
 ### Changed
 
-* Removed ant target `mutate`.
+* Removed ant target `mutate`
 * Removed testcase `00.03_codelist_test_ubl.xml`
+* Re-inserted BT-29 into `04.05a-INVOICE_uncefact.xml
 
 
 ## 2023-01-31
