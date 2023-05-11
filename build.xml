@@ -32,9 +32,6 @@
 
   <property name="_xrechnung.version.majorminor" value="2.3" />
   <property name="xrechnung.version.full" value="${_xrechnung.version.majorminor}.1" />
-
-  <!-- For testing testsuite -->
-  <property name="xmute.jar" value="xml-mutate-${xmute.version.full}.jar"/>
   
   <!-- For cii2ubl -->
   <property name="_cii2ubl.baseurl" value="https://github.com/phax/en16931-cii2ubl/releases/download/" />
@@ -239,52 +236,7 @@
      -->
   </target>
 
-  <target name="retrieve-xmute" depends="init">
-    <fail unless="xmute.download.url.prefix"
-      message="Property xmute.download.url.prefix must exist for this target to work" />
-    <fail unless="xmute.version.full"
-      message="Property xmute.version.full must exist for this target to work" />
-    <get src="${xmute.download.url.prefix}/target/xml-mutate-${xmute.version.full}.jar"
-      dest="${lib.dir}/${xmute.jar}" verbose="true" skipexisting="false"
-      usetimestamp="true" />
-  </target>
-
-  <propertyset id="proxy.properties">
-    <!--  	Select the properties whose name starts with the given string. -->
-    <propertyref prefix="java.net.useSystemProxies" />
-    <propertyref prefix="http." />
-    <propertyref prefix="https." />
-  </propertyset>
- 
- 
-  <target name="mutate"
-    depends="compile-test,retrieve-xmute, provide-validator-configuration"
-    description="Unit TestSchematron Rules wit XML-Mutate"
-   >
-    <fail unless="xmute.jar" message="xmute.jar has to be set"></fail>
-    <echo>Testing Schematron rules ...</echo>
-    <java jar="${lib.dir}/${xmute.jar}" failonerror="true" fork="true"
-      dir="${basedir}">
-      <!-- Proxy required by genericode mutator 
-      <syspropertyset refid="proxy.properties" />
--->
-      <arg value="--schematron" />
-      <arg
-        value="cenubl=${validator.configuration.resources.dir}/ubl/2.1/xsl/EN16931-UBL-validation.xsl" />
-      <arg value="--schematron" />
-      <arg
-        value="xrinv=${validator.configuration.resources.dir}/xrechnung/${xrechnung.version.full}/xsl/XRechnung-UBL-validation-Invoice.xsl" />
-      <!-- cencii:  for CEN UN/CEFACT CII rules
-xrinv: ´ for XRechnung UBL Invoice
-xrcn:    for XRechnung UBL Credit Note
-xrcii:   for XRechnung UN/CEFACT CII-->
-      <arg value="--target ${test.build.generated.dir}" />
-      <arg value="${test.build.technical.dir}/" />
-    </java>
-  </target>
-
-
-  <target name="test" depends="compile-test,mutate,validator-test"
+  <target name="test" depends="compile-test,validator-test"
     description="Perform all tests">
     <echo message="Executing all tests" />
   </target>

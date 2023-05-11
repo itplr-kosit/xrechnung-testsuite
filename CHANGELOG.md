@@ -8,6 +8,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 This release is compatible with XRechnung ?.?.?
 
+### Changed
+
+* Removed ant target `mutate`
+* Removed testcase `00.03_codelist_test_ubl.xml`
+* Re-inserted BT-29 into `04.05a-INVOICE_uncefact.xml
+
 ### Fixed
 
 * Removed empty Payment terms (BT-20) element and added Payment Due Date (BT-9) to comply with BR-CO-25 in `04.05a-INVOICE_uncefact.xml`
