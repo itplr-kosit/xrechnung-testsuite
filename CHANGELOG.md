@@ -14,6 +14,9 @@ This release is compatible with XRechnung ?.?.?
 * Removed testcase `00.03_codelist_test_ubl.xml`
 * Re-inserted BT-29 into `04.05a-INVOICE_uncefact.xml
 
+### Fixed
+
+* Removed empty Payment terms (BT-20) element and added Payment Due Date (BT-9) to comply with BR-CO-25 in `04.05a-INVOICE_uncefact.xml`
 
 ## 2023-01-31
 
