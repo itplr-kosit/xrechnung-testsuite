@@ -4,6 +4,10 @@ All notable changes to XRechnung Test Suite will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## UNRELEASED
+
+This release is compatible with XRechnung ?.?.?
+
 ## 2023-05-12
 
 This release is compatible with XRechnung 2.3.x
@@ -12,7 +16,7 @@ This release is compatible with XRechnung 2.3.x
 
 * Removed ant target `mutate`
 * Removed testcase `00.03_codelist_test_ubl.xml`
-* Re-inserted BT-29 into `04.05a-INVOICE_uncefact.xml
+* Re-inserted BT-29 into `04.05a-INVOICE_uncefact.xml`
 
 ### Fixed
 
