@@ -41,6 +41,7 @@
   </cac:AccountingSupplierParty>
   <cac:AccountingCustomerParty>
     <cac:Party>
+      <cbc:EndpointID schemeID="EM">buyer@info.de</cbc:EndpointID>
       <cac:PostalAddress>
         <cbc:StreetName>[Street]</cbc:StreetName>
         <cbc:CityName>[City]</cbc:CityName>
