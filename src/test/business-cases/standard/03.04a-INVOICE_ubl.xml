@@ -10,7 +10,7 @@
   <cbc:BuyerReference>90000000-03083-72</cbc:BuyerReference>
   <cac:InvoicePeriod>
     <cbc:StartDate>2016-01-01</cbc:StartDate>
-      <cbc:EndDate>2016-01-01</cbc:EndDate>
+      <cbc:EndDate>2016-12-31</cbc:EndDate>
   </cac:InvoicePeriod>
   <cac:ContractDocumentReference>
     <cbc:ID>CR123456</cbc:ID>
