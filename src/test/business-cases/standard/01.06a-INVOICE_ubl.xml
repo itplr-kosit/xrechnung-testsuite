@@ -18,6 +18,7 @@
     </cac:ContractDocumentReference>
     <cac:AccountingSupplierParty>
         <cac:Party>
+            <cbc:EndpointID schemeID="EM">seller@email.de</cbc:EndpointID>
             <cac:PostalAddress>
                 <cbc:StreetName>[Seller address line 1]</cbc:StreetName>
                 <cbc:CityName>[Seller city]</cbc:CityName>
