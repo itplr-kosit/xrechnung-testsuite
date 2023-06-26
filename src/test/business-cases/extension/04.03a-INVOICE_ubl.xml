@@ -239,7 +239,7 @@
         </cac:Item>
         <cac:SubInvoiceLine>
           <cbc:ID>3.1.10.</cbc:ID>
-          <cbc:InvoicedQuantity>210</cbc:InvoicedQuantity>
+          <cbc:InvoicedQuantity unitCode="C62">210</cbc:InvoicedQuantity>
           <cbc:LineExtensionAmount currencyID="EUR">19715327.10</cbc:LineExtensionAmount>
           <cac:Item>
             <cbc:Name>Baustelle einrichten</cbc:Name>
