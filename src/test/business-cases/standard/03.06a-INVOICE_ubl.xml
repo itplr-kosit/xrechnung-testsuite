@@ -29,9 +29,7 @@
          </cac:PartyTaxScheme>
          <cac:PartyTaxScheme>
             <cbc:CompanyID>1121081508150</cbc:CompanyID>
-            <cac:TaxScheme>
-               <cbc:ID/>
-            </cac:TaxScheme>
+            
          </cac:PartyTaxScheme>
          <cac:PartyLegalEntity>
             <cbc:RegistrationName>Testverkäufer</cbc:RegistrationName>
@@ -46,8 +44,7 @@
    <cac:AccountingCustomerParty>
       <cac:Party>
          <cac:PostalAddress>
-            <cbc:StreetName>Teststraße </cbc:StreetName>
-            <cbc:AdditionalStreetName/>
+            <cbc:StreetName>Teststraße </cbc:StreetName>           
             <cbc:CityName>12345</cbc:CityName>
             <cbc:PostalZone>Testhausen</cbc:PostalZone>
             <cac:Country>
@@ -106,9 +103,7 @@
       <cbc:InvoicedQuantity unitCode="C62">1.00</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">1000.00</cbc:LineExtensionAmount>
       <cac:Item>
-         <cbc:Description/>
          <cbc:Name>Neumotor</cbc:Name>
-         <cac:CommodityClassification/>
          <cac:ClassifiedTaxCategory>
             <cbc:ID>S</cbc:ID>
             <cbc:Percent>19.00</cbc:Percent>
@@ -120,16 +115,13 @@
       <cac:Price>
          <cbc:PriceAmount currencyID="EUR">1000.00</cbc:PriceAmount>
       </cac:Price>
-   </cac:InvoiceLine>
-   
+   </cac:InvoiceLine>   
    <cac:InvoiceLine>
       <cbc:ID>2</cbc:ID>
       <cbc:InvoicedQuantity unitCode="C62">1.00</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">100.00</cbc:LineExtensionAmount>
-      <cac:Item>
-         <cbc:Description/>
-         <cbc:Name>Bemessungsgrundlage und Umsatzsteuer auf Altteil</cbc:Name>
-         <cac:CommodityClassification/>
+      <cac:Item>        
+         <cbc:Name>Bemessungsgrundlage und Umsatzsteuer auf Altteil</cbc:Name>        
          <cac:ClassifiedTaxCategory>
             <cbc:ID>S</cbc:ID>
             <cbc:Percent>19.00</cbc:Percent>
@@ -146,10 +138,8 @@
       <cbc:ID>3</cbc:ID>
       <cbc:InvoicedQuantity unitCode="C62">-1.00</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">-100.00</cbc:LineExtensionAmount>
-      <cac:Item>
-         <cbc:Description/>
-         <cbc:Name>Korrektur/Stornierung Bemessungsgrundlage der Umsatzsteuer auf Altteil</cbc:Name>
-         <cac:CommodityClassification/>
+      <cac:Item>        
+         <cbc:Name>Korrektur/Stornierung Bemessungsgrundlage der Umsatzsteuer auf Altteil</cbc:Name>         
          <cac:ClassifiedTaxCategory>
             <cbc:ID>Z</cbc:ID>
             <cbc:Percent>0.00</cbc:Percent>
@@ -166,10 +156,8 @@
       <cbc:ID>4</cbc:ID>
       <cbc:InvoicedQuantity unitCode="HUR">1.00</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">500.00</cbc:LineExtensionAmount>
-      <cac:Item>
-         <cbc:Description/>
-         <cbc:Name>Montage</cbc:Name>
-         <cac:CommodityClassification/>
+      <cac:Item>        
+         <cbc:Name>Montage</cbc:Name>        
          <cac:ClassifiedTaxCategory>
             <cbc:ID>S</cbc:ID>
             <cbc:Percent>19.00</cbc:Percent>
