@@ -6,8 +6,7 @@
     <cbc:ID>17794</cbc:ID>
     <cbc:IssueDate>2021-07-14</cbc:IssueDate>
     <cbc:InvoiceTypeCode>877</cbc:InvoiceTypeCode>
-    <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
-    <cbc:TaxCurrencyCode>EUR</cbc:TaxCurrencyCode>
+    <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>    
     <cbc:BuyerReference>992-90009-96</cbc:BuyerReference>
     <cac:AccountingSupplierParty>
         <cac:Party>
