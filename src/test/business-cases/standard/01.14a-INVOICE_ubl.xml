@@ -148,7 +148,7 @@
     </cac:LegalMonetaryTotal>
     <cac:InvoiceLine>
         <cbc:ID>1</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="XPP">30</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="XPP">33</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">4743.75</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>Beratung</cbc:Name>
