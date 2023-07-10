@@ -723,8 +723,8 @@
                 <ram:ChargeIndicator>
                     <udt:Indicator>true</udt:Indicator>
                 </ram:ChargeIndicator>
-                <ram:CalculationPercent>0</ram:CalculationPercent>
-                <ram:BasisAmount>0</ram:BasisAmount>
+                <ram:CalculationPercent>100</ram:CalculationPercent>
+                <ram:BasisAmount>920</ram:BasisAmount>
                 <ram:ActualAmount>920</ram:ActualAmount>
                 <ram:Reason>Fremdleistung Anbieter</ram:Reason>
                 <ram:CategoryTradeTax>
@@ -737,8 +737,8 @@
                 <ram:ChargeIndicator>
                     <udt:Indicator>false</udt:Indicator>
                 </ram:ChargeIndicator>
-                <ram:CalculationPercent>0</ram:CalculationPercent>
-                <ram:BasisAmount>0</ram:BasisAmount>
+                <ram:CalculationPercent>100</ram:CalculationPercent>
+                <ram:BasisAmount>100.29</ram:BasisAmount>
                 <ram:ActualAmount>100.29</ram:ActualAmount>
                 <ram:ReasonCode>103</ram:ReasonCode>
                 <ram:Reason>Rabatte</ram:Reason>
