@@ -64,6 +64,9 @@
                     <ram:CityName>Frankfurt am Main</ram:CityName>
                     <ram:CountryID>DE</ram:CountryID>
                 </ram:PostalTradeAddress>
+                <ram:URIUniversalCommunication>
+                    <ram:URIID schemeID="EM">seller@email.de</ram:URIID>
+                </ram:URIUniversalCommunication>
                 <ram:SpecifiedTaxRegistration>
                     <ram:ID schemeID="FC">04523149435</ram:ID>
                 </ram:SpecifiedTaxRegistration>
