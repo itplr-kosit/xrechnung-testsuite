@@ -100,6 +100,9 @@
                     <ram:CityName>[Buyer city]</ram:CityName>
                     <ram:CountryID>DE</ram:CountryID>
                 </ram:PostalTradeAddress>
+                <ram:URIUniversalCommunication>
+                    <ram:URIID schemeID="EM">buyer@info.de</ram:URIID>
+                </ram:URIUniversalCommunication>
             </ram:BuyerTradeParty>
             <ram:SellerOrderReferencedDocument>
                 <ram:IssuerAssignedID>SO12345678</ram:IssuerAssignedID>
