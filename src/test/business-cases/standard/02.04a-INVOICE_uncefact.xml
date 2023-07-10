@@ -40,11 +40,11 @@
                     <ram:LineID>6171175.1</ram:LineID>
                 </ram:BuyerOrderReferencedDocument>
                 <ram:NetPriceProductTradePrice>
-                    <ram:ChargeAmount>143.75</ram:ChargeAmount>
+                    <ram:ChargeAmount>0.00</ram:ChargeAmount>
                 </ram:NetPriceProductTradePrice>
             </ram:SpecifiedLineTradeAgreement>
             <ram:SpecifiedLineTradeDelivery>
-                <ram:BilledQuantity unitCode="XPP">30</ram:BilledQuantity>
+                <ram:BilledQuantity unitCode="XPP">33</ram:BilledQuantity>
             </ram:SpecifiedLineTradeDelivery>
             <ram:SpecifiedLineTradeSettlement>
                 <ram:ApplicableTradeTax>
@@ -74,7 +74,7 @@
             </ram:SpecifiedTradeProduct>
             <ram:SpecifiedLineTradeAgreement>
                 <ram:NetPriceProductTradePrice>
-                    <ram:ChargeAmount>143.75</ram:ChargeAmount>
+                    <ram:ChargeAmount>0.00</ram:ChargeAmount>
                 </ram:NetPriceProductTradePrice>
             </ram:SpecifiedLineTradeAgreement>
             <ram:SpecifiedLineTradeDelivery>
