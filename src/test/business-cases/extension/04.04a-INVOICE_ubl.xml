@@ -27,8 +27,7 @@
                 </cac:TaxScheme>
             </cac:PartyTaxScheme>
             <cac:PartyLegalEntity>
-                <cbc:RegistrationName>Test Gerüstbau GmbH</cbc:RegistrationName>
-                <cbc:CompanyID/>
+                <cbc:RegistrationName>Test Gerüstbau GmbH</cbc:RegistrationName>                
                 <cbc:CompanyLegalForm>176/77/1508</cbc:CompanyLegalForm>
             </cac:PartyLegalEntity>
             <cac:Contact>
