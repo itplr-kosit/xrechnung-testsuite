@@ -29,6 +29,7 @@
     </cac:ProjectReference>
     <cac:AccountingSupplierParty>
         <cac:Party>
+            <cbc:EndpointID schemeID="EM">seller@email.de</cbc:EndpointID>
             <cac:PostalAddress>
                 <cbc:StreetName>[Seller street]</cbc:StreetName>
                 <cbc:CityName>[Seller city]</cbc:CityName>
