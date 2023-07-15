@@ -30,7 +30,9 @@
          </cac:PartyTaxScheme>
          <cac:PartyTaxScheme>
             <cbc:CompanyID>1121081508150</cbc:CompanyID>
-            
+            <cac:TaxScheme>
+               <cbc:ID>ID</cbc:ID>
+            </cac:TaxScheme>
          </cac:PartyTaxScheme>
          <cac:PartyLegalEntity>
             <cbc:RegistrationName>Testverkäufer</cbc:RegistrationName>
