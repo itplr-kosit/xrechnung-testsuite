@@ -71,6 +71,7 @@
   </cac:AccountingSupplierParty>
   <cac:AccountingCustomerParty>
     <cac:Party>
+      <cbc:EndpointID schemeID="EM">buyer@info.de</cbc:EndpointID>
       <cac:PartyIdentification>
         <cbc:ID>345LA5324</cbc:ID>
       </cac:PartyIdentification>

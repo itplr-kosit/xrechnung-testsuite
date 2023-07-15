@@ -133,7 +133,10 @@
                     <ram:LineOne>[Buyer address line 1]</ram:LineOne>
                     <ram:CityName>[Buyer city]</ram:CityName>
                     <ram:CountryID>DE</ram:CountryID>
-                </ram:PostalTradeAddress>
+                </ram:PostalTradeAddress>                
+                <ram:URIUniversalCommunication>
+                    <ram:URIID schemeID="EM">buyer@info.de</ram:URIID>
+                </ram:URIUniversalCommunication>                
             </ram:BuyerTradeParty>
         </ram:ApplicableHeaderTradeAgreement>
         <ram:ApplicableHeaderTradeDelivery/>
