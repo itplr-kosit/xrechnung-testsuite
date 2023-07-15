@@ -12,8 +12,8 @@
   <cbc:TaxCurrencyCode>GBP</cbc:TaxCurrencyCode>
   <cbc:BuyerReference>90000000-03083-72</cbc:BuyerReference>
   <cac:InvoicePeriod>
-    <cbc:StartDate>2018-04-13</cbc:StartDate>
-      <cbc:EndDate>2018-04-13</cbc:EndDate>
+    <cbc:StartDate>2016-01-01</cbc:StartDate>
+      <cbc:EndDate>2016-12-31</cbc:EndDate>
   </cac:InvoicePeriod>
   <cac:OrderReference>
     <cbc:ID>65002278</cbc:ID>
