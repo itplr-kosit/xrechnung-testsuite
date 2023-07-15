@@ -427,7 +427,7 @@
           <udt:DateTimeString format="102">20160101</udt:DateTimeString>
         </ram:StartDateTime>
         <ram:EndDateTime>
-          <udt:DateTimeString format="102">20160101</udt:DateTimeString>
+          <udt:DateTimeString format="102">20161231</udt:DateTimeString>
         </ram:EndDateTime>
       </ram:BillingSpecifiedPeriod>
       <ram:SpecifiedTradePaymentTerms>
