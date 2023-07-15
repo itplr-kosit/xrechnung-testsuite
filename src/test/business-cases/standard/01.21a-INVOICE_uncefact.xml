@@ -90,9 +90,6 @@
                     <ram:ID schemeID="FC">04523249415</ram:ID>
                 </ram:SpecifiedTaxRegistration>
             </ram:BuyerTradeParty>
-            <ram:BuyerOrderReferencedDocument>
-                <ram:IssuerAssignedID />
-            </ram:BuyerOrderReferencedDocument>
         </ram:ApplicableHeaderTradeAgreement>
         <ram:ApplicableHeaderTradeDelivery>
             <ram:ActualDeliverySupplyChainEvent>

@@ -66,7 +66,6 @@
             <ram:BuyerReference>99000000-05676-98</ram:BuyerReference>
             <ram:SellerTradeParty>
                 <ram:Name>[Seller name]</ram:Name>
-                <ram:SpecifiedLegalOrganization/>
                 <ram:DefinedTradeContact>
                     <ram:PersonName>[Seller contact person]</ram:PersonName>
                     <ram:TelephoneUniversalCommunication>
