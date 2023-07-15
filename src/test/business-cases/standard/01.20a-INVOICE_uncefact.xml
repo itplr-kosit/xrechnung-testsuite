@@ -26,8 +26,7 @@
         <ram:LineID>1</ram:LineID> 
       </ram:AssociatedDocumentLineDocument>  
       <ram:SpecifiedTradeProduct> 
-        <ram:Name>Behältermiete</ram:Name>  
-        <ram:Description/> 
+        <ram:Name>Behältermiete</ram:Name>
       </ram:SpecifiedTradeProduct>  
       <ram:SpecifiedLineTradeAgreement> 
         <ram:GrossPriceProductTradePrice> 

@@ -139,7 +139,6 @@
             <ram:BuyerReference>11002002-98765-14</ram:BuyerReference>
             <ram:SellerTradeParty>
                 <ram:Name>[Seller name]</ram:Name>
-                <ram:SpecifiedLegalOrganization/>
                 <ram:DefinedTradeContact>
                     <ram:PersonName>[Seller contact person]</ram:PersonName>
                     <ram:TelephoneUniversalCommunication>
