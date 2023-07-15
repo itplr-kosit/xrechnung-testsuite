@@ -154,9 +154,6 @@
                     <ram:CountryID>DE</ram:CountryID>
                 </ram:PostalTradeAddress>
                 <ram:URIUniversalCommunication>
-                    <ram:URIID schemeID="EM">buyer@info.de</ram:URIID>
-                </ram:URIUniversalCommunication>
-                <ram:URIUniversalCommunication>
                     <ram:URIID schemeID="EM">rechnungseingang@test.de</ram:URIID>
                 </ram:URIUniversalCommunication>
                 <ram:SpecifiedTaxRegistration>
