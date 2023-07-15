@@ -111,7 +111,7 @@
     </cac:Item>
     <cac:Price>
       <cbc:PriceAmount currencyID="EUR">818.04</cbc:PriceAmount>
-      <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+      <cbc:BaseQuantity unitCode="XPP">1</cbc:BaseQuantity>
     </cac:Price>
     <cac:SubInvoiceLine>
       <cbc:ID>1 1</cbc:ID>
@@ -129,7 +129,7 @@
       </cac:Item>
       <cac:Price>
         <cbc:PriceAmount currencyID="EUR">335.79</cbc:PriceAmount>
-        <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+        <cbc:BaseQuantity unitCode="XPP">1</cbc:BaseQuantity>
       </cac:Price>  
       <cac:SubInvoiceLine>
         <cbc:ID>1 1 1</cbc:ID>
@@ -208,7 +208,7 @@
       </cac:Item>
       <cac:Price>
         <cbc:PriceAmount currencyID="EUR">482.25</cbc:PriceAmount>
-        <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+        <cbc:BaseQuantity unitCode="XPP">1</cbc:BaseQuantity>
       </cac:Price>  
       <cac:SubInvoiceLine>
         <cbc:ID>1 2 1</cbc:ID>
@@ -268,7 +268,7 @@
     </cac:Item>
     <cac:Price>
       <cbc:PriceAmount currencyID="EUR">11718.8</cbc:PriceAmount>
-      <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+      <cbc:BaseQuantity unitCode="XPP">1</cbc:BaseQuantity>
     </cac:Price>   
     <cac:SubInvoiceLine>
       <cbc:ID>2 1</cbc:ID>
@@ -286,7 +286,7 @@
       </cac:Item>
       <cac:Price>
         <cbc:PriceAmount currencyID="EUR">1324</cbc:PriceAmount>
-        <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+        <cbc:BaseQuantity unitCode="XPP">1</cbc:BaseQuantity>
       </cac:Price>  
       <cac:SubInvoiceLine>
         <cbc:ID>2 1 1</cbc:ID>
@@ -344,7 +344,7 @@
       </cac:Item>
       <cac:Price>
         <cbc:PriceAmount currencyID="EUR">10394.8</cbc:PriceAmount>
-        <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+        <cbc:BaseQuantity unitCode="XPP">1</cbc:BaseQuantity>
       </cac:Price>  
       <cac:SubInvoiceLine>
         <cbc:ID>2 2 1</cbc:ID>
@@ -383,7 +383,7 @@
         </cac:Item>
         <cac:Price>
           <cbc:PriceAmount currencyID="EUR">1.85</cbc:PriceAmount>
-          <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+          <cbc:BaseQuantity unitCode="C62">1</cbc:BaseQuantity>
         </cac:Price>
       </cac:SubInvoiceLine>
     </cac:SubInvoiceLine>
