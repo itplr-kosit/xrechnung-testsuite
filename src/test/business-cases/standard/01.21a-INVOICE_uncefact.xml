@@ -132,7 +132,6 @@
                 <ram:ChargeIndicator>
                     <udt:Indicator>true</udt:Indicator>
                 </ram:ChargeIndicator>
-                <ram:BasisAmount>0.00</ram:BasisAmount>
                 <ram:ActualAmount>25.00</ram:ActualAmount>
                 <ram:Reason>Lieferpauschale</ram:Reason>
                 <ram:CategoryTradeTax>
