@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rsm:CrossIndustryInvoice xmlns:a="urn:un:unece:uncefact:data:standard:QualifiedDataType:100" xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100" xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100" xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100">
     <rsm:ExchangedDocumentContext>
+        <ram:BusinessProcessSpecifiedDocumentContextParameter>
+            <ram:ID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</ram:ID>
+        </ram:BusinessProcessSpecifiedDocumentContextParameter>
         <ram:GuidelineSpecifiedDocumentContextParameter>
             <ram:ID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_2.3</ram:ID>
         </ram:GuidelineSpecifiedDocumentContextParameter>
@@ -64,6 +67,9 @@
                     <ram:CityName>Frankfurt am Main</ram:CityName>
                     <ram:CountryID>DE</ram:CountryID>
                 </ram:PostalTradeAddress>
+                <ram:URIUniversalCommunication>
+                    <ram:URIID schemeID="EM">seller@email.de</ram:URIID>
+                </ram:URIUniversalCommunication>
                 <ram:SpecifiedTaxRegistration>
                     <ram:ID schemeID="FC">04523149435</ram:ID>
                 </ram:SpecifiedTaxRegistration>
@@ -83,6 +89,9 @@
                     <ram:CityName>Berlin</ram:CityName>
                     <ram:CountryID>DE</ram:CountryID>
                 </ram:PostalTradeAddress>
+                <ram:URIUniversalCommunication>
+                    <ram:URIID schemeID="EM">buyer@info.de</ram:URIID>
+                </ram:URIUniversalCommunication>
                 <ram:SpecifiedTaxRegistration>
                     <ram:ID schemeID="VA">DE152138634</ram:ID>
                 </ram:SpecifiedTaxRegistration>
@@ -90,9 +99,6 @@
                     <ram:ID schemeID="FC">04523249415</ram:ID>
                 </ram:SpecifiedTaxRegistration>
             </ram:BuyerTradeParty>
-            <ram:BuyerOrderReferencedDocument>
-                <ram:IssuerAssignedID />
-            </ram:BuyerOrderReferencedDocument>
         </ram:ApplicableHeaderTradeAgreement>
         <ram:ApplicableHeaderTradeDelivery>
             <ram:ActualDeliverySupplyChainEvent>
@@ -126,7 +132,6 @@
                 <ram:ChargeIndicator>
                     <udt:Indicator>true</udt:Indicator>
                 </ram:ChargeIndicator>
-                <ram:BasisAmount>0.00</ram:BasisAmount>
                 <ram:ActualAmount>25.00</ram:ActualAmount>
                 <ram:Reason>Lieferpauschale</ram:Reason>
                 <ram:CategoryTradeTax>
