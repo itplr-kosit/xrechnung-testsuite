@@ -4,7 +4,7 @@
     exclude-result-prefixes="xs"
     version="2.0">
 
-    <xsl:param name="year">2024</xsl:param>
+    <xsl:param name="year" as="xs:string">2024</xsl:param>
 
     <xsl:template match="@* | node()">
         <xsl:copy>
@@ -15,13 +15,13 @@
     <!-- UBL Invoice and CreditNote-->
 
     <xsl:template match="//*:IssueDate/text() | //*:ActualDeliveryDate/text() | //*:StartDate/text() | //*:EndDate/text() | //*:TaxPointDate/text() | //*:PaymentDueDate/text()">
-        <xsl:value-of select='replace(., "^\d{2}(\d{2})", $year)'/>
+        <xsl:value-of select='replace(., "^(\d{4})", $year)'/>
     </xsl:template>
 
     <!-- CII -->
 
     <xsl:template match="//*:DateTimeString/text()">
-        <xsl:value-of select='replace(., "^\d{2}(\d{2})", $year)'/>
+        <xsl:value-of select='replace(., "^(\d{4})", $year)'/>
     </xsl:template>
 
 </xsl:stylesheet>
