@@ -86,7 +86,7 @@
                 </ram:BuyerOrderReferencedDocument>				
                 <ram:GrossPriceProductTradePrice>
                     <!-- BT-148 -->
-                    <ram:ChargeAmount>0.0000000000000000</ram:ChargeAmount>
+                    <ram:ChargeAmount>143.750000000</ram:ChargeAmount>
                     <!-- BT-149, BT-150 -->
                     <ram:BasisQuantity
                         unitCode="XPP">30</ram:BasisQuantity>
@@ -95,12 +95,12 @@
                             <udt:Indicator>false</udt:Indicator>
                         </ram:ChargeIndicator>
                         <!-- BT-147 -->
-                        <ram:ActualAmount>0.000000000000000000</ram:ActualAmount>
+                        <ram:ActualAmount>10.000000000000000000</ram:ActualAmount>
                     </ram:AppliedTradeAllowanceCharge>
                 </ram:GrossPriceProductTradePrice>
                 <!-- BT-146 -->
                 <ram:NetPriceProductTradePrice>
-                    <ram:ChargeAmount>143.750000000</ram:ChargeAmount>
+                    <ram:ChargeAmount>133.750000000</ram:ChargeAmount>
                 </ram:NetPriceProductTradePrice>                
             </ram:SpecifiedLineTradeAgreement>
             <ram:SpecifiedLineTradeDelivery>
@@ -119,11 +119,11 @@
                 <ram:BillingSpecifiedPeriod>
 					<!-- BT-134 -->
                     <ram:StartDateTime>
-                        <udt:DateTimeString format="102">20160101</udt:DateTimeString>
+                        <udt:DateTimeString format="102">20180413</udt:DateTimeString>
                     </ram:StartDateTime>
 					<!-- BT-135 -->
                     <ram:EndDateTime>
-                        <udt:DateTimeString format="102">20161231</udt:DateTimeString>
+                        <udt:DateTimeString format="102">20180413</udt:DateTimeString>
                     </ram:EndDateTime>
                 </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeAllowanceCharge>
