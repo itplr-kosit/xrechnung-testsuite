@@ -10,7 +10,7 @@
   <cbc:BuyerReference>90000000-03083-72</cbc:BuyerReference>
   <cac:InvoicePeriod>
     <cbc:StartDate>2016-01-01</cbc:StartDate>
-      <cbc:EndDate>2016-01-01</cbc:EndDate>
+      <cbc:EndDate>2016-12-31</cbc:EndDate>
   </cac:InvoicePeriod>
   <cac:ContractDocumentReference>
     <cbc:ID>CR123456</cbc:ID>
@@ -24,6 +24,7 @@
   </cac:AdditionalDocumentReference>
   <cac:AccountingSupplierParty>
     <cac:Party>
+      <cbc:EndpointID schemeID="EM">seller@email.de</cbc:EndpointID>
       <cac:PartyIdentification>
         <cbc:ID schemeID="SEPA">[Bank assigned creditor identifier]</cbc:ID>
       </cac:PartyIdentification>
@@ -56,6 +57,7 @@
   </cac:AccountingSupplierParty>
   <cac:AccountingCustomerParty>
     <cac:Party>
+      <cbc:EndpointID schemeID="EM">buyer@info.de</cbc:EndpointID>
       <cac:PartyIdentification>
         <cbc:ID>BI123456</cbc:ID>
       </cac:PartyIdentification>

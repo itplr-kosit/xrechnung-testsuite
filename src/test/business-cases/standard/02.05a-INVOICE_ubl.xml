@@ -115,9 +115,9 @@
   <cac:AllowanceCharge>
     <cbc:ChargeIndicator>true</cbc:ChargeIndicator>
       <cbc:AllowanceChargeReason>Fremdleistung Anbieter</cbc:AllowanceChargeReason>
-      <cbc:MultiplierFactorNumeric>0</cbc:MultiplierFactorNumeric>
+      <cbc:MultiplierFactorNumeric>100</cbc:MultiplierFactorNumeric>
       <cbc:Amount currencyID="EUR">920</cbc:Amount>
-      <cbc:BaseAmount currencyID="EUR">0</cbc:BaseAmount>
+      <cbc:BaseAmount currencyID="EUR">920</cbc:BaseAmount>
       <cac:TaxCategory>
       <cbc:ID>E</cbc:ID>
           <cbc:Percent>0</cbc:Percent>
@@ -130,9 +130,9 @@
     <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
       <cbc:AllowanceChargeReasonCode>103</cbc:AllowanceChargeReasonCode>
       <cbc:AllowanceChargeReason>Rabatte</cbc:AllowanceChargeReason>
-      <cbc:MultiplierFactorNumeric>0</cbc:MultiplierFactorNumeric>
+      <cbc:MultiplierFactorNumeric>100</cbc:MultiplierFactorNumeric>
       <cbc:Amount currencyID="EUR">100.29</cbc:Amount>
-      <cbc:BaseAmount currencyID="EUR">0</cbc:BaseAmount>
+      <cbc:BaseAmount currencyID="EUR">100.29</cbc:BaseAmount>
       <cac:TaxCategory>
       <cbc:ID>S</cbc:ID>
           <cbc:Percent>19</cbc:Percent>

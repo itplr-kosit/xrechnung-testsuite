@@ -24,6 +24,7 @@
   </cac:AdditionalDocumentReference>
   <cac:AccountingSupplierParty>
     <cac:Party>
+      <cbc:EndpointID schemeID="EM">seller@email.de</cbc:EndpointID>
       <cac:PartyIdentification>
         <cbc:ID>[Seller identifier 1]</cbc:ID>
       </cac:PartyIdentification>
@@ -62,6 +63,7 @@
   </cac:AccountingSupplierParty>
   <cac:AccountingCustomerParty>
     <cac:Party>
+      <cbc:EndpointID schemeID="EM">buyer@info.de</cbc:EndpointID>
       <cac:PartyIdentification>
         <cbc:ID>BI123456</cbc:ID>
       </cac:PartyIdentification>
@@ -174,7 +176,7 @@
   <cac:InvoiceLine>
     <cbc:ID>1.3</cbc:ID>
       <cbc:Note>Grundpreis Strom</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="DAY">245</cbc:InvoicedQuantity>
+      <cbc:InvoicedQuantity unitCode="DAY">245.11</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">25.05</cbc:LineExtensionAmount>
       <cac:InvoicePeriod>
       <cbc:StartDate>2018-05-01</cbc:StartDate>
@@ -191,13 +193,13 @@
       </cac:ClassifiedTaxCategory>
     </cac:Item>
       <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">0.1299</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="EUR">0.1022</cbc:PriceAmount>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
     <cbc:ID>1.4</cbc:ID>
       <cbc:Note>Grundpreis Strom</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="DAY">31</cbc:InvoicedQuantity>
+      <cbc:InvoicedQuantity unitCode="DAY">24.40</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">3.17</cbc:LineExtensionAmount>
       <cac:InvoicePeriod>
       <cbc:StartDate>2019-01-01</cbc:StartDate>
@@ -289,7 +291,7 @@
   <cac:InvoiceLine>
     <cbc:ID>2.4</cbc:ID>
       <cbc:Note>Grundpreis Gas</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="DAY">64</cbc:InvoicedQuantity>
+      <cbc:InvoicedQuantity unitCode="DAY">141.80</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">18.42</cbc:LineExtensionAmount>
       <cac:InvoicePeriod>
       <cbc:StartDate>2018-05-01</cbc:StartDate>
@@ -312,7 +314,7 @@
   <cac:InvoiceLine>
     <cbc:ID>2.5</cbc:ID>
       <cbc:Note>Grundpreis Gas</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="DAY">181</cbc:InvoicedQuantity>
+      <cbc:InvoicedQuantity unitCode="DAY">401</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">52.09</cbc:LineExtensionAmount>
       <cac:InvoicePeriod>
       <cbc:StartDate>2018-07-04</cbc:StartDate>
@@ -335,7 +337,7 @@
   <cac:InvoiceLine>
     <cbc:ID>2.6</cbc:ID>
       <cbc:Note>Grundpreis Gas</cbc:Note>
-      <cbc:InvoicedQuantity unitCode="DAY">31</cbc:InvoicedQuantity>
+      <cbc:InvoicedQuantity unitCode="DAY">68.73</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">8.93</cbc:LineExtensionAmount>
       <cac:InvoicePeriod>
       <cbc:StartDate>2019-01-01</cbc:StartDate>
