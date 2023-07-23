@@ -86,7 +86,7 @@
                 </ram:BuyerOrderReferencedDocument>				
                 <ram:GrossPriceProductTradePrice>
                     <!-- BT-148 -->
-                    <ram:ChargeAmount>143.750000000</ram:ChargeAmount>
+                    <ram:ChargeAmount>168.1250000000</ram:ChargeAmount>
                     <!-- BT-149, BT-150 -->
                     <ram:BasisQuantity
                         unitCode="XPP">30</ram:BasisQuantity>
@@ -100,7 +100,7 @@
                 </ram:GrossPriceProductTradePrice>
                 <!-- BT-146 -->
                 <ram:NetPriceProductTradePrice>
-                    <ram:ChargeAmount>133.750000000</ram:ChargeAmount>
+                    <ram:ChargeAmount>158.1250000000</ram:ChargeAmount>
                 </ram:NetPriceProductTradePrice>                
             </ram:SpecifiedLineTradeAgreement>
             <ram:SpecifiedLineTradeDelivery>
