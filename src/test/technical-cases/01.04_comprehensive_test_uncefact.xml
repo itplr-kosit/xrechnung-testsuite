@@ -1,18 +1,4 @@
-<!-- Es fehlen:
-
-1. Alternative: BT-8 (wird mit BT-7 ausgeschlossen)
-                BT-29 (ID - wird mit GlobalID ausgeschlossen)
-                BT-46 (GlobalID - wird mit ID ausgeschlossen)
-                BT-60 (GlobalID - wird mit ID ausgeschlossen)
-                BT-71 (GlobalID - wird mit ID ausgeschlossen)
-                BT-84 (CreditTransfer -> ProprietaryID - wird mit IBANID ausgeschlossen)
-2. Alternative: BT-87 (PaymentCardInformation -> wird mit CreditTransfer und DirectDebit ausgeschlossen)
-                BT-88 (PaymentCardInformation -> wird mit CreditTransfer und DirectDebit ausgeschlossen)
-3. Alternative: BT-89 (DirectDebit -> wird mit CreditTransfer und PaymentCardInformation ausgeschlossen)
-                BT-90 (DirectDebit -> wird mit CreditTransfer und PaymentCardInformation ausgeschlossen)
-                BT-91 (DirectDebit -> wird mit CreditTransfer und PaymentCardInformation ausgeschlossen)
--->
-<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<?xml version="1.0" encoding="UTF-8"?>
 <rsm:CrossIndustryInvoice xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100"
                           xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100"
                           xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100"
