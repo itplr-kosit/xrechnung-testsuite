@@ -288,8 +288,8 @@
     <cbc:LineExtensionAmount currencyID="EUR">4743.75</cbc:LineExtensionAmount>
     <cbc:AccountingCost>Konto 1</cbc:AccountingCost>
     <cac:InvoicePeriod>
-      <cbc:StartDate>2016-01-01</cbc:StartDate>
-      <cbc:EndDate>2016-12-31</cbc:EndDate>
+      <cbc:StartDate>2018-04-13</cbc:StartDate>
+      <cbc:EndDate>2018-04-13</cbc:EndDate>
     </cac:InvoicePeriod>
     <cac:OrderLineReference>
       <cbc:LineID>6171175.1</cbc:LineID>
