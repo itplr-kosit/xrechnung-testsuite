@@ -29,7 +29,13 @@
          </ram:SpecifiedTradeProduct>
          <ram:SpecifiedLineTradeAgreement>
             <ram:GrossPriceProductTradePrice>
-               <ram:ChargeAmount>1000.00</ram:ChargeAmount>
+               <ram:ChargeAmount>1010.00</ram:ChargeAmount>
+               <ram:AppliedTradeAllowanceCharge>
+                  <ram:ChargeIndicator>
+                     <udt:Indicator>false</udt:Indicator>
+                  </ram:ChargeIndicator>
+                  <ram:ActualAmount>10.000000000000000000</ram:ActualAmount>
+               </ram:AppliedTradeAllowanceCharge>
             </ram:GrossPriceProductTradePrice>
             <ram:NetPriceProductTradePrice>
                <ram:ChargeAmount>1000.00</ram:ChargeAmount>
@@ -58,7 +64,13 @@
          </ram:SpecifiedTradeProduct>
          <ram:SpecifiedLineTradeAgreement>
             <ram:GrossPriceProductTradePrice>
-               <ram:ChargeAmount>100.00</ram:ChargeAmount>
+               <ram:ChargeAmount>110.00</ram:ChargeAmount>
+               <ram:AppliedTradeAllowanceCharge>
+                  <ram:ChargeIndicator>
+                     <udt:Indicator>false</udt:Indicator>
+                  </ram:ChargeIndicator>
+                  <ram:ActualAmount>10.000000000000000000</ram:ActualAmount>
+               </ram:AppliedTradeAllowanceCharge>
             </ram:GrossPriceProductTradePrice>
             <ram:NetPriceProductTradePrice>
                <ram:ChargeAmount>100.00</ram:ChargeAmount>
@@ -87,7 +99,13 @@
          </ram:SpecifiedTradeProduct>
          <ram:SpecifiedLineTradeAgreement>
             <ram:GrossPriceProductTradePrice>
-               <ram:ChargeAmount>100.00</ram:ChargeAmount>
+               <ram:ChargeAmount>110.00</ram:ChargeAmount>
+               <ram:AppliedTradeAllowanceCharge>
+                  <ram:ChargeIndicator>
+                     <udt:Indicator>false</udt:Indicator>
+                  </ram:ChargeIndicator>
+                  <ram:ActualAmount>10.00</ram:ActualAmount>
+               </ram:AppliedTradeAllowanceCharge>
             </ram:GrossPriceProductTradePrice>
             <ram:NetPriceProductTradePrice>
                <ram:ChargeAmount>100.00</ram:ChargeAmount>
@@ -116,7 +134,13 @@
          </ram:SpecifiedTradeProduct>
          <ram:SpecifiedLineTradeAgreement>
             <ram:GrossPriceProductTradePrice>
-               <ram:ChargeAmount>500.00</ram:ChargeAmount>
+               <ram:ChargeAmount>510.00</ram:ChargeAmount>
+               <ram:AppliedTradeAllowanceCharge>
+                  <ram:ChargeIndicator>
+                     <udt:Indicator>false</udt:Indicator>
+                  </ram:ChargeIndicator>
+                  <ram:ActualAmount>10.00</ram:ActualAmount>
+               </ram:AppliedTradeAllowanceCharge>
             </ram:GrossPriceProductTradePrice>
             <ram:NetPriceProductTradePrice>
                <ram:ChargeAmount>500.00</ram:ChargeAmount>

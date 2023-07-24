@@ -30,8 +30,14 @@
       </ram:SpecifiedTradeProduct>  
       <ram:SpecifiedLineTradeAgreement> 
         <ram:GrossPriceProductTradePrice> 
-          <ram:ChargeAmount>100.0000</ram:ChargeAmount>  
-          <ram:BasisQuantity unitCode="C62">1.0000</ram:BasisQuantity> 
+          <ram:ChargeAmount>110.0000</ram:ChargeAmount>
+          <ram:BasisQuantity unitCode="C62">1.0000</ram:BasisQuantity>
+          <ram:AppliedTradeAllowanceCharge>
+            <ram:ChargeIndicator>
+              <udt:Indicator>false</udt:Indicator>
+            </ram:ChargeIndicator>
+            <ram:ActualAmount>10.000000000000000000</ram:ActualAmount>
+          </ram:AppliedTradeAllowanceCharge>
         </ram:GrossPriceProductTradePrice>  
         <ram:NetPriceProductTradePrice> 
           <ram:ChargeAmount>100.0000</ram:ChargeAmount>  
@@ -70,8 +76,14 @@
       </ram:SpecifiedTradeProduct>  
       <ram:SpecifiedLineTradeAgreement> 
         <ram:GrossPriceProductTradePrice> 
-          <ram:ChargeAmount>100.0000</ram:ChargeAmount>  
-          <ram:BasisQuantity unitCode="TNE">1.0000</ram:BasisQuantity> 
+          <ram:ChargeAmount>110.0000</ram:ChargeAmount>
+          <ram:BasisQuantity unitCode="TNE">1.0000</ram:BasisQuantity>
+          <ram:AppliedTradeAllowanceCharge>
+            <ram:ChargeIndicator>
+              <udt:Indicator>false</udt:Indicator>
+            </ram:ChargeIndicator>
+            <ram:ActualAmount>10.0000</ram:ActualAmount>
+          </ram:AppliedTradeAllowanceCharge>
         </ram:GrossPriceProductTradePrice>  
         <ram:NetPriceProductTradePrice> 
           <ram:ChargeAmount>100.0000</ram:ChargeAmount>  
