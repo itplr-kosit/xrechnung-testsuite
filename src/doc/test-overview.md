@@ -63,9 +63,9 @@ This table gives an overview of the content and purpose of positive test instanc
 This table gives an overview of the content of comprehensive test instances for the technical cases. As some elements contradict each other, various test files are necessary to cover all elements. The table indicates the delta and which file covers whcih of the non-common elements.
 
 
-| Name | BT-7 | BT-8 | BT-29 | BT-46 | BT-60 | BT-71 | BT-84 | BG-17 (BT-84, BT-85, BT-86) | BG-18 (BT-87, BT-88) | BG-19 (BT-89, BT-90, BT-91) | UBL | CII |
-| ---- | ---  | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 01.01| + | - | CII: ram:GlobalID @schemeID | CII: ram:ID | CII: ram:ID | CII: ram:ID | + | + | - | - | :white_check_mark: | :white_check_mark: |
-| 01.02| - | + | CII: ram:ID | CII: ram:GlobalID @schemeID | CII: ram:GlobalID @schemeID | CII: ram:GlobalID @schemeID | + | + | - | - | :white_check_mark: | :white_check_mark: |
-| 01.03| + | - | CII: ram:GlobalID @schemeID | CII: ram:ID | CII: ram:ID | CII: ram:ID | - | - | + | - | :white_check_mark: | :white_check_mark: |
-| 01.04| + | - | CII: ram:GlobalID @schemeID | CII: ram:ID | CII: ram:ID | CII: ram:ID | + | - | - | + (UBL: BT-90 with seller reference) | :white_check_mark: | :white_check_mark: |
+| Name | BT-7 | BT-8 | BT-29 | BT-46 | BT-60 | BT-71 | BG-17 (BT-84, BT-85, BT-86) | BG-18 (BT-87, BT-88) | BG-19 (BT-89, BT-90, BT-91) | UBL | CII |
+| ---- | ---  | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 01.01| + | - | CII: ram:GlobalID @schemeID | CII: ram:ID | CII: ram:ID | CII: ram:ID | + | - | - | :white_check_mark: | :white_check_mark: |
+| 01.02| - | + | CII: ram:ID | CII: ram:GlobalID @schemeID | CII: ram:GlobalID @schemeID | CII: ram:GlobalID @schemeID | + | - | - | :white_check_mark: | :white_check_mark: |
+| 01.03| + | - | CII: ram:GlobalID @schemeID | CII: ram:ID | CII: ram:ID | CII: ram:ID | - | + | - | :white_check_mark: | :white_check_mark: |
+| 01.04| + | - | CII: ram:GlobalID @schemeID | CII: ram:ID | CII: ram:ID | CII: ram:ID | - | - | + (UBL: BT-90 with seller reference) | :white_check_mark: | :white_check_mark: |
