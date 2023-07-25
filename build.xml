@@ -28,10 +28,10 @@
     location="${test.build.dir}/generated" />
   <property name="reports.dir" location="${build.dir}/reports" />
 
-  <property name="testsuite.version.date" value="2023-07-31-SNAPSHOT" />
+  <property name="testsuite.version.date" value="2023-07-31" />
 
-  <property name="_xrechnung.version.majorminor" value="2.3" />
-  <property name="xrechnung.version.full" value="${_xrechnung.version.majorminor}.1" />
+  <property name="_xrechnung.version.majorminor" value="3.0" />
+  <property name="xrechnung.version.full" value="${_xrechnung.version.majorminor}.0" />
   
   <!-- For cii2ubl -->
   <property name="_cii2ubl.baseurl" value="https://github.com/phax/en16931-cii2ubl/releases/download/" />
@@ -39,7 +39,7 @@
   <property name="cii2ubl.download.url" value="${_cii2ubl.baseurl}en16931-cii2ubl-parent-pom-${_cii2ubl.version}/en16931-cii2ubl-cli-${_cii2ubl.version}-shaded.jar" />
   <property name="cii2ubl.download.skipexisting" value="true" />
   <property name="cii2ubl.jar" value="cii2ubl.jar" />
-  <property name="cii2ubl.customizationid" value="urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_${_xrechnung.version.majorminor}" />
+  <property name="cii2ubl.customizationid" value="urn:cen.eu:en16931:2017#compliant#urn:xeinkauf.de:kosit:xrechnung_${_xrechnung.version.majorminor}" />
   <property name="cii2ubl.local.enabled" value="false" />
   <property name="cii2ubl.local.url" value="define in development.build.properties" />
 
