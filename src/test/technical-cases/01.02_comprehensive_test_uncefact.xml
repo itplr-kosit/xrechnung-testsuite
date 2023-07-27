@@ -460,9 +460,7 @@
                 <ram:CategoryCode>E</ram:CategoryCode>                
 				<!-- BT-121 -->
 				<ram:ExemptionReasonCode>vatex-eu-132-1a</ram:ExemptionReasonCode>               
-                <!-- BT-8 -->
-                <ram:DueDateTypeCode>5</ram:DueDateTypeCode>
-				<!-- BT-119 -->
+                <!-- BT-119 -->
                 <ram:RateApplicablePercent>0</ram:RateApplicablePercent>
             </ram:ApplicableTradeTax>
             <ram:BillingSpecifiedPeriod>
