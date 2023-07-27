@@ -4,15 +4,19 @@ All notable changes to XRechnung Test Suite will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## UNRELEASED
+## 2023-07-31
 
-This release is compatible with XRechnung ?.?.?
+This release is compatible with XRechnung 3.0.x
+
+### Added
+
+* Technical testcases `01.01`, `01.02`, `01.03`, and `01.04` for comprehensive display of all elements of the semantic model of CIUS XRechnung
 
 ### Changed
 
-* Test files to comply with updated Schematron rules
+* Test files in accordance with new Schematron rules (see [XRechnung Schematron 2.0.0](https://github.com/itplr-kosit/xrechnung-schematron/releases/tag/release-2.0.0))
 * Removed technical testcase `00.01_all_BTs_without_validation_uncefact.xml`
-* Removed technical testcase `00.02_all_BTs_without_validation_uncefact.xml
+* Removed technical testcase `00.02_all_BTs_without_validation_uncefact.xml`
 
 ## 2023-05-12
 
