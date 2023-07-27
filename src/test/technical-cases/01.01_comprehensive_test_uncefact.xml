@@ -212,8 +212,6 @@
                 <ram:DefinedTradeContact>
 					<!-- BT-41 -->
                     <ram:PersonName>Tim Tester</ram:PersonName>
-                    <!-- BT-41 -->
-                    <ram:DepartmentName>Testorganisation</ram:DepartmentName>
 					<!-- BT-42 -->
                     <ram:TelephoneUniversalCommunication>
                         <ram:CompleteNumber>012 3456789</ram:CompleteNumber>
@@ -266,8 +264,6 @@
                 <ram:DefinedTradeContact>
 					<!-- BT-56 -->
                     <ram:PersonName>Tina Tester</ram:PersonName>
-                    <!-- BT-56 -->
-                    <ram:DepartmentName>Tina Tester</ram:DepartmentName>
 					<!-- BT-57 -->
                     <ram:TelephoneUniversalCommunication>
                         <ram:CompleteNumber>0800 123456</ram:CompleteNumber>
