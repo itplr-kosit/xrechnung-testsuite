@@ -11,6 +11,8 @@ This release is compatible with XRechnung ?.?.?
 ### Changed
 
 * Test files to comply with updated Schematron rules
+* Removed technical testcase `00.01_all_BTs_without_validation_uncefact.xml`
+* Removed technical testcase `00.02_all_BTs_without_validation_uncefact.xml
 
 ## 2023-05-12
 
