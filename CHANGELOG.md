@@ -4,9 +4,13 @@ All notable changes to XRechnung Test Suite will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## UNRELEASED
+## 2023-09-22
 
-This release is compatible with XRechnung ?.?.?
+This release is compatible with XRechnung 3.0.x
+
+### Changed
+
+* Reference to XRechnung version in `build.xml`
 
 ## 2023-07-31
 
