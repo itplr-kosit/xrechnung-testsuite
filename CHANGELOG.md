@@ -6,13 +6,43 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## UNRELEASED
 
-This release is compatible with XRechnung ?.?.?
+This release is compatible with XRechnung ?.?.x
+
+## 2023-09-22
+
+This release is compatible with XRechnung 3.0.x
 
 ### Changed
 
-* Removed ant target `mutate`.
-* Removed testcase `00.03_codelist_test_ubl.xml`
+* Reference to XRechnung version in `build.xml`
 
+## 2023-07-31
+
+This release is compatible with XRechnung 3.0.x
+
+### Added
+
+* Technical testcases `01.01`, `01.02`, `01.03`, and `01.04` for comprehensive display of all elements of the semantic model of CIUS XRechnung
+
+### Changed
+
+* Test files in accordance with new Schematron rules (see [XRechnung Schematron 2.0.0](https://github.com/itplr-kosit/xrechnung-schematron/releases/tag/release-2.0.0))
+* Removed technical testcase `00.01_all_BTs_without_validation_uncefact.xml`
+* Removed technical testcase `00.02_all_BTs_without_validation_uncefact.xml`
+
+## 2023-05-12
+
+This release is compatible with XRechnung 2.3.x
+
+### Changed
+
+* Removed ant target `mutate`
+* Removed testcase `00.03_codelist_test_ubl.xml`
+* Re-inserted BT-29 into `04.05a-INVOICE_uncefact.xml`
+
+### Fixed
+
+* Removed empty Payment terms (BT-20) element and added Payment Due Date (BT-9) to comply with BR-CO-25 in `04.05a-INVOICE_uncefact.xml`
 
 ## 2023-01-31
 

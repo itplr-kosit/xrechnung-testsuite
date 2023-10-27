@@ -1,7 +1,8 @@
 <ubl:Invoice xmlns:ubl="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
   xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
   xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
-  <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_2.3#conformant#urn:xoev-de:kosit:extension:xrechnung_2.3</cbc:CustomizationID>
+  <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xeinkauf.de:kosit:xrechnung_3.0#conformant#urn:xeinkauf.de:kosit:extension:xrechnung_3.0</cbc:CustomizationID>
+  <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
   <cbc:ID>12345</cbc:ID>
   <cbc:IssueDate>2019-05-15</cbc:IssueDate>
   <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
@@ -16,6 +17,7 @@
   </cac:OrderReference>
   <cac:AccountingSupplierParty>
     <cac:Party>
+      <cbc:EndpointID schemeID="EM">seller@email.de</cbc:EndpointID>
       <cac:PartyName>
         <cbc:Name>M. Meier Handwerk GbR</cbc:Name>
       </cac:PartyName>
@@ -46,6 +48,7 @@
   </cac:AccountingSupplierParty>
   <cac:AccountingCustomerParty>
     <cac:Party>
+      <cbc:EndpointID schemeID="EM">buyer@info.de</cbc:EndpointID>
       <cac:PartyIdentification>
         <cbc:ID>345LA5324</cbc:ID>
       </cac:PartyIdentification>
@@ -108,7 +111,7 @@
     </cac:Item>
     <cac:Price>
       <cbc:PriceAmount currencyID="EUR">818.04</cbc:PriceAmount>
-      <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+      <cbc:BaseQuantity unitCode="XPP">1</cbc:BaseQuantity>
     </cac:Price>
     <cac:SubInvoiceLine>
       <cbc:ID>1 1</cbc:ID>
@@ -126,7 +129,7 @@
       </cac:Item>
       <cac:Price>
         <cbc:PriceAmount currencyID="EUR">335.79</cbc:PriceAmount>
-        <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+        <cbc:BaseQuantity unitCode="XPP">1</cbc:BaseQuantity>
       </cac:Price>  
       <cac:SubInvoiceLine>
         <cbc:ID>1 1 1</cbc:ID>
@@ -205,7 +208,7 @@
       </cac:Item>
       <cac:Price>
         <cbc:PriceAmount currencyID="EUR">482.25</cbc:PriceAmount>
-        <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+        <cbc:BaseQuantity unitCode="XPP">1</cbc:BaseQuantity>
       </cac:Price>  
       <cac:SubInvoiceLine>
         <cbc:ID>1 2 1</cbc:ID>
@@ -265,7 +268,7 @@
     </cac:Item>
     <cac:Price>
       <cbc:PriceAmount currencyID="EUR">11718.8</cbc:PriceAmount>
-      <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+      <cbc:BaseQuantity unitCode="XPP">1</cbc:BaseQuantity>
     </cac:Price>   
     <cac:SubInvoiceLine>
       <cbc:ID>2 1</cbc:ID>
@@ -283,7 +286,7 @@
       </cac:Item>
       <cac:Price>
         <cbc:PriceAmount currencyID="EUR">1324</cbc:PriceAmount>
-        <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+        <cbc:BaseQuantity unitCode="XPP">1</cbc:BaseQuantity>
       </cac:Price>  
       <cac:SubInvoiceLine>
         <cbc:ID>2 1 1</cbc:ID>
@@ -341,7 +344,7 @@
       </cac:Item>
       <cac:Price>
         <cbc:PriceAmount currencyID="EUR">10394.8</cbc:PriceAmount>
-        <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+        <cbc:BaseQuantity unitCode="XPP">1</cbc:BaseQuantity>
       </cac:Price>  
       <cac:SubInvoiceLine>
         <cbc:ID>2 2 1</cbc:ID>
@@ -380,7 +383,7 @@
         </cac:Item>
         <cac:Price>
           <cbc:PriceAmount currencyID="EUR">1.85</cbc:PriceAmount>
-          <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+          <cbc:BaseQuantity unitCode="C62">1</cbc:BaseQuantity>
         </cac:Price>
       </cac:SubInvoiceLine>
     </cac:SubInvoiceLine>

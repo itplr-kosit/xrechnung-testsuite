@@ -2,15 +2,16 @@
 <ubl:Invoice xmlns:ubl="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
     xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
     xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
-    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_2.3#conformant#urn:xoev-de:kosit:extension:xrechnung_2.3</cbc:CustomizationID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xeinkauf.de:kosit:xrechnung_3.0#conformant#urn:xeinkauf.de:kosit:extension:xrechnung_3.0</cbc:CustomizationID>
+    <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
     <cbc:ID>17794</cbc:ID>
     <cbc:IssueDate>2021-07-14</cbc:IssueDate>
     <cbc:InvoiceTypeCode>877</cbc:InvoiceTypeCode>
-    <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
-    <cbc:TaxCurrencyCode>EUR</cbc:TaxCurrencyCode>
+    <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>    
     <cbc:BuyerReference>992-90009-96</cbc:BuyerReference>
     <cac:AccountingSupplierParty>
         <cac:Party>
+            <cbc:EndpointID schemeID="EM">seller@email.de</cbc:EndpointID>
             <cac:PostalAddress>
                 <cbc:StreetName>Bahnhofstraße 46</cbc:StreetName>
                 <cbc:CityName>Gerüstbau Ort</cbc:CityName>
@@ -26,8 +27,7 @@
                 </cac:TaxScheme>
             </cac:PartyTaxScheme>
             <cac:PartyLegalEntity>
-                <cbc:RegistrationName>Test Gerüstbau GmbH</cbc:RegistrationName>
-                <cbc:CompanyID/>
+                <cbc:RegistrationName>Test Gerüstbau GmbH</cbc:RegistrationName>                
                 <cbc:CompanyLegalForm>176/77/1508</cbc:CompanyLegalForm>
             </cac:PartyLegalEntity>
             <cac:Contact>
@@ -39,6 +39,7 @@
     </cac:AccountingSupplierParty>
     <cac:AccountingCustomerParty>
         <cac:Party>
+            <cbc:EndpointID schemeID="EM">buyer@info.de</cbc:EndpointID>
             <cac:PartyIdentification>
                 <cbc:ID>14217</cbc:ID>
             </cac:PartyIdentification>

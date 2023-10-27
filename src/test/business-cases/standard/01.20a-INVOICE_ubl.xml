@@ -2,7 +2,8 @@
 <ubl:Invoice xmlns:ubl="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
   xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
   xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
-  <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_2.3</cbc:CustomizationID>
+  <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xeinkauf.de:kosit:xrechnung_3.0</cbc:CustomizationID>
+  <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
   <cbc:ID>1234567890</cbc:ID>
   <cbc:IssueDate>2021-01-25</cbc:IssueDate>
   <cbc:DueDate>2021-02-04</cbc:DueDate>
@@ -15,6 +16,7 @@
   </cac:OrderReference>
   <cac:AccountingSupplierParty>
     <cac:Party>
+      <cbc:EndpointID schemeID="EM">seller@email.de</cbc:EndpointID>
       <cac:PostalAddress>
         <cbc:StreetName>[Seller street]</cbc:StreetName>
         <cbc:CityName>[Seller city]</cbc:CityName>
@@ -41,6 +43,7 @@
   </cac:AccountingSupplierParty>
   <cac:AccountingCustomerParty>
     <cac:Party>
+      <cbc:EndpointID schemeID="EM">buyer@info.de</cbc:EndpointID>
       <cac:PostalAddress>
         <cbc:StreetName>[Street]</cbc:StreetName>
         <cbc:CityName>[City]</cbc:CityName>
@@ -156,7 +159,7 @@
     </cac:Item>
     <cac:Price>
       <cbc:PriceAmount currencyID="EUR">100</cbc:PriceAmount>
-      <cbc:BaseQuantity unitCode="C62">1</cbc:BaseQuantity>
+      <cbc:BaseQuantity unitCode="TNE">1</cbc:BaseQuantity>
     </cac:Price>
   </cac:InvoiceLine>
 </ubl:Invoice>

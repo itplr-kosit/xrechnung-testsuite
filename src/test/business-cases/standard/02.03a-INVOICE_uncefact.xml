@@ -4,8 +4,11 @@
                           xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100"
                           xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100">
     <rsm:ExchangedDocumentContext>
+        <ram:BusinessProcessSpecifiedDocumentContextParameter>
+            <ram:ID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</ram:ID>
+        </ram:BusinessProcessSpecifiedDocumentContextParameter>
         <ram:GuidelineSpecifiedDocumentContextParameter>
-            <ram:ID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_2.3</ram:ID>
+            <ram:ID>urn:cen.eu:en16931:2017#compliant#urn:xeinkauf.de:kosit:xrechnung_3.0</ram:ID>
         </ram:GuidelineSpecifiedDocumentContextParameter>
     </rsm:ExchangedDocumentContext>
     <rsm:ExchangedDocument>
@@ -44,7 +47,7 @@
                 </ram:NetPriceProductTradePrice>
             </ram:SpecifiedLineTradeAgreement>
             <ram:SpecifiedLineTradeDelivery>
-                <ram:BilledQuantity unitCode="XPP">30</ram:BilledQuantity>
+                <ram:BilledQuantity unitCode="XPP">33</ram:BilledQuantity>
             </ram:SpecifiedLineTradeDelivery>
             <ram:SpecifiedLineTradeSettlement>
                 <ram:ApplicableTradeTax>
@@ -250,10 +253,10 @@
             </ram:ApplicableTradeTax>
             <ram:BillingSpecifiedPeriod>
                 <ram:StartDateTime>
-                    <udt:DateTimeString format="102">20180413</udt:DateTimeString>
+                    <udt:DateTimeString format="102">20160101</udt:DateTimeString>
                 </ram:StartDateTime>
                 <ram:EndDateTime>
-                    <udt:DateTimeString format="102">20180413</udt:DateTimeString>
+                    <udt:DateTimeString format="102">20161231</udt:DateTimeString>
                 </ram:EndDateTime>
             </ram:BillingSpecifiedPeriod>
             <ram:SpecifiedTradeAllowanceCharge>

@@ -11,7 +11,7 @@ Geprüft werden sowohl die nationalen als auch die EU-weiten Geschäftsregeln. D
 
 ## Arten von Referenznachrichten
 
-Es werden grundsätzlich 2 Arten von Referenznachrichten unter `./src` unterschieden: konkrete Geschäftsfälle zum Thema Rechnung (business cases) und technische Nachrichtenabbildungen (technical cases), die technische Aspekte wie z.B. einen vollständigen Überblick über alle BTs unabhängig von einer korrekten Validierung darstellen.
+Es werden grundsätzlich 2 Arten von Referenznachrichten unter `./src` unterschieden: konkrete Geschäftsfälle zum Thema Rechnung (business cases) und technische Nachrichtenabbildungen (technical cases), die technische Aspekte wie z.B. einen vollständigen Überblick über alle BTs darstellen.
 
 Im Zuge von XRechnung 2.0 wurden deutschlandspezifische Erweiterungen (extensions) vorgenommen. Aus diesem Grund werden die Geschäftsfälle (business cases) noch weiter in Referenznachrichten bzgl. des eigentlichen Standards (standard) sowie der Erweiterung (extension) unterschieden.
 

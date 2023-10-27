@@ -2,8 +2,11 @@
 
 <rsm:CrossIndustryInvoice xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100" xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100">  
   <rsm:ExchangedDocumentContext> 
+    <ram:BusinessProcessSpecifiedDocumentContextParameter>
+      <ram:ID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</ram:ID>
+    </ram:BusinessProcessSpecifiedDocumentContextParameter>
     <ram:GuidelineSpecifiedDocumentContextParameter> 
-      <ram:ID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_2.3</ram:ID> 
+      <ram:ID>urn:cen.eu:en16931:2017#compliant#urn:xeinkauf.de:kosit:xrechnung_3.0</ram:ID>
     </ram:GuidelineSpecifiedDocumentContextParameter> 
   </rsm:ExchangedDocumentContext>  
   <rsm:ExchangedDocument> 
@@ -23,13 +26,18 @@
         <ram:LineID>1</ram:LineID> 
       </ram:AssociatedDocumentLineDocument>  
       <ram:SpecifiedTradeProduct> 
-        <ram:Name>Behältermiete</ram:Name>  
-        <ram:Description/> 
+        <ram:Name>Behältermiete</ram:Name>
       </ram:SpecifiedTradeProduct>  
       <ram:SpecifiedLineTradeAgreement> 
         <ram:GrossPriceProductTradePrice> 
-          <ram:ChargeAmount>100.0000</ram:ChargeAmount>  
-          <ram:BasisQuantity unitCode="C62">1.0000</ram:BasisQuantity> 
+          <ram:ChargeAmount>110.0000</ram:ChargeAmount>
+          <ram:BasisQuantity unitCode="C62">1.0000</ram:BasisQuantity>
+          <ram:AppliedTradeAllowanceCharge>
+            <ram:ChargeIndicator>
+              <udt:Indicator>false</udt:Indicator>
+            </ram:ChargeIndicator>
+            <ram:ActualAmount>10.000000000000000000</ram:ActualAmount>
+          </ram:AppliedTradeAllowanceCharge>
         </ram:GrossPriceProductTradePrice>  
         <ram:NetPriceProductTradePrice> 
           <ram:ChargeAmount>100.0000</ram:ChargeAmount>  
@@ -68,8 +76,14 @@
       </ram:SpecifiedTradeProduct>  
       <ram:SpecifiedLineTradeAgreement> 
         <ram:GrossPriceProductTradePrice> 
-          <ram:ChargeAmount>100.0000</ram:ChargeAmount>  
-          <ram:BasisQuantity unitCode="TNE">1.0000</ram:BasisQuantity> 
+          <ram:ChargeAmount>110.0000</ram:ChargeAmount>
+          <ram:BasisQuantity unitCode="TNE">1.0000</ram:BasisQuantity>
+          <ram:AppliedTradeAllowanceCharge>
+            <ram:ChargeIndicator>
+              <udt:Indicator>false</udt:Indicator>
+            </ram:ChargeIndicator>
+            <ram:ActualAmount>10.0000</ram:ActualAmount>
+          </ram:AppliedTradeAllowanceCharge>
         </ram:GrossPriceProductTradePrice>  
         <ram:NetPriceProductTradePrice> 
           <ram:ChargeAmount>100.0000</ram:ChargeAmount>  
@@ -117,6 +131,9 @@
           <ram:CityName>[City]</ram:CityName>  
           <ram:CountryID>DE</ram:CountryID> 
         </ram:PostalTradeAddress>  
+        <ram:URIUniversalCommunication>
+          <ram:URIID schemeID="EM">seller@email.de</ram:URIID>
+        </ram:URIUniversalCommunication>
         <ram:SpecifiedTaxRegistration> 
           <ram:ID schemeID="VA">DE123456789</ram:ID> 
         </ram:SpecifiedTaxRegistration> 
@@ -129,6 +146,9 @@
           <ram:CityName>[City]</ram:CityName>  
           <ram:CountryID>DE</ram:CountryID> 
         </ram:PostalTradeAddress>  
+        <ram:URIUniversalCommunication>
+          <ram:URIID schemeID="EM">buyer@info.de</ram:URIID>
+        </ram:URIUniversalCommunication>
         <ram:SpecifiedTaxRegistration> 
           <ram:ID schemeID="VA">DE987654321</ram:ID> 
         </ram:SpecifiedTaxRegistration> 
