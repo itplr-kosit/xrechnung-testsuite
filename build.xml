@@ -181,7 +181,7 @@
 
       <arg value="-r" />
       <arg value="${validator.configuration.project.dir}/build" />
-      <arg value="-h" />
+      <arg value="-h" />      
       <arg value="-o" />
       <arg value="${reports.dir}" />
       <arg value="${test.build.technical.dir}" />
@@ -236,9 +236,7 @@
         <arg value="--mode" />
         <arg value="AUTOMATIC" />
         <arg value="--ubl-customizationid" />
-        <arg value="${cii2ubl.customizationid}" />
-        <arg value="--ubl-profileid" />
-        <arg value="" />
+        <arg value="${cii2ubl.customizationid}" />        
         <arg value="--target" />
         <arg value="@{dstdir}" />
         <arg value="--output-suffix" />
