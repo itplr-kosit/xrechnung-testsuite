@@ -62,10 +62,20 @@
                     <!-- BT-161 -->
                     <ram:Value>[Value]</ram:Value>
                 </ram:ApplicableProductCharacteristic>
+                <ram:ApplicableProductCharacteristic>
+                    <!-- BT-160 -->
+                    <ram:Description>[Description 2]</ram:Description>
+                    <!-- BT-161 -->
+                    <ram:Value>[Value 2]</ram:Value>
+                </ram:ApplicableProductCharacteristic>
 				<!-- BT-158, BT-158-1, BT-158-2 -->
                 <ram:DesignatedProductClassification>
                     <ram:ClassCode listID="IB" listVersionID="88">0721-880X</ram:ClassCode>
-                </ram:DesignatedProductClassification>                
+                </ram:DesignatedProductClassification>         
+                <!-- BT-158, BT-158-1, BT-158-2 -->
+                <ram:DesignatedProductClassification>
+                    <ram:ClassCode listID="IB" listVersionID="88">0721-880XYZ</ram:ClassCode>
+                </ram:DesignatedProductClassification>              
                 <!-- BT-159 -->
                 <ram:OriginTradeCountry>
                     <ram:ID>DE</ram:ID>
@@ -135,6 +145,21 @@
                 </ram:SpecifiedTradeAllowanceCharge>
                 <ram:SpecifiedTradeAllowanceCharge>
                     <ram:ChargeIndicator>
+                        <udt:Indicator>true</udt:Indicator>
+                    </ram:ChargeIndicator>
+                    <!-- BT-143 -->
+                    <ram:CalculationPercent>0</ram:CalculationPercent>
+                    <!-- BT-142 -->
+                    <ram:BasisAmount>0</ram:BasisAmount>
+                    <!-- BT-141 -->
+                    <ram:ActualAmount>0</ram:ActualAmount>
+                    <!-- BT-145 -->
+                    <ram:ReasonCode>TAC</ram:ReasonCode>
+                    <!-- BT-144 -->
+                    <ram:Reason>Testing 2</ram:Reason>                    
+                </ram:SpecifiedTradeAllowanceCharge>
+                <ram:SpecifiedTradeAllowanceCharge>
+                    <ram:ChargeIndicator>
                         <udt:Indicator>false</udt:Indicator>
                     </ram:ChargeIndicator>
                     <!-- BT-138 -->
@@ -147,6 +172,21 @@
                     <ram:ReasonCode>102</ram:ReasonCode>
                     <!-- BT-139 -->
                     <ram:Reason>Fixed long term</ram:Reason>                    
+                </ram:SpecifiedTradeAllowanceCharge>
+                <ram:SpecifiedTradeAllowanceCharge>
+                    <ram:ChargeIndicator>
+                        <udt:Indicator>false</udt:Indicator>
+                    </ram:ChargeIndicator>
+                    <!-- BT-138 -->
+                    <ram:CalculationPercent>0</ram:CalculationPercent>
+                    <!-- BT-137 -->
+                    <ram:BasisAmount>0</ram:BasisAmount>
+                    <!-- BT-136 -->
+                    <ram:ActualAmount>0</ram:ActualAmount>
+                    <!-- BT-140 -->
+                    <ram:ReasonCode>102</ram:ReasonCode>
+                    <!-- BT-139 -->
+                    <ram:Reason>Fixed long term 2</ram:Reason>                    
                 </ram:SpecifiedTradeAllowanceCharge>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
 					<!-- BT-131 -->
