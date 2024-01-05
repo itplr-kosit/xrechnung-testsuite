@@ -530,6 +530,29 @@
             </ram:SpecifiedTradeAllowanceCharge>
             <ram:SpecifiedTradeAllowanceCharge>
                 <ram:ChargeIndicator>
+                    <udt:Indicator>true</udt:Indicator>
+                </ram:ChargeIndicator>
+                <!-- BT-101 -->
+                <ram:CalculationPercent>0</ram:CalculationPercent>
+                <!-- BT-100 -->
+                <ram:BasisAmount>0</ram:BasisAmount>
+                <!-- BT-99 -->
+                <ram:ActualAmount>0</ram:ActualAmount>
+                <!-- BT-105 -->
+                <ram:ReasonCode>TAC</ram:ReasonCode>
+                <!-- BT-104 -->
+                <ram:Reason>Testing 2</ram:Reason>
+                <ram:CategoryTradeTax>
+                    <!-- BT-102 -->
+                    <ram:TypeCode>VAT</ram:TypeCode>
+                    <!-- BT-102 -->
+                    <ram:CategoryCode>E</ram:CategoryCode>
+                    <!-- BT-103 -->
+                    <ram:RateApplicablePercent>0</ram:RateApplicablePercent>
+                </ram:CategoryTradeTax>
+            </ram:SpecifiedTradeAllowanceCharge>
+            <ram:SpecifiedTradeAllowanceCharge>
+                <ram:ChargeIndicator>
                     <udt:Indicator>false</udt:Indicator>
                 </ram:ChargeIndicator>
 				<!-- BT-94 -->
