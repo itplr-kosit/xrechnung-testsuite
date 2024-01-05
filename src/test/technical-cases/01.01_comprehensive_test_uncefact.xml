@@ -197,8 +197,12 @@
 			<!-- BT-10 -->
             <ram:BuyerReference>90000000-03083-72</ram:BuyerReference>
             <ram:SellerTradeParty>
+                <!-- BT-29 -->
+                <ram:ID>9876543217894897438</ram:ID>
+                <!-- BT-29 -->
+                <ram:ID>748387437438</ram:ID>
 				<!-- BT-29 -->
-                <ram:GlobalID schemeID="0088">987654321</ram:GlobalID>
+                <ram:GlobalID schemeID="0088">987654321</ram:GlobalID>                
 				<!-- BT-27 -->
                 <ram:Name>[Seller name]</ram:Name>
 				<!-- BT-33 -->
