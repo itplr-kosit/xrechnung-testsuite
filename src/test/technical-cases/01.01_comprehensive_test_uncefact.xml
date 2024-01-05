@@ -551,6 +551,29 @@
                     <ram:RateApplicablePercent>0</ram:RateApplicablePercent>
                 </ram:CategoryTradeTax>
             </ram:SpecifiedTradeAllowanceCharge>
+            <ram:SpecifiedTradeAllowanceCharge>
+                <ram:ChargeIndicator>
+                    <udt:Indicator>false</udt:Indicator>
+                </ram:ChargeIndicator>
+                <!-- BT-94 -->
+                <ram:CalculationPercent>0</ram:CalculationPercent>
+                <!-- BT-93 -->
+                <ram:BasisAmount>0</ram:BasisAmount>
+                <!-- BT-92 -->
+                <ram:ActualAmount>0</ram:ActualAmount>
+                <!-- BT-98 -->
+                <ram:ReasonCode>102</ram:ReasonCode>
+                <!-- BT-97 -->
+                <ram:Reason>Fixed long term 2</ram:Reason>
+                <ram:CategoryTradeTax>
+                    <!-- BT-95 -->
+                    <ram:TypeCode>VAT</ram:TypeCode>
+                    <!-- BT-95 -->
+                    <ram:CategoryCode>E</ram:CategoryCode>
+                    <!-- BT-96 -->
+                    <ram:RateApplicablePercent>0</ram:RateApplicablePercent>
+                </ram:CategoryTradeTax>
+            </ram:SpecifiedTradeAllowanceCharge>
             <ram:SpecifiedTradePaymentTerms>
 				<!-- BT-20 -->
                 <ram:Description>Beschreibung 1: Bitte überweisen Sie bis zum 13.04.2018 auf das unten aufgeführte Konto.</ram:Description>               
