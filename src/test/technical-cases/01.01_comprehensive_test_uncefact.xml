@@ -674,7 +674,8 @@
                 <ram:TotalPrepaidAmount>0</ram:TotalPrepaidAmount>
 				<!-- BT-115 -->
                 <ram:DuePayableAmount>12829.69</ram:DuePayableAmount>
-            </ram:SpecifiedTradeSettlementHeaderMonetarySummation>            
+            </ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+            <!-- multiple PRECEDING INVOICE REFERENCE BG-3 not possible in CII due to cardinality mismatch-->
             <ram:InvoiceReferencedDocument>                               
                 <!-- BT-25 -->
                 <ram:IssuerAssignedID>PIR1234567890</ram:IssuerAssignedID>
