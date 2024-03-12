@@ -55,7 +55,7 @@
 				<!-- BT-153 -->
                 <ram:Name>Beratung</ram:Name>
 				<!-- BT-154 -->
-                <ram:Description>Anforderungmanagament</ram:Description>
+                <ram:Description>Anforderungsmanagement</ram:Description>
                 <ram:ApplicableProductCharacteristic>
                     <!-- BT-160 -->
                     <ram:Description>[Description]</ram:Description>
