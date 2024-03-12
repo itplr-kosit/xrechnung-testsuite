@@ -133,11 +133,11 @@
                         <udt:Indicator>true</udt:Indicator>
                     </ram:ChargeIndicator>
                     <!-- BT-143 -->
-                    <ram:CalculationPercent>0</ram:CalculationPercent>
+                    <ram:CalculationPercent>10</ram:CalculationPercent>
                     <!-- BT-142 -->
-                    <ram:BasisAmount>0</ram:BasisAmount>
+                    <ram:BasisAmount>200</ram:BasisAmount>
                     <!-- BT-141 -->
-                    <ram:ActualAmount>0</ram:ActualAmount>
+                    <ram:ActualAmount>20</ram:ActualAmount>
                     <!-- BT-145 -->
                     <ram:ReasonCode>TAC</ram:ReasonCode>
                     <!-- BT-144 -->
@@ -148,11 +148,11 @@
                         <udt:Indicator>true</udt:Indicator>
                     </ram:ChargeIndicator>
                     <!-- BT-143 -->
-                    <ram:CalculationPercent>0</ram:CalculationPercent>
+                    <ram:CalculationPercent>10</ram:CalculationPercent>
                     <!-- BT-142 -->
-                    <ram:BasisAmount>0</ram:BasisAmount>
+                    <ram:BasisAmount>200</ram:BasisAmount>
                     <!-- BT-141 -->
-                    <ram:ActualAmount>0</ram:ActualAmount>
+                    <ram:ActualAmount>20</ram:ActualAmount>
                     <!-- BT-145 -->
                     <ram:ReasonCode>TAC</ram:ReasonCode>
                     <!-- BT-144 -->
@@ -163,11 +163,11 @@
                         <udt:Indicator>false</udt:Indicator>
                     </ram:ChargeIndicator>
                     <!-- BT-138 -->
-                    <ram:CalculationPercent>0</ram:CalculationPercent>
+                    <ram:CalculationPercent>10</ram:CalculationPercent>
                     <!-- BT-137 -->
-                    <ram:BasisAmount>0</ram:BasisAmount>
+                    <ram:BasisAmount>200</ram:BasisAmount>
                     <!-- BT-136 -->
-                    <ram:ActualAmount>0</ram:ActualAmount>
+                    <ram:ActualAmount>20</ram:ActualAmount>
                     <!-- BT-140 -->
                     <ram:ReasonCode>102</ram:ReasonCode>
                     <!-- BT-139 -->
@@ -178,11 +178,11 @@
                         <udt:Indicator>false</udt:Indicator>
                     </ram:ChargeIndicator>
                     <!-- BT-138 -->
-                    <ram:CalculationPercent>0</ram:CalculationPercent>
+                    <ram:CalculationPercent>10</ram:CalculationPercent>
                     <!-- BT-137 -->
-                    <ram:BasisAmount>0</ram:BasisAmount>
+                    <ram:BasisAmount>200</ram:BasisAmount>
                     <!-- BT-136 -->
-                    <ram:ActualAmount>0</ram:ActualAmount>
+                    <ram:ActualAmount>20</ram:ActualAmount>
                     <!-- BT-140 -->
                     <ram:ReasonCode>102</ram:ReasonCode>
                     <!-- BT-139 -->
@@ -558,11 +558,11 @@
                     <udt:Indicator>true</udt:Indicator>
                 </ram:ChargeIndicator>
 				<!-- BT-101 -->
-                <ram:CalculationPercent>0</ram:CalculationPercent>
+                <ram:CalculationPercent>10</ram:CalculationPercent>
 				<!-- BT-100 -->
-                <ram:BasisAmount>0</ram:BasisAmount>
+                <ram:BasisAmount>100</ram:BasisAmount>
 				<!-- BT-99 -->
-                <ram:ActualAmount>0</ram:ActualAmount>
+                <ram:ActualAmount>10</ram:ActualAmount>
 				<!-- BT-105 -->
                 <ram:ReasonCode>TAC</ram:ReasonCode>
 				<!-- BT-104 -->
@@ -581,11 +581,11 @@
                     <udt:Indicator>true</udt:Indicator>
                 </ram:ChargeIndicator>
                 <!-- BT-101 -->
-                <ram:CalculationPercent>0</ram:CalculationPercent>
+                <ram:CalculationPercent>10</ram:CalculationPercent>
                 <!-- BT-100 -->
-                <ram:BasisAmount>0</ram:BasisAmount>
+                <ram:BasisAmount>100</ram:BasisAmount>
                 <!-- BT-99 -->
-                <ram:ActualAmount>0</ram:ActualAmount>
+                <ram:ActualAmount>10</ram:ActualAmount>
                 <!-- BT-105 -->
                 <ram:ReasonCode>TAC</ram:ReasonCode>
                 <!-- BT-104 -->
@@ -604,11 +604,11 @@
                     <udt:Indicator>false</udt:Indicator>
                 </ram:ChargeIndicator>
 				<!-- BT-94 -->
-                <ram:CalculationPercent>0</ram:CalculationPercent>
+                <ram:CalculationPercent>10</ram:CalculationPercent>
 				<!-- BT-93 -->
-                <ram:BasisAmount>0</ram:BasisAmount>
+                <ram:BasisAmount>100</ram:BasisAmount>
 				<!-- BT-92 -->
-                <ram:ActualAmount>0</ram:ActualAmount>
+                <ram:ActualAmount>10</ram:ActualAmount>
 				<!-- BT-98 -->
                 <ram:ReasonCode>102</ram:ReasonCode>
 				<!-- BT-97 -->
@@ -627,11 +627,11 @@
                     <udt:Indicator>false</udt:Indicator>
                 </ram:ChargeIndicator>
                 <!-- BT-94 -->
-                <ram:CalculationPercent>0</ram:CalculationPercent>
+                <ram:CalculationPercent>10</ram:CalculationPercent>
                 <!-- BT-93 -->
-                <ram:BasisAmount>0</ram:BasisAmount>
+                <ram:BasisAmount>100</ram:BasisAmount>
                 <!-- BT-92 -->
-                <ram:ActualAmount>0</ram:ActualAmount>
+                <ram:ActualAmount>10</ram:ActualAmount>
                 <!-- BT-98 -->
                 <ram:ReasonCode>102</ram:ReasonCode>
                 <!-- BT-97 -->
@@ -657,9 +657,9 @@
 				<!-- BT-106 -->
                 <ram:LineTotalAmount>10781.25</ram:LineTotalAmount>
 				<!-- BT-108 -->
-                <ram:ChargeTotalAmount>0</ram:ChargeTotalAmount>
+                <ram:ChargeTotalAmount>20</ram:ChargeTotalAmount>
 				<!-- BT-107 -->
-                <ram:AllowanceTotalAmount>0</ram:AllowanceTotalAmount>
+                <ram:AllowanceTotalAmount>20</ram:AllowanceTotalAmount>
 				<!-- BT-109 -->
                 <ram:TaxBasisTotalAmount>10781.25</ram:TaxBasisTotalAmount>
 				<!-- BT-110 -->
