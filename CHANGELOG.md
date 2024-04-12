@@ -11,6 +11,7 @@ This release is compatible with XRechnung ?.?.x
 ### Fixed
 
 * Missing BT-8 "Value added tax point date code"  in `01.02_comprehensive_test_ubl.xml` added.
+* values in BT-27 "Seller name" and BT-28 "Seller trading name" in business and technical test cases in UBL 
 
 ## 2023-09-22
 
