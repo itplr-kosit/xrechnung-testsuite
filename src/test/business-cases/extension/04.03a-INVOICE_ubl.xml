@@ -42,7 +42,7 @@
     <cac:Party>
       <cbc:EndpointID schemeID="EM">seller@email.de</cbc:EndpointID>
       <cac:PartyName>
-        <cbc:Name>M. Meier Handwerk GbR</cbc:Name>
+        <cbc:Name>M. Meier</cbc:Name>
       </cac:PartyName>
       <cac:PostalAddress>
         <cbc:StreetName>Hauptstraße 2</cbc:StreetName>

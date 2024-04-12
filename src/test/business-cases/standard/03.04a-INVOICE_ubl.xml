@@ -29,7 +29,7 @@
         <cbc:ID schemeID="SEPA">[Bank assigned creditor identifier]</cbc:ID>
       </cac:PartyIdentification>
           <cac:PartyName>
-        <cbc:Name>[Seller name]</cbc:Name>
+        <cbc:Name>[Seller trading name]</cbc:Name>
       </cac:PartyName>
           <cac:PostalAddress>
         <cbc:StreetName>[Seller address line 1]</cbc:StreetName>
