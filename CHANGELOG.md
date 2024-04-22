@@ -29,6 +29,7 @@ This release is compatible with XRechnung 3.0.x
 ### Added
 
 * Technical testcases `01.01`, `01.02`, `01.03`, and `01.04` for comprehensive display of all elements of the semantic model of CIUS XRechnung
+* Generation of ubl testfiles out of cii testfiles with cii2ubl
 
 ### Changed
 
