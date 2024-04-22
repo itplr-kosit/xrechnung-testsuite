@@ -8,6 +8,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 This release is compatible with XRechnung ?.?.x
 
+### Fixed
+
+* Missing BT-8 "Value added tax point date code"  in `01.02_comprehensive_test_ubl.xml` added.
+* values in BT-27 "Seller name" and BT-28 "Seller trading name" in business and technical test cases in UBL 
+* Illegal multiple BT-7 "Value added tax point date" removed from `01.01_comprehensive_test_uncefact.xml`, `01.03_comprehensive_test_uncefact.xml`, `01.04_comprehensive_test_uncefact.xml`, `02.01a_INVOICE_uncefact.xml`, `02.03a_INVOICE_uncefact.xml`, and `02.04a_INVOICE_uncefact.xml`.
+
 ## 2023-09-22
 
 This release is compatible with XRechnung 3.0.x
