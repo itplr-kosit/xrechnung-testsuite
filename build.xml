@@ -202,7 +202,7 @@
       <arg value="-h" />
       <arg value="-o" />
       <arg value="${reports.dir}" />
-      <arg value="${test.build.dir}/generated" />
+      <arg value="${test.build.generated.dir}/business-cases" />
     </java>
   </target>
 
@@ -227,7 +227,7 @@
 
   <macrodef name="execute-cii2ubl" description="Execute cii2ubl on the provided parameters">
     <attribute name="srcdir" description="Directory with the CII files" />
-    <attribute name="dstdir" default="${test.build.dir}/generated" />
+    <attribute name="dstdir" default="${test.build.generated.dir}" />
     <attribute name="filemask" default="*_uncefact.xml" />
 
     <sequential>
