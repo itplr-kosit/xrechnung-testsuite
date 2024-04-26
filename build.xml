@@ -250,9 +250,7 @@
 
   <target name="cii2ubl" depends="retrieve-cii2ubl-remote, retrieve-cii2ubl-local">
     <execute-cii2ubl srcdir="${test.src.business.dir}/standard" />
-    <!-- too many errors 
     <execute-cii2ubl srcdir="${test.src.technical.dir}" />
-     -->
   </target>
 
   <target name="test" depends="compile-test,validator-test"
