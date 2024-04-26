@@ -249,8 +249,8 @@
   </macrodef>
 
   <target name="cii2ubl" depends="retrieve-cii2ubl-remote, retrieve-cii2ubl-local">
-    <execute-cii2ubl srcdir="${test.src.business.dir}/standard" />
-    <execute-cii2ubl srcdir="${test.src.technical.dir}" />
+    <execute-cii2ubl srcdir="${test.src.business.dir}/standard" dstdir="${test.build.generated.dir}/business-cases" />
+    <execute-cii2ubl srcdir="${test.src.technical.dir}" dstdir="${test.build.generated.dir}/technical-cases" />
   </target>
 
   <target name="test" depends="compile-test,validator-test"
