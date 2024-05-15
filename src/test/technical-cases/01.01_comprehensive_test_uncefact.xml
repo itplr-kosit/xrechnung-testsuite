@@ -494,23 +494,7 @@
 					<!-- BT-86 -->
                     <ram:BICID>[BIC]</ram:BICID>
                 </ram:PayeeSpecifiedCreditorFinancialInstitution>
-            </ram:SpecifiedTradeSettlementPaymentMeans>
-            <ram:SpecifiedTradeSettlementPaymentMeans>				
-                <!-- BT-81 -->
-                <ram:TypeCode>58</ram:TypeCode>
-                <!-- BT-82 -->
-                <ram:Information>[Payment means text]</ram:Information>
-                <ram:PayeePartyCreditorFinancialAccount>
-                    <!-- BT-84 -->
-                    <ram:IBANID>DE75512108001245126199</ram:IBANID>
-                    <!-- BT-85 -->
-                    <ram:AccountName>[Payment account name]</ram:AccountName>
-                </ram:PayeePartyCreditorFinancialAccount>
-                <ram:PayeeSpecifiedCreditorFinancialInstitution>
-                    <!-- BT-86 -->
-                    <ram:BICID>[BIC]</ram:BICID>
-                </ram:PayeeSpecifiedCreditorFinancialInstitution>
-            </ram:SpecifiedTradeSettlementPaymentMeans>
+            </ram:SpecifiedTradeSettlementPaymentMeans>           
             <ram:ApplicableTradeTax>
 				<!-- BT-117 -->
                 <ram:CalculatedAmount>2048.44</ram:CalculatedAmount>

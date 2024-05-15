@@ -26,6 +26,12 @@
       <cbc:IssueDate>2018-02-04</cbc:IssueDate>
     </cac:InvoiceDocumentReference>
   </cac:BillingReference>
+  <cac:BillingReference>
+    <cac:InvoiceDocumentReference>
+      <cbc:ID>PIR0987654321</cbc:ID>
+      <cbc:IssueDate>2018-03-05</cbc:IssueDate>
+    </cac:InvoiceDocumentReference>
+  </cac:BillingReference>
   <cac:DespatchDocumentReference>
     <cbc:ID>DAR123456789</cbc:ID>
   </cac:DespatchDocumentReference>
