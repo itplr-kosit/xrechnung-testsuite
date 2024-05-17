@@ -216,6 +216,7 @@
   <cac:PaymentMeans>
     <cbc:PaymentMeansCode name="[Payment means text]">58</cbc:PaymentMeansCode>
     <cbc:PaymentID>Deb. 12345 / Fact. 9876543</cbc:PaymentID>
+    <!-- multiple BG-17 CREDIT TRANSFER not possible due to cardinality mismatch between semantic model and syntax -->
     <cac:PayeeFinancialAccount>
       <cbc:ID>DE75512108001245126199</cbc:ID>
       <cbc:Name>[Payment account name]</cbc:Name>

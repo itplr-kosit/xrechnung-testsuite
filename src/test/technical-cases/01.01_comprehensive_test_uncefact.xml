@@ -484,6 +484,7 @@
                 <ram:TypeCode>58</ram:TypeCode>
                 <!-- BT-82 -->
                 <ram:Information>[Payment means text]</ram:Information>
+                <!-- multiple BG-17 CREDIT TRANSFER not possible due to cardinality mismatch between semantic model and syntax -->
                 <ram:PayeePartyCreditorFinancialAccount>
 					<!-- BT-84 -->
                     <ram:IBANID>DE75512108001245126199</ram:IBANID>
