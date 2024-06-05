@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 This release is compatible with XRechnung ?.?.x
 
+### Added
+
+* additional elements to `01.01_comprehensive_test_ubl.xml` and `01.01_comprehensive_test_uncefact.xml` to provide multiple Business Groups / Busines Terms where allowed
+
 ### Fixed
 
 * Missing BT-8 "Value added tax point date code"  in `01.02_comprehensive_test_ubl.xml` added.
