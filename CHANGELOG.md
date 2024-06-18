@@ -4,9 +4,13 @@ All notable changes to XRechnung Test Suite will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## UNRELEASED
+## 2024-06-20
 
-This release is compatible with XRechnung ?.?.x
+This release is compatible with XRechnung 3.0.x
+
+### Added
+
+* additional elements to `01.01_comprehensive_test_ubl.xml` and `01.01_comprehensive_test_uncefact.xml` to provide multiple Business Groups / Busines Terms where allowed
 
 ### Fixed
 
