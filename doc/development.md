@@ -78,6 +78,8 @@ To use a local version, the properties `cii2ubl.local.enabled` and `cii2ubl.loca
 `cii2ubl.local.enabled` needs to be set to `true` and `cii2ubl.local.url` has to point to the locally built, shaded JAR file of cii2ubl, including the version number.
 If a local version is used, the internally defined version is ignored.
 
+The task `validator-generated-test` validates the generated test instances with the Validator Configuration XRechnung.
+
 
 ## Distribution
 

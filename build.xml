@@ -271,6 +271,10 @@
     <execute-cii2ubl srcdir="${test.src.technical.dir}" dstdir="${test.build.generated.dir}/technical-cases" />
   </target>
 
+  <target name="validator-generated-test"
+    depends="validator-generated-business-case-test, validator-generated-technical-case-test">
+  </target>
+
   <target name="test" depends="compile-test,validator-test"
     description="Perform all tests">
     <echo message="Executing all tests" />
