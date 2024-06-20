@@ -350,7 +350,8 @@
       <cbc:PriceAmount currencyID="EUR">158.125</cbc:PriceAmount>
       <cac:AllowanceCharge>
         <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
-        <cbc:Amount currencyID="EUR">0</cbc:Amount>
+        <cbc:Amount currencyID="EUR">10</cbc:Amount>
+        <cbc:BaseAmount currencyID="EUR">168.125</cbc:BaseAmount>
       </cac:AllowanceCharge>
     </cac:Price>
   </cac:InvoiceLine>
