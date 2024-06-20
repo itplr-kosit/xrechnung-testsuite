@@ -91,7 +91,7 @@
                     <ram:ChargeAmount>168.1250000000</ram:ChargeAmount>
                     <!-- BT-149, BT-150 -->
                     <ram:BasisQuantity
-                        unitCode="XPP">30</ram:BasisQuantity>
+                        unitCode="XPP">1</ram:BasisQuantity>
                     <ram:AppliedTradeAllowanceCharge>
                         <ram:ChargeIndicator>
                             <udt:Indicator>false</udt:Indicator>
