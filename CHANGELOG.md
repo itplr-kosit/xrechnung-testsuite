@@ -12,6 +12,10 @@ This release is compatible with XRechnung 3.0.x
 
 * additional elements to `01.01_comprehensive_test_ubl.xml` and `01.01_comprehensive_test_uncefact.xml` to provide multiple Business Groups / Busines Terms where allowed
 
+### Changed
+
+* cii2ubl conversion in build process
+
 ### Fixed
 
 * Missing BT-8 "Value added tax point date code"  in `01.02_comprehensive_test_ubl.xml` added.

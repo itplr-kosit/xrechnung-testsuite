@@ -35,7 +35,7 @@
   
   <!-- For cii2ubl -->
   <property name="_cii2ubl.baseurl" value="https://github.com/phax/en16931-cii2ubl/releases/download/" />
-  <property name="_cii2ubl.version" value="1.4.6" />
+  <property name="_cii2ubl.version" value="2.2.4" />
   <property name="cii2ubl.download.url" value="${_cii2ubl.baseurl}en16931-cii2ubl-parent-pom-${_cii2ubl.version}/en16931-cii2ubl-cli-${_cii2ubl.version}-shaded.jar" />
   <property name="cii2ubl.download.skipexisting" value="true" />
   <property name="cii2ubl.jar" value="cii2ubl.jar" />
@@ -181,10 +181,46 @@
 
       <arg value="-r" />
       <arg value="${validator.configuration.project.dir}/build" />
-      <arg value="-h" />
+      <arg value="-h" />      
       <arg value="-o" />
       <arg value="${reports.dir}" />
       <arg value="${test.build.technical.dir}" />
+    </java>
+  </target>
+
+  <target name="validator-generated-business-case-test"
+    depends="cii2ubl, provide-validator-configuration"
+    description="Testsuite generated business case validation"
+   >
+    <echo>Creating validation reports for generated business cases ...</echo>
+    <java jar="${validator.dir}/${validator.jar}" failonerror="yes" fork="yes"
+      dir="${basedir}">
+      <arg value="-s" />
+      <arg value="${validator.configuration.project.dir}/build/scenarios.xml" />
+      <arg value="-r" />
+      <arg value="${validator.configuration.project.dir}/build" />
+      <arg value="-h" />
+      <arg value="-o" />
+      <arg value="${reports.dir}" />
+      <arg value="${test.build.generated.dir}/business-cases" />
+    </java>
+  </target>
+
+  <target name="validator-generated-technical-case-test"
+    depends="cii2ubl, provide-validator-configuration"
+    description="Testsuite generated technical case validation"
+    >
+    <echo>Creating validation reports for generated business cases ...</echo>
+    <java jar="${validator.dir}/${validator.jar}" failonerror="yes" fork="yes"
+      dir="${basedir}">
+      <arg value="-s" />
+      <arg value="${validator.configuration.project.dir}/build/scenarios.xml" />
+      <arg value="-r" />
+      <arg value="${validator.configuration.project.dir}/build" />
+      <arg value="-h" />
+      <arg value="-o" />
+      <arg value="${reports.dir}" />
+      <arg value="${test.build.generated.dir}/technical-cases" />
     </java>
   </target>
 
@@ -209,7 +245,7 @@
 
   <macrodef name="execute-cii2ubl" description="Execute cii2ubl on the provided parameters">
     <attribute name="srcdir" description="Directory with the CII files" />
-    <attribute name="dstdir" default="@{srcdir}" />
+    <attribute name="dstdir" default="${test.build.generated.dir}" />
     <attribute name="filemask" default="*_uncefact.xml" />
 
     <sequential>
@@ -219,20 +255,20 @@
         <arg value="AUTOMATIC" />
         <arg value="--ubl-customizationid" />
         <arg value="${cii2ubl.customizationid}" />
-        <arg value="--ubl-profileid" />
-        <arg value="" />
+        <arg value="--ubl-defaultorderrefid" />
+        <arg value="'-'" />
         <arg value="--target" />
         <arg value="@{dstdir}" />
+        <arg value="--output-suffix" />
+        <arg value="_ubl_generated" />      
         <arg value="@{srcdir}/@{filemask}" />
       </java>
     </sequential>  
   </macrodef>
 
   <target name="cii2ubl" depends="retrieve-cii2ubl-remote, retrieve-cii2ubl-local">
-    <execute-cii2ubl srcdir="${test.src.business.dir}/standard" />
-    <!-- too many errors 
-    <execute-cii2ubl srcdir="${test.src.technical.dir}" />
-     -->
+    <execute-cii2ubl srcdir="${test.src.business.dir}/standard" dstdir="${test.build.generated.dir}/business-cases" />
+    <execute-cii2ubl srcdir="${test.src.technical.dir}" dstdir="${test.build.generated.dir}/technical-cases" />
   </target>
 
   <target name="test" depends="compile-test,validator-test"
