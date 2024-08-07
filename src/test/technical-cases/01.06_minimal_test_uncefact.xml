@@ -36,7 +36,7 @@
             <ram:SpecifiedLineTradeAgreement>												                
                 <!-- BT-146 -->
                 <ram:NetPriceProductTradePrice>
-                    <ram:ChargeAmount>158.1250000000</ram:ChargeAmount>
+                    <ram:ChargeAmount>132.8780000000</ram:ChargeAmount>
                 </ram:NetPriceProductTradePrice>                
             </ram:SpecifiedLineTradeAgreement>
             <ram:SpecifiedLineTradeDelivery>
