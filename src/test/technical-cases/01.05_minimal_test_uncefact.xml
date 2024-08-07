@@ -112,8 +112,7 @@
             <ram:InvoiceCurrencyCode>EUR</ram:InvoiceCurrencyCode>                                 
             <ram:SpecifiedTradeSettlementPaymentMeans>				
                 <!-- BT-81 -->
-                <ram:TypeCode>58</ram:TypeCode>                
-                <!-- multiple BG-17 CREDIT TRANSFER not provided due to cardinality mismatch between semantic model and syntax -->
+                <ram:TypeCode>58</ram:TypeCode>
                 <ram:PayeePartyCreditorFinancialAccount>
 					<!-- BT-84 -->
                     <ram:IBANID>DE75512108001245126199</ram:IBANID>					
