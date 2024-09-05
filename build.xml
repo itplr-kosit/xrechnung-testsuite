@@ -28,7 +28,7 @@
     location="${test.build.dir}/generated" />
   <property name="reports.dir" location="${build.dir}/reports" />
 
-  <property name="testsuite.version.date" value="2024-06-20" />
+  <property name="testsuite.version.date" value="2024-10-31-SNAPSHOT" />
 
   <property name="_xrechnung.version.majorminor" value="3.0" />
   <property name="xrechnung.version.full" value="${_xrechnung.version.majorminor}.2" />
@@ -269,6 +269,10 @@
   <target name="cii2ubl" depends="retrieve-cii2ubl-remote, retrieve-cii2ubl-local">
     <execute-cii2ubl srcdir="${test.src.business.dir}/standard" dstdir="${test.build.generated.dir}/business-cases" />
     <execute-cii2ubl srcdir="${test.src.technical.dir}" dstdir="${test.build.generated.dir}/technical-cases" />
+  </target>
+
+  <target name="validator-generated-test"
+    depends="validator-generated-business-case-test, validator-generated-technical-case-test">
   </target>
 
   <target name="test" depends="compile-test,validator-test"
