@@ -203,6 +203,27 @@
       <arg value="-o" />
       <arg value="${reports.dir}" />
       <arg value="${test.build.dir}/generated" />
+=======
+      <arg value="${test.build.generated.dir}/business-cases" />
+    </java>
+  </target>
+
+  <target name="validator-generated-technical-case-test"
+    depends="cii2ubl, provide-validator-configuration"
+    description="Testsuite generated technical case validation"
+    >
+    <echo>Creating validation reports for generated business cases ...</echo>
+    <java jar="${validator.dir}/${validator.jar}" failonerror="yes" fork="yes"
+      dir="${basedir}">
+      <arg value="-s" />
+      <arg value="${validator.configuration.project.dir}/build/scenarios.xml" />
+      <arg value="-r" />
+      <arg value="${validator.configuration.project.dir}/build" />
+      <arg value="-h" />
+      <arg value="-o" />
+      <arg value="${reports.dir}" />
+      <arg value="${test.build.generated.dir}/technical-cases" />
+>>>>>>> 83ccf763a8b4671a89bd0d62a7701d68e0b3eac0
     </java>
   </target>
 
