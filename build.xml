@@ -28,14 +28,14 @@
     location="${test.build.dir}/generated" />
   <property name="reports.dir" location="${build.dir}/reports" />
 
-  <property name="testsuite.version.date" value="2024-01-31-SNAPSHOT" />
+  <property name="testsuite.version.date" value="2024-10-31-SNAPSHOT" />
 
   <property name="_xrechnung.version.majorminor" value="3.0" />
-  <property name="xrechnung.version.full" value="${_xrechnung.version.majorminor}.1" />
+  <property name="xrechnung.version.full" value="${_xrechnung.version.majorminor}.2" />
   
   <!-- For cii2ubl -->
   <property name="_cii2ubl.baseurl" value="https://github.com/phax/en16931-cii2ubl/releases/download/" />
-  <property name="_cii2ubl.version" value="2.2.2" />
+  <property name="_cii2ubl.version" value="2.2.4" />
   <property name="cii2ubl.download.url" value="${_cii2ubl.baseurl}en16931-cii2ubl-parent-pom-${_cii2ubl.version}/en16931-cii2ubl-cli-${_cii2ubl.version}-shaded.jar" />
   <property name="cii2ubl.download.skipexisting" value="true" />
   <property name="cii2ubl.jar" value="cii2ubl.jar" />
@@ -202,8 +202,6 @@
       <arg value="-h" />
       <arg value="-o" />
       <arg value="${reports.dir}" />
-      <arg value="${test.build.dir}/generated" />
-=======
       <arg value="${test.build.generated.dir}/business-cases" />
     </java>
   </target>
@@ -223,7 +221,6 @@
       <arg value="-o" />
       <arg value="${reports.dir}" />
       <arg value="${test.build.generated.dir}/technical-cases" />
->>>>>>> 83ccf763a8b4671a89bd0d62a7701d68e0b3eac0
     </java>
   </target>
 
@@ -248,7 +245,7 @@
 
   <macrodef name="execute-cii2ubl" description="Execute cii2ubl on the provided parameters">
     <attribute name="srcdir" description="Directory with the CII files" />
-    <attribute name="dstdir" default="${test.build.dir}/generated" />
+    <attribute name="dstdir" default="${test.build.generated.dir}" />
     <attribute name="filemask" default="*_uncefact.xml" />
 
     <sequential>
@@ -270,10 +267,12 @@
   </macrodef>
 
   <target name="cii2ubl" depends="retrieve-cii2ubl-remote, retrieve-cii2ubl-local">
-    <execute-cii2ubl srcdir="${test.src.business.dir}/standard" />
-    <!-- too many errors 
-    <execute-cii2ubl srcdir="${test.src.technical.dir}" />
-     -->
+    <execute-cii2ubl srcdir="${test.src.business.dir}/standard" dstdir="${test.build.generated.dir}/business-cases" />
+    <execute-cii2ubl srcdir="${test.src.technical.dir}" dstdir="${test.build.generated.dir}/technical-cases" />
+  </target>
+
+  <target name="validator-generated-test"
+    depends="validator-generated-business-case-test, validator-generated-technical-case-test">
   </target>
 
   <target name="test" depends="compile-test,validator-test"
