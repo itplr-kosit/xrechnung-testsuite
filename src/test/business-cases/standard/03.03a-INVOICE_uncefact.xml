@@ -188,13 +188,13 @@
             </ram:ContractReferencedDocument>
             <ram:AdditionalReferencedDocument>
                 <ram:IssuerAssignedID>01_15_Anhang_01</ram:IssuerAssignedID>
-                <ram:URIID>https://www.xoev.de/xrechnung/0000123456/01_15_Anhang_01.pdf</ram:URIID>
+                <ram:URIID>https://xeinkauf.de/xrechnung/</ram:URIID>
                 <ram:TypeCode>916</ram:TypeCode>
                 <ram:Name>Aufschlüsselung der einzelnen Leistungspositionen</ram:Name>                             
             </ram:AdditionalReferencedDocument>
             <ram:AdditionalReferencedDocument>
                 <ram:IssuerAssignedID>01_15_Anhang_02</ram:IssuerAssignedID>
-                <ram:URIID>https://www.xoev.de/xrechnung/0000123456/01_15_Anhang_02.pdf</ram:URIID>      
+                <ram:URIID>https://xeinkauf.de/xrechnung/</ram:URIID>      
                 <ram:TypeCode>916</ram:TypeCode>
                 <ram:Name>Gesamtübersicht der Leistungspositionen</ram:Name>                       
             </ram:AdditionalReferencedDocument>
