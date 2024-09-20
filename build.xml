@@ -225,7 +225,7 @@
   </target>
 
   <target name="validator-test"
-    depends="validator-extension-business-case-test,validator-standard-business-case-test,validator-technical-test">
+    depends="validator-extension-business-case-test,validator-standard-business-case-test,validator-technical-test, validator-generated-test">
 
   </target>
 
