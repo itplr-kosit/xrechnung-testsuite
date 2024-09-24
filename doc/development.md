@@ -19,12 +19,11 @@ To deal with this circumstances:
 
 ## Project Structure
 
-All source instances are in `src/test/{business,technical}-cases`. Instances in `business-cases` are real world invoices derived from real world business cases. However, they are anonymised. These examples serve as positive examples i.e. they are valid and conform to XRechnung specification.
+All source instances are located in `src/test/{business,technical}-cases`. Instances in `business-cases` are real world invoices derived from real world business cases. However, they are anonymised. These examples serve as positive examples i.e. they are valid and conform to XRechnung specification.
 
 Business case instances are further divided in examples of the XRechnung- `standard` (CIUS) and `extension`.
 
-The directory `technical-cases` contains instances for the sole purpose to cover detailed technical aspects of XRechnung development such as codelist tests among others. These technical cases 
-**might not be valid** instances w.r.t. to XRechnung specification.
+The directory `technical-cases` contains instances for the purpose to cover technical aspects of XRechnung development. These test cases are technically valid instances of XRechnung, but are not derived from practical use cases and might be semantically inconsistent.
 
 ## The build environment
 
