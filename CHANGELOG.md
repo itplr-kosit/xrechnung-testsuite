@@ -8,9 +8,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 This release is compatible with XRechnung ?.?.?
 
+### Added
+
+* Minimal technical test cases `01.05` and `01.06
+
 ### Changed
 
 * Automatic validation of CII2UBL generated files integrated into build flow
+
+### Fixed
+
+* invalid URLs in BT-124 "External document location" in several test cases
 
 ## 2024-06-20
 
