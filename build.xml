@@ -284,7 +284,7 @@
   <target name="dist-only" description="Create distribution zip for release">
     <zip destfile="${dist.dir}/${dist.name}.zip">
       
-      <zipfileset dir="${test.build.dir}" prefix="instances" />
+      <zipfileset dir="${test.build.dir}" includes="extension/**,standard/**,technical-cases/**" prefix="instances" />
       <zipfileset dir="doc" prefix="doc"/>
       <!-- Project documents-->
       <fileset dir="${basedir}">
