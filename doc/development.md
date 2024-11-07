@@ -69,7 +69,6 @@ ant -propertyfile ${your.own.property.file.name}
 ## cii2ubl
 
 With the tasks `cii2ubl` certain CII files are automatically converted to UBL, according to the EN16931 rules.
-This task is meant to be called manually only, as the creation of test files is not an automatic process at this time.
 The conversion is based on the https://github.com/phax/en16931-cii2ubl tool.
 
 The build.xml can use a remote release version or a locally built version.
