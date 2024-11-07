@@ -60,7 +60,7 @@
       <cac:TaxCategory>
         <cbc:ID>O</cbc:ID>
         <cbc:Percent>0</cbc:Percent>
-        <cbc:TaxExemptionReasonCode>vatex-eu-o</cbc:TaxExemptionReasonCode>
+        <cbc:TaxExemptionReasonCode>VATEX-EU-O</cbc:TaxExemptionReasonCode>
         <cac:TaxScheme>
           <cbc:ID>VAT</cbc:ID>
         </cac:TaxScheme>

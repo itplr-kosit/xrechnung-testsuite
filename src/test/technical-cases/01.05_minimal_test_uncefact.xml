@@ -128,7 +128,7 @@
 				<!-- BT-118 -->
                 <ram:CategoryCode>O</ram:CategoryCode>		
                 <!-- BT-121 -->
-                <ram:ExemptionReasonCode>vatex-eu-o</ram:ExemptionReasonCode>    
+                <ram:ExemptionReasonCode>VATEX-EU-O</ram:ExemptionReasonCode>    
 				<!-- BT-119 -->
                 <ram:RateApplicablePercent>0</ram:RateApplicablePercent>
             </ram:ApplicableTradeTax>                

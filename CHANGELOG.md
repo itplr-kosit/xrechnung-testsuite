@@ -19,6 +19,7 @@ This release is compatible with XRechnung 3.0.x
 ### Fixed
 
 * invalid URLs in BT-124 "External document location" in several test cases
+* codes from VATEX codelist corrected to upper case in several technical and business test cases
 
 ## 2024-06-20
 
