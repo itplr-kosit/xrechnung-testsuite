@@ -15,6 +15,7 @@ This release is compatible with XRechnung 3.0.x
 ### Changed
 
 * Automatic validation of CII2UBL generated files integrated into build flow
+* CII2UBL generated test files excluded from distribution test instances
 
 ### Fixed
 
