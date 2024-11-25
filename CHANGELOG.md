@@ -8,6 +8,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 This release is compatible with XRechnung ?.?.?
 
+### Fixed
+
+* BT-DEX-003 values in test in `05.01a-INVOICE_ubl.xml`
 
 ## 2024-10-31
 
