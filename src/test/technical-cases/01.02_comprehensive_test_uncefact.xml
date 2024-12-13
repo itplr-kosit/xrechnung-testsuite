@@ -75,7 +75,7 @@
                     <ram:ChargeAmount>168.1250000000</ram:ChargeAmount>
                     <!-- BT-149, BT-150 -->
                     <ram:BasisQuantity
-                        unitCode="XPP">30</ram:BasisQuantity>
+                        unitCode="XPP">1</ram:BasisQuantity>
                     <ram:AppliedTradeAllowanceCharge>
                         <ram:ChargeIndicator>
                             <udt:Indicator>false</udt:Indicator>
@@ -338,7 +338,7 @@
 				<!-- BT-122 -->
                 <ram:IssuerAssignedID>01_15_Anhang_01.pdf</ram:IssuerAssignedID>
                 <!-- BT-124 -->
-                <ram:URIID>[External document location]</ram:URIID>
+                <ram:URIID>https://xeinkauf.de/xrechnung/</ram:URIID>
 				<!-- BT-122 -->
                 <ram:TypeCode>916</ram:TypeCode>
 				<!-- BT-123 -->
@@ -433,6 +433,22 @@
                     <ram:BICID>[BIC]</ram:BICID>
                 </ram:PayeeSpecifiedCreditorFinancialInstitution>
             </ram:SpecifiedTradeSettlementPaymentMeans>
+            <ram:SpecifiedTradeSettlementPaymentMeans>				
+                <!-- BT-81 -->
+                <ram:TypeCode>58</ram:TypeCode>
+                <!-- BT-82 -->
+                <ram:Information>[Payment means text]</ram:Information>                
+                <ram:PayeePartyCreditorFinancialAccount>
+                    <!-- BT-84 -->
+                    <ram:IBANID>DE12500105170648489890</ram:IBANID>
+                    <!-- BT-85 -->
+                    <ram:AccountName>[Payment account name 2]</ram:AccountName>
+                </ram:PayeePartyCreditorFinancialAccount>
+                <ram:PayeeSpecifiedCreditorFinancialInstitution>
+                    <!-- BT-86 -->
+                    <ram:BICID>[BIC]</ram:BICID>
+                </ram:PayeeSpecifiedCreditorFinancialInstitution>
+            </ram:SpecifiedTradeSettlementPaymentMeans>   
             <ram:ApplicableTradeTax>
 				<!-- BT-117 -->
                 <ram:CalculatedAmount>2048.44</ram:CalculatedAmount>
@@ -459,7 +475,7 @@
 				<!-- BT-118 -->
                 <ram:CategoryCode>E</ram:CategoryCode>                
 				<!-- BT-121 -->
-				<ram:ExemptionReasonCode>vatex-eu-132-1a</ram:ExemptionReasonCode>               
+				<ram:ExemptionReasonCode>VATEX-EU-132-1A</ram:ExemptionReasonCode>               
                 <!-- BT-119 -->
                 <ram:RateApplicablePercent>0</ram:RateApplicablePercent>
             </ram:ApplicableTradeTax>
