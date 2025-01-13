@@ -1,5 +1,7 @@
 # Test Case Overview
 
+## Business test cases
+
 This table gives an overview of the content and purpose of positive test instances for the business cases.
 
 
@@ -44,6 +46,9 @@ This table gives an overview of the content and purpose of positive test instanc
 | 04.05| Diga example invoice | 380 | yes | :x: | :white_check_mark: |
 | 05.01| Third Party Payment example invoice | 380 | yes | :white_check_mark: | :x: |
 
+## Technical test cases
+
+### Comprehensive technical tests
 
 This table gives an overview of the content of comprehensive test instances for the technical cases. As some elements contradict each other, various test files are necessary to cover all elements contained in the semantic model of CIUS XRechnung. The table indicates the most significant differences in occurences of Business Terms (BTs) and use of xml elements.
 Currently, only testcases 01.01 contain multiple occurrences of Business Terms or Business Groups where permitted.
@@ -54,3 +59,13 @@ Currently, only testcases 01.01 contain multiple occurrences of Business Terms o
 | 01.02| - | + | CII: `ram:ID` | CII: `ram:PersonName` | CII: `ram:GlobalID/@schemeID` | CII: `ram:PersonName `| CII: `ram:GlobalID/@schemeID` | CII: `ram:GlobalID/@schemeID` | + | - | - | :white_check_mark: | :white_check_mark: 
 | 01.03| + | - | CII: `ram:GlobalID/@schemeID` | CII: `ram:DepartmentName` | CII: `ram:ID` | CII: `ram:DepartmentName` | CII: `ram:ID` | CII: ram:ID | - | + | - | :white_check_mark: | :white_check_mark: |
 | 01.04| + | - | CII: `ram:GlobalID/@schemeID` | CII: `ram:DepartmentName` | CII: `ram:ID` | CII: `ram:DepartmentName` | CII: `ram:ID` | CII: ram:ID | - | - | + (UBL: BT-90 with seller reference) | :white_check_mark: | :white_check_mark: |
+
+
+### Minimal technical tests
+
+This table gives an overview of minimal test cases, which contain only mandatory elements. As some elements are mandatory depending on the Payment means type code and on the VAT category code, these dependencies are indicated below.   
+
+| Name | Payment means type code (BT-81) | business rule(s)/element(s) triggered by Payment means type code | VAT category code (BT-151 / BT-118)  | business rule(s)/element(s) triggered by VAT category code |
+| ---- | ---- | ---- | ---- | ---- |
+| 01.05| `58` | BR-DE-23 => BG-17 | `O` | BR-O-10 => BT-121 (or BT-120) |
+| 01.06| `58` | BR-DE-23 => BG-17 | `S` | BR-S-05 => BT-152,<br> BR-S-02 => BT-31 (or BT-32 or BT-63),<br> BR-CO-15 => BT-110 |

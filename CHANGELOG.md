@@ -6,7 +6,38 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## UNRELEASED
 
-This release is compatible with XRechnung ?.?.x
+This release is compatible with XRechnung ?.?.?
+
+
+## 2024-10-31
+
+This release is compatible with XRechnung 3.0.x
+
+### Added
+
+* Minimal technical test cases `01.05` and `01.06`
+
+### Changed
+
+* Automatic validation of CII2UBL generated files integrated into build flow
+* CII2UBL generated test files excluded from distribution test instances
+
+### Fixed
+
+* invalid URLs in BT-124 "External document location" in several test cases
+* codes from VATEX codelist corrected to upper case in several technical and business test cases
+
+## 2024-06-20
+
+This release is compatible with XRechnung 3.0.x
+
+### Added
+
+* additional elements to `01.01_comprehensive_test_ubl.xml` and `01.01_comprehensive_test_uncefact.xml` to provide multiple Business Groups / Busines Terms where allowed
+
+### Changed
+
+* cii2ubl conversion in build process
 
 ### Added
 
@@ -17,6 +48,9 @@ This release is compatible with XRechnung ?.?.x
 * Missing BT-8 "Value added tax point date code"  in `01.02_comprehensive_test_ubl.xml` added.
 * values in BT-27 "Seller name" and BT-28 "Seller trading name" in business and technical test cases in UBL 
 * Illegal multiple BT-7 "Value added tax point date" removed from `01.01_comprehensive_test_uncefact.xml`, `01.03_comprehensive_test_uncefact.xml`, `01.04_comprehensive_test_uncefact.xml`, `02.01a_INVOICE_uncefact.xml`, `02.03a_INVOICE_uncefact.xml`, and `02.04a_INVOICE_uncefact.xml`.
+* missing BT-149 "Item price base quantity" and BT-150 "Item price base quantity unit of measure code" in comprehensive test cases in UBL
+* Missing BT-148 "Item gross price" added to `01.02_comprehensive_test_ubl.xml`
+* BT-149 "Item price base quantity" values in comprehensive test cases in CII
 
 ## 2023-09-22
 

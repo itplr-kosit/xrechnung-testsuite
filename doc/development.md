@@ -19,12 +19,11 @@ To deal with this circumstances:
 
 ## Project Structure
 
-All source instances are in `src/test/{business,technical}-cases`. Instances in `business-cases` are real world invoices derived from real world business cases. However, they are anonymised. These examples serve as positive examples i.e. they are valid and conform to XRechnung specification.
+All source instances are located in `src/test/{business,technical}-cases`. Instances in `business-cases` are real world invoices derived from real world business cases. However, they are anonymised. These examples serve as positive examples i.e. they are valid and conform to XRechnung specification.
 
 Business case instances are further divided in examples of the XRechnung- `standard` (CIUS) and `extension`.
 
-The directory `technical-cases` contains instances for the sole purpose to cover detailed technical aspects of XRechnung development such as codelist tests among others. These technical cases 
-**might not be valid** instances w.r.t. to XRechnung specification.
+The directory `technical-cases` contains instances for the purpose to cover technical aspects of XRechnung development. These test cases are technically valid instances of XRechnung, but are not derived from practical use cases and might be semantically inconsistent.
 
 ## The build environment
 
@@ -45,7 +44,7 @@ If you build own local custom versions of dependencies such as XRechnung Schemat
 The following example demonstrates how to use a different CEN schematron distribution:
 ```shell
 ant
--Dcen.rules.version=1.3.10
+-Dcen.rules.version=1.3.12
 ```
 
 ### Development properties file
@@ -70,13 +69,14 @@ ant -propertyfile ${your.own.property.file.name}
 ## cii2ubl
 
 With the tasks `cii2ubl` certain CII files are automatically converted to UBL, according to the EN16931 rules.
-This task is meant to be called manually only, as the creation of test files is not an automatic process at this time.
 The conversion is based on the https://github.com/phax/en16931-cii2ubl tool.
 
 The build.xml can use a remote release version or a locally built version.
 To use a local version, the properties `cii2ubl.local.enabled` and `cii2ubl.local.url` need to be defined in the `development.build.properties` file.
 `cii2ubl.local.enabled` needs to be set to `true` and `cii2ubl.local.url` has to point to the locally built, shaded JAR file of cii2ubl, including the version number.
 If a local version is used, the internally defined version is ignored.
+
+The task `validator-generated-test` validates the generated test instances with the Validator Configuration XRechnung.
 
 
 ## Distribution
@@ -108,9 +108,9 @@ The `ant` target `dist` creates the distribution zip archive.
   ```
 
 * Tag the last commit according to the following naming rule: 
-   `release-${date-of-scheduled-release-e.g. 2023-09-22}`
+   `release-${date-of-scheduled-release-e.g. 2024-10-31}`
   e.g.
-  `git tag release-2023-09-22 && git push origin release-2023-09-22`
+  `git tag release-2024-10-31 && git push origin release-2024-10-31`
 
 ### Publish
 
