@@ -435,7 +435,7 @@
             </ram:SpecifiedTradeSettlementPaymentMeans>
             <ram:SpecifiedTradeSettlementPaymentMeans>				
                 <!-- BT-81 -->
-                <ram:TypeCode>58</ram:TypeCode>
+                <ram:TypeCode>30</ram:TypeCode>
                 <!-- BT-82 -->
                 <ram:Information>[Payment means text]</ram:Information>                
                 <ram:PayeePartyCreditorFinancialAccount>
