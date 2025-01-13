@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 This release is compatible with XRechnung ?.?.?
 
+### Changed
+
+* comprehensive test cases `01.01` and `01.02` now with multiple BG-17
+
 
 ## 2024-10-31
 
