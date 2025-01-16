@@ -35,7 +35,7 @@
   
   <!-- For cii2ubl -->
   <property name="_cii2ubl.baseurl" value="https://github.com/phax/en16931-cii2ubl/releases/download/" />
-  <property name="_cii2ubl.version" value="2.2.4" />
+  <property name="_cii2ubl.version" value="2.2.6" />
   <property name="cii2ubl.download.url" value="${_cii2ubl.baseurl}en16931-cii2ubl-parent-pom-${_cii2ubl.version}/en16931-cii2ubl-cli-${_cii2ubl.version}-shaded.jar" />
   <property name="cii2ubl.download.skipexisting" value="true" />
   <property name="cii2ubl.jar" value="cii2ubl-${_cii2ubl.version}.jar" />
