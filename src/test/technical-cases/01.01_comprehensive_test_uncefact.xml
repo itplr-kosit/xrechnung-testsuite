@@ -499,8 +499,6 @@
             <ram:SpecifiedTradeSettlementPaymentMeans>				
                 <!-- BT-81 -->
                 <ram:TypeCode>58</ram:TypeCode>
-                <!-- BT-82 -->
-                <ram:Information>[Payment means text]</ram:Information>                
                 <ram:PayeePartyCreditorFinancialAccount>
                     <!-- BT-84 -->
                     <ram:IBANID>DE12500105170648489890</ram:IBANID>
