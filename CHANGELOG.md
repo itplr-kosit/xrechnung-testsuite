@@ -11,7 +11,11 @@ This release is compatible with XRechnung ?.?.?
 ### Changed
 
 * comprehensive test cases `01.01` and `01.02` now with multiple BG-17
+* Using [CII2UBL 2.2.6](https://github.com/phax/en16931-cii2ubl/releases/tag/en16931-cii2ubl-parent-pom-2.2.6)
 
+### Fixed
+
+* BT-DEX-003 values in test in `05.01a-INVOICE_ubl.xml`
 
 ## 2024-10-31
 

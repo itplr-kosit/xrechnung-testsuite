@@ -78,7 +78,7 @@
         <!-- BT-DEX-002 -->
         <cbc:PaidAmount currencyID="EUR">19.96</cbc:PaidAmount>     
         <!-- BT-DEX-003 -->
-        <cbc:InstructionID>Mobiles Bezahlen (Brutto-Forderung für Fremdleistungen)</cbc:InstructionID>            
+        <cbc:InstructionID>Mobiles Bezahlen (Brutto-Forderung für Fremdleistungen Anbieter A)</cbc:InstructionID>
     </cac:PrepaidPayment>
     <!-- BT-DEX-09-->
     <cac:PrepaidPayment>
@@ -87,7 +87,7 @@
         <!-- BT-DEX-002 -->
         <cbc:PaidAmount currencyID="EUR">10.00</cbc:PaidAmount>      
         <!-- BT-DEX-003 -->
-        <cbc:InstructionID>Mobiles Bezahlen (Brutto-Forderung für Fremdleistungen)</cbc:InstructionID>            
+        <cbc:InstructionID>Mobiles Bezahlen (Brutto-Forderung für Fremdleistungen Anbieter B)</cbc:InstructionID>
     </cac:PrepaidPayment>
     <cac:TaxTotal>
         <!-- BT-110 -->
