@@ -484,7 +484,6 @@
                 <ram:TypeCode>58</ram:TypeCode>
                 <!-- BT-82 -->
                 <ram:Information>[Payment means text]</ram:Information>
-                <!-- multiple BG-17 CREDIT TRANSFER not provided due to cardinality mismatch between semantic model and syntax -->
                 <ram:PayeePartyCreditorFinancialAccount>
 					<!-- BT-84 -->
                     <ram:IBANID>DE75512108001245126199</ram:IBANID>
@@ -674,7 +673,6 @@
 				<!-- BT-115 -->
                 <ram:DuePayableAmount>12829.69</ram:DuePayableAmount>
             </ram:SpecifiedTradeSettlementHeaderMonetarySummation>
-            <!-- multiple PRECEDING INVOICE REFERENCE BG-3 not possible in CII due to cardinality mismatch-->
             <ram:InvoiceReferencedDocument>                               
                 <!-- BT-25 -->
                 <ram:IssuerAssignedID>PIR1234567890</ram:IssuerAssignedID>
