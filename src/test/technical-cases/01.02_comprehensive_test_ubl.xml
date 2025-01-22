@@ -163,7 +163,7 @@
       <cbc:PostalZone>12345</cbc:PostalZone>
       <cbc:CountrySubentity>Bayern</cbc:CountrySubentity>
       <cac:AddressLine>
-        <cbc:Line>[Seller tax representative address line 2]</cbc:Line>
+        <cbc:Line>[Seller tax representative address line 3]</cbc:Line>
       </cac:AddressLine>
       <cac:Country>
         <cbc:IdentificationCode>DE</cbc:IdentificationCode>
