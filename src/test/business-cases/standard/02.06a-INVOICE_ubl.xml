@@ -22,7 +22,7 @@
     <cac:Party>
       <cbc:EndpointID schemeID="EM">rechnungsausgang@test.com</cbc:EndpointID>
           <cac:PartyIdentification>
-        <cbc:ID schemeID="0088">987654321</cbc:ID>
+        <cbc:ID schemeID="0088">2428600711948</cbc:ID>
       </cac:PartyIdentification>
           <cac:PartyName>
         <cbc:Name>[Seller trading name]</cbc:Name>
@@ -50,7 +50,7 @@
       </cac:PartyTaxScheme>
           <cac:PartyLegalEntity>
         <cbc:RegistrationName>[Seller name]</cbc:RegistrationName>
-              <cbc:CompanyID schemeID="0088">123456789</cbc:CompanyID>
+              <cbc:CompanyID schemeID="0088">3688088306671</cbc:CompanyID>
               <cbc:CompanyLegalForm>Amtsgericht […], Geschäftsführer: […], Sitz der Gesellschaft […], Aufsichtsratvorsitzender: […]</cbc:CompanyLegalForm>
       </cac:PartyLegalEntity>
           <cac:Contact>
