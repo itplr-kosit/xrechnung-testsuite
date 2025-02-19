@@ -11,6 +11,7 @@ This release is compatible with XRechnung ?.?.?
 ### Changed
 
 * Using [CII2UBL 2.2.6](https://github.com/phax/en16931-cii2ubl/releases/tag/en16931-cii2ubl-parent-pom-2.2.6)
+* Dummy location codes in several test files
 
 ### Fixed
 
