@@ -74,11 +74,11 @@
         <ram:ApplicableHeaderTradeAgreement>
             <ram:BuyerReference>90000000-03083-72</ram:BuyerReference>
             <ram:SellerTradeParty>
-                <ram:GlobalID schemeID="0088">987654321</ram:GlobalID>
+                <ram:GlobalID schemeID="0088">2428600711948</ram:GlobalID>
                 <ram:Name>[Seller name]</ram:Name>
                 <ram:Description>Amtsgericht […], Geschäftsführer: […], Sitz der Gesellschaft […], Aufsichtsratvorsitzender: […]</ram:Description>
                 <ram:SpecifiedLegalOrganization>
-                    <ram:ID schemeID="0088">123456789</ram:ID>
+                    <ram:ID schemeID="0088">3688088306671</ram:ID>
                     <ram:TradingBusinessName>[Seller trading name]</ram:TradingBusinessName>
                 </ram:SpecifiedLegalOrganization>
                 <ram:DefinedTradeContact>

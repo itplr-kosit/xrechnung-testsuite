@@ -12,6 +12,7 @@ This release is compatible with XRechnung ?.?.?
 
 * comprehensive test cases `01.01` and `01.02` now with multiple BG-17
 * Using [CII2UBL 2.2.6](https://github.com/phax/en16931-cii2ubl/releases/tag/en16931-cii2ubl-parent-pom-2.2.6)
+* Dummy location codes in several test files
 
 ### Fixed
 
@@ -34,6 +35,7 @@ This release is compatible with XRechnung 3.0.x
 
 * invalid URLs in BT-124 "External document location" in several test cases
 * codes from VATEX codelist corrected to upper case in several technical and business test cases
+* duplicate address line values in comprehensive test cases (thanks to GitHub user @chefarbeiter)
 
 ## 2024-06-20
 

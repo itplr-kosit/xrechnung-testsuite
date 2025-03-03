@@ -359,7 +359,7 @@
 					<!-- BT-65 -->
                     <ram:LineTwo>[Seller tax representative address line 2]</ram:LineTwo>
 					<!-- BT-164 -->
-                    <ram:LineThree>[Seller tax representative address line 2]</ram:LineThree>
+                    <ram:LineThree>[Seller tax representative address line 3]</ram:LineThree>
 					<!-- BT-66 -->
                     <ram:CityName>[Seller tax representative city]</ram:CityName>
 					<!-- BT-69 -->
