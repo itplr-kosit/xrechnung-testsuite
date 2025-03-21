@@ -108,9 +108,9 @@ The `ant` target `dist` creates the distribution zip archive.
   ```
 
 * Tag the last commit according to the following naming rule: 
-   `release-${date-of-scheduled-release-e.g. 2024-10-31}`
+   `release-${date-of-scheduled-release-e.g. 2025-03-21}`
   e.g.
-  `git tag release-2024-10-31 && git push origin release-2024-10-31`
+  `git tag release-2025-03-21 && git push origin release-2025-03-21`
 
 ### Publish
 
