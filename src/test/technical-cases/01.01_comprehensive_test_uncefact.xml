@@ -303,6 +303,8 @@
             <ram:BuyerTradeParty>
 				<!-- BT-46 -->
                 <ram:ID>138</ram:ID>
+                <!-- BT-46 -->
+                <ram:GlobalID schemeID="0088">123456789</ram:GlobalID>   
 				<!-- BT-44 -->
                 <ram:Name>[Buyer name]</ram:Name>
                 <ram:SpecifiedLegalOrganization>
@@ -676,6 +678,8 @@
             <ram:InvoiceReferencedDocument>                               
                 <!-- BT-25 -->
                 <ram:IssuerAssignedID>PIR1234567890</ram:IssuerAssignedID>
+                <!-- BT-25 -->
+                <ram:IssuerAssignedID>PIR1234567892</ram:IssuerAssignedID>
                 <!-- BT-26 -->
                 <ram:FormattedIssueDateTime>
                     <qdt:DateTimeString format="102">20180204</qdt:DateTimeString>
