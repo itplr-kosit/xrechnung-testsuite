@@ -676,7 +676,7 @@
             <ram:InvoiceReferencedDocument>                               
                 <!-- BT-25 -->
                 <ram:IssuerAssignedID>PIR1234567890</ram:IssuerAssignedID>
-                <!-- BT-25 -->                
+                <!-- BT-26 -->                
                 <ram:FormattedIssueDateTime>
                     <qdt:DateTimeString format="102">20180204</qdt:DateTimeString>
                 </ram:FormattedIssueDateTime>                
