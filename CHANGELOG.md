@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 This release is compatible with XRechnung ?.?.?
 
+### Added
+
+* Testcases 03.07 for vehicles in UBL and CII
+
 ## 2025-03-21
 
 This release is compatible with XRechnung 3.0.x
