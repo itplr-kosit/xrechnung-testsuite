@@ -673,6 +673,7 @@
 				<!-- BT-115 -->
                 <ram:DuePayableAmount>12829.69</ram:DuePayableAmount>
             </ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+            <!-- multiple BG-3 not possible in CII -->
             <ram:InvoiceReferencedDocument>                               
                 <!-- BT-25 -->
                 <ram:IssuerAssignedID>PIR1234567890</ram:IssuerAssignedID>
