@@ -398,9 +398,6 @@
       <cac:StandardItemIdentification>
         <cbc:ID schemeID="0088">123456789</cbc:ID>
       </cac:StandardItemIdentification>
-      <cac:OriginCountry>
-        <cbc:IdentificationCode>DE</cbc:IdentificationCode>
-      </cac:OriginCountry>      
       <cac:ClassifiedTaxCategory>
         <cbc:ID>S</cbc:ID>
         <cbc:Percent>19</cbc:Percent>
