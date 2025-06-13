@@ -467,7 +467,6 @@
     </cac:Item>
     <cac:Price>
       <cbc:PriceAmount currencyID="EUR">143750</cbc:PriceAmount>
-      <cbc:BaseQuantity unitCode="XPP">1</cbc:BaseQuantity>
     </cac:Price>
   </cac:InvoiceLine>
 </Invoice>
