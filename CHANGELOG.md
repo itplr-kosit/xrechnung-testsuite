@@ -10,7 +10,7 @@ This release is compatible with XRechnung ?.?.?
 
 ### Added
 
-* Testcases 03.07 for vehicles in UBL and CII
+* Testcases 03.07 in UBL and CII for vehicles in accordance with UStG 14a (4) in conjunction with UstG 1b (2) (3)2
 
 ## 2025-03-21
 
