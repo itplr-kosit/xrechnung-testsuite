@@ -393,7 +393,7 @@
         <cbc:ID schemeID="0088">123456789</cbc:ID>
       </cac:StandardItemIdentification>
       <cac:CommodityClassification>
-        <cbc:ItemClassificationCode listID="CVD" listVersionID="88">M2</cbc:ItemClassificationCode>
+        <cbc:ItemClassificationCode listID="CVD">M2</cbc:ItemClassificationCode>
       </cac:CommodityClassification>
       <cac:CommodityClassification>
         <cbc:ItemClassificationCode listID="IB" listVersionID="88">0721-880XYZ</cbc:ItemClassificationCode>

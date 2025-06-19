@@ -94,7 +94,7 @@
                 </ram:ApplicableProductCharacteristic>
                 <!-- BT-158, BT-158-1, BT-158-2 -->
                 <ram:DesignatedProductClassification>
-                    <ram:ClassCode listID="CVD" listVersionID="88">M2</ram:ClassCode>
+                    <ram:ClassCode listID="CVD">M2</ram:ClassCode>
                 </ram:DesignatedProductClassification>         
                 <!-- BT-158, BT-158-1, BT-158-2 -->
                 <ram:DesignatedProductClassification>
