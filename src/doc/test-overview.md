@@ -69,3 +69,11 @@ This table gives an overview of minimal test cases, which contain only mandatory
 | ---- | ---- | ---- | ---- | ---- |
 | 01.05| `58` | BR-DE-23 => BG-17 | `O` | BR-O-10 => BT-121 (or BT-120) |
 | 01.06| `58` | BR-DE-23 => BG-17 | `S` | BR-S-05 => BT-152,<br> BR-S-02 => BT-31 (or BT-32 or BT-63),<br> BR-CO-15 => BT-110 |
+
+### CVD tests
+
+This technical test contains all information required in case of CVD monitoring.
+
+| Name | Test purpose | Type | UBL | CII |
+| ---- | ---- | ---- | ---- | ---- |
+| 02.01| CVD invoice with 2 lines, vehicle category `M2`, emission category `clean`  | 380 | :white_check_mark: | :white_check_mark: |
