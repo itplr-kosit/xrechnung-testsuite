@@ -10,7 +10,7 @@
         </ram:BusinessProcessSpecifiedDocumentContextParameter>
 		<!-- BT-24 -->
         <ram:GuidelineSpecifiedDocumentContextParameter>
-            <ram:ID>urn:cen.eu:en16931:2017#compliant#urn:xeinkauf.de:kosit:xrechnung_3.0#compliant#urn:xeinkauf.de:kosit:cvd:xrechnung_0.9</ram:ID>
+            <ram:ID>urn:cen.eu:en16931:2017#compliant#urn:xeinkauf.de:kosit:xrechnung_3.0#compliant#urn:xeinkauf.de:kosit:xrechnung:cvd_0.9</ram:ID>
         </ram:GuidelineSpecifiedDocumentContextParameter>
     </rsm:ExchangedDocumentContext>
     <rsm:ExchangedDocument>
