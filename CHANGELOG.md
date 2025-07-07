@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 This release is compatible with XRechnung ?.?.?
 
+### Changed
+
+* Using [CII2UBL 2.3.1](https://github.com/phax/en16931-cii2ubl/releases/tag/en16931-cii2ubl-parent-pom-2.3.1)
+
 ## 2025-03-21
 
 This release is compatible with XRechnung 3.0.x
