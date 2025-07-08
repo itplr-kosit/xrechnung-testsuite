@@ -93,7 +93,7 @@
     </cac:PayeeFinancialAccount>
   </cac:PaymentMeans>
   <cac:PaymentTerms>
-    <cbc:Note>Zahlbar unter Angabe der Rechungs- und Debitornummer sofort netto Kasse; fällig zum 04.02.2021 ohne Abzug </cbc:Note>
+    <cbc:Note>Zahlbar unter Angabe der Rechungs- und Debitornummer sofort netto Kasse; fällig zum 04.02.2021 ohne Abzug</cbc:Note>
   </cac:PaymentTerms>
   <cac:TaxTotal>
     <cbc:TaxAmount currencyID="EUR">57.00</cbc:TaxAmount>
