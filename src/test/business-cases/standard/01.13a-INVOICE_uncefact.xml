@@ -313,7 +313,7 @@
             <ram:BuyerReference>04011000-12354-73</ram:BuyerReference>
             <ram:SellerTradeParty>
                 <ram:Name>[Seller name]</ram:Name>
-                 <ram:SpecifiedLegalOrganization >
+                 <ram:SpecifiedLegalOrganization>
                      <ram:ID>HRB 123</ram:ID>
                 </ram:SpecifiedLegalOrganization>
                 <ram:DefinedTradeContact>
