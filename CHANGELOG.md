@@ -12,6 +12,10 @@ This release is compatible with XRechnung ?.?.?
 
 * Testcases 03.07 in UBL and CII for vehicles in accordance with UStG 14a (4) in conjunction with UstG 1b (2) (3)2
 
+### Changed
+
+* Using [CII2UBL 2.3.1](https://github.com/phax/en16931-cii2ubl/releases/tag/en16931-cii2ubl-parent-pom-2.3.1)
+
 ## 2025-03-21
 
 This release is compatible with XRechnung 3.0.x
