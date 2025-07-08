@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 This release is compatible with XRechnung ?.?.?
 
+### Added
+
+* Testcases 03.07 in UBL and CII for vehicles in accordance with UStG 14a (4) in conjunction with UstG 1b (2) (3)2
+
 ### Changed
 
 * Using [CII2UBL 2.3.1](https://github.com/phax/en16931-cii2ubl/releases/tag/en16931-cii2ubl-parent-pom-2.3.1)
