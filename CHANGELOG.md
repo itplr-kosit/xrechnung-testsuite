@@ -11,6 +11,7 @@ This release is compatible with XRechnung 3.0.x
 ### Added
 
 * Testcases 03.07 in UBL and CII for vehicles in accordance with UStG 14a (4) in conjunction with UstG 1b (2) (3)2
+* technical tests 02.01 to support CIUS XRechnung CVD
 
 ### Changed
 
