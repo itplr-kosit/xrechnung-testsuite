@@ -114,6 +114,10 @@
     <cbc:ID>0</cbc:ID>
       <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">850</cbc:LineExtensionAmount>
+      <cac:InvoicePeriod>
+        <cbc:StartDate>2017-07-01</cbc:StartDate>
+        <cbc:EndDate>2017-12-31</cbc:EndDate>
+      </cac:InvoicePeriod>
       <cac:Item>
       <cbc:Description>Anforderungmanagament</cbc:Description>
           <cbc:Name>Anforderungsaufnahme</cbc:Name>
@@ -136,6 +140,10 @@
     <cbc:ID>1</cbc:ID>
       <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">2986</cbc:LineExtensionAmount>
+      <cac:InvoicePeriod>
+        <cbc:StartDate>2017-07-01</cbc:StartDate>
+        <cbc:EndDate>2017-12-31</cbc:EndDate>
+      </cac:InvoicePeriod>
       <cac:Item>
       <cbc:Description>Erstellung Lastenheft bis Abnahme</cbc:Description>
           <cbc:Name>Lastenheft</cbc:Name>
@@ -158,6 +166,10 @@
     <cbc:ID>2</cbc:ID>
       <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">2344</cbc:LineExtensionAmount>
+      <cac:InvoicePeriod>
+        <cbc:StartDate>2017-07-01</cbc:StartDate>
+        <cbc:EndDate>2017-12-31</cbc:EndDate>
+      </cac:InvoicePeriod>
       <cac:Item>
       <cbc:Description>Erstellung Pflichtenheft bis Abnahme</cbc:Description>
           <cbc:Name>Pflichtenheft</cbc:Name>
@@ -180,6 +192,10 @@
     <cbc:ID>3</cbc:ID>
       <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">2800</cbc:LineExtensionAmount>
+      <cac:InvoicePeriod>
+        <cbc:StartDate>2017-07-01</cbc:StartDate>
+        <cbc:EndDate>2017-12-31</cbc:EndDate>
+      </cac:InvoicePeriod>
       <cac:Item>
       <cbc:Description>Entwicklung System bis Implementierung</cbc:Description>
           <cbc:Name>Entwicklung</cbc:Name>

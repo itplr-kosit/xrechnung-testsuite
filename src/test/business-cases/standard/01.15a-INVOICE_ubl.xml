@@ -74,6 +74,9 @@
             </cac:Contact>
         </cac:Party>
     </cac:AccountingCustomerParty>
+    <cac:Delivery>
+        <cbc:ActualDeliveryDate>2017-11-30</cbc:ActualDeliveryDate>
+    </cac:Delivery>
     <cac:PaymentMeans>
         <cbc:PaymentMeansCode>58</cbc:PaymentMeansCode>
         <cbc:PaymentID>0000123456</cbc:PaymentID>

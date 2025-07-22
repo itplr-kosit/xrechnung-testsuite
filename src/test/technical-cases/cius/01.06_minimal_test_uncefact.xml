@@ -135,7 +135,15 @@
                 <ram:CategoryCode>S</ram:CategoryCode>		   
 				<!-- BT-119 -->
                 <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
-            </ram:ApplicableTradeTax>                
+            </ram:ApplicableTradeTax>   
+            <ram:BillingSpecifiedPeriod>
+                <ram:StartDateTime>
+                    <udt:DateTimeString format="102">20180301</udt:DateTimeString>
+                </ram:StartDateTime>
+                <ram:EndDateTime>
+                    <udt:DateTimeString format="102">20180331</udt:DateTimeString>
+                </ram:EndDateTime>
+            </ram:BillingSpecifiedPeriod>
             <ram:SpecifiedTradePaymentTerms>                        
                 <!-- BT-9 -->
                 <ram:DueDateDateTime>

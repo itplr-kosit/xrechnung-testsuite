@@ -44,6 +44,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20141201</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20150109</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>400</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -70,6 +78,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20141201</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20150109</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>240</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -96,6 +112,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20141201</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20150109</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>120</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -122,6 +146,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20141201</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20150109</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>70</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -148,6 +180,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20141201</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20150109</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>140</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -174,6 +214,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20141201</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20150109</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>400</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -200,6 +248,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20141201</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20150109</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>280</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -226,6 +282,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20141201</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20150109</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>480</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -252,6 +316,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20141201</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20150109</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>1600</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -278,6 +350,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20141201</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20150109</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>400</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -304,6 +384,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20141201</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20150109</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>1200</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>

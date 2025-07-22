@@ -8,6 +8,10 @@
   <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
   <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
   <cbc:BuyerReference>90000000-03083-72</cbc:BuyerReference>
+  <cac:InvoicePeriod>
+    <cbc:StartDate>2016-07-01</cbc:StartDate>
+    <cbc:EndDate>2016-12-31</cbc:EndDate>
+  </cac:InvoicePeriod>
   <cac:AccountingSupplierParty>
     <cac:Party>
       <cbc:EndpointID schemeID="EM">rechnungsausgang@test.com</cbc:EndpointID>

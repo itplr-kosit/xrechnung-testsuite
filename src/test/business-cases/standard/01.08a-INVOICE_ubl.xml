@@ -113,6 +113,10 @@
         <cbc:ID>0020</cbc:ID>
         <cbc:InvoicedQuantity unitCode="XPP">12</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">2374.68</cbc:LineExtensionAmount>
+        <cac:InvoicePeriod>
+            <cbc:StartDate>2016-01-01</cbc:StartDate>
+            <cbc:EndDate>2016-12-31</cbc:EndDate>
+        </cac:InvoicePeriod>
         <cac:Item>
             <cbc:Name>Zentrale Administrationslösung Bereitstellung von Werkzeugen zur Administration/Betreuung</cbc:Name>
             <cac:SellersItemIdentification>

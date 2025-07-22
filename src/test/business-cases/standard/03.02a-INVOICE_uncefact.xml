@@ -213,6 +213,14 @@
                 <ram:CategoryCode>S</ram:CategoryCode>
                 <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
             </ram:ApplicableTradeTax>
+            <ram:BillingSpecifiedPeriod>
+                <ram:StartDateTime>
+                    <udt:DateTimeString format="102">20170701</udt:DateTimeString>
+                </ram:StartDateTime>
+                <ram:EndDateTime>
+                    <udt:DateTimeString format="102">20171231</udt:DateTimeString>
+                </ram:EndDateTime>
+            </ram:BillingSpecifiedPeriod>
             <ram:SpecifiedTradePaymentTerms>
                 <ram:Description>Bei Zahlungen binnen 14 Tagen, 2% Skonto</ram:Description>
                 <ram:DueDateDateTime>

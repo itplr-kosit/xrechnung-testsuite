@@ -44,6 +44,14 @@
                     <ram:TypeCode>VAT</ram:TypeCode>
                     <ram:CategoryCode>O</ram:CategoryCode>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20160612</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20160616</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>120</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>

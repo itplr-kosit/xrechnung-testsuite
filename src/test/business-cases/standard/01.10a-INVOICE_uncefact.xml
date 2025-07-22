@@ -104,7 +104,7 @@
                 <ram:IssuerAssignedID>Auftragsnummer</ram:IssuerAssignedID>
             </ram:SellerOrderReferencedDocument>
         </ram:ApplicableHeaderTradeAgreement>
-        <ram:ApplicableHeaderTradeDelivery>
+        <ram:ApplicableHeaderTradeDelivery>            
             <ram:ShipToTradeParty>
                 <ram:Name>Außenstelle XY</ram:Name>
                 <ram:PostalTradeAddress>
@@ -113,7 +113,12 @@
                     <ram:CityName>[Deliver to city]</ram:CityName>
                     <ram:CountryID>DE</ram:CountryID>
                 </ram:PostalTradeAddress>
-            </ram:ShipToTradeParty>
+            </ram:ShipToTradeParty>            
+            <ram:ActualDeliverySupplyChainEvent>
+                <ram:OccurrenceDateTime>
+                    <udt:DateTimeString format="102">20160627</udt:DateTimeString>
+                </ram:OccurrenceDateTime>
+            </ram:ActualDeliverySupplyChainEvent>            
         </ram:ApplicableHeaderTradeDelivery>
         <ram:ApplicableHeaderTradeSettlement>
             <ram:InvoiceCurrencyCode>EUR</ram:InvoiceCurrencyCode>

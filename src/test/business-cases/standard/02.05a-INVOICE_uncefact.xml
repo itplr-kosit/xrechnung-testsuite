@@ -40,6 +40,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20190801</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20190819</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>29.95</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -66,6 +74,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20190801</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20190819</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>139.65</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -92,6 +108,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20190801</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20190819</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>16</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -118,6 +142,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20190801</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20190819</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>329.5</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -144,6 +176,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20190801</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20190819</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>22.95</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -170,6 +210,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20190801</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20190819</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>12.95</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -196,6 +244,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20190801</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20190819</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>69.95</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -222,6 +278,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20190801</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20190819</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>128.85</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -248,6 +312,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20190801</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20190819</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>249.39</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -274,6 +346,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20190801</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20190819</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>15</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -300,6 +380,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20190801</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20190819</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>10</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -326,6 +414,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20190801</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20190819</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>9.68</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -352,6 +448,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20190801</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20190819</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>3.75</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -378,6 +482,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20190801</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20190819</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>7</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -404,6 +516,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20190801</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20190819</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>0</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -430,6 +550,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20190801</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20190819</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>0</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -456,6 +584,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20190801</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20190819</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>4.56</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -482,6 +618,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20190801</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20190819</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>20.05</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -508,6 +652,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20190801</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20190819</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>3.45</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -534,6 +686,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20190801</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20190819</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>417.6</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -560,6 +720,14 @@
                     <ram:CategoryCode>S</ram:CategoryCode>
                     <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20190801</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20190819</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>1.95</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -586,6 +754,14 @@
                     <ram:CategoryCode>E</ram:CategoryCode>
                     <ram:RateApplicablePercent>0</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20190801</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20190819</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>0</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -612,6 +788,14 @@
                     <ram:CategoryCode>E</ram:CategoryCode>
                     <ram:RateApplicablePercent>0</ram:RateApplicablePercent>
                 </ram:ApplicableTradeTax>
+                <ram:BillingSpecifiedPeriod>
+                    <ram:StartDateTime>
+                        <udt:DateTimeString format="102">20190801</udt:DateTimeString>
+                    </ram:StartDateTime>
+                    <ram:EndDateTime>
+                        <udt:DateTimeString format="102">20190819</udt:DateTimeString>
+                    </ram:EndDateTime>
+                </ram:BillingSpecifiedPeriod>
                 <ram:SpecifiedTradeSettlementLineMonetarySummation>
                     <ram:LineTotalAmount>0</ram:LineTotalAmount>
                 </ram:SpecifiedTradeSettlementLineMonetarySummation>

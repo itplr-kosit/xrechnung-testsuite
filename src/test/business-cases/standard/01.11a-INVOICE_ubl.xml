@@ -107,6 +107,10 @@
         <cbc:ID>0010</cbc:ID>
         <cbc:InvoicedQuantity unitCode="XPP">3</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">214.26</cbc:LineExtensionAmount>
+        <cac:InvoicePeriod>
+            <cbc:StartDate>2016-01-01</cbc:StartDate>
+            <cbc:EndDate>2016-12-31</cbc:EndDate>
+        </cac:InvoicePeriod>
         <cac:Item>
             <cbc:Name>Huawei E5573 Mobiler 4G Hotspot sw</cbc:Name>
             <cac:SellersItemIdentification>
@@ -128,6 +132,10 @@
         <cbc:ID>0020</cbc:ID>
         <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">10.71</cbc:LineExtensionAmount>
+        <cac:InvoicePeriod>
+            <cbc:StartDate>2016-01-01</cbc:StartDate>
+            <cbc:EndDate>2016-01-01</cbc:EndDate>
+        </cac:InvoicePeriod>
         <cac:Item>
             <cbc:Name>Beschaffungspauschale</cbc:Name>
             <cac:SellersItemIdentification>
@@ -149,6 +157,10 @@
         <cbc:ID>0030</cbc:ID>
         <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">9.8</cbc:LineExtensionAmount>
+        <cac:InvoicePeriod>
+            <cbc:StartDate>2016-01-01</cbc:StartDate>
+            <cbc:EndDate>2016-01-01</cbc:EndDate>
+        </cac:InvoicePeriod>
         <cac:Item>
             <cbc:Name>Lieferkosten</cbc:Name>
             <cac:SellersItemIdentification>

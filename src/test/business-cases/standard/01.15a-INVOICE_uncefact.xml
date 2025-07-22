@@ -196,7 +196,13 @@
                 <ram:Name>Project reference</ram:Name>
             </ram:SpecifiedProcuringProject>
         </ram:ApplicableHeaderTradeAgreement>
-        <ram:ApplicableHeaderTradeDelivery/>
+        <ram:ApplicableHeaderTradeDelivery>
+            <ram:ActualDeliverySupplyChainEvent>
+                <ram:OccurrenceDateTime>
+                    <udt:DateTimeString format="102">20171130</udt:DateTimeString>
+                </ram:OccurrenceDateTime>
+            </ram:ActualDeliverySupplyChainEvent>
+        </ram:ApplicableHeaderTradeDelivery>
         <ram:ApplicableHeaderTradeSettlement>
             <ram:PaymentReference>0000123456</ram:PaymentReference>
             <ram:InvoiceCurrencyCode>EUR</ram:InvoiceCurrencyCode>

@@ -98,6 +98,10 @@
         <cbc:ID>Teilnahmegebühr</cbc:ID>
         <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">120</cbc:LineExtensionAmount>
+        <cac:InvoicePeriod>
+            <cbc:StartDate>2016-06-12</cbc:StartDate>
+            <cbc:EndDate>2016-06-16</cbc:EndDate>
+        </cac:InvoicePeriod>
         <cac:Item>
             <cbc:Description>Anmeldung von […]</cbc:Description>
             <cbc:Name>Teilnahmegebühr</cbc:Name>

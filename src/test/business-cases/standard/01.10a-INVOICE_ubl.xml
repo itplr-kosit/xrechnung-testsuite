@@ -72,6 +72,7 @@
         </cac:Party>
     </cac:AccountingCustomerParty>
     <cac:Delivery>
+        <cbc:ActualDeliveryDate>2016-06-27</cbc:ActualDeliveryDate>
         <cac:DeliveryLocation>
             <cac:Address>
                 <cbc:StreetName>[Deliver to address line 1]</cbc:StreetName>

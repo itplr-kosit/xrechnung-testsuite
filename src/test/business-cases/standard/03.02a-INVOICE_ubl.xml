@@ -9,6 +9,10 @@
   <cbc:Note>#ADU#[Invoice note]</cbc:Note>
   <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
   <cbc:BuyerReference>11002002-98765-14</cbc:BuyerReference>
+  <cac:InvoicePeriod>
+    <cbc:StartDate>2017-07-01</cbc:StartDate>
+    <cbc:EndDate>2017-12-31</cbc:EndDate>
+  </cac:InvoicePeriod>
   <cac:OrderReference>
     <cbc:ID>10520</cbc:ID>
   </cac:OrderReference>

@@ -179,6 +179,10 @@
     <cbc:ID>1</cbc:ID>
       <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">29.95</cbc:LineExtensionAmount>
+      <cac:InvoicePeriod>
+        <cbc:StartDate>2019-08-01</cbc:StartDate>
+        <cbc:EndDate>2019-08-19</cbc:EndDate>
+      </cac:InvoicePeriod>
       <cac:Item>
       <cbc:Name>Produkt 1</cbc:Name>
           <cac:ClassifiedTaxCategory>
@@ -197,6 +201,10 @@
     <cbc:ID>2</cbc:ID>
       <cbc:InvoicedQuantity unitCode="XPP">7</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">139.65</cbc:LineExtensionAmount>
+      <cac:InvoicePeriod>
+        <cbc:StartDate>2019-08-01</cbc:StartDate>
+        <cbc:EndDate>2019-08-19</cbc:EndDate>
+      </cac:InvoicePeriod>
       <cac:Item>
       <cbc:Name>Produkt 2</cbc:Name>
           <cac:ClassifiedTaxCategory>
@@ -215,6 +223,10 @@
     <cbc:ID>3</cbc:ID>
       <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">16</cbc:LineExtensionAmount>
+      <cac:InvoicePeriod>
+        <cbc:StartDate>2019-08-01</cbc:StartDate>
+        <cbc:EndDate>2019-08-19</cbc:EndDate>
+      </cac:InvoicePeriod>
       <cac:Item>
       <cbc:Name>Produkt 3</cbc:Name>
           <cac:ClassifiedTaxCategory>
@@ -233,6 +245,10 @@
     <cbc:ID>4</cbc:ID>
       <cbc:InvoicedQuantity unitCode="XPP">10</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">329.5</cbc:LineExtensionAmount>
+      <cac:InvoicePeriod>
+        <cbc:StartDate>2019-08-01</cbc:StartDate>
+        <cbc:EndDate>2019-08-19</cbc:EndDate>
+      </cac:InvoicePeriod>
       <cac:Item>
       <cbc:Name>Produkt 4</cbc:Name>
           <cac:ClassifiedTaxCategory>
@@ -251,6 +267,10 @@
     <cbc:ID>5</cbc:ID>
       <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">22.95</cbc:LineExtensionAmount>
+      <cac:InvoicePeriod>
+        <cbc:StartDate>2019-08-01</cbc:StartDate>
+        <cbc:EndDate>2019-08-19</cbc:EndDate>
+      </cac:InvoicePeriod>
       <cac:Item>
       <cbc:Name>Produkt 5</cbc:Name>
           <cac:ClassifiedTaxCategory>
@@ -269,6 +289,10 @@
     <cbc:ID>6</cbc:ID>
       <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">12.95</cbc:LineExtensionAmount>
+      <cac:InvoicePeriod>
+        <cbc:StartDate>2019-08-01</cbc:StartDate>
+        <cbc:EndDate>2019-08-19</cbc:EndDate>
+      </cac:InvoicePeriod>
       <cac:Item>
       <cbc:Name>Produkt 6</cbc:Name>
           <cac:ClassifiedTaxCategory>
@@ -287,6 +311,10 @@
     <cbc:ID>7</cbc:ID>
       <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">69.95</cbc:LineExtensionAmount>
+      <cac:InvoicePeriod>
+        <cbc:StartDate>2019-08-01</cbc:StartDate>
+        <cbc:EndDate>2019-08-19</cbc:EndDate>
+      </cac:InvoicePeriod>
       <cac:Item>
       <cbc:Name>Produkt 7</cbc:Name>
           <cac:ClassifiedTaxCategory>
@@ -305,6 +333,10 @@
     <cbc:ID>8</cbc:ID>
       <cbc:InvoicedQuantity unitCode="XPP">3</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">128.85</cbc:LineExtensionAmount>
+      <cac:InvoicePeriod>
+        <cbc:StartDate>2019-08-01</cbc:StartDate>
+        <cbc:EndDate>2019-08-19</cbc:EndDate>
+      </cac:InvoicePeriod>
       <cac:Item>
       <cbc:Name>Produkt 8</cbc:Name>
           <cac:ClassifiedTaxCategory>
@@ -323,6 +355,10 @@
     <cbc:ID>9</cbc:ID>
       <cbc:InvoicedQuantity unitCode="XPP">6</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">249.39</cbc:LineExtensionAmount>
+      <cac:InvoicePeriod>
+        <cbc:StartDate>2019-08-01</cbc:StartDate>
+        <cbc:EndDate>2019-08-19</cbc:EndDate>
+      </cac:InvoicePeriod>
       <cac:Item>
       <cbc:Name>Produkt 9</cbc:Name>
           <cac:ClassifiedTaxCategory>
@@ -341,6 +377,10 @@
     <cbc:ID>10</cbc:ID>
       <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">15</cbc:LineExtensionAmount>
+      <cac:InvoicePeriod>
+        <cbc:StartDate>2019-08-01</cbc:StartDate>
+        <cbc:EndDate>2019-08-19</cbc:EndDate>
+      </cac:InvoicePeriod>
       <cac:Item>
       <cbc:Name>Produkt 10</cbc:Name>
           <cac:ClassifiedTaxCategory>
@@ -359,6 +399,10 @@
     <cbc:ID>11</cbc:ID>
       <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">10</cbc:LineExtensionAmount>
+      <cac:InvoicePeriod>
+        <cbc:StartDate>2019-08-01</cbc:StartDate>
+        <cbc:EndDate>2019-08-19</cbc:EndDate>
+      </cac:InvoicePeriod>
       <cac:Item>
       <cbc:Name>Produkt 11</cbc:Name>
           <cac:ClassifiedTaxCategory>
@@ -377,6 +421,10 @@
     <cbc:ID>12</cbc:ID>
       <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">9.68</cbc:LineExtensionAmount>
+      <cac:InvoicePeriod>
+        <cbc:StartDate>2019-08-01</cbc:StartDate>
+        <cbc:EndDate>2019-08-19</cbc:EndDate>
+      </cac:InvoicePeriod>
       <cac:Item>
       <cbc:Name>Produkt 12</cbc:Name>
           <cac:ClassifiedTaxCategory>
@@ -395,6 +443,10 @@
     <cbc:ID>13</cbc:ID>
       <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">3.75</cbc:LineExtensionAmount>
+      <cac:InvoicePeriod>
+        <cbc:StartDate>2019-08-01</cbc:StartDate>
+        <cbc:EndDate>2019-08-19</cbc:EndDate>
+      </cac:InvoicePeriod>
       <cac:Item>
       <cbc:Name>Produkt 13</cbc:Name>
           <cac:ClassifiedTaxCategory>
@@ -413,6 +465,10 @@
     <cbc:ID>14</cbc:ID>
       <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">7</cbc:LineExtensionAmount>
+      <cac:InvoicePeriod>
+        <cbc:StartDate>2019-08-01</cbc:StartDate>
+        <cbc:EndDate>2019-08-19</cbc:EndDate>
+      </cac:InvoicePeriod>
       <cac:Item>
       <cbc:Name>Produkt 14</cbc:Name>
           <cac:ClassifiedTaxCategory>
@@ -431,6 +487,10 @@
     <cbc:ID>15</cbc:ID>
       <cbc:InvoicedQuantity unitCode="XPP">24</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+      <cac:InvoicePeriod>
+        <cbc:StartDate>2019-08-01</cbc:StartDate>
+        <cbc:EndDate>2019-08-19</cbc:EndDate>
+      </cac:InvoicePeriod>
       <cac:Item>
       <cbc:Name>Produkt 15</cbc:Name>
           <cac:ClassifiedTaxCategory>
@@ -449,6 +509,10 @@
     <cbc:ID>16</cbc:ID>
       <cbc:InvoicedQuantity unitCode="XPP">6</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+      <cac:InvoicePeriod>
+        <cbc:StartDate>2019-08-01</cbc:StartDate>
+        <cbc:EndDate>2019-08-19</cbc:EndDate>
+      </cac:InvoicePeriod>
       <cac:Item>
       <cbc:Name>Produkt 16</cbc:Name>
           <cac:ClassifiedTaxCategory>
@@ -467,6 +531,10 @@
     <cbc:ID>17</cbc:ID>
       <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">4.56</cbc:LineExtensionAmount>
+      <cac:InvoicePeriod>
+        <cbc:StartDate>2019-08-01</cbc:StartDate>
+        <cbc:EndDate>2019-08-19</cbc:EndDate>
+      </cac:InvoicePeriod>
       <cac:Item>
       <cbc:Name>Produkt 17</cbc:Name>
           <cac:ClassifiedTaxCategory>
@@ -485,6 +553,10 @@
     <cbc:ID>18</cbc:ID>
       <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">20.05</cbc:LineExtensionAmount>
+      <cac:InvoicePeriod>
+        <cbc:StartDate>2019-08-01</cbc:StartDate>
+        <cbc:EndDate>2019-08-19</cbc:EndDate>
+      </cac:InvoicePeriod>
       <cac:Item>
       <cbc:Name>Produkt 18</cbc:Name>
           <cac:ClassifiedTaxCategory>
@@ -503,6 +575,10 @@
     <cbc:ID>19</cbc:ID>
       <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">3.45</cbc:LineExtensionAmount>
+      <cac:InvoicePeriod>
+        <cbc:StartDate>2019-08-01</cbc:StartDate>
+        <cbc:EndDate>2019-08-19</cbc:EndDate>
+      </cac:InvoicePeriod>
       <cac:Item>
       <cbc:Name>Produkt 19</cbc:Name>
           <cac:ClassifiedTaxCategory>
@@ -521,6 +597,10 @@
     <cbc:ID>20</cbc:ID>
       <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">417.6</cbc:LineExtensionAmount>
+      <cac:InvoicePeriod>
+        <cbc:StartDate>2019-08-01</cbc:StartDate>
+        <cbc:EndDate>2019-08-19</cbc:EndDate>
+      </cac:InvoicePeriod>
       <cac:Item>
       <cbc:Name>Produkt 20</cbc:Name>
           <cac:ClassifiedTaxCategory>
@@ -539,6 +619,10 @@
     <cbc:ID>21</cbc:ID>
       <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">1.95</cbc:LineExtensionAmount>
+      <cac:InvoicePeriod>
+        <cbc:StartDate>2019-08-01</cbc:StartDate>
+        <cbc:EndDate>2019-08-19</cbc:EndDate>
+      </cac:InvoicePeriod>
       <cac:Item>
       <cbc:Name>Produkt 21</cbc:Name>
           <cac:ClassifiedTaxCategory>
@@ -557,6 +641,10 @@
     <cbc:ID>22</cbc:ID>
       <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+      <cac:InvoicePeriod>
+        <cbc:StartDate>2019-08-01</cbc:StartDate>
+        <cbc:EndDate>2019-08-19</cbc:EndDate>
+      </cac:InvoicePeriod>
       <cac:Item>
       <cbc:Name>Fremdleistung Anbieter A</cbc:Name>
           <cac:ClassifiedTaxCategory>
@@ -575,6 +663,10 @@
     <cbc:ID>23</cbc:ID>
       <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
       <cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+      <cac:InvoicePeriod>
+        <cbc:StartDate>2019-08-01</cbc:StartDate>
+        <cbc:EndDate>2019-08-19</cbc:EndDate>
+      </cac:InvoicePeriod>
       <cac:Item>
       <cbc:Name>Fremdleistung Anbieter B</cbc:Name>
           <cac:ClassifiedTaxCategory>

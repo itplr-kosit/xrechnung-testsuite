@@ -151,7 +151,7 @@
                      <!-- dies ist eine nicht existerende aber valide IBAN als test dummy -->
                     <ram:IBANID>DE75512108001245126199</ram:IBANID>
                 </ram:PayeePartyCreditorFinancialAccount>
-            </ram:SpecifiedTradeSettlementPaymentMeans>
+            </ram:SpecifiedTradeSettlementPaymentMeans>           
             <ram:ApplicableTradeTax>
                 <ram:CalculatedAmount>11.92</ram:CalculatedAmount>
                 <ram:TypeCode>VAT</ram:TypeCode>
@@ -159,9 +159,17 @@
                 <ram:CategoryCode>S</ram:CategoryCode>
                 <ram:RateApplicablePercent>7</ram:RateApplicablePercent>
             </ram:ApplicableTradeTax>
+            <ram:BillingSpecifiedPeriod>
+                <ram:StartDateTime>
+                    <udt:DateTimeString format="102">20160701</udt:DateTimeString>
+                </ram:StartDateTime>
+                <ram:EndDateTime>
+                    <udt:DateTimeString format="102">20161231</udt:DateTimeString>
+                </ram:EndDateTime>
+            </ram:BillingSpecifiedPeriod>
             <ram:SpecifiedTradePaymentTerms>
                 <ram:Description>Fällig sofort, ohne Abzug</ram:Description>
-            </ram:SpecifiedTradePaymentTerms>
+            </ram:SpecifiedTradePaymentTerms>            
             <ram:SpecifiedTradeSettlementHeaderMonetarySummation>
                 <ram:LineTotalAmount>170.28</ram:LineTotalAmount>
                 <ram:TaxBasisTotalAmount>170.28</ram:TaxBasisTotalAmount>
