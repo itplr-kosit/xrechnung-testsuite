@@ -50,6 +50,10 @@
   <property name="validator.version.full" value="1.5.0"/>
   <property name="validator.jar" value="validationtool-${validator.version.full}-standalone.jar"/>
   
+  <property name="validator.configuration.bis.download.url" value="https://github.com/itplr-kosit/validator-configuration-bis/releases/download/release-3.0.19" />
+  
+  <property name="saxon.jar" value="saxon9he.jar" />
+  
   <property name="dist.name"
     value="xrechnung-${xrechnung.version.full}-testsuite-${testsuite.version.date}" />
 
@@ -229,6 +233,72 @@
     depends="validator-extension-business-case-test,validator-standard-business-case-test,validator-technical-test, validator-generated-test">
 
   </target>
+  
+  <target name="retrieve-validator-bis-configuration" depends="init">
+    <echo>Downloading Validator Configuration BIS</echo>
+    <get src="${validator.configuration.bis.download.url}/validation-configuration-bis-3.0.19.zip" 
+      dest="${download.dir}/validation-configuration-bis-3.0.19.zip" 
+      verbose="true"
+      skipexisting="true"
+      usetimestamp="true" />
+  </target>
+  
+  <target name="provide-validator-bis-configuration" depends="retrieve-validator-bis-configuration">
+    <unzip src="${download.dir}/validation-configuration-bis-3.0.19.zip" dest="${lib.dir}/peppol-bis" />
+  </target>
+  
+  <target name="provide-validator-bis-tests" depends="prepare-saxon, compile-test, provide-validator-bis-configuration">      
+      <xslt basedir="${test.build.dir}" destdir="${test.build.generated.dir}/bis-billing-cases"
+        style="${src.dir}/tools/xr2bis.xsl"
+        classpath="${lib.dir}/${saxon.jar}" extension=".xml"
+        includes="standard/*_ubl.xml, technical-cases/cius/*_ubl.xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl" />
+        <param name="spec-id" expression="urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0" />
+      </xslt>
+      
+  </target>
+  
+  <target name="prepare-saxon" depends="init"
+    description="Download Saxon-HE and add jar to library directory">
+    <get
+      src="https://sourceforge.net/projects/saxon/files/Saxon-HE/9.9/SaxonHE9-9-1-8J.zip/download"
+      dest="${download.dir}/SaxonHE9-9-1-8J.zip" verbose="true"
+      skipexisting="true" usetimestamp="true" />
+    <unzip src="${download.dir}/SaxonHE9-9-1-8J.zip" dest="${lib.dir}">
+      <patternset>
+        <include name="${saxon.jar}" />
+      </patternset>
+      
+    </unzip>
+  </target>
+  
+  <target name="validator-bis-test" depends="retrieve-validator-bis-configuration, provide-validator-bis-tests">
+    <echo>Creating validation reports for generated business cases ...</echo>
+    <java jar="${validator.dir}/${validator.jar}" fork="yes"
+      dir="${basedir}">
+      <arg value="-s" />
+      <arg value="${lib.dir}/peppol-bis/scenarios.xml" />
+      <arg value="-r" />
+      <arg value="${lib.dir}/peppol-bis" />
+      <arg value="-h" />
+      <arg value="-o" />
+      <arg value="${reports.dir}/bis" />
+      <arg value="${test.build.generated.dir}/bis-billing-cases/standard" />
+    </java>
+    
+    <echo>Creating validation reports for generated technical cases ...</echo>
+    <java jar="${validator.dir}/${validator.jar}" fork="yes"
+      dir="${basedir}">
+      <arg value="-s" />
+      <arg value="${lib.dir}/peppol-bis/scenarios.xml" />
+      <arg value="-r" />
+      <arg value="${lib.dir}/peppol-bis" />
+      <arg value="-h" />
+      <arg value="-o" />
+      <arg value="${reports.dir}/bis" />
+      <arg value="${test.build.generated.dir}/bis-billing-cases/technical-cases/cius" />
+    </java>
+  </target>
 
   <target name="retrieve-cii2ubl-remote" depends="init" unless="${cii2ubl.local.enabled}">
     <echo>Downloading remote CII2UBL</echo>
@@ -310,8 +380,6 @@
     <echo message="Created distribution" />
 
   </target>
-
-
 
 
   <target name="clean">
