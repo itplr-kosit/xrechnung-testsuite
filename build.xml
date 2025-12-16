@@ -33,12 +33,13 @@
   <property name="_xrechnung.version.majorminor" value="3.0" />
   <property name="xrechnung.version.full" value="${_xrechnung.version.majorminor}.2" />
   
+
   <!-- For cii2ubl -->
   <property name="_cii2ubl.baseurl" value="https://github.com/phax/en16931-cii2ubl/releases/download/" />
-  <property name="_cii2ubl.version" value="2.3.1" />
+  <property name="_cii2ubl.version" value="3.1.0" />
   <property name="cii2ubl.download.url" value="${_cii2ubl.baseurl}en16931-cii2ubl-parent-pom-${_cii2ubl.version}/en16931-cii2ubl-cli-${_cii2ubl.version}-shaded.jar" />
   <property name="cii2ubl.download.skipexisting" value="true" />
-  <property name="cii2ubl.jar" value="cii2ubl-${_cii2ubl.version}.jar" />
+  <property name="cii2ubl.jar" value="en16931-cii2ubl-${_cii2ubl.version}.jar" />
   <property name="cii2ubl.customizationid" value="urn:cen.eu:en16931:2017#compliant#urn:xeinkauf.de:kosit:xrechnung_${_xrechnung.version.majorminor}" />
   <property name="cii2ubl.profileid" value="urn:fdc:peppol.eu:2017:poacc:billing:01:1.0" />
   <property name="cii2ubl.local.enabled" value="false" />
