@@ -247,11 +247,13 @@
     <unzip src="${download.dir}/validation-configuration-bis-3.0.19.zip" dest="${lib.dir}/peppol-bis" />
   </target>
   
-  <target name="provide-validator-bis-tests" depends="prepare-saxon, compile-test, provide-validator-bis-configuration">      
+  <target name="provide-validator-bis-tests" depends="prepare-saxon, compile-test, provide-validator-bis-configuration">
+    <!-- transform XRechnung CIUS business and technical test cases to Peppol BIS Billing, exclude self-billed invoices with type code 389 -->
       <xslt basedir="${test.build.dir}" destdir="${test.build.generated.dir}/bis-billing-cases"
         style="${src.dir}/tools/xr2bis.xsl"
         classpath="${lib.dir}/${saxon.jar}" extension=".xml"
-        includes="standard/*_ubl.xml, technical-cases/cius/*_ubl.xml">
+        includes="standard/*_ubl.xml, technical-cases/cius/*_ubl.xml"
+        excludes="standard/01.20a-INVOICE_ubl.xml">
         <factory name="net.sf.saxon.TransformerFactoryImpl" />
         <param name="spec-id" expression="urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0" />
       </xslt>
