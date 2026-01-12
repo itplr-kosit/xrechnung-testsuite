@@ -150,6 +150,11 @@
         </cac:Item>
         <cac:Price>
             <cbc:PriceAmount currencyID="EUR">52.00</cbc:PriceAmount>
+			<cac:AllowanceCharge>
+				<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+				<cbc:Amount currencyID="EUR">10.00</cbc:Amount>
+				<cbc:BaseAmount currencyID="EUR">62.00</cbc:BaseAmount>
+			 </cac:AllowanceCharge>
         </cac:Price>
     </cac:InvoiceLine>
 </ubl:Invoice>

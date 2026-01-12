@@ -140,6 +140,9 @@
             <ram:BuyerReference>11002002-98765-14</ram:BuyerReference>
             <ram:SellerTradeParty>
                 <ram:Name>[Seller name]</ram:Name>
+				<ram:SpecifiedLegalOrganization>					
+                    <ram:TradingBusinessName>[Seller trading name]</ram:TradingBusinessName>
+                </ram:SpecifiedLegalOrganization>
                 <ram:DefinedTradeContact>
                     <ram:PersonName>[Seller contact person]</ram:PersonName>
                     <ram:TelephoneUniversalCommunication>
@@ -164,6 +167,9 @@
             </ram:SellerTradeParty>
             <ram:BuyerTradeParty>
                 <ram:Name>[Buyer name]</ram:Name>
+				<ram:SpecifiedLegalOrganization>					
+                    <ram:TradingBusinessName>[Buyer trading name]</ram:TradingBusinessName>
+                </ram:SpecifiedLegalOrganization>
                 <ram:DefinedTradeContact>
                     <ram:PersonName>[Buyer contact person]</ram:PersonName>
                     <ram:EmailURIUniversalCommunication>
