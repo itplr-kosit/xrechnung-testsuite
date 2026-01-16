@@ -84,10 +84,10 @@
         <cbc:ActualDeliveryDate>2020-11-23</cbc:ActualDeliveryDate>
     </cac:Delivery>
     <cac:PaymentMeans>
-        <cbc:PaymentMeansCode name="Information">1</cbc:PaymentMeansCode>
+        <cbc:PaymentMeansCode name="Information">58</cbc:PaymentMeansCode>
         <cac:PayeeFinancialAccount>
             <!-- dies ist eine nicht existerende aber valide IBAN als test dummy -->
-            <cbc:ID>DE54500800000192632400</cbc:ID>
+            <cbc:ID>DE75512108001245126199</cbc:ID>
             <cbc:Name>Mustermann GmbH</cbc:Name>
             <cac:FinancialInstitutionBranch>
                 <cbc:ID>DRESDEFFXXX</cbc:ID>
