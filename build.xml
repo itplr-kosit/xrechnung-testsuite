@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project basedir="." name="xrechnung-testsuite" default="compile-test">
 
+  <property name="xsbi.abu.dir"
+    location="${basedir}/_vendor/xsbi-0.3.0-SNAPSHOT/abu" />
+
+  <import file="${xsbi.abu.dir}/abu-common.xml" />
+
   <property name="dist.dir" location="${basedir}/dist" />
   <property name="lib.dir" location="${basedir}/lib" />
   <property name="src.dir" location="${basedir}/src" />
@@ -53,19 +58,10 @@
   <property name="dist.name"
     value="xrechnung-${xrechnung.version.full}-testsuite-${testsuite.version.date}" />
 
-  <target name="init"
+  <target name="init" depends="abu-common.init"
     description="Initializes build directory structure and ISO timestamp">
-    <!-- Create timestamps -->
-    <tstamp>
-      <format property="build.date" pattern="yyyy-MM-dd" />
-    </tstamp>
 
-    <echo>Build date: ${build.date}</echo>
-    <!-- Create the build directory structure used by compile -->
-    <mkdir dir="${build.dir}" />
     <mkdir dir="${download.dir}" />
-    <mkdir dir="${dist.dir}" />
-    <mkdir dir="${lib.dir}" />
     <mkdir dir="${reports.dir}" />
   </target>
 
@@ -311,12 +307,5 @@
 
   </target>
 
-
-
-
-  <target name="clean">
-    <!-- Delete the ${build} and ${dist} directory trees -->
-    <delete dir="${build.dir}" verbose="true" includeEmptyDirs="true" />
-    <delete dir="${dist.dir}" />
-  </target>
+  <target name="clean" depends="abu-common.clean"/>
 </project>

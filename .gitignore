@@ -2,6 +2,7 @@ build
 dist
 lib
 reports
+_vendor
 # developer files
 development.build.properties
 
