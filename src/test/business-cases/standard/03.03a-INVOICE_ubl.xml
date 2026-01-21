@@ -17,11 +17,21 @@
   </cac:ContractDocumentReference>
   <cac:AdditionalDocumentReference>
     <cbc:ID>01_15_Anhang_01</cbc:ID>
-      <cbc:DocumentDescription>Aufschlüsselung der einzelnen Leistungspositionen</cbc:DocumentDescription>
+    <cbc:DocumentDescription>Aufschlüsselung der einzelnen Leistungspositionen</cbc:DocumentDescription>
+	<cac:Attachment>
+	  <cac:ExternalReference>
+        <cbc:URI>https://xeinkauf.de/xrechnung/</cbc:URI>
+      </cac:ExternalReference>
+    </cac:Attachment>
   </cac:AdditionalDocumentReference>
   <cac:AdditionalDocumentReference>
     <cbc:ID>01_15_Anhang_02</cbc:ID>
-      <cbc:DocumentDescription>Gesamtübersicht der Leistungspositionen</cbc:DocumentDescription>
+    <cbc:DocumentDescription>Gesamtübersicht der Leistungspositionen</cbc:DocumentDescription>
+	<cac:Attachment>
+	  <cac:ExternalReference>
+        <cbc:URI>https://xeinkauf.de/xrechnung/</cbc:URI>
+      </cac:ExternalReference>
+    </cac:Attachment>
   </cac:AdditionalDocumentReference>
   <cac:ProjectReference>
     <cbc:ID>Entwicklung System</cbc:ID>
@@ -60,7 +70,7 @@
     <cac:Party>
       <cbc:EndpointID schemeID="EM">buyer@info.de</cbc:EndpointID>
       <cac:PartyName>
-        <cbc:Name>[Buyer name]</cbc:Name>
+        <cbc:Name>[Buyer trading name]</cbc:Name>
       </cac:PartyName>
           <cac:PostalAddress>
         <cbc:StreetName>[Buyer street]</cbc:StreetName>

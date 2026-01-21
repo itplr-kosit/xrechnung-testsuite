@@ -59,7 +59,7 @@
     <cac:Party>
       <cbc:EndpointID schemeID="EM">buyer@info.de</cbc:EndpointID>
       <cac:PartyName>
-        <cbc:Name>[Buyer name]</cbc:Name>
+        <cbc:Name>[Buyer trading name]</cbc:Name>
       </cac:PartyName>
           <cac:PostalAddress>
         <cbc:StreetName>[Buyer street]</cbc:StreetName>
