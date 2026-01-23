@@ -47,10 +47,13 @@
   <!--  this must be a direct absolute path  --> 
   <property name="validator.configuration.resources.dir" value="${validator.configuration.project.dir}/build/resources"/> 
   <property name="validator.dir" value="${validator.configuration.project.dir}/lib"/>
-  <property name="validator.version.full" value="1.5.0"/>
-  <property name="validator.jar" value="validationtool-${validator.version.full}-standalone.jar"/>
+  <property name="validator.version.full" value="1.6.0"/>
+  <property name="validator.jar" value="validator-${validator.version.full}-standalone.jar"/>
   
-  <property name="validator.configuration.bis.download.url" value="https://github.com/itplr-kosit/validator-configuration-bis/releases/download/release-3.0.19" />
+  <property name="bis.version" value="3.0.20" />
+  <property name="bis.zip" value="validation-configuration-bis-${bis.version}.zip" />
+  <property name="validator.configuration.bis.download.url.prefix" value="https://github.com/itplr-kosit/validator-configuration-bis/releases/download/release-${bis.version}" />
+  <property name="validator.configuration.bis.download.url" value="${validator.configuration.bis.download.url.prefix}/${bis.zip}" />
   
   <property name="saxon.jar" value="saxon9he.jar" />
   
