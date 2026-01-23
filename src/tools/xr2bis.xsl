@@ -21,12 +21,12 @@
     <!-- UBL Invoice -->
     
     <!-- update Spec ID -->
-    <xsl:template match="/*:Invoice/cbc:CustomizationID/text()">
+    <xsl:template match="cbc:CustomizationID/text()">
         <xsl:value-of select='$spec-id'/>
     </xsl:template>
     
     <!-- satisfy PEPPOL-EN16931-CL008 -->
-    <xsl:template match="//*/cbc:EndpointID[@schemeID='EM']">
+    <xsl:template match="cbc:EndpointID[@schemeID='EM']">
         <xsl:element name="cbc:EndpointID" >
             <xsl:attribute name="schemeID">0088</xsl:attribute>
             <xsl:text>7300010000001</xsl:text>
