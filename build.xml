@@ -277,9 +277,9 @@
     </unzip>
   </target>
   
-  <target name="validator-bis-test" depends="retrieve-validator-bis-configuration, provide-validator-bis-tests">
+  <target name="validator-bis-test" depends="retrieve-validator-bis-configuration, provide-validator-bis-tests, provide-validator-configuration">
     <echo>Creating validation reports for generated business cases ...</echo>
-    <java jar="${validator.dir}/${validator.jar}" fork="yes"
+    <java jar="${validator.dir}/${validator.jar}" failonerror="yes" fork="yes"
       dir="${basedir}">
       <arg value="-s" />
       <arg value="${lib.dir}/peppol-bis/scenarios.xml" />
@@ -292,7 +292,7 @@
     </java>
     
     <echo>Creating validation reports for generated technical cases ...</echo>
-    <java jar="${validator.dir}/${validator.jar}" fork="yes"
+    <java jar="${validator.dir}/${validator.jar}" failonerror="yes" fork="yes"
       dir="${basedir}">
       <arg value="-s" />
       <arg value="${lib.dir}/peppol-bis/scenarios.xml" />
