@@ -543,6 +543,9 @@
 				<ram:ID>[Seller identifier 1]</ram:ID>
 				<ram:ID>[Seller identifier 2]</ram:ID>
                 <ram:Name>[Seller name]</ram:Name>
+				<ram:SpecifiedLegalOrganization>                   
+                    <ram:TradingBusinessName>[Seller trading name]</ram:TradingBusinessName>
+                </ram:SpecifiedLegalOrganization>
                 <ram:DefinedTradeContact>
                     <ram:PersonName>Kundencenter</ram:PersonName>
                     <ram:TelephoneUniversalCommunication>
