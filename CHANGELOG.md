@@ -8,11 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 This release is compatible with XRechnung ?.?.?
 
+### Added
+
+* validation against Peppol BIS Billing rules
+
 ### Changed
 
 * Using [CII2UBL 3.1.0](https://github.com/phax/en16931-cii2ubl/releases/tag/en16931-cii2ubl-parent-pom-3.1.0)
 * various business-test cases to align the content of CII and UBL representations
-
 
 ## 2025-07-10
 
