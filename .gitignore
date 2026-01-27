@@ -2,7 +2,9 @@ build
 dist
 lib
 reports
-_vendor
+_vendor/*/project-mgmt
+_vendor/*/xslt
+
 # developer files
 development.build.properties
 
