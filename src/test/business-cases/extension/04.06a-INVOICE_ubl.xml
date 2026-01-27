@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ubl:Invoice xmlns:ubl="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+    xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+    xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xeinkauf.de:kosit:xrechnung_3.0#conformant#urn:xeinkauf.de:kosit:extension:xrechnung_3.0</cbc:CustomizationID>
+    <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
+    <cbc:ID>3.AR/123456/20</cbc:ID>
+    <cbc:IssueDate>2020-12-10</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>875</cbc:InvoiceTypeCode>
+    <cbc:Note>Bereits bezahlte Abschlagsrechnungen;
+        1.AR/123456/20; 14.07.2020; 19.00 % MwSt; Netto-Betrag 102356.47; MwSt.-Betrag 19447.73; Brutto-Betrag 121804.20;
+        2.AR/123456/20; 29.09.2020; 16.00 % MwSt; Netto-Betrag 54390.21; MwSt.-Betrag 5631.74; Brutto-Betrag 60021.95;
+        Bislang Gesamtsumme Abschlagszahlungen: Netto-Betrag 156746.68; MwSt.-Betrag 25079.47; Brutto-Betrag 181826.15; 
+    </cbc:Note>
+    <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>    
+    <cbc:BuyerReference>123-45678-90</cbc:BuyerReference>
+    <cac:InvoicePeriod>
+        <cbc:StartDate>2020-04-09</cbc:StartDate>
+        <cbc:EndDate>2020-12-10</cbc:EndDate>
+    </cac:InvoicePeriod>
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cbc:EndpointID schemeID="EM">seller@email.de</cbc:EndpointID>
+            <cac:PostalAddress>
+                <cbc:StreetName>Seller Straße 46</cbc:StreetName>
+                <cbc:CityName>Seller Stadt</cbc:CityName>
+                <cbc:PostalZone>12345</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>DE</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyTaxScheme>
+                <cbc:CompanyID>DE814060619</cbc:CompanyID>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:PartyTaxScheme>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Seller GmbH</cbc:RegistrationName>                
+                <cbc:CompanyLegalForm>123/45/6789</cbc:CompanyLegalForm>
+            </cac:PartyLegalEntity>
+            <cac:Contact>
+                <cbc:Name>Frau Test</cbc:Name>
+                <cbc:Telephone>0123/456 78-0</cbc:Telephone>
+                <cbc:ElectronicMail>test@test.test</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cbc:EndpointID schemeID="EM">buyer@info.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+                <cbc:ID>12345</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PostalAddress>
+                <cbc:StreetName>Buyer Straße 4</cbc:StreetName>
+                <cbc:CityName>Buyer Stadt</cbc:CityName>
+                <cbc:PostalZone>12345</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>DE</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Buyer Verwaltung</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+    <cac:PaymentMeans>
+        <cbc:PaymentMeansCode>58</cbc:PaymentMeansCode>
+        <cac:PayeeFinancialAccount>
+            <cbc:ID>DE63622515500220028855</cbc:ID>
+        </cac:PayeeFinancialAccount>
+    </cac:PaymentMeans>
+    <cac:PaymentTerms>
+        <cbc:Note>Zahlbar bis 31.12.2020 ohne Abzug</cbc:Note>
+    </cac:PaymentTerms>
+    <cac:AllowanceCharge>
+        <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+        <cbc:AllowanceChargeReasonCode>104</cbc:AllowanceChargeReasonCode>
+        <cbc:AllowanceChargeReason>2% Nachlass</cbc:AllowanceChargeReason>
+        <cbc:MultiplierFactorNumeric>2</cbc:MultiplierFactorNumeric>
+        <cbc:Amount currencyID="EUR">6877.19</cbc:Amount>
+        <cbc:BaseAmount currencyID="EUR">343859.66</cbc:BaseAmount>
+        <cac:TaxCategory>
+            <cbc:ID>S</cbc:ID>
+            <cbc:Percent>16</cbc:Percent>
+            <cac:TaxScheme>
+                <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+        </cac:TaxCategory>
+    </cac:AllowanceCharge>
+    <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="EUR">53917.20</cbc:TaxAmount>
+        <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="EUR">336982.47</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="EUR">53917.20</cbc:TaxAmount>
+            <cac:TaxCategory>
+                <cbc:ID>S</cbc:ID>
+                <cbc:Percent>16</cbc:Percent>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:TaxCategory>
+        </cac:TaxSubtotal>        
+    </cac:TaxTotal>
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="EUR">343859.66</cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="EUR">336982.47</cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="EUR">390899.67</cbc:TaxInclusiveAmount>
+        <cbc:AllowanceTotalAmount currencyID="EUR">6877.19</cbc:AllowanceTotalAmount>
+        <cbc:PrepaidAmount currencyID="EUR">181826.15</cbc:PrepaidAmount>
+        <cbc:PayableAmount currencyID="EUR">209073.52</cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+    <cac:InvoiceLine>
+        <cbc:ID>01</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">343859.66</cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Name>Straßenbau und Entwässerung</cbc:Name>
+            <cac:ClassifiedTaxCategory>
+                <cbc:ID>S</cbc:ID>
+                <cbc:Percent>16.00</cbc:Percent>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:ClassifiedTaxCategory>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">343859.66</cbc:PriceAmount>
+        </cac:Price>
+        <cac:SubInvoiceLine>
+            <cbc:ID>01.01</cbc:ID>
+            <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+            <cbc:LineExtensionAmount currencyID="EUR">34374.27</cbc:LineExtensionAmount>
+            <cac:Item>
+                <cbc:Name>Baustelleneinrichtung</cbc:Name>
+                <cac:ClassifiedTaxCategory>
+                    <cbc:ID>S</cbc:ID>
+                    <cbc:Percent>16.00</cbc:Percent>
+                    <cac:TaxScheme>
+                        <cbc:ID>VAT</cbc:ID>
+                    </cac:TaxScheme>
+                </cac:ClassifiedTaxCategory>
+            </cac:Item>
+            <cac:SubInvoiceLine>
+                <cbc:ID>01.01.0010</cbc:ID>
+                <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+                <cbc:LineExtensionAmount currencyID="EUR">27796.04</cbc:LineExtensionAmount>
+                <cac:Item>
+                    <cbc:Name>Baustelleneinrichtung herstellen</cbc:Name>
+                    <cac:ClassifiedTaxCategory>
+                        <cbc:ID>S</cbc:ID>
+                        <cbc:Percent>16.00</cbc:Percent>
+                        <cac:TaxScheme>
+                            <cbc:ID>VAT</cbc:ID>
+                        </cac:TaxScheme>
+                    </cac:ClassifiedTaxCategory>
+                </cac:Item>
+                <cac:Price>
+                    <cbc:PriceAmount currencyID="EUR">27796.04</cbc:PriceAmount>
+                </cac:Price>
+            </cac:SubInvoiceLine>  
+            <cac:SubInvoiceLine>
+                <cbc:ID>01.01.0020</cbc:ID>
+                <cbc:InvoicedQuantity unitCode="DAY">61</cbc:InvoicedQuantity>
+                <cbc:LineExtensionAmount currencyID="EUR">3354.39</cbc:LineExtensionAmount>
+                <cac:Item>
+                    <cbc:Name>Baustelleneinrichtung herstellen</cbc:Name>
+                    <cac:ClassifiedTaxCategory>
+                        <cbc:ID>S</cbc:ID>
+                        <cbc:Percent>16.00</cbc:Percent>
+                        <cac:TaxScheme>
+                            <cbc:ID>VAT</cbc:ID>
+                        </cac:TaxScheme>
+                    </cac:ClassifiedTaxCategory>
+                </cac:Item>
+                <cac:Price>
+                    <cbc:PriceAmount currencyID="EUR">54.99</cbc:PriceAmount>
+                </cac:Price>
+            </cac:SubInvoiceLine>
+            <cac:SubInvoiceLine>
+                <cbc:ID>01.01.0030</cbc:ID>
+                <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+                <cbc:LineExtensionAmount currencyID="EUR">130.76</cbc:LineExtensionAmount>
+                <cac:Item>
+                    <cbc:Name>Sanitärcontainer aufstellen räumen doppelwandig, isoliert bis 7,5m2</cbc:Name>
+                    <cac:ClassifiedTaxCategory>
+                        <cbc:ID>S</cbc:ID>
+                        <cbc:Percent>16.00</cbc:Percent>
+                        <cac:TaxScheme>
+                            <cbc:ID>VAT</cbc:ID>
+                        </cac:TaxScheme>
+                    </cac:ClassifiedTaxCategory>
+                </cac:Item>
+                <cac:Price>
+                    <cbc:PriceAmount currencyID="EUR">130.76</cbc:PriceAmount>
+                </cac:Price>
+            </cac:SubInvoiceLine>
+            <cac:SubInvoiceLine>
+                <cbc:ID>01.01.0040</cbc:ID>
+                <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+                <cbc:LineExtensionAmount currencyID="EUR">1732.50</cbc:LineExtensionAmount>
+                <cac:Item>
+                    <cbc:Name>Baustelle räumen</cbc:Name>
+                    <cac:ClassifiedTaxCategory>
+                        <cbc:ID>S</cbc:ID>
+                        <cbc:Percent>16.00</cbc:Percent>
+                        <cac:TaxScheme>
+                            <cbc:ID>VAT</cbc:ID>
+                        </cac:TaxScheme>
+                    </cac:ClassifiedTaxCategory>
+                </cac:Item>
+                <cac:Price>
+                    <cbc:PriceAmount currencyID="EUR">1732.50</cbc:PriceAmount>
+                </cac:Price>
+            </cac:SubInvoiceLine>
+            <cac:SubInvoiceLine>
+                <cbc:ID>01.01.0060</cbc:ID>
+                <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+                <cbc:LineExtensionAmount currencyID="EUR">1360.58</cbc:LineExtensionAmount>
+                <cac:Item>
+                    <cbc:Name>Verkehrssicherung von längerer Dauer</cbc:Name>
+                    <cac:ClassifiedTaxCategory>
+                        <cbc:ID>S</cbc:ID>
+                        <cbc:Percent>16.00</cbc:Percent>
+                        <cac:TaxScheme>
+                            <cbc:ID>VAT</cbc:ID>
+                        </cac:TaxScheme>
+                    </cac:ClassifiedTaxCategory>
+                </cac:Item>
+                <cac:Price>
+                    <cbc:PriceAmount currencyID="EUR">1360.58</cbc:PriceAmount>
+                </cac:Price>
+            </cac:SubInvoiceLine>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+            <cbc:ID>01.03</cbc:ID>
+            <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+            <cbc:LineExtensionAmount currencyID="EUR">19132.52</cbc:LineExtensionAmount>
+            <cac:Item>
+                <cbc:Name>Bodenbewegung, Geotextilien</cbc:Name>
+                <cac:ClassifiedTaxCategory>
+                    <cbc:ID>S</cbc:ID>
+                    <cbc:Percent>16.00</cbc:Percent>
+                    <cac:TaxScheme>
+                        <cbc:ID>VAT</cbc:ID>
+                    </cac:TaxScheme>
+                </cac:ClassifiedTaxCategory>
+            </cac:Item>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+            <cbc:ID>01.04</cbc:ID>
+            <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+            <cbc:LineExtensionAmount currencyID="EUR">26931.45</cbc:LineExtensionAmount>
+            <cac:Item>
+                <cbc:Name>Erdarbeiten, Kanalbau</cbc:Name>
+                <cac:ClassifiedTaxCategory>
+                    <cbc:ID>S</cbc:ID>
+                    <cbc:Percent>16.00</cbc:Percent>
+                    <cac:TaxScheme>
+                        <cbc:ID>VAT</cbc:ID>
+                    </cac:TaxScheme>
+                </cac:ClassifiedTaxCategory>
+            </cac:Item>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+            <cbc:ID>01.06</cbc:ID>
+            <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+            <cbc:LineExtensionAmount currencyID="EUR">46787.70</cbc:LineExtensionAmount>
+            <cac:Item>
+                <cbc:Name>Kanalbauarbeiten</cbc:Name>
+                <cac:ClassifiedTaxCategory>
+                    <cbc:ID>S</cbc:ID>
+                    <cbc:Percent>16.00</cbc:Percent>
+                    <cac:TaxScheme>
+                        <cbc:ID>VAT</cbc:ID>
+                    </cac:TaxScheme>
+                </cac:ClassifiedTaxCategory>
+            </cac:Item>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+            <cbc:ID>01.07</cbc:ID>
+            <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+            <cbc:LineExtensionAmount currencyID="EUR">44291.86</cbc:LineExtensionAmount>
+            <cac:Item>
+                <cbc:Name>Druckleitung</cbc:Name>
+                <cac:ClassifiedTaxCategory>
+                    <cbc:ID>S</cbc:ID>
+                    <cbc:Percent>16.00</cbc:Percent>
+                    <cac:TaxScheme>
+                        <cbc:ID>VAT</cbc:ID>
+                    </cac:TaxScheme>
+                </cac:ClassifiedTaxCategory>
+            </cac:Item>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+            <cbc:ID>01.08</cbc:ID>
+            <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+            <cbc:LineExtensionAmount currencyID="EUR">42368.16</cbc:LineExtensionAmount>
+            <cac:Item>
+                <cbc:Name>Abfüllplatz Whg § 19</cbc:Name>
+                <cac:ClassifiedTaxCategory>
+                    <cbc:ID>S</cbc:ID>
+                    <cbc:Percent>16.00</cbc:Percent>
+                    <cac:TaxScheme>
+                        <cbc:ID>VAT</cbc:ID>
+                    </cac:TaxScheme>
+                </cac:ClassifiedTaxCategory>
+            </cac:Item>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+            <cbc:ID>01.09</cbc:ID>
+            <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+            <cbc:LineExtensionAmount currencyID="EUR">12795.28</cbc:LineExtensionAmount>
+            <cac:Item>
+                <cbc:Name>Elektroarbeiten</cbc:Name>
+                <cac:ClassifiedTaxCategory>
+                    <cbc:ID>S</cbc:ID>
+                    <cbc:Percent>16.00</cbc:Percent>
+                    <cac:TaxScheme>
+                        <cbc:ID>VAT</cbc:ID>
+                    </cac:TaxScheme>
+                </cac:ClassifiedTaxCategory>
+            </cac:Item>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+            <cbc:ID>01.10</cbc:ID>
+            <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+            <cbc:LineExtensionAmount currencyID="EUR">9132.82</cbc:LineExtensionAmount>
+            <cac:Item>
+                <cbc:Name>Wärmedämmung und Abdichtung</cbc:Name>
+                <cac:ClassifiedTaxCategory>
+                    <cbc:ID>S</cbc:ID>
+                    <cbc:Percent>16.00</cbc:Percent>
+                    <cac:TaxScheme>
+                        <cbc:ID>VAT</cbc:ID>
+                    </cac:TaxScheme>
+                </cac:ClassifiedTaxCategory>
+            </cac:Item>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+            <cbc:ID>01.11</cbc:ID>
+            <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+            <cbc:LineExtensionAmount currencyID="EUR">19807.11</cbc:LineExtensionAmount>
+            <cac:Item>
+                <cbc:Name>Ungebundene Schichten</cbc:Name>
+                <cac:ClassifiedTaxCategory>
+                    <cbc:ID>S</cbc:ID>
+                    <cbc:Percent>16.00</cbc:Percent>
+                    <cac:TaxScheme>
+                        <cbc:ID>VAT</cbc:ID>
+                    </cac:TaxScheme>
+                </cac:ClassifiedTaxCategory>
+            </cac:Item>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+            <cbc:ID>01.12</cbc:ID>
+            <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+            <cbc:LineExtensionAmount currencyID="EUR">11355.68</cbc:LineExtensionAmount>
+            <cac:Item>
+                <cbc:Name>Asphaltschichten</cbc:Name>
+                <cac:ClassifiedTaxCategory>
+                    <cbc:ID>S</cbc:ID>
+                    <cbc:Percent>16.00</cbc:Percent>
+                    <cac:TaxScheme>
+                        <cbc:ID>VAT</cbc:ID>
+                    </cac:TaxScheme>
+                </cac:ClassifiedTaxCategory>
+            </cac:Item>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+            <cbc:ID>01.13</cbc:ID>
+            <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+            <cbc:LineExtensionAmount currencyID="EUR">51760.56</cbc:LineExtensionAmount>
+            <cac:Item>
+                <cbc:Name>Pflaster, Zeilen, Rinnen, Borde</cbc:Name>
+                <cac:ClassifiedTaxCategory>
+                    <cbc:ID>S</cbc:ID>
+                    <cbc:Percent>16.00</cbc:Percent>
+                    <cac:TaxScheme>
+                        <cbc:ID>VAT</cbc:ID>
+                    </cac:TaxScheme>
+                </cac:ClassifiedTaxCategory>
+            </cac:Item>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+            <cbc:ID>01.14</cbc:ID>
+            <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+            <cbc:LineExtensionAmount currencyID="EUR">2263.42</cbc:LineExtensionAmount>
+            <cac:Item>
+                <cbc:Name>Dichtheitsprüfung / TV-Inspektion</cbc:Name>
+                <cac:ClassifiedTaxCategory>
+                    <cbc:ID>S</cbc:ID>
+                    <cbc:Percent>16.00</cbc:Percent>
+                    <cac:TaxScheme>
+                        <cbc:ID>VAT</cbc:ID>
+                    </cac:TaxScheme>
+                </cac:ClassifiedTaxCategory>
+            </cac:Item>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+            <cbc:ID>01.15</cbc:ID>
+            <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+            <cbc:LineExtensionAmount currencyID="EUR">14172.18</cbc:LineExtensionAmount>
+            <cac:Item>
+                <cbc:Name>Stundenlohnarbeiten, Regie</cbc:Name>
+                <cac:ClassifiedTaxCategory>
+                    <cbc:ID>S</cbc:ID>
+                    <cbc:Percent>16.00</cbc:Percent>
+                    <cac:TaxScheme>
+                        <cbc:ID>VAT</cbc:ID>
+                    </cac:TaxScheme>
+                </cac:ClassifiedTaxCategory>
+            </cac:Item>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+            <cbc:ID>01.16</cbc:ID>
+            <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+            <cbc:LineExtensionAmount currencyID="EUR">8686.65</cbc:LineExtensionAmount>
+            <cac:Item>
+                <cbc:Name>Nachträge, Preisvereinbarungen</cbc:Name>
+                <cac:ClassifiedTaxCategory>
+                    <cbc:ID>S</cbc:ID>
+                    <cbc:Percent>16.00</cbc:Percent>
+                    <cac:TaxScheme>
+                        <cbc:ID>VAT</cbc:ID>
+                    </cac:TaxScheme>
+                </cac:ClassifiedTaxCategory>
+            </cac:Item>
+        </cac:SubInvoiceLine>
+    </cac:InvoiceLine>
+</ubl:Invoice>
