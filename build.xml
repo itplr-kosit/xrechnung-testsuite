@@ -5,6 +5,7 @@
     location="${basedir}/_vendor/xsbi-0.3.0-SNAPSHOT/abu" />
 
   <import file="${xsbi.abu.dir}/abu-common.xml" />
+  <include file="${xsbi.abu.dir}/abu-saxon-provider.xml" />
 
   <property name="dist.dir" location="${basedir}/dist" />
   <property name="lib.dir" location="${basedir}/lib" />
@@ -60,8 +61,6 @@
   <property name="validator.configuration.bis.download.url.prefix" value="https://github.com/itplr-kosit/validator-configuration-bis/releases/download/release-${bis.version}" />
   <property name="validator.configuration.bis.download.url" value="${validator.configuration.bis.download.url.prefix}/${bis.zip}" />
   
-  <property name="saxon.jar" value="saxon9he.jar" />
-  
   <property name="dist.name"
     value="xrechnung-${xrechnung.version.full}-testsuite-${testsuite.version.date}" />
 
@@ -73,17 +72,12 @@
   </target>
 
 
-  
   <target name="provide-validator-configuration">
 
     <fail unless="validator.configuration.project.dir"
       message="Set validator.configuration.project.dir property e.g. at command line" />
-    
-    
 
     <echo message="Checking ${validator.configuration.resources.dir}" />
-
-
 
     <fail unless="validator.configuration.resources.dir"
       message="Set validator.configuration.resources.dir in properties file" />
@@ -246,31 +240,17 @@
     <unzip src="${download.dir}/${bis.zip}" dest="${lib.dir}/peppol-bis" />
   </target>
   
-  <target name="provide-validator-bis-tests" depends="prepare-saxon, compile-test, provide-validator-bis-configuration">
+  <target name="provide-validator-bis-tests" depends="abu-saxon-provider.provide-saxon, compile-test, provide-validator-bis-configuration">
     <!-- transform XRechnung CIUS business and technical test cases to Peppol BIS Billing, exclude self-billed invoices with type code 389 -->
-      <xslt basedir="${test.build.dir}" destdir="${test.build.generated.dir}/bis-billing-cases"
+    <xslt basedir="${test.build.dir}" destdir="${test.build.generated.dir}/bis-billing-cases"
         style="${src.dir}/tools/xr2bis.xsl"
-        classpath="${lib.dir}/${saxon.jar}" extension=".xml"
+        classpathref="cp.saxon.xslt" extension=".xml"
         includes="standard/*_ubl.xml, technical-cases/cius/*_ubl.xml"
         excludes="standard/01.20a-INVOICE_ubl.xml">
         <factory name="net.sf.saxon.TransformerFactoryImpl" />
         <param name="spec-id" expression="urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0" />
       </xslt>
       
-  </target>
-  
-  <target name="prepare-saxon" depends="init"
-    description="Download Saxon-HE and add jar to library directory">
-    <get
-      src="https://sourceforge.net/projects/saxon/files/Saxon-HE/9.9/SaxonHE9-9-1-8J.zip/download"
-      dest="${download.dir}/SaxonHE9-9-1-8J.zip" verbose="true"
-      skipexisting="true" usetimestamp="true" />
-    <unzip src="${download.dir}/SaxonHE9-9-1-8J.zip" dest="${lib.dir}">
-      <patternset>
-        <include name="${saxon.jar}" />
-      </patternset>
-      
-    </unzip>
   </target>
   
   <target name="validator-bis-test" depends="retrieve-validator-bis-configuration, provide-validator-bis-tests, provide-validator-configuration">

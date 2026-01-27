@@ -4,6 +4,7 @@ lib
 reports
 _vendor/*/project-mgmt
 _vendor/*/xslt
+/download
 
 # developer files
 development.build.properties
