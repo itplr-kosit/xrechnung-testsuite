@@ -52,8 +52,8 @@
   <!--  this must be a direct absolute path  --> 
   <property name="validator.configuration.resources.dir" value="${validator.configuration.project.dir}/build/resources"/> 
   <property name="validator.dir" value="${validator.configuration.project.dir}/lib"/>
-  <property name="validator.version.full" value="1.5.0"/>
-  <property name="validator.jar" value="validationtool-${validator.version.full}-standalone.jar"/>
+  <property name="validator.version.full" value="1.6.0"/>
+  <property name="validator.jar" value="validator-${validator.version.full}-standalone.jar"/>
   
   <property name="dist.name"
     value="xrechnung-${xrechnung.version.full}-testsuite-${testsuite.version.date}" />
