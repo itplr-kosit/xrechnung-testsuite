@@ -43,6 +43,7 @@
             </cac:PartyTaxScheme>
             <cac:PartyLegalEntity>
                 <cbc:RegistrationName>[Seller name]</cbc:RegistrationName>
+				<cbc:CompanyID>HRB 123</cbc:CompanyID>
             </cac:PartyLegalEntity>
             <cac:Contact>
                 <cbc:Name>[Seller contact person]</cbc:Name>

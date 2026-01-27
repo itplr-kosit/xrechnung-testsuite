@@ -78,6 +78,9 @@ If a local version is used, the internally defined version is ignored.
 
 The task `validator-generated-test` validates the generated test instances with the Validator Configuration XRechnung.
 
+## Peppol BIS Billing
+
+With the task `validator-bis-test` CIUS XRechnung test files are converted to Peppol BIS Billing files and validated with the [Validator Configuration BIS](https://github.com/itplr-kosit/validator-configuration-bis).
 
 ## Distribution
 

@@ -38,12 +38,13 @@
   <property name="_xrechnung.version.majorminor" value="3.0" />
   <property name="xrechnung.version.full" value="${_xrechnung.version.majorminor}.2" />
   
+
   <!-- For cii2ubl -->
   <property name="_cii2ubl.baseurl" value="https://github.com/phax/en16931-cii2ubl/releases/download/" />
-  <property name="_cii2ubl.version" value="2.3.1" />
+  <property name="_cii2ubl.version" value="3.1.0" />
   <property name="cii2ubl.download.url" value="${_cii2ubl.baseurl}en16931-cii2ubl-parent-pom-${_cii2ubl.version}/en16931-cii2ubl-cli-${_cii2ubl.version}-shaded.jar" />
   <property name="cii2ubl.download.skipexisting" value="true" />
-  <property name="cii2ubl.jar" value="cii2ubl-${_cii2ubl.version}.jar" />
+  <property name="cii2ubl.jar" value="en16931-cii2ubl-${_cii2ubl.version}.jar" />
   <property name="cii2ubl.customizationid" value="urn:cen.eu:en16931:2017#compliant#urn:xeinkauf.de:kosit:xrechnung_${_xrechnung.version.majorminor}" />
   <property name="cii2ubl.profileid" value="urn:fdc:peppol.eu:2017:poacc:billing:01:1.0" />
   <property name="cii2ubl.local.enabled" value="false" />
@@ -53,7 +54,13 @@
   <property name="validator.configuration.resources.dir" value="${validator.configuration.project.dir}/build/resources"/> 
   <property name="validator.dir" value="${validator.configuration.project.dir}/lib"/>
   <property name="validator.version.full" value="1.6.0"/>
-  <property name="validator.jar" value="validator-${validator.version.full}-standalone.jar"/>
+  <property name="validator.jar" value="validator-${validator.version.full}-standalone.jar"/>  
+  <property name="bis.version" value="3.0.20" />
+  <property name="bis.zip" value="validation-configuration-bis-${bis.version}.zip" />
+  <property name="validator.configuration.bis.download.url.prefix" value="https://github.com/itplr-kosit/validator-configuration-bis/releases/download/release-${bis.version}" />
+  <property name="validator.configuration.bis.download.url" value="${validator.configuration.bis.download.url.prefix}/${bis.zip}" />
+  
+  <property name="saxon.jar" value="saxon9he.jar" />
   
   <property name="dist.name"
     value="xrechnung-${xrechnung.version.full}-testsuite-${testsuite.version.date}" />
@@ -225,6 +232,74 @@
     depends="validator-extension-business-case-test,validator-standard-business-case-test,validator-technical-test, validator-generated-test">
 
   </target>
+  
+  <target name="retrieve-validator-bis-configuration" depends="init">
+    <echo>Downloading Validator Configuration BIS</echo>
+    <get src="${validator.configuration.bis.download.url}" 
+      dest="${download.dir}/${bis.zip}" 
+      verbose="true"
+      skipexisting="true"
+      usetimestamp="true" />
+  </target>
+  
+  <target name="provide-validator-bis-configuration" depends="retrieve-validator-bis-configuration">
+    <unzip src="${download.dir}/${bis.zip}" dest="${lib.dir}/peppol-bis" />
+  </target>
+  
+  <target name="provide-validator-bis-tests" depends="prepare-saxon, compile-test, provide-validator-bis-configuration">
+    <!-- transform XRechnung CIUS business and technical test cases to Peppol BIS Billing, exclude self-billed invoices with type code 389 -->
+      <xslt basedir="${test.build.dir}" destdir="${test.build.generated.dir}/bis-billing-cases"
+        style="${src.dir}/tools/xr2bis.xsl"
+        classpath="${lib.dir}/${saxon.jar}" extension=".xml"
+        includes="standard/*_ubl.xml, technical-cases/cius/*_ubl.xml"
+        excludes="standard/01.20a-INVOICE_ubl.xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl" />
+        <param name="spec-id" expression="urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0" />
+      </xslt>
+      
+  </target>
+  
+  <target name="prepare-saxon" depends="init"
+    description="Download Saxon-HE and add jar to library directory">
+    <get
+      src="https://sourceforge.net/projects/saxon/files/Saxon-HE/9.9/SaxonHE9-9-1-8J.zip/download"
+      dest="${download.dir}/SaxonHE9-9-1-8J.zip" verbose="true"
+      skipexisting="true" usetimestamp="true" />
+    <unzip src="${download.dir}/SaxonHE9-9-1-8J.zip" dest="${lib.dir}">
+      <patternset>
+        <include name="${saxon.jar}" />
+      </patternset>
+      
+    </unzip>
+  </target>
+  
+  <target name="validator-bis-test" depends="retrieve-validator-bis-configuration, provide-validator-bis-tests, provide-validator-configuration">
+    <echo>Creating validation reports for generated business cases ...</echo>
+    <java jar="${validator.dir}/${validator.jar}" failonerror="yes" fork="yes"
+      dir="${basedir}">
+      <arg value="-s" />
+      <arg value="${lib.dir}/peppol-bis/scenarios.xml" />
+      <arg value="-r" />
+      <arg value="${lib.dir}/peppol-bis" />
+      <arg value="-h" />
+      <arg value="-o" />
+      <arg value="${reports.dir}/bis" />
+      <arg value="${test.build.generated.dir}/bis-billing-cases/standard" />
+    </java>
+    
+    <echo>Creating validation reports for generated technical cases ...</echo>
+    <java jar="${validator.dir}/${validator.jar}" failonerror="yes" fork="yes"
+      dir="${basedir}">
+      <arg value="-s" />
+      <arg value="${lib.dir}/peppol-bis/scenarios.xml" />
+      <arg value="-r" />
+      <arg value="${lib.dir}/peppol-bis" />
+      <arg value="-h" />
+      <arg value="-o" />
+      <arg value="${reports.dir}/bis" />
+      <arg value="${test.build.generated.dir}/bis-billing-cases/technical-cases/cius" />
+    </java>
+  </target>
 
   <target name="retrieve-cii2ubl-remote" depends="init" unless="${cii2ubl.local.enabled}">
     <echo>Downloading remote CII2UBL</echo>
@@ -308,4 +383,5 @@
   </target>
 
   <target name="clean" depends="abu-common.clean"/>
+
 </project>

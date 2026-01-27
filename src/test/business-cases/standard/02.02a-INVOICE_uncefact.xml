@@ -135,6 +135,7 @@
                 <ram:Name>[Buyer name]</ram:Name>
                 <ram:SpecifiedLegalOrganization>
                     <ram:ID schemeID="0204">90000000-03083-72</ram:ID>
+					<ram:TradingBusinessName>[Buyer trading name]</ram:TradingBusinessName>
                 </ram:SpecifiedLegalOrganization>
                 <ram:DefinedTradeContact>
                     <ram:PersonName>Tina Tester</ram:PersonName>
