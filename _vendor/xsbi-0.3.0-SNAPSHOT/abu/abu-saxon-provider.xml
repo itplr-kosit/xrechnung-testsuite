@@ -76,7 +76,6 @@
     </unzip>
     <echo message="classpath for ${lib.dir}/${saxon-he.jar.name}" />
     <!-- this classpath should work after execution of provide-saxon -->
-    <echo message="${toString:cp.saxon.xslt}"/>
     <available-saxon/>
   </target>
 
