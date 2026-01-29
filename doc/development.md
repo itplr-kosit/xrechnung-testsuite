@@ -81,6 +81,7 @@ The task `validator-generated-test` validates the generated test instances with 
 ## Peppol BIS Billing
 
 With the task `validator-bis-test` CIUS XRechnung test files are converted to Peppol BIS Billing files and validated with the [Validator Configuration BIS](https://github.com/itplr-kosit/validator-configuration-bis).
+We are testing with **Saxon HE 12.8** and later.
 
 ## Distribution
 
