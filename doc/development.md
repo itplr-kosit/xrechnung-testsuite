@@ -108,7 +108,7 @@ The `ant` target `dist` creates the distribution zip archive.
   This requires setting some properties at command line:
 
   ```
-  ant -v -Dxmute.download.url.prefix='file:/home/renzo/projects/xml-mutate/' -Dxmute.version.full=0.5  -Dvalidator.configuration.project.dir=/home/renzo/projects/validator-configuration-xrechnung clean dist
+  ant -v -Dvalidator.configuration.project.dir=/home/renzo/projects/validator-configuration-xrechnung clean dist
   ```
 
 * Tag the last commit according to the following naming rule: 
