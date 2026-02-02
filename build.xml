@@ -362,4 +362,42 @@
 
   </target>
 
+  <target name="release-env-file" depends="dist-only"
+    description="Generate build.env file with Maven coordinates for CI/CD deployment">
+    <property name="build.env.file" value="${build.dir}/build.env" />
+    
+    <loadresource property="project.group.id.path">
+      <concat>de.kosit</concat>
+      <filterchain>
+        <replaceregex pattern="\." replace="/" />
+      </filterchain>
+    </loadresource>
+    
+    <echo file="${build.env.file}" append="false" encoding="UTF-8"
+      message="GROUP_ID=de.kosit${line.separator}" />
+    <echo file="${build.env.file}" append="true" encoding="UTF-8"
+      message="ARTIFACT_ID=xrechnung-testsuite${line.separator}" />
+    <echo file="${build.env.file}" append="true" encoding="UTF-8"
+      message="PACKAGE_VERSION=${testsuite.version.date}${line.separator}" />
+    <echo file="${build.env.file}" append="true" encoding="UTF-8"
+      message="PACKAGE_BINARY=${dist.name}.zip${line.separator}" />
+    <echo file="${build.env.file}" append="true" encoding="UTF-8"
+      message="MAVEN_PACKAGE_NAME=${project.group.id.path}/xrechnung-testsuite${line.separator}" />
+    <echo file="${build.env.file}" append="true" encoding="UTF-8"
+      message="XRECHNUNG_VERSION=${xrechnung.version.full}${line.separator}" />
+    
+    <echo message="Created ${build.env.file} with deployment metadata" />
+    <echo message="GROUP_ID=de.kosit" />
+    <echo message="ARTIFACT_ID=xrechnung-testsuite" />
+    <echo message="PACKAGE_VERSION=${testsuite.version.date}" />
+    <echo message="PACKAGE_BINARY=${dist.name}.zip" />
+    <echo message="XRECHNUNG_VERSION=${xrechnung.version.full}" />
+  </target>
+
+  <target name="release" depends="compile-test, compile-doc, dist-only, release-env-file"
+    description="Build distribution and generate CI/CD metadata for release" />
+
+
+  <target name="clean" depends="abu-common.clean"/>
+
 </project>
