@@ -394,7 +394,7 @@
     <echo message="XRECHNUNG_VERSION=${xrechnung.version.full}" />
   </target>
 
-  <target name="release" depends="compile-doc, dist-only, release-env-file"
+  <target name="release" depends="compile-test, compile-doc, dist-only, release-env-file"
     description="Build distribution and generate CI/CD metadata for release" />
 
 
