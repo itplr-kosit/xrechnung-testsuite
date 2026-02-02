@@ -362,6 +362,4 @@
 
   </target>
 
-  <target name="clean" depends="abu-common.clean"/>
-
 </project>
