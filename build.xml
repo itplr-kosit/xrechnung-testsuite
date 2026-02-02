@@ -386,7 +386,7 @@
     <echo file="${build.env.file}" append="true" encoding="UTF-8"
         message="ARTIFACT_ID=${project.artifact.id}${line.separator}" />
     <echo file="${build.env.file}" append="true" encoding="UTF-8"
-      message="PACKAGE_VERSION=${xrechnung.model.version}${line.separator}" />
+      message="PACKAGE_VERSION=${testsuite.version.date}${line.separator}" />
     <echo file="${build.env.file}" append="true" encoding="UTF-8"
       message="PACKAGE_BINARY=${project.artifact.zip.name}${line.separator}" />
     <echo file="${build.env.file}" append="true" encoding="UTF-8"
