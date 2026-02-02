@@ -61,6 +61,14 @@
   <property name="validator.configuration.bis.download.url.prefix" value="https://github.com/itplr-kosit/validator-configuration-bis/releases/download/release-${bis.version}" />
   <property name="validator.configuration.bis.download.url" value="${validator.configuration.bis.download.url.prefix}/${bis.zip}" />
   
+  <!-- ci/cd  -->
+  <property name="project.name.short" value="testsuite" />
+  <property name="project.group.id" value="de.xeinkauf" />
+  <property name="project.artifact.id"
+    value="xrechnung-${xrechnung.version}-${project.name.short}" />
+  <property name="project.artifact.zip.name"
+    value="${project.artifact.id}-${testsuite.version.date}.zip" />
+  
   <property name="dist.name"
     value="xrechnung-${xrechnung.version.full}-testsuite-${testsuite.version.date}" />
 
@@ -367,22 +375,22 @@
     <property name="build.env.file" value="${build.dir}/build.env" />
     
     <loadresource property="project.group.id.path">
-      <concat>de.kosit</concat>
+        <concat>${project.group.id}</concat>
       <filterchain>
         <replaceregex pattern="\." replace="/" />
       </filterchain>
     </loadresource>
     
     <echo file="${build.env.file}" append="false" encoding="UTF-8"
-      message="GROUP_ID=de.kosit${line.separator}" />
+        message="GROUP_ID=${project.group.id}${line.separator}" />
     <echo file="${build.env.file}" append="true" encoding="UTF-8"
-      message="ARTIFACT_ID=xrechnung-testsuite${line.separator}" />
+        message="ARTIFACT_ID=${project.artifact.id}${line.separator}" />
     <echo file="${build.env.file}" append="true" encoding="UTF-8"
-      message="PACKAGE_VERSION=${testsuite.version.date}${line.separator}" />
+      message="PACKAGE_VERSION=${xrechnung.model.version}${line.separator}" />
     <echo file="${build.env.file}" append="true" encoding="UTF-8"
-      message="PACKAGE_BINARY=${dist.name}.zip${line.separator}" />
+      message="PACKAGE_BINARY=${project.artifact.zip.name}${line.separator}" />
     <echo file="${build.env.file}" append="true" encoding="UTF-8"
-      message="MAVEN_PACKAGE_NAME=${project.group.id.path}/xrechnung-testsuite${line.separator}" />
+      message="MAVEN_PACKAGE_NAME=${project.group.id.path}/${project.artifact.id}${line.separator}" />
     <echo file="${build.env.file}" append="true" encoding="UTF-8"
       message="XRECHNUNG_VERSION=${xrechnung.version.full}${line.separator}" />
     
