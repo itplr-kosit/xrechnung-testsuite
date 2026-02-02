@@ -111,19 +111,16 @@ The `ant` target `dist` creates the distribution zip archive.
   ant -v -Dvalidator.configuration.project.dir=/home/renzo/projects/validator-configuration-xrechnung clean dist
   ```
 
-* Tag the last commit according to the following naming rule: 
-   `release-${date-of-scheduled-release-e.g. 2026-01-31}`
-  e.g.
-  `git tag release-2026-01-31 && git push origin release-2026-01-31`
-
 ### Publish
 
-* Draft a new release at https://github.com/itplr-kosit/xrechnung-testsuite/releases/new
-  * Choose the git tag
-* Add a release title of the following scheme: `Testsuite release compatible with XRechnung ${spec.version.full} in version ${testsuite.release.version}`.
+* Tag the last commit according to the following naming rule: 
+   `v${date-of-scheduled-release-e.g. v2026-01-31}`
+  e.g.
+  `git tag v2026-01-31 && git push origin v2026-01-31`
+* The tag will trigger a release pipeline and create a GitLab release
 * Copy & paste the high quality changelog entries for this release from CHANGELOG.md.
-* Upload distribution zip and tick mark this release as a `pre-release`.
-* Check everything is ok, then uncheck pre release.
+* The release title should follow this scheme: `Testsuite release compatible with XRechnung ${spec.version.full} in version ${testsuite.release.version}`.
+* Publish the new release in GitHub
 
 ### Post-Release
 
