@@ -111,6 +111,11 @@ The `ant` target `dist` creates the distribution zip archive.
   ant -v -Dvalidator.configuration.project.dir=/home/renzo/projects/validator-configuration-xrechnung clean dist
   ```
 
+### Deploy
+
+* Tag the last commit according to the following naming rule: `${date-of-scheduled-release}-{rc}` e.g.
+  `git tag 2026-01-31-rc1 && git push origin 2026-01-31-rc1`
+
 ### Publish
 
 * Tag the last commit according to the following naming rule: 
