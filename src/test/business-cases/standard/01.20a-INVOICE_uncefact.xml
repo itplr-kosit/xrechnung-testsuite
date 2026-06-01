@@ -180,7 +180,7 @@
         <ram:TypeCode>42</ram:TypeCode>  
         <ram:Information>Bank transfer</ram:Information>  
         <ram:PayeePartyCreditorFinancialAccount> 
-          <ram:IBANID>1234 5678 9012 3456 789022</ram:IBANID>  
+          <ram:IBANID>DE79000000001234567890</ram:IBANID>  
           <ram:AccountName>Postbank Düsseldorf</ram:AccountName> 
         </ram:PayeePartyCreditorFinancialAccount>  
         <ram:PayeeSpecifiedCreditorFinancialInstitution> 

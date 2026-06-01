@@ -85,7 +85,7 @@
     <cbc:PaymentMeansCode name="Bank transfer">42</cbc:PaymentMeansCode>
     <cbc:PaymentID>1234567890</cbc:PaymentID>
     <cac:PayeeFinancialAccount>
-      <cbc:ID>1234 5678 9012 3456 789022</cbc:ID>
+      <cbc:ID>DE79000000001234567890</cbc:ID>
       <cbc:Name>Postbank Düsseldorf</cbc:Name>
       <cac:FinancialInstitutionBranch>
         <cbc:ID>PBNKDEFF</cbc:ID>

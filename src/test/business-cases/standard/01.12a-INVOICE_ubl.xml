@@ -66,14 +66,14 @@
         <cbc:PaymentMeansCode>58</cbc:PaymentMeansCode>
         <cac:PayeeFinancialAccount>
             <!-- dies ist eine nicht existerende aber valide IBAN als test dummy -->
-            <cbc:ID>DE12500105170648489890</cbc:ID>
+            <cbc:ID>DE79000000001234567890</cbc:ID>
         </cac:PayeeFinancialAccount>
     </cac:PaymentMeans>
     <cac:PaymentMeans>
         <cbc:PaymentMeansCode>58</cbc:PaymentMeansCode>
         <cac:PayeeFinancialAccount>
             <!-- dies ist eine nicht existerende aber valide IBAN als test dummy -->
-            <cbc:ID>DE89370400440532013000</cbc:ID>
+            <cbc:ID>DE16000000002345678901</cbc:ID>
         </cac:PayeeFinancialAccount>
     </cac:PaymentMeans>
     <cac:PaymentMeans>
