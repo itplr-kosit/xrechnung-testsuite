@@ -199,7 +199,7 @@
       <ram:SpecifiedTradeSettlementPaymentMeans>
         <ram:TypeCode>59</ram:TypeCode>
         <ram:PayerPartyDebtorFinancialAccount>
-          <ram:IBANID>DE75512108001245126199</ram:IBANID>
+          <ram:IBANID>DE79000000001234567890</ram:IBANID>
         </ram:PayerPartyDebtorFinancialAccount>
       </ram:SpecifiedTradeSettlementPaymentMeans>
       <ram:ApplicableTradeTax>

@@ -82,7 +82,7 @@
       <cac:PaymentMandate>
       <cbc:ID>[Mandate reference identifier]</cbc:ID>
           <cac:PayerFinancialAccount>
-        <cbc:ID>DE75512108001245126199</cbc:ID>
+        <cbc:ID>DE79000000001234567890</cbc:ID>
       </cac:PayerFinancialAccount>
     </cac:PaymentMandate>
   </cac:PaymentMeans>

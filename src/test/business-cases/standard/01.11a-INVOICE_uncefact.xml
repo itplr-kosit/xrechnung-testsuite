@@ -154,21 +154,21 @@
                 <ram:TypeCode>58</ram:TypeCode>
                 <ram:PayeePartyCreditorFinancialAccount>
                     <!-- dies ist eine nicht existerende aber valide IBAN als test dummy -->
-                    <ram:IBANID>DE12500105170648489890</ram:IBANID>
+                    <ram:IBANID>DE79000000001234567890</ram:IBANID>
                 </ram:PayeePartyCreditorFinancialAccount>
-            </ram:SpecifiedTradeSettlementPaymentMeans>
+            </ram:SpecifiedTradeSettlementPaymentMeans>            
             <ram:SpecifiedTradeSettlementPaymentMeans>
                 <ram:TypeCode>58</ram:TypeCode>
                 <ram:PayeePartyCreditorFinancialAccount>
                     <!-- dies ist eine nicht existerende aber valide IBAN als test dummy -->
-                    <ram:IBANID>DE89370400440532013000</ram:IBANID>
+                    <ram:IBANID>DE16000000002345678901</ram:IBANID>
                 </ram:PayeePartyCreditorFinancialAccount>
             </ram:SpecifiedTradeSettlementPaymentMeans>
-            <ram:SpecifiedTradeSettlementPaymentMeans>
+			<ram:SpecifiedTradeSettlementPaymentMeans>
                 <ram:TypeCode>58</ram:TypeCode>
                 <ram:PayeePartyCreditorFinancialAccount>
                     <!-- dies ist eine nicht existerende aber valide IBAN als test dummy -->
-                    <ram:IBANID>DE75512108001245126199</ram:IBANID>
+                    <ram:IBANID>DE03000000003456789012</ram:IBANID>
                 </ram:PayeePartyCreditorFinancialAccount>
             </ram:SpecifiedTradeSettlementPaymentMeans>
             <ram:ApplicableTradeTax>
