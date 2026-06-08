@@ -87,7 +87,7 @@
         <cbc:PaymentMeansCode name="Information">58</cbc:PaymentMeansCode>
         <cac:PayeeFinancialAccount>
             <!-- dies ist eine nicht existerende aber valide IBAN als test dummy -->
-            <cbc:ID>DE75512108001245126199</cbc:ID>
+            <cbc:ID>DE79000000001234567890</cbc:ID>
             <cbc:Name>Mustermann GmbH</cbc:Name>
             <cac:FinancialInstitutionBranch>
                 <cbc:ID>DRESDEFFXXX</cbc:ID>

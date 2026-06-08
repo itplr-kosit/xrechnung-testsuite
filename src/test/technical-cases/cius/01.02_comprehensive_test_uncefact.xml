@@ -426,7 +426,7 @@
 					<!-- BT-85 -->
                     <ram:AccountName>[Payment account name]</ram:AccountName>
                     <!-- BT-84 -->
-                    <ram:ProprietaryID>DE75512108001245126199</ram:ProprietaryID>
+                    <ram:ProprietaryID>DE79000000001234567890</ram:ProprietaryID>
                 </ram:PayeePartyCreditorFinancialAccount>
                 <ram:PayeeSpecifiedCreditorFinancialInstitution>
 					<!-- BT-86 -->
@@ -438,7 +438,7 @@
                 <ram:TypeCode>30</ram:TypeCode>
                 <ram:PayeePartyCreditorFinancialAccount>
                     <!-- BT-84 -->
-                    <ram:IBANID>DE12500105170648489890</ram:IBANID>
+                    <ram:IBANID>DE16000000002345678901</ram:IBANID>
                     <!-- BT-85 -->
                     <ram:AccountName>[Payment account name 2]</ram:AccountName>
                 </ram:PayeePartyCreditorFinancialAccount>

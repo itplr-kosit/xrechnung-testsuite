@@ -204,7 +204,7 @@
     <cbc:PaymentMeansCode name="[Payment means text]">30</cbc:PaymentMeansCode>
     <cbc:PaymentID>Deb. 12345 / Fact. 9876543</cbc:PaymentID>
     <cac:PayeeFinancialAccount>
-      <cbc:ID>DE75512108001245126199</cbc:ID>
+      <cbc:ID>DE79000000001234567890</cbc:ID>
       <cbc:Name>[Payment account name]</cbc:Name>
       <cac:FinancialInstitutionBranch>
         <cbc:ID>[BIC]</cbc:ID>
@@ -215,7 +215,7 @@
     <cbc:PaymentMeansCode>30</cbc:PaymentMeansCode>
     <cbc:PaymentID>Deb. 12345 / Fact. 9876543</cbc:PaymentID>
     <cac:PayeeFinancialAccount>
-      <cbc:ID>DE12500105170648489890</cbc:ID>
+      <cbc:ID>DE16000000002345678901</cbc:ID>
       <cbc:Name>[Payment account name 2]</cbc:Name>
       <cac:FinancialInstitutionBranch>
         <cbc:ID>[BIC]</cbc:ID>
