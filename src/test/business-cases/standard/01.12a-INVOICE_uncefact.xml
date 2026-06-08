@@ -218,6 +218,13 @@
                     <ram:IBANID>DE16000000002345678901</ram:IBANID>
                 </ram:PayeePartyCreditorFinancialAccount>
             </ram:SpecifiedTradeSettlementPaymentMeans>
+			<ram:SpecifiedTradeSettlementPaymentMeans>
+                <ram:TypeCode>58</ram:TypeCode>
+                <ram:PayeePartyCreditorFinancialAccount>
+                    <!-- dies ist eine nicht existerende aber valide IBAN als test dummy -->
+                    <ram:IBANID>DE03000000003456789012</ram:IBANID>
+                </ram:PayeePartyCreditorFinancialAccount>
+            </ram:SpecifiedTradeSettlementPaymentMeans>
             <ram:ApplicableTradeTax>
                 <ram:CalculatedAmount>48.76</ram:CalculatedAmount>
                 <ram:TypeCode>VAT</ram:TypeCode>

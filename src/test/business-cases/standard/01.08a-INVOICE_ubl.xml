@@ -79,6 +79,13 @@
             <cbc:ID>DE16000000002345678901</cbc:ID>
         </cac:PayeeFinancialAccount>
     </cac:PaymentMeans>
+	<cac:PaymentMeans>
+        <cbc:PaymentMeansCode>58</cbc:PaymentMeansCode>
+        <cac:PayeeFinancialAccount>
+            <!-- dies ist eine nicht existerende aber valide IBAN als test dummy -->
+            <cbc:ID>DE03000000003456789012</cbc:ID>
+        </cac:PayeeFinancialAccount>
+    </cac:PaymentMeans>
     <cac:PaymentTerms>
         <cbc:Note>Die Zahlung wird als Teilleistung monatl. Erbracht und ist monatl. zum letzten Werktag fällig. …</cbc:Note>
     </cac:PaymentTerms>
