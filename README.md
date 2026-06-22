@@ -15,6 +15,10 @@ Es werden grundsätzlich 2 Arten von Referenznachrichten unter `./src` unterschi
 
 Im Zuge von XRechnung 2.0 wurden deutschlandspezifische Erweiterungen (extensions) vorgenommen. Aus diesem Grund werden die Geschäftsfälle (business cases) noch weiter in Referenznachrichten bzgl. des eigentlichen Standards (standard) sowie der Erweiterung (extension) unterschieden.
 
+Die technischen Referenznachrichten (technical cases) werden seit Veröffentlichung der CIUS XRechnung CVD in Testfälle zur Darstellung der CIUS XRechnung (cius) sowie der CIUS XRechnung CVD (cvd) unterschieden.
+
+Ein detaillierter Überblick über Inhalte und Zweck der Referenznachrichten wird in [test-overview.md](src/doc/test-overview.md) gegeben.
+
 
 ## Entwicklung / Development
 
