@@ -12,6 +12,9 @@ This release is compatible with XRechnung ?.?.?
 
 * dummy IBAN values
 
+### Fixed
+
+* documentation on test `02.05` in `test-overview.md`
 
 ## 2026-01-31
 
