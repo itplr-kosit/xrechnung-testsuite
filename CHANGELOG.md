@@ -10,8 +10,9 @@ This release is compatible with XRechnung ?.?.?
 
 ### Changed
 
-* dummy IBAN values
-* using [Validator Configuration for Peppol BIS Billing version 3.0.21](https://github.com/itplr-kosit/validator-configuration-bis/releases/tag/release-3.0.21) for validation against Peppol BIS Billing rules
+* Dummy IBAN values
+* Using [Validator Configuration for Peppol BIS Billing version 3.0.21](https://github.com/itplr-kosit/validator-configuration-bis/releases/tag/release-3.0.21) for validation against Peppol BIS Billing rules
+* Using [CII2UBL 3.1.7](https://github.com/phax/en16931-cii2ubl/releases/tag/en16931-cii2ubl-parent-pom-3.1.7)
 
 ### Fixed
 
