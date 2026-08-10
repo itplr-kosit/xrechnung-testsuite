@@ -11,6 +11,7 @@ This release is compatible with XRechnung ?.?.?
 ### Changed
 
 * dummy IBAN values
+* using [Validator Configuration for Peppol BIS Billing version 3.0.21](https://github.com/itplr-kosit/validator-configuration-bis/releases/tag/release-3.0.21) for validation against Peppol BIS Billing rules
 
 ### Fixed
 
