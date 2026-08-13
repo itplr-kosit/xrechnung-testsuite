@@ -38,3 +38,4 @@ include:
      package_binary: ${PACKAGE_BINARY}
      package_name: ${MAVEN_PACKAGE_NAME}
      asset_link_name: ${PACKAGE_BINARY}
+     release_name: Testsuite release in version ${PACKAGE_VERSION} compatible with XRechnung ${XRECHNUNG_VERSION}
