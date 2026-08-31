@@ -4,7 +4,7 @@ All notable changes to XRechnung Test Suite will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## 2026-08-19
+## 2026-08-31
 
 This release is compatible with XRechnung 3.0.x
 
@@ -16,6 +16,7 @@ This release is compatible with XRechnung 3.0.x
 
 ### Fixed
 
+* Test case 01.21: syntax elements outside of the EN 16931 scope were removed in CII and UBL
 * documentation on test `02.05` in `test-overview.md`
 
 ## 2026-01-31

@@ -65,13 +65,7 @@
                 <cac:TaxScheme>
                     <cbc:ID>VAT</cbc:ID>
                 </cac:TaxScheme>
-            </cac:PartyTaxScheme>
-            <cac:PartyTaxScheme>
-                <cbc:CompanyID>04523249415</cbc:CompanyID>
-                <cac:TaxScheme>
-                    <cbc:ID>???</cbc:ID>
-                </cac:TaxScheme>
-            </cac:PartyTaxScheme>
+            </cac:PartyTaxScheme>            
             <cac:PartyLegalEntity>
                 <cbc:RegistrationName>DB Station&amp;Service AG RB Mitte</cbc:RegistrationName>
             </cac:PartyLegalEntity>
