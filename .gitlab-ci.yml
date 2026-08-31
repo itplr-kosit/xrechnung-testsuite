@@ -24,7 +24,7 @@ build-job:
       dotenv: build/build.env
 
 include:
-  - component: $CI_SERVER_FQDN/xse/xse-fab/gitlab-ci-cd-components/deploy-to-xse-component-repository@0.1.0
+  - component: $CI_SERVER_FQDN/xse/xse-fab/gitlab-ci-cd-components/deploy-to-xse-component-repository@0.1.1-rc1
     inputs:
       by: "maven"
       stage: "deploy"
