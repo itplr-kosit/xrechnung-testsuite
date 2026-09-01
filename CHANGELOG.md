@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## 2026-08-31
 
-This release is compatible with XRechnung 3.0.x
+This release is compatible with XRechnung 3.0
 
 ### Changed
 
