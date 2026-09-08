@@ -9,6 +9,7 @@
   <cbc:Note>#AAC#Invoice Note Description</cbc:Note>
   <cbc:Note>#AAC#Invoice Note Description 2</cbc:Note>
   <cbc:Note>#SKONTO#TAGE=14#PROZENT=2.25#BASISBETRAG=357.93#</cbc:Note>
+  <cbc:Note>#SKONTO#TAGE=28#PROZENT=1.00#BASISBETRAG=357.93#</cbc:Note>
   <cbc:TaxPointDate>2018-04-13</cbc:TaxPointDate>
   <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
   <cbc:TaxCurrencyCode>GBP</cbc:TaxCurrencyCode>
