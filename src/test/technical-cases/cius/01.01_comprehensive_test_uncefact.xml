@@ -34,6 +34,12 @@
             <!-- BT-21 -->
             <ram:SubjectCode>AAC</ram:SubjectCode>
         </ram:IncludedNote>
+		 <ram:IncludedNote>
+            <!-- BT-22 -->
+            <ram:Content>#SKONTO#TAGE=14#PROZENT=2.25#BASISBETRAG=357.93#</ram:Content>
+            <!-- BT-21 -->
+            <ram:SubjectCode>AAC</ram:SubjectCode>
+        </ram:IncludedNote>
     </rsm:ExchangedDocument>
     <rsm:SupplyChainTradeTransaction>
         <ram:IncludedSupplyChainTradeLineItem>
